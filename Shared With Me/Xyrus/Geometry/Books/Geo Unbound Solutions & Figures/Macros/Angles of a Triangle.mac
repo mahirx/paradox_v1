@@ -1,0 +1,31 @@
+Macro Cabri II Plus vers. MS-Windows 1.2.4.7
+
+Angles of a Triangle, no name
+Icon:
+16x16
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0 15  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0 15  0 15  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0 15  0  0 15  0  0  0  0  0  0  0  0  0 
+ 0  0  0 15  7  7  0 15  0  0  0  0  0  0  0  0 
+ 0  0 15  0  0  0  0  7 15  0  0  0  0  0  0  0 
+ 0  0 15  7  7  7  7  0  0 15  0  0  0  0  0  0 
+ 0  0 15  0  0  0  0  0  0  0 15  0  0  0  0  0 
+ 0 15  0  0  0  0  0  0  0  0 15  0  0  0  0  0 
+ 0 15  0  0  0  0  0  0  0  0  7 15  0  0  0  0 
+ 0 15  7  0  0  0  0  0  0  7  0  0 15  0  0  0 
+15  0  0  7  0  0  0  0  7  0  0  7  0 15  0  0 
+15  0  0  7  0  0  0  0  7  0  7  0  0  0 15  0 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+Help:
+"Select a triangle to mark its angles."
+Mth: 0
+CN:1, ON:3, FN:3, PO:0
+CT:
+triangle, CS 3, color:P, 
+Const:
+Angle, Mth:0, 1, CN:3, VN:5, Const: 3 1 2, 
+Angle, Mth:0, 1, CN:3, VN:5, Const: 1 2 3, marks nb:2, 
+Angle, Mth:0, 1, CN:3, VN:5, Const: 2 3 1, marks nb:3, 

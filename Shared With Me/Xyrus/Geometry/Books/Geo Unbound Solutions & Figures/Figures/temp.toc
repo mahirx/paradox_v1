@@ -1,0 +1,33 @@
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 1.} Problem 1.2.2 (USAMO 1994/3)}{1}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 2.} Problem 1.2.3 (IMO 1990/1)}{2}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 3.} Problem 1.3.2}{2}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 4.} Problem 1.3.3}{3}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 5.} Problem 1.4.1 (IMO 1994/2)}{3}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 6.} Problem 2.1.1}{3}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 7.} Problem 2.1.3 (Hungary-Israel, 1997)}{4}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 8.} Problem 2.1.4 (R\u azvan Gelca)}{4}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 9.} Problem 2.1.5 (USAMO 1995/3)}{5}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 10.} Problem 2.1.6}{5}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 11.} Problem 2.2.2}{5}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 12.} Problem 2.2.3}{6}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 13.} Problem 2.3.3}{6}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 14.} Problem 2.4.1 (USAMO 1997/2)}{6}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 15.} Problem 2.4.2 (MOP 1997)}{6}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 16.} Problem 2.4.3 (Stanley Rabinowitz)}{7}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 17.} Problem 3.1.2 (MOP 1997)}{7}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 18.} Problem 3.1.4 (MOP 1996)}{7}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 19.} Problem 3.2.2 (USAMO 1992/4)}{8}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 20.} Problem 3.2.4}{8}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 21.} Problem 4.1.1}{9}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 22.} Problem 4.1.2 (Mathematics Magazine, Dec. 1992)}{9}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 23.} Problem 4.1.3}{9}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 24.} Problem 4.1.4 (MOP 1995)}{9}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 25.} Problem 4.1.5 (IMO 1995/1)}{10}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 26.} Problem 4.2.2 (MOP 1995)}{10}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 27.} Problem 4.2.3 (IMO 1994 proposal)}{10}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 28.} Problem 4.2.4 (India, 1996)}{11}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 29.} Problem 4.2.5 (IMO 1985/5)}{11}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 30.} Problem 4.3.1}{11}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 31.} Problem 4.3.2}{11}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 32.} Problem 4.3.3}{11}
+\contentsline {subsection}{{\noindent } \hbox to 2em{\hfil 33.} Problem 4.3.4}{12}

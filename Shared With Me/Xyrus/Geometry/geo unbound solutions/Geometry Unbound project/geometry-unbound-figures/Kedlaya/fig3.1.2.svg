@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<path d="M 269.41212152132 307.0495128834866 H 274.41212152132 V 312.0495128834866 H 269.41212152132 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="278.41212152132" y="328.0495128834866" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B</text><path d="M 410.8334777586295 308.4637264458597 H 415.8334777586295 V 313.4637264458597 H 410.8334777586295 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="419.8334777586295" y="329.4637264458597" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C</text><line x1="272.41212152132" y1="310.0495128834866" x2="413.8334777586295" y2="311.4637264458597" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 311.13142161132635 209.468777079743 H 316.13142161132635 V 214.468777079743 H 311.13142161132635 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="320.13142161132635" y="230.468777079743" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A</text><line x1="413.8334777586295" y1="311.4637264458597" x2="314.13142161132635" y2="212.468777079743" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="314.13142161132635" y1="212.468777079743" x2="272.41212152132" y2="310.0495128834866" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 427.0 129.99999999999994 H 432.0 V 134.99999999999994 H 427.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="436.0" y="150.99999999999994" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B&apos;</text><path d="M 523.8529662055358 86.61794222043699 H 528.8529662055358 V 91.61794222043699 H 523.8529662055358 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="532.8529662055358" y="107.61794222043699" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A&apos;</text><line x1="430.0" y1="132.99999999999994" x2="526.8529662055358" y2="89.61794222043699" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="-98.0" y1="-748.0" x2="1162.0" y2="1433.0" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<line x1="-401.0" y1="-449.0" x2="1480.0" y2="1225.0" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<path d="M 574.5413990122742 419.98086439104117 H 579.5413990122742 V 424.98086439104117 H 574.5413990122742 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="583.5413990122742" y="440.98086439104117" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">O</text><ellipse cx="577.5413990122743" cy="422.98086439104117" rx="325.35728996823576" ry="325.35728996823576" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<path d="M 529.9344044433527 226.9871557573078 H 534.9344044433527 V 231.9871557573078 H 529.9344044433527 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="538.9344044433527" y="247.9871557573078" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C&apos;</text><line x1="532.9344044433527" y1="229.9871557573078" x2="526.8529662055358" y2="89.61794222043699" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="430.0" y1="132.99999999999994" x2="532.9344044433527" y2="229.9871557573078" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="577.5413990122742" y1="422.98086439104117" x2="-602.4109961680994" y2="-13.73114108423215" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<line x1="577.5413990122742" y1="422.98086439104117" x2="-38.210770746917994" y2="-787.2309651889084" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<path d="M 561.0 391.0 A 36.00000000000006 36.00000000000006 0 0 0 544.0 410.0" style="stroke:rgb(0,124,0);stroke-width:1;fill:none"/>
+</svg>

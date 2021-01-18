@@ -1,0 +1,45 @@
+Macro Cabri II Plus vers. MS-Windows 1.2.4.7
+
+Angle Trisection, no name
+Icon:
+16x16
+ 0  0  0 15  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0 15  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0 15  0  0  0  0  0  0  7  0  0  0  0  0 
+ 0  0 15  0  0  0  0  0  0  7  0  0  0  0  0  0 
+ 0  0 15  0  0  0  0  0  7  0  0  0  0  0  0  0 
+ 0  0 15  0  0  0  0  7  0  0  0  0  0  0  0  0 
+ 0  0 15  0  0  0  7  0  0  0  0  0  0  0  0  0 
+ 0 15  0  0  0  0  7  0  0  0  0  0  0  7  7  0 
+ 0 15  0  0  0  7  0  0  0  0  0  7  7  0  0  0 
+ 0 15  0  0  7  0  0  0  0  7  7  0  0  0  0  0 
+ 0 15  0  7  0  0  0  7  7  0  0  0  0  0  0  0 
+15  0  7  0  0  7  7  0  0  0  0  0  0  0  0  0 
+15  7  0  7  7  0  0  0  0  0  0  0  0  0  0  0 
+15  7  7  0  0  0  0  0  0  0  0  0  0  0  0  0 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+Help:
+"Select three points defining the angle in a clockwise direction. The second point is the vertex of the angle. The interior angle will be trisected."
+Mth: 0
+CN:3, ON:14, FN:4, PO:12
+CT:
+point, CS 0, 
+point, CS 0, 
+point, CS 0, 
+Const:
+Ray, Mth:1, 0, CN:2, VN:2, Const: 2 3
+Cir, Mth:1, 0, CN:2, VN:2, Const: 2 1
+Int, Mth:0, 0, CN:2, VN:1, int ind:0x10000, Const: 4 5
+Seg, Mth:0, 0, CN:2, VN:2, Const: 6 1
+Mid, Mth:1, 0, CN:1, VN:1, Const: 7
+Perp, Mth:0, 0, CN:2, VN:2, Const: 8 7
+Int, Mth:0, 0, CN:2, VN:1, int ind:0x10000, Const: 9 5
+Arc, Mth:0, 0, CN:3, VN:5, Const: 1 10 6
+Lgth, Mth:0, 0, CN:1, VN:1, Const: 11
+Formula, Mth:0, 0, CN:1, VN:1, Const: 12, formula: a/3
+Transf, Mth:1, 1, CN:3, VN:1, Const: 5 1 13, invisible, 
+Refl, Mth:0, 1, CN:2, VN:1, Const: 14 9, invisible, 
+Ray, Mth:1, 1, CN:2, VN:2, Const: 2 14, color:V, 
+Ray, Mth:1, 1, CN:2, VN:2, Const: 2 15, color:V, 
+

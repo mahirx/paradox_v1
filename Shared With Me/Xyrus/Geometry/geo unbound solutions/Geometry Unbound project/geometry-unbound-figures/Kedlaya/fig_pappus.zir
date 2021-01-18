@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" n="0" hidden="true" x="-4.368253968253969" y="-0.5904761904761906">Punto in -4.36825, -0.59048</Point>
+<Point name="P2" n="3" hidden="true" x="-0.012698412698412653" y="-0.31111111111111134">Punto in -0.0127, -0.31111</Point>
+<Line name="b" n="4" from="P1" to="P2">Retta per P1 e P2</Line>
+<Point name="P3" n="5" hidden="true" x="-5.993650793650794" y="2.5333333333333328">Punto in -5.99365, 2.53333</Point>
+<Point name="P4" n="8" hidden="true" x="-1.688888888888889" y="1.3015873015873018">Punto in -1.68889, 1.30159</Point>
+<Line name="l2" n="9" from="P3" to="P4">Retta per P3 e P4</Line>
+<PointOn name="A" n="10" showname="true" on="b" alpha="0.7476699958922008" x="-3.6221171751667036" y="-0.542619020074092">Punto su b</PointOn>
+<PointOn name="C" n="11" showname="true" on="b" alpha="3.2301619677252087" x="-1.1447159033421976" y="-0.3837186469541529">Punto su b</PointOn>
+<PointOn name="E" n="12" showname="true" on="b" alpha="1.5050936548231684" x="-2.8662467203027417" y="-0.4941375331731965">Punto su b</PointOn>
+<PointOn name="B" n="13" showname="true" on="l2" alpha="2.654896822594605" x="-3.4411882417601936" y="1.8029826916419225">Punto su l2</PointOn>
+<PointOn name="D" n="14" showname="true" on="l2" alpha="1.4094269634135976" x="-4.638603956002964" y="2.145606067103718">Punto su l2</PointOn>
+<PointOn name="F" n="15" showname="true" on="l2" alpha="3.694340035517417" x="-2.441850017682077" y="1.517036356138745">Punto su l2</PointOn>
+<Segment name="s7" n="36" color="1" from="B" to="A">Segmento da B a A</Segment>
+<Segment name="s8" n="39" color="1" from="D" to="E">Segmento da D a E</Segment>
+<Segment name="s9" n="42" color="2" from="B" to="C">Segmento da B a C</Segment>
+<Segment name="s10" n="45" color="2" from="E" to="F">Segmento da E a F</Segment>
+<Segment name="s12" n="55" color="5" from="D" to="C">Segmento da D a C</Segment>
+<Segment name="s13" n="58" color="5" from="A" to="F">Segmento da A a F</Segment>
+<Intersection name="P" n="59" showname="true" xcoffset="0.32817452812683534" ycoffset="-0.0471566915232573" keepclose="true" first="s8" second="s7">Intersezione tra s8 e s7</Intersection>
+<Intersection name="Q" n="60" showname="true" xcoffset="0.6540467973186552" ycoffset="-0.09293947889528065" keepclose="true" first="s10" second="s9">Intersezione tra s10 e s9</Intersection>
+<Intersection name="R" n="61" showname="true" xcoffset="-0.07656795222156987" ycoffset="0.28651245034619055" keepclose="true" first="s13" second="s12">Intersezione tra s13 e s12</Intersection>
+<Line name="l3" n="64" type="thin" from="P" to="Q">Retta per P e Q</Line>
+</Objects>
+</Construction>
+</CaR>

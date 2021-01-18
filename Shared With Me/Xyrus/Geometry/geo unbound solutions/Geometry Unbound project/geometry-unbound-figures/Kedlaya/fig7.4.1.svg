@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<path d="M 331.99999999999994 405.9999999999999 H 336.99999999999994 V 410.9999999999999 H 331.99999999999994 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="340.99999999999994" y="426.9999999999999" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B</text><path d="M 657.9999999999999 411.9999999999999 H 662.9999999999999 V 416.9999999999999 H 657.9999999999999 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="666.9999999999999" y="432.9999999999999" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C</text><line x1="334.99999999999994" y1="408.9999999999999" x2="660.9999999999999" y2="414.9999999999999" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 357.0 156.0 H 362.0 V 161.0 H 357.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="370.0" y="159.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A</text><line x1="660.9999999999999" y1="414.9999999999999" x2="360.0" y2="159.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="360.0" y1="159.0" x2="334.99999999999994" y2="408.9999999999999" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 562.2448005694001 665.1714657492399 H 567.2448005694001 V 670.1714657492399 H 562.2448005694001 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="571.2448005694001" y="686.1714657492399" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$I_A$</text><path d="M 424.60983738423755 323.7265387697837 H 429.60983738423755 V 328.7265387697837 H 424.60983738423755 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="433.60983738423755" y="344.7265387697837" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">I</text><path d="M 423.06475456844885 407.67603842764004 H 428.06475456844885 V 412.67603842764004 H 423.06475456844885 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="427.6098373842376" cy="326.7265387697837" rx="83.96371700747935" ry="83.96371700747935" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<path d="M 479.00730644595797 259.76701146234296 H 484.00730644595797 V 264.76701146234296 H 479.00730644595797 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 341.06281602459944 315.3718397540051 H 346.06281602459944 V 320.3718397540051 H 341.06281602459944 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="360.0" y1="159.0" x2="426.06475456844885" y2="410.67603842764004" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<line x1="334.99999999999994" y1="408.9999999999999" x2="482.00730644595797" y2="262.76701146234296" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<line x1="660.9999999999999" y1="414.9999999999999" x2="344.06281602459944" y2="318.3718397540051" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<path d="M 403.86076293393035 334.5177474728838 H 408.86076293393035 V 339.5177474728838 H 403.86076293393035 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="412.86076293393035" y="355.5177474728838" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">Ge</text></svg>

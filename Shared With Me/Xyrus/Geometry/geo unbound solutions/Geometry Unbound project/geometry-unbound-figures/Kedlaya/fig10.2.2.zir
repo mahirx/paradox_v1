@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" n="0" hidden="true" x="-1.8920634920634924" y="-0.5142857142857142">Punto in -1.89206, -0.51429</Point>
+<Point name="B" n="3" showname="true" x="1.0158730158730158" y="-0.5142857142857142">Punto in 1.01587, -0.51429</Point>
+<Circle name="$\omega$" n="4" showname="true" through="B" midpoint="P1" acute="true">Circonferenza di centro P1 per B</Circle>
+<Line name="l1" n="7" hidden="true" from="B" to="P1">Retta per P2 e P1</Line>
+<Intersection name="A" n="8" showname="true" xcoffset="-0.9269841269841264" ycoffset="-0.5079365079365079" keepclose="true" first="l1" second="$\omega$" which="first">Intersezione tra l1 e $\omega$</Intersection>
+<PointOn name="C" n="9" showname="true" on="l1" alpha="1.688888888888889" x="-0.6730158730158733" y="-0.5142857142857142">Punto su l1</PointOn>
+<Intersection name="I3" n="12" first="l1" second="$\omega$" awayfrom="B" which="first">Intersezione tra l1 e $\omega$</Intersection>
+<Midpoint name="M1" n="13" hidden="true" first="C" second="I3">Punto medio tra P3 e I3</Midpoint>
+<Midpoint name="M2" n="16" hidden="true" first="C" second="B">Punto medio tra P3 e B</Midpoint>
+<Circle name="$\omega_1$" n="19" showname="true" xcoffset="0.11428571428571424" ycoffset="1.9682539682539684" through="I3" midpoint="M1" acute="true">Circonferenza di centro M1 per I3</Circle>
+<Circle name="$\omega_2$" n="22" showname="true" xcoffset="-1.2825396825396824" ycoffset="1.0412698412698411" through="C" midpoint="M2" acute="true">Circonferenza di centro M2 per C</Circle>
+<Point name="P4" n="25" hidden="true" x="-6.488888888888889" y="-2.850793650793651">Punto in -6.48889, -2.85079</Point>
+<Circle name="c4" n="26" color="1" through="P4" midpoint="I3" acute="true">Circonferenza di centro I3 per P4</Circle>
+<Ray name="r1" n="31" hidden="super" from="I3" to="B">Semiretta da I3 puntando a B</Ray>
+<Circle name="c5" n="32" hidden="super" fixed="c4^2/d(B,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(B,I3)</Circle>
+<Intersection name="B&apos;" n="33" showname="true" first="r1" second="c5" which="first">Intersezione tra r1 e c5</Intersection>
+<Ray name="r2" n="38" hidden="super" from="I3" to="C">Semiretta da I3 puntando a C</Ray>
+<Circle name="c6" n="39" hidden="super" fixed="c4^2/d(C,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(C,I3)</Circle>
+<Intersection name="C&apos;" n="40" showname="true" first="r2" second="c6" which="first">Intersezione tra r2 e c6</Intersection>
+<Plumb name="$\omega_1$&apos;" n="43" color="1" showname="true" xcoffset="0.3682539682539683" ycoffset="-0.3479365079365091" keepclose="true" point="C&apos;" line="l1" valid="true">Retta perpendicolare per C&apos; a l1</Plumb>
+<Plumb name="$\omega$&apos;" n="46" color="1" showname="true" xcoffset="0.31746031746031766" ycoffset="0.3624592777431195" keepclose="true" point="B&apos;" line="l1" valid="true">Retta perpendicolare per B&apos; a l1</Plumb>
+<Midpoint name="M3" n="49" hidden="true" first="C&apos;" second="B&apos;">Punto medio tra C&apos; e B&apos;</Midpoint>
+<Circle name="$\omega_2$&apos;" n="52" color="1" showname="true" xcoffset="-0.38095238095238093" ycoffset="0.5079365079365079" through="B&apos;" midpoint="M3" acute="true">Circonferenza di centro M3 per B&apos;</Circle>
+<Plumb name="p3" n="55" hidden="true" point="M3" line="l1" valid="true">Retta perpendicolare per M3 a l1</Plumb>
+<Intersection name="I8" n="56" hidden="true" first="p3" second="$\omega_2$&apos;" which="second">Intersezione tra p3 e $\omega_2$&apos;</Intersection>
+<Ray name="r3" n="61" hidden="super" from="M3" to="I8">Semiretta da M3 puntando a I8</Ray>
+<Circle name="c8" n="62" hidden="super" through="M3" midpoint="I8" acute="true">Circonferenza di centro I8 per M3</Circle>
+<Intersection name="I9" n="63" hidden="true" first="r3" second="c8" awayfrom="M3" which="first">Intersezione tra r3 e c8</Intersection>
+<Ray name="r4" n="68" hidden="super" from="I8" to="I9">Semiretta da I8 puntando a I9</Ray>
+<Circle name="c9" n="69" hidden="super" through="I8" midpoint="I9" acute="true">Circonferenza di centro I9 per I8</Circle>
+<Intersection name="I10" n="70" hidden="true" first="r4" second="c9" awayfrom="I8" which="first">Intersezione tra r4 e c9</Intersection>
+<Ray name="r5" n="75" hidden="super" from="I9" to="I10">Semiretta da I9 puntando a I10</Ray>
+<Circle name="c10" n="76" hidden="super" through="I9" midpoint="I10" acute="true">Circonferenza di centro I10 per I9</Circle>
+<Intersection name="I11" n="77" hidden="true" first="r5" second="c10" awayfrom="I9" which="first">Intersezione tra r5 e c10</Intersection>
+<Ray name="r6" n="82" hidden="super" from="I10" to="I11">Semiretta da I10 puntando a I11</Ray>
+<Circle name="c11" n="83" hidden="super" through="I10" midpoint="I11" acute="true">Circonferenza di centro I11 per I10</Circle>
+<Intersection name="I12" n="84" hidden="true" first="r6" second="c11" awayfrom="I10" which="first">Intersezione tra r6 e c11</Intersection>
+<Ray name="r7" n="89" hidden="super" from="I11" to="I12">Semiretta da I11 puntando a I12</Ray>
+<Circle name="c12" n="90" hidden="super" through="I11" midpoint="I12" acute="true">Circonferenza di centro I12 per I11</Circle>
+<Intersection name="I13" n="91" hidden="true" first="r7" second="c12" awayfrom="I11" which="first">Intersezione tra r7 e c12</Intersection>
+<Ray name="r8" n="96" hidden="super" from="I12" to="I13">Semiretta da I12 puntando a I13</Ray>
+<Circle name="c13" n="97" hidden="super" through="I12" midpoint="I13" acute="true">Circonferenza di centro I13 per I12</Circle>
+<Intersection name="I14" n="98" hidden="true" first="r8" second="c13" awayfrom="I12" which="first">Intersezione tra r8 e c13</Intersection>
+<Ray name="r9" n="103" hidden="super" from="I13" to="I14">Semiretta da I13 puntando a I14</Ray>
+<Circle name="c14" n="104" hidden="super" through="I13" midpoint="I14" acute="true">Circonferenza di centro I14 per I13</Circle>
+<Intersection name="I15" n="105" hidden="true" first="r9" second="c14" awayfrom="I13" which="first">Intersezione tra r9 e c14</Intersection>
+<Ray name="r10" n="110" hidden="super" from="I14" to="I15">Semiretta da I14 puntando a I15</Ray>
+<Circle name="c15" n="111" hidden="super" through="I14" midpoint="I15" acute="true">Circonferenza di centro I15 per I14</Circle>
+<Intersection name="I16" n="112" hidden="true" first="r10" second="c15" awayfrom="I14" which="first">Intersezione tra r10 e c15</Intersection>
+<Ray name="r11" n="117" hidden="super" from="I15" to="I16">Semiretta da I15 puntando a I16</Ray>
+<Circle name="c16" n="118" hidden="super" through="I15" midpoint="I16" acute="true">Circonferenza di centro I16 per I15</Circle>
+<Intersection name="I17" n="119" hidden="true" first="r11" second="c16" awayfrom="I15" which="first">Intersezione tra r11 e c16</Intersection>
+<Circle name="$\omega_3$&apos;" n="122" color="1" showname="true" xcoffset="-0.4444444444444444" ycoffset="0.43174603174603177" through="I8" midpoint="I9" acute="true">Circonferenza di centro I9 per I8</Circle>
+<Circle name="$\omega_4$&apos;" n="125" color="1" showname="true" xcoffset="-0.40634920634920635" ycoffset="0.419047619047619" through="I10" midpoint="I11" acute="true">Circonferenza di centro I11 per I10</Circle>
+<Circle name="$\omega_5$&apos;" n="128" color="1" showname="true" xcoffset="-0.39365079365079364" ycoffset="0.3682539682539683" through="I12" midpoint="I13" acute="true">Circonferenza di centro I13 per I12</Circle>
+<Circle name="$\omega_6$&apos;" n="131" color="1" showname="true" xcoffset="-0.38095238095238093" ycoffset="0.4952380952380952" through="I14" midpoint="I15" acute="true">Circonferenza di centro I15 per I14</Circle>
+<Circle name="$\omega_7$&apos;" n="134" color="1" showname="true" xcoffset="-0.40634920634920635" ycoffset="0.5206349206349207" through="I16" midpoint="I17" acute="true">Circonferenza di centro I17 per I16</Circle>
+<PointOn name="OP5" n="219" hidden="true" on="$\omega_3$&apos;" alpha="-1.4464413322481342" x="-3.0421825204896686" y="-0.21960644729774426">Punto su $\omega_3$&apos;</PointOn>
+<PointOn name="OP6" n="220" hidden="true" on="$\omega_3$&apos;" alpha="-0.7782040429071563" x="-2.870197733175468" y="-0.13472349853939677">Punto su $\omega_3$&apos;</PointOn>
+<PointOn name="OP7" n="221" hidden="true" on="$\omega_3$&apos;" alpha="1.0286069168680168" x="-2.927559890555922" y="0.3210389922961491">Punto su $\omega_3$&apos;</PointOn>
+<Ray name="r12" n="222" hidden="super" from="I3" to="OP5">Semiretta da I3 puntando a OP5</Ray>
+<Circle name="c22" n="8" hidden="super" fixed="c4^2/d(OP5,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP5,I3)</Circle>
+<Intersection name="I18" n="223" hidden="true" first="r12" second="c22" which="first">Intersezione tra r12 e c22</Intersection>
+<Ray name="r13" n="224" hidden="super" from="I3" to="OP6">Semiretta da I3 puntando a OP6</Ray>
+<Circle name="c23" n="11" hidden="super" fixed="c4^2/d(OP6,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP6,I3)</Circle>
+<Intersection name="I19" n="225" hidden="true" first="r13" second="c23" which="first">Intersezione tra r13 e c23</Intersection>
+<Ray name="r14" n="226" hidden="super" from="I3" to="OP7">Semiretta da I3 puntando a OP7</Ray>
+<Circle name="c24" n="14" hidden="super" fixed="c4^2/d(OP7,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP7,I3)</Circle>
+<Intersection name="I20" n="227" hidden="true" first="r14" second="c24" which="first">Intersezione tra r14 e c24</Intersection>
+<Circle name="c25" n="228" hidden="super" through="I19" midpoint="I18" acute="true">Circonferenza di centro I18 per I19</Circle>
+<Circle name="c26" n="229" hidden="super" through="I18" midpoint="I19" acute="true">Circonferenza di centro I19 per I18</Circle>
+<Intersection name="I21" n="230" hidden="super" first="c25" second="c26" which="second">Intersezione tra c25 e c26</Intersection>
+<Intersection name="I22" n="231" hidden="super" first="c26" second="c25" which="second">Intersezione tra c26 e c25</Intersection>
+<Line name="l2" n="232" hidden="true" from="I21" to="I22">Retta per I21 e I22</Line>
+<Circle name="c27" n="233" hidden="super" through="I20" midpoint="I19" acute="true">Circonferenza di centro I19 per I20</Circle>
+<Circle name="c28" n="234" hidden="super" through="I19" midpoint="I20" acute="true">Circonferenza di centro I20 per I19</Circle>
+<Intersection name="I23" n="235" hidden="super" first="c27" second="c28" which="second">Intersezione tra c27 e c28</Intersection>
+<Intersection name="I24" n="236" hidden="super" first="c28" second="c27" which="second">Intersezione tra c28 e c27</Intersection>
+<Line name="l3" n="237" hidden="true" from="I23" to="I24">Retta per I23 e I24</Line>
+<Intersection name="I25" n="238" hidden="true" first="l2" second="l3">Intersezione tra l2 e l3</Intersection>
+<Circle name="$\omega_3$" n="239" showname="true" xcoffset="-1.053968253968254" ycoffset="0.43174603174603177" through="I19" midpoint="I25" acute="true">Circonferenza di centro I25 per I19</Circle>
+<PointOn name="OP8" n="387" hidden="true" on="$\omega_4$&apos;" alpha="-1.4464413322481342" x="-3.0421825204896686" y="0.3652358622607218">Punto su $\omega_4$&apos;</PointOn>
+<PointOn name="OP9" n="388" hidden="true" on="$\omega_4$&apos;" alpha="-0.7782040429071563" x="-2.870197733175468" y="0.45011881101906925">Punto su $\omega_4$&apos;</PointOn>
+<PointOn name="OP10" n="389" hidden="true" on="$\omega_4$&apos;" alpha="1.0286069168680168" x="-2.927559890555922" y="0.9058813018546151">Punto su $\omega_4$&apos;</PointOn>
+<Ray name="r15" n="390" hidden="super" from="I3" to="OP8">Semiretta da I3 puntando a OP8</Ray>
+<Circle name="c30" n="8" hidden="super" fixed="c4^2/d(OP8,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP8,I3)</Circle>
+<Intersection name="I26" n="391" hidden="true" first="r15" second="c30" which="first">Intersezione tra r15 e c30</Intersection>
+<Ray name="r16" n="392" hidden="super" from="I3" to="OP9">Semiretta da I3 puntando a OP9</Ray>
+<Circle name="c31" n="11" hidden="super" fixed="c4^2/d(OP9,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP9,I3)</Circle>
+<Intersection name="I27" n="393" hidden="true" first="r16" second="c31" which="first">Intersezione tra r16 e c31</Intersection>
+<Ray name="r17" n="394" hidden="super" from="I3" to="OP10">Semiretta da I3 puntando a OP10</Ray>
+<Circle name="c32" n="14" hidden="super" fixed="c4^2/d(OP10,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP10,I3)</Circle>
+<Intersection name="I28" n="395" hidden="true" first="r17" second="c32" which="first">Intersezione tra r17 e c32</Intersection>
+<Circle name="c33" n="396" hidden="super" through="I27" midpoint="I26" acute="true">Circonferenza di centro I26 per I27</Circle>
+<Circle name="c34" n="397" hidden="super" through="I26" midpoint="I27" acute="true">Circonferenza di centro I27 per I26</Circle>
+<Intersection name="I29" n="398" hidden="super" first="c33" second="c34" which="second">Intersezione tra c33 e c34</Intersection>
+<Intersection name="I30" n="399" hidden="super" first="c34" second="c33" which="second">Intersezione tra c34 e c33</Intersection>
+<Line name="l4" n="400" hidden="true" from="I29" to="I30">Retta per I29 e I30</Line>
+<Circle name="c35" n="401" hidden="super" through="I28" midpoint="I27" acute="true">Circonferenza di centro I27 per I28</Circle>
+<Circle name="c36" n="402" hidden="super" through="I27" midpoint="I28" acute="true">Circonferenza di centro I28 per I27</Circle>
+<Intersection name="I31" n="403" hidden="super" first="c35" second="c36" which="second">Intersezione tra c35 e c36</Intersection>
+<Intersection name="I32" n="404" hidden="super" first="c36" second="c35" which="second">Intersezione tra c36 e c35</Intersection>
+<Line name="l5" n="405" hidden="true" from="I31" to="I32">Retta per I31 e I32</Line>
+<Intersection name="I33" n="406" hidden="true" first="l4" second="l5">Intersezione tra l4 e l5</Intersection>
+<Circle name="$\omega_4$" n="407" showname="true" xcoffset="-0.6857142857142857" ycoffset="0.34285714285714286" through="I27" midpoint="I33" acute="true">Circonferenza di centro I33 per I27</Circle>
+<PointOn name="OP11" n="471" hidden="true" on="$\omega_5$&apos;" alpha="-1.4464413322481342" x="-3.0421825204896686" y="0.9500781718191879">Punto su $\omega_5$&apos;</PointOn>
+<PointOn name="OP12" n="472" hidden="true" on="$\omega_5$&apos;" alpha="-0.7782040429071563" x="-2.870197733175468" y="1.0349611205775353">Punto su $\omega_5$&apos;</PointOn>
+<PointOn name="OP13" n="473" hidden="true" on="$\omega_5$&apos;" alpha="1.0286069168680168" x="-2.927559890555922" y="1.490723611413081">Punto su $\omega_5$&apos;</PointOn>
+<Ray name="r18" n="474" hidden="super" from="I3" to="OP11">Semiretta da I3 puntando a OP11</Ray>
+<Circle name="c38" n="8" hidden="super" fixed="c4^2/d(OP11,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP11,I3)</Circle>
+<Intersection name="I34" n="475" hidden="true" first="r18" second="c38" which="first">Intersezione tra r18 e c38</Intersection>
+<Ray name="r19" n="476" hidden="super" from="I3" to="OP12">Semiretta da I3 puntando a OP12</Ray>
+<Circle name="c39" n="11" hidden="super" fixed="c4^2/d(OP12,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP12,I3)</Circle>
+<Intersection name="I35" n="477" hidden="true" first="r19" second="c39" which="first">Intersezione tra r19 e c39</Intersection>
+<Ray name="r20" n="478" hidden="super" from="I3" to="OP13">Semiretta da I3 puntando a OP13</Ray>
+<Circle name="c40" n="14" hidden="super" fixed="c4^2/d(OP13,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP13,I3)</Circle>
+<Intersection name="I36" n="479" hidden="true" first="r20" second="c40" which="first">Intersezione tra r20 e c40</Intersection>
+<Circle name="c41" n="480" hidden="super" through="I35" midpoint="I34" acute="true">Circonferenza di centro I34 per I35</Circle>
+<Circle name="c42" n="481" hidden="super" through="I34" midpoint="I35" acute="true">Circonferenza di centro I35 per I34</Circle>
+<Intersection name="I37" n="482" hidden="super" first="c41" second="c42" which="second">Intersezione tra c41 e c42</Intersection>
+<Intersection name="I38" n="483" hidden="super" first="c42" second="c41" which="second">Intersezione tra c42 e c41</Intersection>
+<Line name="l6" n="484" hidden="true" from="I37" to="I38">Retta per I37 e I38</Line>
+<Circle name="c43" n="485" hidden="super" through="I36" midpoint="I35" acute="true">Circonferenza di centro I35 per I36</Circle>
+<Circle name="c44" n="486" hidden="super" through="I35" midpoint="I36" acute="true">Circonferenza di centro I36 per I35</Circle>
+<Intersection name="I39" n="487" hidden="super" first="c43" second="c44" which="second">Intersezione tra c43 e c44</Intersection>
+<Intersection name="I40" n="488" hidden="super" first="c44" second="c43" which="second">Intersezione tra c44 e c43</Intersection>
+<Line name="l7" n="489" hidden="true" from="I39" to="I40">Retta per I39 e I40</Line>
+<Intersection name="I41" n="490" hidden="true" first="l6" second="l7">Intersezione tra l6 e l7</Intersection>
+<Circle name="$\omega_5$" n="491" showname="true" xcoffset="-0.45714285714285713" ycoffset="0.3047619047619048" through="I35" midpoint="I41" acute="true">Circonferenza di centro I41 per I35</Circle>
+<PointOn name="OP14" n="765" hidden="true" on="$\omega_6$&apos;" alpha="-1.4464413322481342" x="-3.0421825204896686" y="1.5349204813776538">Punto su $\omega_6$&apos;</PointOn>
+<PointOn name="OP15" n="766" hidden="true" on="$\omega_6$&apos;" alpha="-0.7782040429071563" x="-2.870197733175468" y="1.6198034301360014">Punto su $\omega_6$&apos;</PointOn>
+<PointOn name="OP16" n="767" hidden="true" on="$\omega_6$&apos;" alpha="1.0286069168680168" x="-2.927559890555922" y="2.075565920971547">Punto su $\omega_6$&apos;</PointOn>
+<Ray name="r21" n="768" hidden="super" from="I3" to="OP14">Semiretta da I3 puntando a OP14</Ray>
+<Circle name="c46" n="8" hidden="super" fixed="c4^2/d(OP14,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP14,I3)</Circle>
+<Intersection name="I42" n="769" hidden="true" first="r21" second="c46" which="first">Intersezione tra r21 e c46</Intersection>
+<Ray name="r22" n="770" hidden="super" from="I3" to="OP15">Semiretta da I3 puntando a OP15</Ray>
+<Circle name="c47" n="11" hidden="super" fixed="c4^2/d(OP15,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP15,I3)</Circle>
+<Intersection name="I43" n="771" hidden="true" first="r22" second="c47" which="first">Intersezione tra r22 e c47</Intersection>
+<Ray name="r23" n="772" hidden="super" from="I3" to="OP16">Semiretta da I3 puntando a OP16</Ray>
+<Circle name="c48" n="14" hidden="super" fixed="c4^2/d(OP16,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP16,I3)</Circle>
+<Intersection name="I44" n="773" hidden="true" first="r23" second="c48" which="first">Intersezione tra r23 e c48</Intersection>
+<Circle name="c49" n="774" hidden="super" through="I43" midpoint="I42" acute="true">Circonferenza di centro I42 per I43</Circle>
+<Circle name="c50" n="775" hidden="super" through="I42" midpoint="I43" acute="true">Circonferenza di centro I43 per I42</Circle>
+<Intersection name="I45" n="776" hidden="super" first="c49" second="c50" which="second">Intersezione tra c49 e c50</Intersection>
+<Intersection name="I46" n="777" hidden="super" first="c50" second="c49" which="second">Intersezione tra c50 e c49</Intersection>
+<Line name="l8" n="778" hidden="true" from="I45" to="I46">Retta per I45 e I46</Line>
+<Circle name="c51" n="779" hidden="super" through="I44" midpoint="I43" acute="true">Circonferenza di centro I43 per I44</Circle>
+<Circle name="c52" n="780" hidden="super" through="I43" midpoint="I44" acute="true">Circonferenza di centro I44 per I43</Circle>
+<Intersection name="I47" n="781" hidden="super" first="c51" second="c52" which="second">Intersezione tra c51 e c52</Intersection>
+<Intersection name="I48" n="782" hidden="super" first="c52" second="c51" which="second">Intersezione tra c52 e c51</Intersection>
+<Line name="l9" n="783" hidden="true" from="I47" to="I48">Retta per I47 e I48</Line>
+<Intersection name="I49" n="784" hidden="true" first="l8" second="l9">Intersezione tra l8 e l9</Intersection>
+<Circle name="$\omega_6$" n="785" showname="true" xcoffset="-0.38095238095238093" ycoffset="0.3047619047619048" through="I43" midpoint="I49" acute="true">Circonferenza di centro I49 per I43</Circle>
+<PointOn name="OP17" n="933" hidden="true" on="$\omega_7$&apos;" alpha="-1.4464413322481342" x="-3.0421825204896686" y="2.11976279093612">Punto su $\omega_7$&apos;</PointOn>
+<PointOn name="OP18" n="934" hidden="true" on="$\omega_7$&apos;" alpha="-0.7782040429071563" x="-2.870197733175468" y="2.2046457396944676">Punto su $\omega_7$&apos;</PointOn>
+<PointOn name="OP19" n="935" hidden="true" on="$\omega_7$&apos;" alpha="1.0286069168680168" x="-2.927559890555922" y="2.660408230530013">Punto su $\omega_7$&apos;</PointOn>
+<Ray name="r24" n="936" hidden="super" from="I3" to="OP17">Semiretta da I3 puntando a OP17</Ray>
+<Circle name="c54" n="8" hidden="super" fixed="c4^2/d(OP17,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP17,I3)</Circle>
+<Intersection name="I50" n="937" hidden="true" first="r24" second="c54" which="first">Intersezione tra r24 e c54</Intersection>
+<Ray name="r25" n="938" hidden="super" from="I3" to="OP18">Semiretta da I3 puntando a OP18</Ray>
+<Circle name="c55" n="11" hidden="super" fixed="c4^2/d(OP18,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP18,I3)</Circle>
+<Intersection name="I51" n="939" hidden="true" first="r25" second="c55" which="first">Intersezione tra r25 e c55</Intersection>
+<Ray name="r26" n="940" hidden="super" from="I3" to="OP19">Semiretta da I3 puntando a OP19</Ray>
+<Circle name="c56" n="14" hidden="super" fixed="c4^2/d(OP19,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP19,I3)</Circle>
+<Intersection name="I52" n="941" hidden="true" first="r26" second="c56" which="first">Intersezione tra r26 e c56</Intersection>
+<Circle name="c57" n="942" hidden="super" through="I51" midpoint="I50" acute="true">Circonferenza di centro I50 per I51</Circle>
+<Circle name="c58" n="943" hidden="super" through="I50" midpoint="I51" acute="true">Circonferenza di centro I51 per I50</Circle>
+<Intersection name="I53" n="944" hidden="super" first="c57" second="c58" which="second">Intersezione tra c57 e c58</Intersection>
+<Intersection name="I54" n="945" hidden="super" first="c58" second="c57" which="second">Intersezione tra c58 e c57</Intersection>
+<Line name="l10" n="946" hidden="true" from="I53" to="I54">Retta per I53 e I54</Line>
+<Circle name="c59" n="947" hidden="super" through="I52" midpoint="I51" acute="true">Circonferenza di centro I51 per I52</Circle>
+<Circle name="c60" n="948" hidden="super" through="I51" midpoint="I52" acute="true">Circonferenza di centro I52 per I51</Circle>
+<Intersection name="I55" n="949" hidden="super" first="c59" second="c60" which="second">Intersezione tra c59 e c60</Intersection>
+<Intersection name="I56" n="950" hidden="super" first="c60" second="c59" which="second">Intersezione tra c60 e c59</Intersection>
+<Line name="l11" n="951" hidden="true" from="I55" to="I56">Retta per I55 e I56</Line>
+<Intersection name="I57" n="952" hidden="true" first="l10" second="l11">Intersezione tra l10 e l11</Intersection>
+<Circle name="$\omega_7$" n="953" showname="true" xcoffset="-0.31746031746031744" ycoffset="0.3047619047619048" through="I51" midpoint="I57" acute="true">Circonferenza di centro I57 per I51</Circle>
+<Ray name="r27" n="958" hidden="super" from="I9" to="M3">Semiretta da I9 puntando a M3</Ray>
+<Circle name="c62" n="959" hidden="super" through="I9" midpoint="M3" acute="true">Circonferenza di centro M3 per I9</Circle>
+<Intersection name="I58" n="960" hidden="true" first="r27" second="c62" awayfrom="I9" which="first">Intersezione tra r27 e c62</Intersection>
+<Ray name="r28" n="965" hidden="super" from="I11" to="M3">Semiretta da I11 puntando a M3</Ray>
+<Circle name="c63" n="966" hidden="super" through="I11" midpoint="M3" acute="true">Circonferenza di centro M3 per I11</Circle>
+<Intersection name="I59" n="967" hidden="true" first="r28" second="c63" awayfrom="I11" which="first">Intersezione tra r28 e c63</Intersection>
+<Ray name="r29" n="972" hidden="super" from="I13" to="M3">Semiretta da I13 puntando a M3</Ray>
+<Circle name="c64" n="973" hidden="super" through="I13" midpoint="M3" acute="true">Circonferenza di centro M3 per I13</Circle>
+<Intersection name="I60" n="974" hidden="true" first="r29" second="c64" awayfrom="I13" which="first">Intersezione tra r29 e c64</Intersection>
+<Ray name="r30" n="979" hidden="super" from="I14" to="M3">Semiretta da I14 puntando a M3</Ray>
+<Circle name="c65" n="980" hidden="super" through="I14" midpoint="M3" acute="true">Circonferenza di centro M3 per I14</Circle>
+<Intersection name="I61" n="981" hidden="true" first="r30" second="c65" awayfrom="I14" which="first">Intersezione tra r30 e c65</Intersection>
+<Ray name="r31" n="986" hidden="super" from="I16" to="M3">Semiretta da I16 puntando a M3</Ray>
+<Circle name="c66" n="987" hidden="super" through="I16" midpoint="M3" acute="true">Circonferenza di centro M3 per I16</Circle>
+<Intersection name="I62" n="988" hidden="true" first="r31" second="c66" awayfrom="I16" which="first">Intersezione tra r31 e c66</Intersection>
+<Ray name="r32" n="993" hidden="super" from="I16" to="I17">Semiretta da I16 puntando a I17</Ray>
+<Circle name="c67" n="994" hidden="super" through="I16" midpoint="I17" acute="true">Circonferenza di centro I17 per I16</Circle>
+<Intersection name="I63" n="995" hidden="true" first="r32" second="c67" awayfrom="I16" which="first">Intersezione tra r32 e c67</Intersection>
+<Ray name="r33" n="1000" hidden="super" from="I17" to="I63">Semiretta da I17 puntando a I63</Ray>
+<Circle name="c68" n="1001" hidden="super" through="I17" midpoint="I63" acute="true">Circonferenza di centro I63 per I17</Circle>
+<Intersection name="I64" n="1002" hidden="true" first="r33" second="c68" awayfrom="I17" which="first">Intersezione tra r33 e c68</Intersection>
+<Ray name="r34" n="1007" hidden="super" from="I17" to="M3">Semiretta da I17 puntando a M3</Ray>
+<Circle name="c69" n="1008" hidden="super" through="I17" midpoint="M3" acute="true">Circonferenza di centro M3 per I17</Circle>
+<Intersection name="I65" n="1009" hidden="true" first="r34" second="c69" awayfrom="I17" which="first">Intersezione tra r34 e c69</Intersection>
+<Ray name="r35" n="1014" hidden="super" from="I15" to="M3">Semiretta da I15 puntando a M3</Ray>
+<Circle name="c70" n="1015" hidden="super" through="I15" midpoint="M3" acute="true">Circonferenza di centro M3 per I15</Circle>
+<Intersection name="I66" n="1016" hidden="true" first="r35" second="c70" awayfrom="I15" which="first">Intersezione tra r35 e c70</Intersection>
+<Ray name="r36" n="1021" hidden="super" from="I64" to="M3">Semiretta da I64 puntando a M3</Ray>
+<Circle name="c71" n="1022" hidden="super" through="I64" midpoint="M3" acute="true">Circonferenza di centro M3 per I64</Circle>
+<Intersection name="I67" n="1023" hidden="true" first="r36" second="c71" awayfrom="I64" which="first">Intersezione tra r36 e c71</Intersection>
+<Intersection name="I68" n="1026" hidden="true" first="p3" second="$\omega_2$&apos;" which="first">Intersezione tra p3 e $\omega_2$&apos;</Intersection>
+<Circle name="c72" n="1027" color="1" through="I68" midpoint="I58" acute="true">Circonferenza di centro I58 per I68</Circle>
+<Intersection name="I70" n="1030" hidden="true" first="p3" second="c72" awayfrom="I68" which="first">Intersezione tra p3 e c72</Intersection>
+<Circle name="c73" n="1031" color="1" through="I70" midpoint="I59" acute="true">Circonferenza di centro I59 per I70</Circle>
+<Intersection name="I72" n="1034" hidden="true" first="p3" second="c73" awayfrom="I70" which="first">Intersezione tra p3 e c73</Intersection>
+<Circle name="c74" n="1035" color="1" through="I72" midpoint="I60" acute="true">Circonferenza di centro I60 per I72</Circle>
+<Circle name="c75" n="1038" color="1" through="I61" midpoint="I66" acute="true">Circonferenza di centro I66 per I61</Circle>
+<Circle name="c76" n="1041" hidden="true" through="I62" midpoint="I65" acute="true">Circonferenza di centro I65 per I62</Circle>
+<Circle name="c77" n="1044" hidden="true" through="I63" midpoint="I64" acute="true">Circonferenza di centro I64 per I63</Circle>
+<PointOn name="OP20" n="1192" hidden="true" on="c77" alpha="-1.4464413322481342" x="-3.0421825204896686" y="2.704605100494586">Punto su c77</PointOn>
+<PointOn name="OP21" n="1193" hidden="true" on="c77" alpha="-0.7782040429071563" x="-2.870197733175468" y="2.7894880492529337">Punto su c77</PointOn>
+<PointOn name="OP22" n="1194" hidden="true" on="c77" alpha="1.0286069168680168" x="-2.927559890555922" y="3.2452505400884792">Punto su c77</PointOn>
+<Ray name="r37" n="1195" hidden="super" from="I3" to="OP20">Semiretta da I3 puntando a OP20</Ray>
+<Circle name="c78" n="8" hidden="super" fixed="c4^2/d(OP20,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP20,I3)</Circle>
+<Intersection name="I74" n="1196" hidden="true" first="r37" second="c78" which="first">Intersezione tra r37 e c78</Intersection>
+<Ray name="r38" n="1197" hidden="super" from="I3" to="OP21">Semiretta da I3 puntando a OP21</Ray>
+<Circle name="c79" n="11" hidden="super" fixed="c4^2/d(OP21,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP21,I3)</Circle>
+<Intersection name="I75" n="1198" hidden="true" first="r38" second="c79" which="first">Intersezione tra r38 e c79</Intersection>
+<Ray name="r39" n="1199" hidden="super" from="I3" to="OP22">Semiretta da I3 puntando a OP22</Ray>
+<Circle name="c80" n="14" hidden="super" fixed="c4^2/d(OP22,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP22,I3)</Circle>
+<Intersection name="I76" n="1200" hidden="true" first="r39" second="c80" which="first">Intersezione tra r39 e c80</Intersection>
+<Circle name="c81" n="1201" hidden="super" through="I75" midpoint="I74" acute="true">Circonferenza di centro I74 per I75</Circle>
+<Circle name="c82" n="1202" hidden="super" through="I74" midpoint="I75" acute="true">Circonferenza di centro I75 per I74</Circle>
+<Intersection name="I77" n="1203" hidden="super" first="c81" second="c82" which="second">Intersezione tra c81 e c82</Intersection>
+<Intersection name="I78" n="1204" hidden="super" first="c82" second="c81" which="second">Intersezione tra c82 e c81</Intersection>
+<Line name="l12" n="1205" hidden="true" from="I77" to="I78">Retta per I77 e I78</Line>
+<Circle name="c83" n="1206" hidden="super" through="I76" midpoint="I75" acute="true">Circonferenza di centro I75 per I76</Circle>
+<Circle name="c84" n="1207" hidden="super" through="I75" midpoint="I76" acute="true">Circonferenza di centro I76 per I75</Circle>
+<Intersection name="I79" n="1208" hidden="super" first="c83" second="c84" which="second">Intersezione tra c83 e c84</Intersection>
+<Intersection name="I80" n="1209" hidden="super" first="c84" second="c83" which="second">Intersezione tra c84 e c83</Intersection>
+<Line name="l13" n="1210" hidden="true" from="I79" to="I80">Retta per I79 e I80</Line>
+<Intersection name="I81" n="1211" hidden="true" first="l12" second="l13">Intersezione tra l12 e l13</Intersection>
+<Circle name="$\omega_8$" n="1212" showname="true" xcoffset="-0.31746031746031744" ycoffset="0.3047619047619048" through="I75" midpoint="I81" acute="true">Circonferenza di centro I81 per I75</Circle>
+<PointOn name="OP23" n="1297" hidden="true" on="c72" alpha="-1.4464413322481342" x="-3.0421825204896686" y="-1.3892910664146765">Punto su c72</PointOn>
+<PointOn name="OP24" n="1298" hidden="true" on="c72" alpha="-0.7782040429071563" x="-2.870197733175468" y="-1.304408117656329">Punto su c72</PointOn>
+<PointOn name="OP25" n="1299" hidden="true" on="c72" alpha="1.0286069168680168" x="-2.927559890555922" y="-0.848645626820783">Punto su c72</PointOn>
+<Ray name="r40" n="1300" hidden="super" from="I3" to="OP23">Semiretta da I3 puntando a OP23</Ray>
+<Circle name="c86" n="8" hidden="super" fixed="c4^2/d(OP23,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP23,I3)</Circle>
+<Intersection name="I82" n="1301" hidden="true" first="r40" second="c86" which="first">Intersezione tra r40 e c86</Intersection>
+<Ray name="r41" n="1302" hidden="super" from="I3" to="OP24">Semiretta da I3 puntando a OP24</Ray>
+<Circle name="c87" n="11" hidden="super" fixed="c4^2/d(OP24,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP24,I3)</Circle>
+<Intersection name="I83" n="1303" hidden="true" first="r41" second="c87" which="first">Intersezione tra r41 e c87</Intersection>
+<Ray name="r42" n="1304" hidden="super" from="I3" to="OP25">Semiretta da I3 puntando a OP25</Ray>
+<Circle name="c88" n="14" hidden="super" fixed="c4^2/d(OP25,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP25,I3)</Circle>
+<Intersection name="I84" n="1305" hidden="true" first="r42" second="c88" which="first">Intersezione tra r42 e c88</Intersection>
+<Circle name="c89" n="1306" hidden="super" through="I83" midpoint="I82" acute="true">Circonferenza di centro I82 per I83</Circle>
+<Circle name="c90" n="1307" hidden="super" through="I82" midpoint="I83" acute="true">Circonferenza di centro I83 per I82</Circle>
+<Intersection name="I85" n="1308" hidden="super" first="c89" second="c90" which="second">Intersezione tra c89 e c90</Intersection>
+<Intersection name="I86" n="1309" hidden="super" first="c90" second="c89" which="second">Intersezione tra c90 e c89</Intersection>
+<Line name="l14" n="1310" hidden="true" from="I85" to="I86">Retta per I85 e I86</Line>
+<Circle name="c91" n="1311" hidden="super" through="I84" midpoint="I83" acute="true">Circonferenza di centro I83 per I84</Circle>
+<Circle name="c92" n="1312" hidden="super" through="I83" midpoint="I84" acute="true">Circonferenza di centro I84 per I83</Circle>
+<Intersection name="I87" n="1313" hidden="super" first="c91" second="c92" which="second">Intersezione tra c91 e c92</Intersection>
+<Intersection name="I88" n="1314" hidden="super" first="c92" second="c91" which="second">Intersezione tra c92 e c91</Intersection>
+<Line name="l15" n="1315" hidden="true" from="I87" to="I88">Retta per I87 e I88</Line>
+<Intersection name="I89" n="1316" hidden="true" first="l14" second="l15">Intersezione tra l14 e l15</Intersection>
+<Circle name="c93" n="1317" through="I83" midpoint="I89" acute="true">Circonferenza di centro I89 per I83</Circle>
+<PointOn name="OP26" n="1507" hidden="true" on="c73" alpha="-1.4464413322481342" x="-3.0421825204896686" y="-1.9741333759731425">Punto su c73</PointOn>
+<PointOn name="OP27" n="1508" hidden="true" on="c73" alpha="-0.7782040429071563" x="-2.870197733175468" y="-1.889250427214795">Punto su c73</PointOn>
+<PointOn name="OP28" n="1509" hidden="true" on="c73" alpha="1.0286069168680168" x="-2.927559890555922" y="-1.4334879363792492">Punto su c73</PointOn>
+<Ray name="r43" n="1510" hidden="super" from="I3" to="OP26">Semiretta da I3 puntando a OP26</Ray>
+<Circle name="c94" n="8" hidden="super" fixed="c4^2/d(OP26,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP26,I3)</Circle>
+<Intersection name="I90" n="1511" hidden="true" first="r43" second="c94" which="first">Intersezione tra r43 e c94</Intersection>
+<Ray name="r44" n="1512" hidden="super" from="I3" to="OP27">Semiretta da I3 puntando a OP27</Ray>
+<Circle name="c95" n="11" hidden="super" fixed="c4^2/d(OP27,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP27,I3)</Circle>
+<Intersection name="I91" n="1513" hidden="true" first="r44" second="c95" which="first">Intersezione tra r44 e c95</Intersection>
+<Ray name="r45" n="1514" hidden="super" from="I3" to="OP28">Semiretta da I3 puntando a OP28</Ray>
+<Circle name="c96" n="14" hidden="super" fixed="c4^2/d(OP28,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP28,I3)</Circle>
+<Intersection name="I92" n="1515" hidden="true" first="r45" second="c96" which="first">Intersezione tra r45 e c96</Intersection>
+<Circle name="c97" n="1516" hidden="super" through="I91" midpoint="I90" acute="true">Circonferenza di centro I90 per I91</Circle>
+<Circle name="c98" n="1517" hidden="super" through="I90" midpoint="I91" acute="true">Circonferenza di centro I91 per I90</Circle>
+<Intersection name="I93" n="1518" hidden="super" first="c97" second="c98" which="second">Intersezione tra c97 e c98</Intersection>
+<Intersection name="I94" n="1519" hidden="super" first="c98" second="c97" which="second">Intersezione tra c98 e c97</Intersection>
+<Line name="l16" n="1520" hidden="true" from="I93" to="I94">Retta per I93 e I94</Line>
+<Circle name="c99" n="1521" hidden="super" through="I92" midpoint="I91" acute="true">Circonferenza di centro I91 per I92</Circle>
+<Circle name="c100" n="1522" hidden="super" through="I91" midpoint="I92" acute="true">Circonferenza di centro I92 per I91</Circle>
+<Intersection name="I95" n="1523" hidden="super" first="c99" second="c100" which="second">Intersezione tra c99 e c100</Intersection>
+<Intersection name="I96" n="1524" hidden="super" first="c100" second="c99" which="second">Intersezione tra c100 e c99</Intersection>
+<Line name="l17" n="1525" hidden="true" from="I95" to="I96">Retta per I95 e I96</Line>
+<Intersection name="I97" n="1526" hidden="true" first="l16" second="l17">Intersezione tra l16 e l17</Intersection>
+<Circle name="c101" n="1527" through="I91" midpoint="I97" acute="true">Circonferenza di centro I97 per I91</Circle>
+<PointOn name="OP29" n="1612" hidden="true" on="c74" alpha="-1.4464413322481342" x="-3.0421825204896686" y="-2.5589756855316086">Punto su c74</PointOn>
+<PointOn name="OP30" n="1613" hidden="true" on="c74" alpha="-0.7782040429071563" x="-2.870197733175468" y="-2.474092736773261">Punto su c74</PointOn>
+<PointOn name="OP31" n="1614" hidden="true" on="c74" alpha="1.0286069168680168" x="-2.927559890555922" y="-2.0183302459377153">Punto su c74</PointOn>
+<Ray name="r46" n="1615" hidden="super" from="I3" to="OP29">Semiretta da I3 puntando a OP29</Ray>
+<Circle name="c102" n="8" hidden="super" fixed="c4^2/d(OP29,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP29,I3)</Circle>
+<Intersection name="I98" n="1616" hidden="true" first="r46" second="c102" which="first">Intersezione tra r46 e c102</Intersection>
+<Ray name="r47" n="1617" hidden="super" from="I3" to="OP30">Semiretta da I3 puntando a OP30</Ray>
+<Circle name="c103" n="11" hidden="super" fixed="c4^2/d(OP30,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP30,I3)</Circle>
+<Intersection name="I99" n="1618" hidden="true" first="r47" second="c103" which="first">Intersezione tra r47 e c103</Intersection>
+<Ray name="r48" n="1619" hidden="super" from="I3" to="OP31">Semiretta da I3 puntando a OP31</Ray>
+<Circle name="c104" n="14" hidden="super" fixed="c4^2/d(OP31,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP31,I3)</Circle>
+<Intersection name="I100" n="1620" hidden="true" first="r48" second="c104" which="first">Intersezione tra r48 e c104</Intersection>
+<Circle name="c105" n="1621" hidden="super" through="I99" midpoint="I98" acute="true">Circonferenza di centro I98 per I99</Circle>
+<Circle name="c106" n="1622" hidden="super" through="I98" midpoint="I99" acute="true">Circonferenza di centro I99 per I98</Circle>
+<Intersection name="I101" n="1623" hidden="super" first="c105" second="c106" which="second">Intersezione tra c105 e c106</Intersection>
+<Intersection name="I102" n="1624" hidden="super" first="c106" second="c105" which="second">Intersezione tra c106 e c105</Intersection>
+<Line name="l18" n="1625" hidden="true" from="I101" to="I102">Retta per I101 e I102</Line>
+<Circle name="c107" n="1626" hidden="super" through="I100" midpoint="I99" acute="true">Circonferenza di centro I99 per I100</Circle>
+<Circle name="c108" n="1627" hidden="super" through="I99" midpoint="I100" acute="true">Circonferenza di centro I100 per I99</Circle>
+<Intersection name="I103" n="1628" hidden="super" first="c107" second="c108" which="second">Intersezione tra c107 e c108</Intersection>
+<Intersection name="I104" n="1629" hidden="super" first="c108" second="c107" which="second">Intersezione tra c108 e c107</Intersection>
+<Line name="l19" n="1630" hidden="true" from="I103" to="I104">Retta per I103 e I104</Line>
+<Intersection name="I105" n="1631" hidden="true" first="l18" second="l19">Intersezione tra l18 e l19</Intersection>
+<Circle name="c109" n="1632" through="I99" midpoint="I105" acute="true">Circonferenza di centro I105 per I99</Circle>
+<PointOn name="OP32" n="1864" hidden="true" on="c75" alpha="-1.4464413322481342" x="-3.0421825204896686" y="-3.1438179950900746">Punto su c75</PointOn>
+<PointOn name="OP33" n="1865" hidden="true" on="c75" alpha="-0.7782040429071563" x="-2.870197733175468" y="-3.058935046331727">Punto su c75</PointOn>
+<PointOn name="OP34" n="1866" hidden="true" on="c75" alpha="1.0286069168680168" x="-2.927559890555922" y="-2.6031725554961813">Punto su c75</PointOn>
+<Ray name="r49" n="1867" hidden="super" from="I3" to="OP32">Semiretta da I3 puntando a OP32</Ray>
+<Circle name="c110" n="8" hidden="super" fixed="c4^2/d(OP32,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP32,I3)</Circle>
+<Intersection name="I106" n="1868" hidden="true" first="r49" second="c110" which="first">Intersezione tra r49 e c110</Intersection>
+<Ray name="r50" n="1869" hidden="super" from="I3" to="OP33">Semiretta da I3 puntando a OP33</Ray>
+<Circle name="c111" n="11" hidden="super" fixed="c4^2/d(OP33,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP33,I3)</Circle>
+<Intersection name="I107" n="1870" hidden="true" first="r50" second="c111" which="first">Intersezione tra r50 e c111</Intersection>
+<Ray name="r51" n="1871" hidden="super" from="I3" to="OP34">Semiretta da I3 puntando a OP34</Ray>
+<Circle name="c112" n="14" hidden="super" fixed="c4^2/d(OP34,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP34,I3)</Circle>
+<Intersection name="I108" n="1872" hidden="true" first="r51" second="c112" which="first">Intersezione tra r51 e c112</Intersection>
+<Circle name="c113" n="1873" hidden="super" through="I107" midpoint="I106" acute="true">Circonferenza di centro I106 per I107</Circle>
+<Circle name="c114" n="1874" hidden="super" through="I106" midpoint="I107" acute="true">Circonferenza di centro I107 per I106</Circle>
+<Intersection name="I109" n="1875" hidden="super" first="c113" second="c114" which="second">Intersezione tra c113 e c114</Intersection>
+<Intersection name="I110" n="1876" hidden="super" first="c114" second="c113" which="second">Intersezione tra c114 e c113</Intersection>
+<Line name="l20" n="1877" hidden="true" from="I109" to="I110">Retta per I109 e I110</Line>
+<Circle name="c115" n="1878" hidden="super" through="I108" midpoint="I107" acute="true">Circonferenza di centro I107 per I108</Circle>
+<Circle name="c116" n="1879" hidden="super" through="I107" midpoint="I108" acute="true">Circonferenza di centro I108 per I107</Circle>
+<Intersection name="I111" n="1880" hidden="super" first="c115" second="c116" which="second">Intersezione tra c115 e c116</Intersection>
+<Intersection name="I112" n="1881" hidden="super" first="c116" second="c115" which="second">Intersezione tra c116 e c115</Intersection>
+<Line name="l21" n="1882" hidden="true" from="I111" to="I112">Retta per I111 e I112</Line>
+<Intersection name="I113" n="1883" hidden="true" first="l20" second="l21">Intersezione tra l20 e l21</Intersection>
+<Circle name="c117" n="1884" through="I107" midpoint="I113" acute="true">Circonferenza di centro I113 per I107</Circle>
+<PointOn name="OP35" n="2032" hidden="true" on="c76" alpha="-1.4464413322481342" x="-3.0421825204896686" y="-3.7286603046485407">Punto su c76</PointOn>
+<PointOn name="OP36" n="2033" hidden="true" on="c76" alpha="-0.7782040429071563" x="-2.870197733175468" y="-3.643777355890193">Punto su c76</PointOn>
+<PointOn name="OP37" n="2034" hidden="true" on="c76" alpha="1.0286069168680168" x="-2.927559890555922" y="-3.1880148650546474">Punto su c76</PointOn>
+<Ray name="r52" n="2035" hidden="super" from="I3" to="OP35">Semiretta da I3 puntando a OP35</Ray>
+<Circle name="c118" n="8" hidden="super" fixed="c4^2/d(OP35,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP35,I3)</Circle>
+<Intersection name="I114" n="2036" hidden="true" first="r52" second="c118" which="first">Intersezione tra r52 e c118</Intersection>
+<Ray name="r53" n="2037" hidden="super" from="I3" to="OP36">Semiretta da I3 puntando a OP36</Ray>
+<Circle name="c119" n="11" hidden="super" fixed="c4^2/d(OP36,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP36,I3)</Circle>
+<Intersection name="I115" n="2038" hidden="true" first="r53" second="c119" which="first">Intersezione tra r53 e c119</Intersection>
+<Ray name="r54" n="2039" hidden="super" from="I3" to="OP37">Semiretta da I3 puntando a OP37</Ray>
+<Circle name="c120" n="14" hidden="super" fixed="c4^2/d(OP37,I3)" midpoint="I3" acute="true">Circonferenza di centro I3 e raggio c4^2/d(OP37,I3)</Circle>
+<Intersection name="I116" n="2040" hidden="true" first="r54" second="c120" which="first">Intersezione tra r54 e c120</Intersection>
+<Circle name="c121" n="2041" hidden="super" through="I115" midpoint="I114" acute="true">Circonferenza di centro I114 per I115</Circle>
+<Circle name="c122" n="2042" hidden="super" through="I114" midpoint="I115" acute="true">Circonferenza di centro I115 per I114</Circle>
+<Intersection name="I117" n="2043" hidden="super" first="c121" second="c122" which="second">Intersezione tra c121 e c122</Intersection>
+<Intersection name="I118" n="2044" hidden="super" first="c122" second="c121" which="second">Intersezione tra c122 e c121</Intersection>
+<Line name="l22" n="2045" hidden="true" from="I117" to="I118">Retta per I117 e I118</Line>
+<Circle name="c123" n="2046" hidden="super" through="I116" midpoint="I115" acute="true">Circonferenza di centro I115 per I116</Circle>
+<Circle name="c124" n="2047" hidden="super" through="I115" midpoint="I116" acute="true">Circonferenza di centro I116 per I115</Circle>
+<Intersection name="I119" n="2048" hidden="super" first="c123" second="c124" which="second">Intersezione tra c123 e c124</Intersection>
+<Intersection name="I120" n="2049" hidden="super" first="c124" second="c123" which="second">Intersezione tra c124 e c123</Intersection>
+<Line name="l23" n="2050" hidden="true" from="I119" to="I120">Retta per I119 e I120</Line>
+<Intersection name="I121" n="2051" hidden="true" first="l22" second="l23">Intersezione tra l22 e l23</Intersection>
+<Circle name="c125" n="2052" through="I115" midpoint="I121" acute="true">Circonferenza di centro I121 per I115</Circle>
+</Objects>
+</Construction>
+</CaR>

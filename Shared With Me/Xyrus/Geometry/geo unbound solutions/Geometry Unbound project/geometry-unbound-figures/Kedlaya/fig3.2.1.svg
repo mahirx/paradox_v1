@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<path d="M 426.000075 316.000125 H 431.000075 V 321.000125 H 426.000075 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="435.000075" y="337.000125" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">O</text><path d="M 568.0 272.0 H 573.0 V 277.0 H 568.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="577.0" y="293.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">P</text><line x1="429.000075" y1="319.000125" x2="1825.126038489452" y2="-113.60374369416547" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<path d="M 831.425986910985 190.37477130828262 H 836.425986910985 V 195.37477130828262 H 831.425986910985 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="840.425986910985" y="211.37477130828262" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">P&apos;</text><text x="506.0" y="213.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$\frac{OP&apos;}{OP}=r$</text></svg>

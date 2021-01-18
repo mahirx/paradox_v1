@@ -1,0 +1,67 @@
+Macro Cabri II Plus vers. MS-Windows 1.2.4.7
+
+Ellipse (Axis & Focus), no name
+Icon:
+16x16
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  7  7  7  7  7  7  0  0  0  0  0 
+ 0  0  0  7  7  0  0  0  0  0  0  7  7  0  0  0 
+ 0  0  7  0  0  0  0  0  0  0  0  0  0  7  0  0 
+ 0 15  0  0 15  0  0  0  0  0  0  0  0  0 15  0 
+15 15 15 15 15 15 13 13 13 13 13 13 13 15 15 15 
+ 0 15  0  0 15  0  0  0  0  0  0  0  0  0 15  0 
+ 0  0  7  0  0  0  0  0  0  0  0  0  0  7  0  0 
+ 0  0  0  7  7  0  0  0  0  0  0  7  7  0  0  0 
+ 0  0  0  0  0  7  7  7  7  7  7  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+Help:
+"Select a segment as the major axis and a point on the segment as the focus."
+Mth: 0
+CN:3, ON:16, FN:4, PO:15
+CT:
+point, CS 0, 
+point, CS 0, 
+point, CS 0, 
+Const:
+Seg, Mth:0, 0, CN:2, VN:2, Const: 1 2
+Perp, Mth:0, 0, CN:2, VN:2, Const: 3 4
+Mid, Mth:0, 0, CN:2, VN:1, Const: 1 2
+Cir, Mth:1, 0, CN:2, VN:2, Const: 6 1
+Int, Mth:0, 0, CN:2, VN:1, int ind:0x10000, Const: 5 7
+Mid, Mth:0, 0, CN:2, VN:1, Const: 8 6
+Sym, Mth:0, 1, CN:2, VN:1, Const: 3 9, invisible, 
+Sym, Mth:0, 1, CN:2, VN:1, Const: 10 6, invisible, 
+Line, Mth:1, 0, CN:2, VN:2, Const: 1 2
+Perp, Mth:0, 0, CN:2, VN:2, Const: 6 4
+Int, Mth:0, 0, CN:2, VN:1, int ind:0x10000, Const: 13 7
+Line, Mth:1, 0, CN:2, VN:2, Const: 14 8
+Int, Mth:0, 0, CN:2, VN:1, int ind:0, Const: 12 15
+Line, Mth:1, 0, CN:2, VN:2, Const: 16 10
+Int, Mth:0, 1, CN:2, VN:1, int ind:0, Const: 5 17, invisible, 
+Con, Mth:0, 1, CN:5, VN:5, Const: 10 18 1 11 2, 
+Mth: 1
+CN:2, ON:15, FN:4, PO:14
+CT:
+segment, CS 2, color:V, 
+point, CS 0, 
+Const:
+Perp, Mth:0, 0, CN:2, VN:2, Const: 4 3
+Mid, Mth:0, 0, CN:2, VN:1, Const: 1 2
+Cir, Mth:1, 0, CN:2, VN:2, Const: 6 1
+Int, Mth:0, 0, CN:2, VN:1, int ind:0x10000, Const: 5 7
+Mid, Mth:0, 0, CN:2, VN:1, Const: 8 6
+Sym, Mth:0, 1, CN:2, VN:1, Const: 4 9, invisible, 
+Sym, Mth:0, 1, CN:2, VN:1, Const: 10 6, invisible, 
+Line, Mth:1, 0, CN:2, VN:2, Const: 1 2
+Perp, Mth:0, 0, CN:2, VN:2, Const: 6 3
+Int, Mth:0, 0, CN:2, VN:1, int ind:0x10000, Const: 13 7
+Line, Mth:1, 0, CN:2, VN:2, Const: 14 8
+Int, Mth:0, 0, CN:2, VN:1, int ind:0, Const: 12 15
+Line, Mth:1, 0, CN:2, VN:2, Const: 16 10
+Int, Mth:0, 1, CN:2, VN:1, int ind:0, Const: 5 17, invisible, 
+Con, Mth:0, 1, CN:5, VN:5, Const: 10 18 1 11 2, 

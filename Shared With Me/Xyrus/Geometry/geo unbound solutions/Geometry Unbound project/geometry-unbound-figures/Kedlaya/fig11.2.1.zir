@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="6.045511926819126" y="3.3072929915495908" w="26.90868528811886"/>
+<Objects>
+<Point name="A" n="0" showname="true" x="-0.8738642901257272" y="2.3249124175389024">Punto in -0.87386, 2.32491</Point>
+<Point name="B" n="1" showname="true" x="-5.572206165829019" y="0.8726976559578841">Punto in -5.57221, 0.8727</Point>
+<Point name="C" n="2" showname="true" x="-4.333552398598151" y="-2.0744440660741805">Punto in -4.33355, -2.07444</Point>
+<Point name="D" n="3" showname="true" x="-0.23318130707528084" y="-1.903595270594061">Punto in -0.23318, -1.9036</Point>
+<Line name="l1" n="7" type="thin" from="B" to="C">Retta per B e C</Line>
+<PointOn name="F" n="12" showname="true" xcoffset="-0.23650895680346817" ycoffset="-0.21129986578475934" keepclose="true" on="l1" alpha="6.186095943526017" x="-3.175343796296525" y="-4.830181774998738">Punto su l1</PointOn>
+<Line name="l3" n="15" color="5" from="F" to="A">Retta per F e A</Line>
+<Line name="l4" n="18" type="thin" from="F" to="D">Retta per F e D</Line>
+<Line name="l5" n="21" color="2" from="D" to="B">Retta per D e B</Line>
+<Intersection name="I2" n="24" hidden="true" first="l3" second="l5">Intersezione tra l3 e l5</Intersection>
+<Line name="l6" n="25" color="2" from="C" to="I2">Retta per C e I2</Line>
+<Intersection name="E" n="26" showname="true" first="l4" second="l6">Intersezione tra l4 e l6</Intersection>
+<Line name="l7" n="29" type="thin" from="C" to="D">Retta per C e D</Line>
+<Line name="l8" n="32" type="thin" from="A" to="E">Retta per A e E</Line>
+<Line name="l9" n="36" type="thin" from="A" to="B">Retta per A e B</Line>
+<Intersection name="H" n="37" showname="true" first="l4" second="l9">Intersezione tra l4 e l9</Intersection>
+<Intersection name="I" n="38" showname="true" first="l1" second="l8">Intersezione tra l1 e l8</Intersection>
+<Intersection name="J" n="39" showname="true" first="l7" second="l9">Intersezione tra l7 e l9</Intersection>
+<Line name="l10" n="42" color="4" from="I" to="J">Retta per I e J</Line>
+<Segment name="s1" n="48" from="B" to="A">Segmento da B a A</Segment>
+<Segment name="s2" n="51" from="A" to="E">Segmento da A a E</Segment>
+<Segment name="s3" n="54" from="E" to="D">Segmento da E a D</Segment>
+<Segment name="s4" n="57" from="D" to="C">Segmento da D a C</Segment>
+<Segment name="s5" n="60" from="C" to="B">Segmento da C a B</Segment>
+<Intersection name="G" n="61" showname="true" first="l8" second="l7">Intersezione tra l8 e l7</Intersection>
+<Line name="l12" n="64" color="4" from="G" to="H">Retta per G e H</Line>
+</Objects>
+</Construction>
+</CaR>

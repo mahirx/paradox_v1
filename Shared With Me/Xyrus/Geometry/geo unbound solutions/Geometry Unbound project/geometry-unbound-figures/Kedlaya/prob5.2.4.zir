@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.07550521365096685" y="-0.7097490083190845" w="9.51365692002177"/>
+<Objects>
+<Point name="B" n="0" showname="true" x="-3.352380952380952" y="-1.276190476190476">Punto in -3.35238, -1.27619</Point>
+<Point name="C" n="3" showname="true" x="-0.2920634920634919" y="-1.2888888888888888">Punto in -0.29206, -1.28889</Point>
+<Segment name="s1" n="4" from="B" to="C">Segmento da P1 a P2</Segment>
+<Point name="A" n="7" showname="true" x="-2.838996033276338" y="0.8230068287955348">Punto in -2.839, 0.82301</Point>
+<Segment name="s2" n="8" from="C" to="A">Segmento da P2 a P3</Segment>
+<Segment name="s3" n="11" from="A" to="B">Segmento da P3 a P1</Segment>
+<Plumb name="p1" n="14" hidden="true" point="A" line="s3" valid="true">Retta perpendicolare per P3 a s3</Plumb>
+<Plumb name="p2" n="17" hidden="true" point="B" line="s3" valid="true">Retta perpendicolare per P1 a s3</Plumb>
+<Plumb name="p3" n="20" hidden="true" point="C" line="s1" valid="true">Retta perpendicolare per P2 a s1</Plumb>
+<Plumb name="p4" n="23" hidden="true" point="B" line="s1" valid="true">Retta perpendicolare per P1 a s1</Plumb>
+<Plumb name="p5" n="26" hidden="true" point="A" line="s2" valid="true">Retta perpendicolare per P3 a s2</Plumb>
+<Plumb name="p6" n="29" hidden="true" point="C" line="s2" valid="true">Retta perpendicolare per P2 a s2</Plumb>
+<Circle name="c1" n="32" hidden="true" through="A" midpoint="C" acute="true">Circonferenza di centro P2 per P3</Circle>
+<Circle name="c2" n="35" hidden="true" through="B" midpoint="C" acute="true">Circonferenza di centro P2 per P1</Circle>
+<Circle name="c3" n="38" hidden="true" through="C" midpoint="A" acute="true">Circonferenza di centro P3 per P2</Circle>
+<Circle name="c4" n="41" hidden="true" through="B" midpoint="A" acute="true">Circonferenza di centro P3 per P1</Circle>
+<Circle name="c5" n="44" hidden="true" through="A" midpoint="B" acute="true">Circonferenza di centro P1 per P3</Circle>
+<Circle name="c6" n="47" hidden="true" through="C" midpoint="B" acute="true">Circonferenza di centro P1 per P2</Circle>
+<Intersection name="$A_2$" n="48" showname="true" first="p1" second="c4" which="second">Intersezione tra p1 e c4</Intersection>
+<Intersection name="$B_1$" n="51" showname="true" first="p2" second="c5" which="second">Intersezione tra p2 e c5</Intersection>
+<Segment name="s4" n="52" from="$A_2$" to="$B_1$">Segmento da $A_2$ a $B_1$</Segment>
+<Segment name="s5" n="55" from="$B_1$" to="B">Segmento da $B_1$ a B</Segment>
+<Segment name="s6" n="58" from="A" to="$A_2$">Segmento da A a $A_2$</Segment>
+<Intersection name="$A_1$" n="59" showname="true" first="p5" second="c3" which="second">Intersezione tra p5 e c3</Intersection>
+<Intersection name="$C_2$" n="62" showname="true" first="p6" second="c1" which="second">Intersezione tra p6 e c1</Intersection>
+<Segment name="s7" n="63" from="$A_1$" to="$C_2$">Segmento da $A_1$ a $C_2$</Segment>
+<Segment name="s8" n="66" from="$C_2$" to="C">Segmento da $C_2$ a C</Segment>
+<Segment name="s9" n="69" from="A" to="$A_1$">Segmento da A a $A_1$</Segment>
+<Intersection name="$C_1$" n="72" showname="true" first="p3" second="c2" which="second">Intersezione tra p3 e c2</Intersection>
+<Segment name="s10" n="73" from="C" to="$C_1$">Segmento da C a $C_1$</Segment>
+<Intersection name="$B_2$" n="76" showname="true" first="p4" second="c6" which="second">Intersezione tra p4 e c6</Intersection>
+<Segment name="s11" n="77" from="$C_1$" to="$B_2$">Segmento da $C_1$ a $B_2$</Segment>
+<Segment name="s12" n="80" from="$B_2$" to="B">Segmento da $B_2$ a B</Segment>
+<Segment name="s13" n="83" from="$A_2$" to="$A_1$">Segmento da $A_2$ a $A_1$</Segment>
+<Segment name="s14" n="86" from="$B_1$" to="$B_2$">Segmento da $B_1$ a $B_2$</Segment>
+<Segment name="s15" n="89" from="$C_1$" to="$C_2$">Segmento da $C_1$ a $C_2$</Segment>
+<Circle name="c7" n="96" hidden="super" through="$A_1$" midpoint="$A_2$" acute="true">Circonferenza di centro $A_2$ per $A_1$</Circle>
+<Circle name="c8" n="97" hidden="super" through="$A_2$" midpoint="$A_1$" acute="true">Circonferenza di centro $A_1$ per $A_2$</Circle>
+<Intersection name="I13" n="98" hidden="super" first="c7" second="c8" which="second">Intersezione tra c7 e c8</Intersection>
+<Intersection name="I14" n="99" hidden="super" first="c8" second="c7" which="second">Intersezione tra c8 e c7</Intersection>
+<Line name="l1" n="100" color="1" from="I13" to="I14">Retta per I13 e I14</Line>
+<Circle name="c9" n="107" hidden="super" through="$C_1$" midpoint="$C_2$" acute="true">Circonferenza di centro $C_2$ per $C_1$</Circle>
+<Circle name="c10" n="108" hidden="super" through="$C_2$" midpoint="$C_1$" acute="true">Circonferenza di centro $C_1$ per $C_2$</Circle>
+<Intersection name="I15" n="109" hidden="super" first="c9" second="c10" which="second">Intersezione tra c9 e c10</Intersection>
+<Intersection name="I16" n="110" hidden="super" first="c10" second="c9" which="second">Intersezione tra c10 e c9</Intersection>
+<Line name="l2" n="111" color="1" from="I15" to="I16">Retta per I15 e I16</Line>
+<Circle name="c11" n="118" hidden="super" through="$B_2$" midpoint="$B_1$" acute="true">Circonferenza di centro $B_1$ per $B_2$</Circle>
+<Circle name="c12" n="119" hidden="super" through="$B_1$" midpoint="$B_2$" acute="true">Circonferenza di centro $B_2$ per $B_1$</Circle>
+<Intersection name="I17" n="120" hidden="super" first="c11" second="c12" which="second">Intersezione tra c11 e c12</Intersection>
+<Intersection name="I18" n="121" hidden="super" first="c12" second="c11" which="second">Intersezione tra c12 e c11</Intersection>
+<Line name="l3" n="122" color="1" from="I17" to="I18">Retta per I17 e I18</Line>
+<Intersection name="I19" n="123" first="s13" second="l1">Intersezione tra s13 e l1</Intersection>
+<Intersection name="I20" n="124" first="l2" second="s15">Intersezione tra l2 e s15</Intersection>
+<Intersection name="I21" n="125" first="s14" second="l3">Intersezione tra s14 e l3</Intersection>
+</Objects>
+</Construction>
+</CaR>

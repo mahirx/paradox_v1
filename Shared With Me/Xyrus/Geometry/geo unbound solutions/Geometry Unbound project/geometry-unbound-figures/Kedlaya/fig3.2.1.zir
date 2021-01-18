@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="O" n="0" showname="true" x="-2.5523800000000003" y="-0.4127">Punto in -2.55238, -0.4127</Point>
+<Point name="P" n="1" showname="true" x="-0.7492063492063492" y="0.1460317460317464">Punto in -0.74921, 0.14603</Point>
+<Ray name="r1" n="4" color="1" from="O" to="P">Semiretta da O puntando a P</Ray>
+<PointOn name="P&apos;" n="5" showname="true" on="r1" alpha="5.389752968688423" x="2.5958855480759997" y="1.1825425865614902">Punto su r1</PointOn>
+<Text name="Text1" n="6" x="-1.5746031746031746" y="1.060317460317459">$\frac{OP&apos;}{OP}=r$</Text>
+</Objects>
+</Construction>
+</CaR>

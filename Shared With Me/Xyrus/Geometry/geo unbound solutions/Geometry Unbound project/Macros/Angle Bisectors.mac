@@ -1,0 +1,34 @@
+Macro Cabri II Plus vers. MS-Windows 1.2.4.7
+
+Angle Bisector of a Triangle, no name
+Icon:
+16x16
+ 0  0  0  0  7  0  0  0  0  0  0  0  0  0  7  0 
+ 0  0  0 15  7 15  0  0  0  0  0  0  0  7  0  0 
+ 0  0  0 15  7  0 15  0  0  0  0  0  7  0  0  0 
+ 0  0  0 15  0  7  0 15  0  0  0  7  0  0  0  0 
+ 7  0 15  0  0  7  0  0 15  7  7  0  0  0  0  0 
+ 0  7  7  0  0  7  0  0  7 15  0  0  0  0  0  0 
+ 0  0 15  7  7  7  0  7  0  0 15  0  0  0  0  0 
+ 0 15  0  0  0  7  7  0  0  0  0 15  0  0  0  0 
+ 0 15  0  0  7  0  7  7  7  7  0  0 15  0  0  0 
+ 0 15  0  7  0  0  7  0  0  0  7  7  0 15  0  0 
+15  0  7  0  0  0  7  0  0  0  0  0  7  7 15  0 
+ 7  7 15 15 15 15  7 15 15 15 15 15 15 15  7  7 
+ 0  0  0  0  0  0  7  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  7  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  7  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  7  0  0  0  0  0  0  0  0 
+Help:
+"Select a triangle to construct its three (internal) angle bisectors."
+Mth: 0
+CN:1, ON:6, FN:4, PO:3
+CT:
+triangle, CS 3, color:P, 
+Const:
+Biss, Mth:0, 0, CN:3, VN:2, Const: 1 2 3
+Biss, Mth:0, 0, CN:3, VN:2, Const: 2 3 1
+Int, Mth:0, 1, CN:2, VN:1, int ind:0, Const: 6 5, invisible, 
+Ray, Mth:1, 1, CN:2, VN:2, Const: 1 7, color:V, 
+Ray, Mth:1, 1, CN:2, VN:2, Const: 2 7, color:V, 
+Ray, Mth:1, 1, CN:2, VN:2, Const: 3 7, color:V, 

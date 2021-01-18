@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<path d="M 250.0 368.0 H 255.0 V 373.0 H 250.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="259.0" y="389.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B</text><path d="M 590.0 366.0 H 595.0 V 371.0 H 590.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="599.0" y="387.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C</text><line x1="253.0" y1="371.0" x2="593.0" y2="369.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 320.99999999999994 99.99999999999994 H 325.99999999999994 V 104.99999999999994 H 320.99999999999994 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="334.0" y="104.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A</text><line x1="593.0" y1="369.0" x2="323.99999999999994" y2="102.99999999999994" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="323.99999999999994" y1="102.99999999999994" x2="253.0" y2="371.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 387.0 278.0 H 392.0 V 283.0 H 387.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="396.0" y="299.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">G</text><path d="M 419.4263558222867 269.4804897887401 H 424.4263558222867 V 274.4804897887401 H 419.4263558222867 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="428.4263558222867" y="290.4804897887401" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">O</text><path d="M 322.1472883554265 295.03902042251974 H 327.1472883554265 V 300.03902042251974 H 322.1472883554265 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="331.1472883554265" y="316.03902042251974" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">H</text><line x1="-604.0" y1="543.0" x2="1832.0" y2="-98.0" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<text x="517.0" y="212.0" style="font-size:0;fill:rgb(0,124,0);font-weight:normal">euler line</text><line x1="593.0" y1="369.0" x2="275.7931568334092" y2="284.9638587133286" style="stroke:rgb(0,0,178);stroke-width:1"/>
+<line x1="422.0934550053453" y1="199.99947595324102" x2="253.0" y2="371.0" style="stroke:rgb(0,0,178);stroke-width:1"/>
+<line x1="325.5739593785682" y1="370.57309435659664" x2="323.99999999999994" y2="102.99999999999994" style="stroke:rgb(0,0,178);stroke-width:1"/>
+<line x1="253.0" y1="371.0" x2="458.5" y2="236.0" style="stroke:rgb(180,0,0);stroke-width:1"/>
+<line x1="323.99999999999994" y1="102.99999999999994" x2="423.00000000000006" y2="370.0" style="stroke:rgb(180,0,0);stroke-width:1"/>
+<line x1="593.0" y1="369.0" x2="288.49999999999994" y2="237.0" style="stroke:rgb(180,0,0);stroke-width:1"/>
+<ellipse cx="422.42635582228667" cy="272.4804897887401" rx="195.9882239816633" ry="195.9882239816633" style="stroke:rgb(180,0,0);fill:none;stroke-width:1"/>
+<line x1="422.4263558222867" y1="272.4804897887401" x2="323.99999999999994" y2="102.99999999999994" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<line x1="422.4263558222867" y1="272.4804897887401" x2="253.0" y2="371.0" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<line x1="422.4263558222867" y1="272.4804897887401" x2="593.0" y2="369.0" style="stroke:rgb(153,153,153);stroke-width:1"/>
+</svg>

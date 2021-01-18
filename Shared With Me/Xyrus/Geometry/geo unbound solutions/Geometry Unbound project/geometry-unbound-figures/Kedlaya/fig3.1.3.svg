@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<path d="M 203.99999999999997 375.00000000000006 H 208.99999999999997 V 380.00000000000006 H 203.99999999999997 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="212.99999999999997" y="396.00000000000006" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B</text><path d="M 416.0 370.00000000000006 H 421.0 V 375.00000000000006 H 416.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="425.0" y="391.00000000000006" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C</text><line x1="206.99999999999997" y1="378.00000000000006" x2="419.0" y2="373.00000000000006" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 228.00000000000003 203.00000000000006 H 233.00000000000003 V 208.00000000000006 H 228.00000000000003 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="237.00000000000003" y="224.00000000000006" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A</text><line x1="419.0" y1="373.00000000000006" x2="231.00000000000003" y2="206.00000000000006" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="231.00000000000003" y1="206.00000000000006" x2="206.99999999999997" y2="378.00000000000006" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 562.9997625 184.00038750000004 H 567.9997625 V 189.00038750000004 H 562.9997625 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="571.9997625" y="205.00038750000004" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A&apos;</text><path d="M 727.8497172121707 238.63089574763808 H 732.8497172121707 V 243.63089574763808 H 727.8497172121707 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="736.8497172121707" y="259.6308957476381" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B&apos;</text><path d="M 629.5069213772853 426.5077024784797 H 634.5069213772853 V 431.5077024784797 H 629.5069213772853 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="638.5069213772853" y="447.5077024784797" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C&apos;</text><line x1="632.5069213772853" y1="429.5077024784797" x2="730.8497172121707" y2="241.63089574763808" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="730.8497172121707" y1="241.63089574763808" x2="565.9997625" y2="187.00038750000004" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="632.5069213772853" y1="429.5077024784797" x2="565.9997625" y2="187.00038750000004" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 395.49988125 193.50019374999994 H 400.49988125 V 198.50019374999994 H 395.49988125 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="404.49988125" y="214.50019374999994" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">M</text><line x1="53.0" y1="1477.0" x2="402.0" y2="-1018.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="-173.0" y1="-695.0" x2="1188.0" y2="1425.0" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<path d="M 640.2528636839693 94.95902581888174 H 645.2528636839693 V 99.95902581888174 H 640.2528636839693 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="649.2528636839693" y="115.95902581888174" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B&apos;&apos;</text><path d="M 473.8781021825607 45.16506297849878 H 478.8781021825607 V 50.16506297849878 H 473.8781021825607 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="482.8781021825607" y="66.16506297849878" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A&apos;&apos;</text><line x1="1890.0" y1="471.0" x2="-523.0" y2="-251.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="476.8781021825607" y1="48.16506297849878" x2="565.9997625" y2="187.00038750000004" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<line x1="565.9997625" y1="187.00038750000004" x2="554.0" y2="177.0" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<line x1="565.9997625" y1="187.00038750000004" x2="562.0" y2="172.0" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<line x1="643.2528636839693" y1="97.95902581888174" x2="730.8497172121707" y2="241.63089574763808" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<line x1="730.8497172121707" y1="241.63089574763808" x2="719.0" y2="232.0" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<line x1="730.8497172121707" y1="241.63089574763808" x2="727.0" y2="227.0" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<path d="M 540.0391040212662 286.41017377619625 H 545.0391040212662 V 291.41017377619625 H 540.0391040212662 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="549.0391040212662" y="307.41017377619625" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C&apos;&apos;</text><line x1="476.8781021825607" y1="48.16506297849878" x2="543.0391040212662" y2="289.41017377619625" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<line x1="543.0391040212662" y1="289.41017377619625" x2="643.2528636839693" y2="97.95902581888174" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<line x1="543.0391040212662" y1="289.41017377619625" x2="632.5069213772853" y2="429.5077024784797" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<line x1="632.5069213772853" y1="429.5077024784797" x2="621.0" y2="420.0" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<line x1="632.5069213772853" y1="429.5077024784797" x2="629.0" y2="415.0" style="stroke:rgb(0,124,0);stroke-width:1"/>
+</svg>

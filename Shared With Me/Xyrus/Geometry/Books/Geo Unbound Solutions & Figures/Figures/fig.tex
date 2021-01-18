@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage[pdftex]{graphicx}
+\begin{document}
+
+Setting, $y=4x^2+5x$ we get,
+\[
+8x^2+10x+3=\frac{1}{4x^2+7x+3}
+\Leftrightarrow 2y+3=\frac{1}{y+2x+3}
+\Leftrightarrow 2y^2+(4x+9)y+(6x+8)=0
+\]
+Using qudratic formula for, $y$ we get,
+$y=\frac{-(4x+9) \pm \sqrt{(4x+9)^2-8(6x+8)}}{4}$
+
+Putting the value of $y$ and after some calculation we get,
+$\Leftrightarrow 16x^2+24x+9=\pm \sqrt{16x^2+24x+17}$
+Here, $16x^2+24x+9=(4x+3)^2>0$ 
+So,$\begin{equation}16x^2+24x+9=\sqrt{16x^2+24x+17}\end{equation}$
+(Here is assume that we want the solution for $x \in \mathbb{R}$, if it is not the case we can do in the same way)
+Setting $(4x+3)^2=z$ in $(1)$we get,
+$z=\sqrt{z+8}$
+Solving this we get,
+$z=\frac{1+\sqrt{33}}{2}$
+And putting the value of, $z$ we get,
+$x=\frac{-3 \pm \sqrt{\frac{1+\sqrt{33}}{2}}}{4}$
+\end{document}

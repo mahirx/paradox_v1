@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="5.322655283615825" y="-3.9563915786912673" w="16.000000000000004"/>
+<Objects>
+<Point name="O" n="0" showname="true" xcoffset="-0.03572449491278684" ycoffset="-0.16029474237211394" keepclose="true" x="-4.271219887002997" y="-0.16550977062136596">Punto in -4.27122, -0.16551</Point>
+<Point name="P2" n="3" hidden="true" x="-2.5200197333317664" y="-1.6604367310724144">Punto in -2.52002, -1.66044</Point>
+<Circle name="c1" n="4" type="thin" through="P2" midpoint="O" acute="true">Circonferenza di centro O per P2</Circle>
+<PointOn name="P3" n="9" hidden="true" on="c1" alpha="1.518390808350302" x="-4.1506113770840045" y="2.1338297394633607">Punto su c1</PointOn>
+<Point name="P4" n="12" x="-1.4836939227333836" y="-1.150042372342062">Punto in -1.48369, -1.15004</Point>
+<Circle name="c2" n="13" hidden="true" through="P4" midpoint="P3" acute="true">Circonferenza di centro P3 per P4</Circle>
+<Intersection name="I1" n="14" hidden="true" first="c2" second="c1" which="first">Intersezione tra c2 e c1</Intersection>
+<Intersection name="I3" n="17" hidden="true" first="c1" second="c2" which="first">Intersezione tra c1 e c2</Intersection>
+<Point name="A" n="19" showname="true" x="-2.4233764624159235" y="0.6023385800388912">Punto in -2.42338, 0.60234</Point>
+<Point name="C" n="20" showname="true" x="-3.845598684638145" y="-1.7849630072626965">Punto in -3.8456, -1.78496</Point>
+<Point name="B" n="21" showname="true" x="-2.5249637640032248" y="-0.5913122136119018">Punto in -2.52496, -0.59131</Point>
+<Ray name="r1" n="26" hidden="super" from="O" to="A">Semiretta da O puntando a A</Ray>
+<Circle name="c3" n="27" hidden="super" fixed="c1^2/d(A,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(A,O)</Circle>
+<Ray name="r2" n="33" hidden="super" from="O" to="B">Semiretta da O puntando a B</Ray>
+<Circle name="c4" n="34" hidden="super" fixed="c1^2/d(B,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(B,O)</Circle>
+<Ray name="r3" n="40" hidden="super" from="O" to="C">Semiretta da O puntando a C</Ray>
+<Circle name="c5" n="41" hidden="super" fixed="c1^2/d(C,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(C,O)</Circle>
+<Ray name="r5" n="97" hidden="super" from="O" to="A">Semiretta da O puntando a A</Ray>
+<Circle name="c11" n="98" hidden="super" fixed="c1^2/d(A,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(A,O)</Circle>
+<Intersection name="I13" n="99" hidden="true" first="r5" second="c11" which="first">Intersezione tra r5 e c11</Intersection>
+<Circle name="c12" n="113" hidden="super" through="A" midpoint="B" acute="true">Circonferenza di centro B per A</Circle>
+<Circle name="c13" n="114" hidden="super" through="B" midpoint="A" acute="true">Circonferenza di centro A per B</Circle>
+<Intersection name="I14" n="115" hidden="super" first="c12" second="c13" which="second">Intersezione tra c12 e c13</Intersection>
+<Intersection name="I15" n="116" hidden="super" first="c13" second="c12" which="second">Intersezione tra c13 e c12</Intersection>
+<Line name="l3" n="117" hidden="true" from="I14" to="I15">Retta per I14 e I15</Line>
+<Circle name="c14" n="118" hidden="super" through="I13" midpoint="A" acute="true">Circonferenza di centro A per I13</Circle>
+<Circle name="c15" n="119" hidden="super" through="A" midpoint="I13" acute="true">Circonferenza di centro I13 per A</Circle>
+<Intersection name="I16" n="120" hidden="super" first="c14" second="c15" which="second">Intersezione tra c14 e c15</Intersection>
+<Intersection name="I17" n="121" hidden="super" first="c15" second="c14" which="second">Intersezione tra c15 e c14</Intersection>
+<Line name="l4" n="122" hidden="true" from="I16" to="I17">Retta per I16 e I17</Line>
+<Intersection name="I18" n="123" hidden="true" first="l3" second="l4">Intersezione tra l3 e l4</Intersection>
+<Circle name="c16" n="124" color="1" through="A" midpoint="I18" start="I22" end="I20" acute="true">Circonferenza di centro I18 per A</Circle>
+<Intersection name="I20" n="125" hidden="true" first="c16" second="c1" which="second">Intersezione tra c16 e c1</Intersection>
+<Intersection name="I22" n="126" hidden="true" first="c1" second="c16" which="second">Intersezione tra c1 e c16</Intersection>
+<Ray name="r6" n="131" hidden="super" from="O" to="C">Semiretta da O puntando a C</Ray>
+<Circle name="c17" n="132" hidden="super" fixed="c1^2/d(C,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(C,O)</Circle>
+<Intersection name="I23" n="133" hidden="true" first="r6" second="c17" which="first">Intersezione tra r6 e c17</Intersection>
+<Circle name="c18" n="147" hidden="super" through="C" midpoint="B" acute="true">Circonferenza di centro B per C</Circle>
+<Circle name="c19" n="148" hidden="super" through="B" midpoint="C" acute="true">Circonferenza di centro C per B</Circle>
+<Intersection name="I24" n="149" hidden="super" first="c18" second="c19" which="second">Intersezione tra c18 e c19</Intersection>
+<Intersection name="I25" n="150" hidden="super" first="c19" second="c18" which="second">Intersezione tra c19 e c18</Intersection>
+<Line name="l5" n="151" hidden="true" from="I24" to="I25">Retta per I24 e I25</Line>
+<Circle name="c20" n="152" hidden="super" through="I23" midpoint="C" acute="true">Circonferenza di centro C per I23</Circle>
+<Circle name="c21" n="153" hidden="super" through="C" midpoint="I23" acute="true">Circonferenza di centro I23 per C</Circle>
+<Intersection name="I26" n="154" hidden="super" first="c20" second="c21" which="second">Intersezione tra c20 e c21</Intersection>
+<Intersection name="I27" n="155" hidden="super" first="c21" second="c20" which="second">Intersezione tra c21 e c20</Intersection>
+<Line name="l6" n="156" hidden="true" from="I26" to="I27">Retta per I26 e I27</Line>
+<Intersection name="I28" n="157" hidden="true" first="l5" second="l6">Intersezione tra l5 e l6</Intersection>
+<Circle name="c22" n="158" color="1" through="C" midpoint="I28" start="I37" end="I41" acute="true">Circonferenza di centro I28 per C</Circle>
+<Circle name="c23" n="172" hidden="super" through="C" midpoint="I13" acute="true">Circonferenza di centro I13 per C</Circle>
+<Circle name="c24" n="173" hidden="super" through="I13" midpoint="C" acute="true">Circonferenza di centro C per I13</Circle>
+<Intersection name="I29" n="174" hidden="super" first="c23" second="c24" which="second">Intersezione tra c23 e c24</Intersection>
+<Intersection name="I30" n="175" hidden="super" first="c24" second="c23" which="second">Intersezione tra c24 e c23</Intersection>
+<Line name="l7" n="176" hidden="true" from="I29" to="I30">Retta per I29 e I30</Line>
+<Circle name="c25" n="177" hidden="super" through="I23" midpoint="C" acute="true">Circonferenza di centro C per I23</Circle>
+<Circle name="c26" n="178" hidden="super" through="C" midpoint="I23" acute="true">Circonferenza di centro I23 per C</Circle>
+<Intersection name="I31" n="179" hidden="super" first="c25" second="c26" which="second">Intersezione tra c25 e c26</Intersection>
+<Intersection name="I32" n="180" hidden="super" first="c26" second="c25" which="second">Intersezione tra c26 e c25</Intersection>
+<Line name="l8" n="181" hidden="true" from="I31" to="I32">Retta per I31 e I32</Line>
+<Intersection name="I33" n="182" hidden="true" first="l7" second="l8">Intersezione tra l7 e l8</Intersection>
+<Circle name="c27" n="183" color="1" through="C" midpoint="I33" start="I34" end="I38" acute="true">Circonferenza di centro I33 per C</Circle>
+<Intersection name="I34" n="184" hidden="true" first="c27" second="c1" which="first">Intersezione tra c27 e c1</Intersection>
+<Intersection name="I37" n="185" hidden="true" first="c1" second="c22" which="second">Intersezione tra c1 e c22</Intersection>
+<Intersection name="I38" n="186" hidden="true" first="c1" second="c27" which="first">Intersezione tra c1 e c27</Intersection>
+<Intersection name="I41" n="187" hidden="true" first="c22" second="c1" which="second">Intersezione tra c22 e c1</Intersection>
+<PointOn name="OP9" n="713" hidden="true" on="c27" alpha="3.3554810269841737" x="-3.782488219107217" y="-2.415543093062915">Punto su c27</PointOn>
+<PointOn name="OP10" n="714" hidden="true" on="c27" alpha="3.3554810269841737" x="-3.782488219107217" y="-2.415543093062915">Punto su c27</PointOn>
+<PointOn name="OP11" n="715" hidden="true" on="c27" alpha="3.3554810269841737" x="-3.782488219107217" y="-2.415543093062915">Punto su c27</PointOn>
+<Ray name="r7" n="716" hidden="super" from="P3" to="OP9">Semiretta da P3 puntando a OP9</Ray>
+<Circle name="c28" n="8" hidden="super" fixed="c2^2/d(OP9,P3)" midpoint="P3" acute="true">Circonferenza di centro P3 e raggio c2^2/d(OP9,P3)</Circle>
+<Ray name="r8" n="718" hidden="super" from="P3" to="OP10">Semiretta da P3 puntando a OP10</Ray>
+<Circle name="c29" n="11" hidden="super" fixed="c2^2/d(OP10,P3)" midpoint="P3" acute="true">Circonferenza di centro P3 e raggio c2^2/d(OP10,P3)</Circle>
+<Ray name="r9" n="720" hidden="super" from="P3" to="OP11">Semiretta da P3 puntando a OP11</Ray>
+<Circle name="c30" n="14" hidden="super" fixed="c2^2/d(OP11,P3)" midpoint="P3" acute="true">Circonferenza di centro P3 e raggio c2^2/d(OP11,P3)</Circle>
+<Line name="l11" n="742" type="thin" from="I1" to="I3">Retta per I1 e I3</Line>
+<Ray name="r10" n="1251" hidden="super" from="P3" to="A">Semiretta da P3 puntando a A</Ray>
+<Circle name="c37" n="1252" hidden="super" fixed="c2^2/d(A,P3)" midpoint="P3" acute="true">Circonferenza di centro P3 e raggio c2^2/d(A,P3)</Circle>
+<Intersection name="A&apos;" n="1253" showname="true" first="r10" second="c37" which="first">Intersezione tra r10 e c37</Intersection>
+<Ray name="r11" n="1258" hidden="super" from="P3" to="B">Semiretta da P3 puntando a B</Ray>
+<Circle name="c38" n="1259" hidden="super" fixed="c2^2/d(B,P3)" midpoint="P3" acute="true">Circonferenza di centro P3 e raggio c2^2/d(B,P3)</Circle>
+<Intersection name="B&apos;" n="1260" showname="true" first="r11" second="c38" which="first">Intersezione tra r11 e c38</Intersection>
+<Ray name="r12" n="1265" hidden="super" from="P3" to="C">Semiretta da P3 puntando a C</Ray>
+<Circle name="c39" n="1266" hidden="super" fixed="c2^2/d(C,P3)" midpoint="P3" acute="true">Circonferenza di centro P3 e raggio c2^2/d(C,P3)</Circle>
+<Intersection name="C&apos;" n="1267" showname="true" first="r12" second="c39" which="first">Intersezione tra r12 e c39</Intersection>
+<Ray name="r13" n="1272" hidden="super" from="P3" to="O">Semiretta da P3 puntando a O</Ray>
+<Circle name="c40" n="1273" hidden="super" fixed="c2^2/d(O,P3)" midpoint="P3" acute="true">Circonferenza di centro P3 e raggio c2^2/d(O,P3)</Circle>
+<Intersection name="O&apos;" n="1274" showname="true" first="r13" second="c40" which="first">Intersezione tra r13 e c40</Intersection>
+<Circle name="c41" n="1281" hidden="super" through="B&apos;" midpoint="A&apos;" acute="true">Circonferenza di centro A&apos; per B&apos;</Circle>
+<Circle name="c42" n="1282" hidden="super" through="A&apos;" midpoint="B&apos;" acute="true">Circonferenza di centro B&apos; per A&apos;</Circle>
+<Intersection name="I54" n="1283" hidden="super" first="c41" second="c42" which="second">Intersezione tra c41 e c42</Intersection>
+<Intersection name="I55" n="1284" hidden="super" first="c42" second="c41" which="second">Intersezione tra c42 e c41</Intersection>
+<Line name="l12" n="1285" hidden="true" from="I54" to="I55">Retta per I54 e I55</Line>
+<Circle name="c43" n="1298" hidden="super" through="C&apos;" midpoint="B&apos;" acute="true">Circonferenza di centro B&apos; per C&apos;</Circle>
+<Circle name="c44" n="1299" hidden="super" through="B&apos;" midpoint="C&apos;" acute="true">Circonferenza di centro C&apos; per B&apos;</Circle>
+<Intersection name="I56" n="1300" hidden="super" first="c43" second="c44" which="second">Intersezione tra c43 e c44</Intersection>
+<Intersection name="I57" n="1301" hidden="super" first="c44" second="c43" which="second">Intersezione tra c44 e c43</Intersection>
+<Line name="l13" n="1302" hidden="true" from="I56" to="I57">Retta per I56 e I57</Line>
+<Circle name="c45" n="1309" hidden="super" through="A&apos;" midpoint="C&apos;" acute="true">Circonferenza di centro C&apos; per A&apos;</Circle>
+<Circle name="c46" n="1310" hidden="super" through="C&apos;" midpoint="A&apos;" acute="true">Circonferenza di centro A&apos; per C&apos;</Circle>
+<Intersection name="I58" n="1311" hidden="super" first="c45" second="c46" which="second">Intersezione tra c45 e c46</Intersection>
+<Intersection name="I59" n="1312" hidden="super" first="c46" second="c45" which="second">Intersezione tra c46 e c45</Intersection>
+<Line name="l14" n="1313" hidden="true" from="I58" to="I59">Retta per I58 e I59</Line>
+<Intersection name="I60" n="1314" hidden="true" first="l11" second="l14">Intersezione tra l11 e l14</Intersection>
+<Circle name="c47" n="1317" color="5" through="A&apos;" midpoint="I60" start="I71" end="I64" acute="true">Circonferenza di centro I60 per A&apos;</Circle>
+<Intersection name="I61" n="1318" hidden="true" first="l12" second="l11">Intersezione tra l12 e l11</Intersection>
+<Circle name="c48" n="1321" color="5" through="B&apos;" midpoint="I61" start="I75" end="I66" acute="true">Circonferenza di centro I61 per B&apos;</Circle>
+<Intersection name="I63" n="1326" hidden="true" first="l11" second="l13">Intersezione tra l11 e l13</Intersection>
+<Circle name="c50" n="1329" color="5" through="C&apos;" midpoint="I63" start="I73" end="I68" acute="true">Circonferenza di centro I63 per C&apos;</Circle>
+<Intersection name="I64" n="1330" hidden="true" first="l11" second="c47" which="first">Intersezione tra l11 e c47</Intersection>
+<Intersection name="I66" n="1331" hidden="true" first="l11" second="c48" which="first">Intersezione tra l11 e c48</Intersection>
+<Intersection name="I68" n="1332" hidden="true" first="l11" second="c50" which="first">Intersezione tra l11 e c50</Intersection>
+<Intersection name="I71" n="1333" hidden="true" first="l11" second="c47" which="second">Intersezione tra l11 e c47</Intersection>
+<Intersection name="I73" n="1334" hidden="true" first="l11" second="c50" which="second">Intersezione tra l11 e c50</Intersection>
+<Intersection name="I75" n="1335" hidden="true" first="l11" second="c48" which="second">Intersezione tra l11 e c48</Intersection>
+<PointOn name="H" n="1336" showname="true" on="l11" alpha="3.653632097979601" x="-2.374553763910735" y="-1.8509406694199255">Punto su l11</PointOn>
+<Ray name="r14" n="1341" hidden="true" from="H" to="B&apos;">Semiretta da H puntando a B&apos;</Ray>
+<Ray name="r15" n="1344" hidden="true" from="H" to="C&apos;">Semiretta da H puntando a C&apos;</Ray>
+<Ray name="r16" n="1347" hidden="true" from="H" to="A&apos;">Semiretta da H puntando a A&apos;</Ray>
+<PointOn name="B&apos;&apos;" n="1348" showname="true" on="r14" alpha="4.742489974035287" x="1.3805891309032234" y="-4.747509845765188">Punto su r14</PointOn>
+<Line name="l15" n="1351" hidden="true" from="B&apos;" to="C&apos;">Retta per B&apos; e C&apos;</Line>
+<Line name="l16" n="1356" hidden="true" from="B&apos;" to="A&apos;">Retta per B&apos; e A&apos;</Line>
+<Parallel name="pl1" n="1359" hidden="true" point="B&apos;&apos;" line="l16">Retta parallela per B&apos;&apos; a l16</Parallel>
+<Parallel name="pl2" n="1362" hidden="true" point="B&apos;&apos;" line="l15">Retta parallela per B&apos;&apos; a l15</Parallel>
+<Intersection name="C&apos;&apos;" n="1363" showname="true" first="pl2" second="r15">Intersezione tra pl2 e r15</Intersection>
+<Intersection name="A&apos;&apos;" n="1364" showname="true" first="r16" second="pl1">Intersezione tra r16 e pl1</Intersection>
+<Circle name="c51" n="1371" hidden="super" through="C&apos;&apos;" midpoint="B&apos;&apos;" acute="true">Circonferenza di centro B&apos;&apos; per C&apos;&apos;</Circle>
+<Circle name="c52" n="1372" hidden="super" through="B&apos;&apos;" midpoint="C&apos;&apos;" acute="true">Circonferenza di centro C&apos;&apos; per B&apos;&apos;</Circle>
+<Intersection name="I78" n="1373" hidden="super" first="c51" second="c52" which="second">Intersezione tra c51 e c52</Intersection>
+<Intersection name="I79" n="1374" hidden="super" first="c52" second="c51" which="second">Intersezione tra c52 e c51</Intersection>
+<Line name="l17" n="1375" hidden="true" from="I78" to="I79">Retta per I78 e I79</Line>
+<Circle name="c53" n="1382" hidden="super" through="A&apos;&apos;" midpoint="C&apos;&apos;" acute="true">Circonferenza di centro C&apos;&apos; per A&apos;&apos;</Circle>
+<Circle name="c54" n="1383" hidden="super" through="C&apos;&apos;" midpoint="A&apos;&apos;" acute="true">Circonferenza di centro A&apos;&apos; per C&apos;&apos;</Circle>
+<Intersection name="I80" n="1384" hidden="super" first="c53" second="c54" which="second">Intersezione tra c53 e c54</Intersection>
+<Intersection name="I81" n="1385" hidden="super" first="c54" second="c53" which="second">Intersezione tra c54 e c53</Intersection>
+<Line name="l18" n="1386" hidden="true" from="I80" to="I81">Retta per I80 e I81</Line>
+<Circle name="c55" n="1393" hidden="super" through="B&apos;&apos;" midpoint="A&apos;&apos;" acute="true">Circonferenza di centro A&apos;&apos; per B&apos;&apos;</Circle>
+<Circle name="c56" n="1394" hidden="super" through="A&apos;&apos;" midpoint="B&apos;&apos;" acute="true">Circonferenza di centro B&apos;&apos; per A&apos;&apos;</Circle>
+<Intersection name="I82" n="1395" hidden="super" first="c55" second="c56" which="second">Intersezione tra c55 e c56</Intersection>
+<Intersection name="I83" n="1396" hidden="super" first="c56" second="c55" which="second">Intersezione tra c56 e c55</Intersection>
+<Line name="l19" n="1397" hidden="true" from="I82" to="I83">Retta per I82 e I83</Line>
+<Intersection name="I84" n="1398" hidden="true" first="l19" second="l11">Intersezione tra l19 e l11</Intersection>
+<Circle name="c57" n="1401" color="4" through="B&apos;&apos;" midpoint="I84" start="I94" end="I91" acute="true">Circonferenza di centro I84 per B&apos;&apos;</Circle>
+<Intersection name="I85" n="1402" hidden="true" first="l17" second="l11">Intersezione tra l17 e l11</Intersection>
+<Circle name="c58" n="1405" color="4" through="B&apos;&apos;" midpoint="I85" start="I96" end="I89" acute="true">Circonferenza di centro I85 per B&apos;&apos;</Circle>
+<Intersection name="I86" n="1406" hidden="true" first="l11" second="l18">Intersezione tra l11 e l18</Intersection>
+<Circle name="c59" n="1409" color="4" through="A&apos;&apos;" midpoint="I86" start="I88" end="I97" acute="true">Circonferenza di centro I86 per A&apos;&apos;</Circle>
+<Intersection name="I88" n="1410" hidden="true" first="l11" second="c59" which="second">Intersezione tra l11 e c59</Intersection>
+<Intersection name="I89" n="1411" hidden="true" first="l11" second="c58" which="first">Intersezione tra l11 e c58</Intersection>
+<Intersection name="I91" n="1412" hidden="true" first="l11" second="c57" which="first">Intersezione tra l11 e c57</Intersection>
+<Intersection name="I94" n="1413" hidden="true" first="l11" second="c57" which="second">Intersezione tra l11 e c57</Intersection>
+<Intersection name="I96" n="1414" hidden="true" first="l11" second="c58" which="second">Intersezione tra l11 e c58</Intersection>
+<Intersection name="I97" n="1415" hidden="true" first="l11" second="c59" which="first">Intersezione tra l11 e c59</Intersection>
+<Ray name="r17" n="1420" hidden="super" from="P3" to="B&apos;&apos;">Semiretta da P3 puntando a B&apos;&apos;</Ray>
+<Circle name="c60" n="1421" hidden="super" fixed="c2^2/d(&quot;B&apos;&apos;&quot;,P3)" midpoint="P3" acute="true">Circonferenza di centro P3 e raggio c2^2/d(&quot;B&apos;&apos;&quot;,P3)</Circle>
+<Intersection name="B&apos;&apos;&apos;" n="1422" showname="true" first="r17" second="c60" which="first">Intersezione tra r17 e c60</Intersection>
+<Ray name="r18" n="1427" hidden="super" from="P3" to="C&apos;&apos;">Semiretta da P3 puntando a C&apos;&apos;</Ray>
+<Circle name="c61" n="1428" hidden="super" fixed="c2^2/d(&quot;C&apos;&apos;&quot;,P3)" midpoint="P3" acute="true">Circonferenza di centro P3 e raggio c2^2/d(&quot;C&apos;&apos;&quot;,P3)</Circle>
+<Intersection name="C&apos;&apos;&apos;" n="1429" showname="true" first="r18" second="c61" which="first">Intersezione tra r18 e c61</Intersection>
+<Ray name="r19" n="1434" hidden="super" from="O" to="A&apos;&apos;">Semiretta da O puntando a A&apos;&apos;</Ray>
+<Circle name="c62" n="1435" hidden="super" fixed="c1^2/d(&quot;A&apos;&apos;&quot;,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(&quot;A&apos;&apos;&quot;,O)</Circle>
+<Intersection name="A&apos;&apos;&apos;" n="1436" showname="true" first="r19" second="c62" which="first">Intersezione tra r19 e c62</Intersection>
+<Ray name="r20" n="1441" hidden="super" from="O" to="B&apos;&apos;&apos;">Semiretta da O puntando a B&apos;&apos;&apos;</Ray>
+<Circle name="c63" n="1442" hidden="super" fixed="c1^2/d(&quot;B&apos;&apos;&apos;&quot;,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(&quot;B&apos;&apos;&apos;&quot;,O)</Circle>
+<Intersection name="I102" n="1443" hidden="true" first="r20" second="c63" which="first">Intersezione tra r20 e c63</Intersection>
+<Ray name="r21" n="1448" hidden="super" from="O" to="A&apos;&apos;&apos;">Semiretta da O puntando a A&apos;&apos;&apos;</Ray>
+<Circle name="c64" n="1449" hidden="super" fixed="c1^2/d(&quot;A&apos;&apos;&apos;&quot;,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(&quot;A&apos;&apos;&apos;&quot;,O)</Circle>
+<Intersection name="I103" n="1450" hidden="true" first="r21" second="c64" which="first">Intersezione tra r21 e c64</Intersection>
+<Ray name="r22" n="1455" hidden="super" from="O" to="A&apos;&apos;&apos;">Semiretta da O puntando a A&apos;&apos;&apos;</Ray>
+<Circle name="c65" n="1456" hidden="super" fixed="c1^2/d(&quot;A&apos;&apos;&apos;&quot;,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(&quot;A&apos;&apos;&apos;&quot;,O)</Circle>
+<Intersection name="I104" n="1457" hidden="true" first="r22" second="c65" which="first">Intersezione tra r22 e c65</Intersection>
+<Circle name="c66" n="1471" hidden="super" through="B&apos;&apos;&apos;" midpoint="C&apos;&apos;&apos;" acute="true">Circonferenza di centro C&apos;&apos;&apos; per B&apos;&apos;&apos;</Circle>
+<Circle name="c67" n="1472" hidden="super" through="C&apos;&apos;&apos;" midpoint="B&apos;&apos;&apos;" acute="true">Circonferenza di centro B&apos;&apos;&apos; per C&apos;&apos;&apos;</Circle>
+<Intersection name="I105" n="1473" hidden="super" first="c66" second="c67" which="second">Intersezione tra c66 e c67</Intersection>
+<Intersection name="I106" n="1474" hidden="super" first="c67" second="c66" which="second">Intersezione tra c67 e c66</Intersection>
+<Line name="l20" n="1475" hidden="true" from="I105" to="I106">Retta per I105 e I106</Line>
+<Circle name="c68" n="1476" hidden="super" through="I102" midpoint="B&apos;&apos;&apos;" acute="true">Circonferenza di centro B&apos;&apos;&apos; per I102</Circle>
+<Circle name="c69" n="1477" hidden="super" through="B&apos;&apos;&apos;" midpoint="I102" acute="true">Circonferenza di centro I102 per B&apos;&apos;&apos;</Circle>
+<Intersection name="I107" n="1478" hidden="super" first="c68" second="c69" which="second">Intersezione tra c68 e c69</Intersection>
+<Intersection name="I108" n="1479" hidden="super" first="c69" second="c68" which="second">Intersezione tra c69 e c68</Intersection>
+<Line name="l21" n="1480" hidden="true" from="I107" to="I108">Retta per I107 e I108</Line>
+<Intersection name="I109" n="1481" hidden="true" first="l20" second="l21">Intersezione tra l20 e l21</Intersection>
+<Circle name="c70" n="1482" color="2" through="B&apos;&apos;&apos;" midpoint="I109" start="I126" end="I131" acute="true">Circonferenza di centro I109 per B&apos;&apos;&apos;</Circle>
+<Circle name="c71" n="1496" hidden="super" through="B&apos;&apos;&apos;" midpoint="A&apos;&apos;&apos;" acute="true">Circonferenza di centro A&apos;&apos;&apos; per B&apos;&apos;&apos;</Circle>
+<Circle name="c72" n="1497" hidden="super" through="A&apos;&apos;&apos;" midpoint="B&apos;&apos;&apos;" acute="true">Circonferenza di centro B&apos;&apos;&apos; per A&apos;&apos;&apos;</Circle>
+<Intersection name="I110" n="1498" hidden="super" first="c71" second="c72" which="second">Intersezione tra c71 e c72</Intersection>
+<Intersection name="I111" n="1499" hidden="super" first="c72" second="c71" which="second">Intersezione tra c72 e c71</Intersection>
+<Line name="l22" n="1500" hidden="true" from="I110" to="I111">Retta per I110 e I111</Line>
+<Circle name="c73" n="1501" hidden="super" through="I102" midpoint="B&apos;&apos;&apos;" acute="true">Circonferenza di centro B&apos;&apos;&apos; per I102</Circle>
+<Circle name="c74" n="1502" hidden="super" through="B&apos;&apos;&apos;" midpoint="I102" acute="true">Circonferenza di centro I102 per B&apos;&apos;&apos;</Circle>
+<Intersection name="I112" n="1503" hidden="super" first="c73" second="c74" which="second">Intersezione tra c73 e c74</Intersection>
+<Intersection name="I113" n="1504" hidden="super" first="c74" second="c73" which="second">Intersezione tra c74 e c73</Intersection>
+<Line name="l23" n="1505" hidden="true" from="I112" to="I113">Retta per I112 e I113</Line>
+<Intersection name="I114" n="1506" hidden="true" first="l22" second="l23">Intersezione tra l22 e l23</Intersection>
+<Circle name="c75" n="1507" color="2" through="B&apos;&apos;&apos;" midpoint="I114" start="I128" end="I130" acute="true">Circonferenza di centro I114 per B&apos;&apos;&apos;</Circle>
+<Ray name="r23" n="1512" hidden="super" from="O" to="C&apos;&apos;&apos;">Semiretta da O puntando a C&apos;&apos;&apos;</Ray>
+<Circle name="c76" n="1513" hidden="super" fixed="c1^2/d(&quot;C&apos;&apos;&apos;&quot;,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(&quot;C&apos;&apos;&apos;&quot;,O)</Circle>
+<Intersection name="I115" n="1514" hidden="true" first="r23" second="c76" which="first">Intersezione tra r23 e c76</Intersection>
+<Circle name="c77" n="1528" hidden="super" through="C&apos;&apos;&apos;" midpoint="A&apos;&apos;&apos;" acute="true">Circonferenza di centro A&apos;&apos;&apos; per C&apos;&apos;&apos;</Circle>
+<Circle name="c78" n="1529" hidden="super" through="A&apos;&apos;&apos;" midpoint="C&apos;&apos;&apos;" acute="true">Circonferenza di centro C&apos;&apos;&apos; per A&apos;&apos;&apos;</Circle>
+<Intersection name="I116" n="1530" hidden="super" first="c77" second="c78" which="second">Intersezione tra c77 e c78</Intersection>
+<Intersection name="I117" n="1531" hidden="super" first="c78" second="c77" which="second">Intersezione tra c78 e c77</Intersection>
+<Line name="l24" n="1532" hidden="true" from="I116" to="I117">Retta per I116 e I117</Line>
+<Circle name="c79" n="1533" hidden="super" through="I115" midpoint="C&apos;&apos;&apos;" acute="true">Circonferenza di centro C&apos;&apos;&apos; per I115</Circle>
+<Circle name="c80" n="1534" hidden="super" through="C&apos;&apos;&apos;" midpoint="I115" acute="true">Circonferenza di centro I115 per C&apos;&apos;&apos;</Circle>
+<Intersection name="I118" n="1535" hidden="super" first="c79" second="c80" which="second">Intersezione tra c79 e c80</Intersection>
+<Intersection name="I119" n="1536" hidden="super" first="c80" second="c79" which="second">Intersezione tra c80 e c79</Intersection>
+<Line name="l25" n="1537" hidden="true" from="I118" to="I119">Retta per I118 e I119</Line>
+<Intersection name="I120" n="1538" hidden="true" first="l24" second="l25">Intersezione tra l24 e l25</Intersection>
+<Circle name="c81" n="1539" color="2" through="C&apos;&apos;&apos;" midpoint="I120" start="I123" end="I122" acute="true">Circonferenza di centro I120 per C&apos;&apos;&apos;</Circle>
+<Intersection name="I122" n="1540" hidden="true" first="c1" second="c81" which="second">Intersezione tra c1 e c81</Intersection>
+<Intersection name="I123" n="1541" hidden="true" first="c1" second="c81" which="first">Intersezione tra c1 e c81</Intersection>
+<Intersection name="I126" n="1542" hidden="true" first="c70" second="c1" which="second">Intersezione tra c70 e c1</Intersection>
+<Intersection name="I128" n="1543" hidden="true" first="c75" second="c1" which="second">Intersezione tra c75 e c1</Intersection>
+<Intersection name="I130" n="1544" hidden="true" first="c1" second="c75" which="second">Intersezione tra c1 e c75</Intersection>
+<Intersection name="I131" n="1545" hidden="true" first="c70" second="c1" which="first">Intersezione tra c70 e c1</Intersection>
+</Objects>
+</Construction>
+</CaR>

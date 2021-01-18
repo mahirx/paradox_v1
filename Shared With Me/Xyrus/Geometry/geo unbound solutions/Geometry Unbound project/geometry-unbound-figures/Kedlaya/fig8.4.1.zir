@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" n="0" hidden="true" x="-3.707936507936508" y="-0.5904761904761906">Punto in -3.70794, -0.59048</Point>
+<Point name="P2" n="3" hidden="true" x="-2.0825396825396822" y="1.5555555555555558">Punto in -2.08254, 1.55556</Point>
+<Line name="l1" n="4" from="P1" to="P2">Retta per P1 e P2</Line>
+<Point name="P3" n="5" hidden="true" x="-2.6158730158730155" y="1.9492063492063498">Punto in -2.61587, 1.94921</Point>
+<Point name="P4" n="8" hidden="true" x="-1.4222222222222225" y="0.4253968253968252">Punto in -1.42222, 0.4254</Point>
+<Line name="l2" n="9" from="P3" to="P4">Retta per P3 e P4</Line>
+<Point name="P5" n="10" hidden="true" x="-4.749206349206349" y="-0.3492063492063493">Punto in -4.74921, -0.34921</Point>
+<Point name="P6" n="13" hidden="true" x="0.4571428571428573" y="1.1619047619047618">Punto in 0.45714, 1.1619</Point>
+<Line name="l3" n="14" from="P5" to="P6">Retta per P5 e P6</Line>
+<Point name="P7" n="15" hidden="true" x="1.193650793650793" y="-1.3777777777777778">Punto in 1.19365, -1.37778</Point>
+<Point name="P8" n="18" hidden="true" x="-5.346031746031747" y="-0.0063492063492058826">Punto in -5.34603, -0.00635</Point>
+<Line name="l4" n="19" from="P7" to="P8">Retta per P7 e P8</Line>
+<Intersection name="A" n="20" showname="true" xcoffset="-0.5624227202669245" ycoffset="-0.006363430392106295" keepclose="true" first="l1" second="l2">Intersezione tra l1 e l2</Intersection>
+<Intersection name="B" n="21" showname="true" xcoffset="0.32509753390752305" ycoffset="0.4919727530663842" keepclose="true" first="l2" second="l3">Intersezione tra l2 e l3</Intersection>
+<Intersection name="C" n="22" showname="true" xcoffset="0.3478619618024832" ycoffset="0.5488287012450579" keepclose="true" first="l4" second="l2">Intersezione tra l4 e l2</Intersection>
+<Intersection name="E" n="23" showname="true" first="l4" second="l1">Intersezione tra l4 e l1</Intersection>
+<Intersection name="D" n="24" showname="true" first="l4" second="l3">Intersezione tra l4 e l3</Intersection>
+<Intersection name="F" n="25" showname="true" first="l1" second="l3">Intersezione tra l1 e l3</Intersection>
+</Objects>
+</Construction>
+</CaR>

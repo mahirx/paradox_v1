@@ -1,0 +1,494 @@
+\indexentry{MOP (Math Olympiad Program)}{vii}
+\indexentry{MOSP (Math Olympiad Summer Program)}{vii}
+\indexentry{IMO (International Mathematical Olympiad)}{vii}
+\indexentry{GNU Free Documentation License}{viii}
+\indexentry{Socratic method}{viii}
+\indexentry{Moore method}{viii}
+\indexentry{Ross, Arnold}{viii}
+\indexentry{Coxeter, Harold Scott MacDonald}{viii}
+\indexentry{Greitzer, Samuel}{viii}
+\indexentry{Aeschylus}{viii}
+\indexentry{Shelley, Percy Bysshe}{viii}
+\indexentry{terminology}{ix}
+\indexentry{theorem|textbf}{ix}
+\indexentry{corollary|textbf}{ix}
+\indexentry{fact|textbf}{ix}
+\indexentry{exercise|textbf}{ix}
+\indexentry{problem|textbf}{ix}
+\indexentry{Barton, Reid}{x}
+\indexentry{Alvisio, Marcelo}{x}
+\indexentry{Baragar, Arthur}{x}
+\indexentry{Andreescu, Titu}{x}
+\indexentry{Gelca, R\u{a}zvan}{x}
+\indexentry{Hudson, Anne}{x}
+\indexentry{Patruno, Gregg}{x}
+\indexentry{Ullman, Dan}{x}
+\indexentry{Poonen, Bjorn}{x}
+\indexentry{Vakil, Ravi}{x}
+\indexentry{MacTutor History of Mathematics}{xi}
+\indexentry{B.C.E.}{xi}
+\indexentry{Euclid of Alexandria}{3}
+\indexentry{Elements@\textit{Elements} (of Euclid)}{3}
+\indexentry{Euclid's \textit{Elements}}{3}
+\indexentry{Hilbert, David}{3}
+\indexentry{Descartes, Ren\'e}{3}
+\indexentry{Fermat, Pierre de}{3}
+\indexentry{least upper bound property (of real numbers)|textbf}{3}
+\indexentry{Cartesian coordinates}{3}
+\indexentry{plane|textbf}{4}
+\indexentry{point|textbf}{4}
+\indexentry{line|textbf}{4}
+\indexentry{Carroll, Lewis (Charles Lutwidge Dodgson)}{4}
+\indexentry{Dodgson, Charles Lutwidge (Lewis Carroll)}{4}
+\indexentry{ray|textbf}{5}
+\indexentry{line!segment|textbf}{5}
+\indexentry{segment|textbf}{5}
+\indexentry{extension (of a segment)|textbf}{5}
+\indexentry{collinearity (of points)|textbf}{5}
+\indexentry{order (of points on a line)|textbf}{5}
+\indexentry{betweenness (of points on a line)|textbf}{5}
+\indexentry{concurrence!of lines|textbf}{5}
+\indexentry{parallelness (of lines)|textbf}{5}
+\indexentry{perpendicularity (of lines)|textbf}{5}
+\indexentry{foot of a perpendicular}{5}
+\indexentry{midpoint!of a segment|textbf}{5}
+\indexentry{perpendicular bisector (of a segment)|textbf}{5}
+\indexentry{space geometry}{6}
+\indexentry{geometry!space}{6}
+\indexentry{plane geometry}{6}
+\indexentry{geometry!plane}{6}
+\indexentry{distance!between two points|textbf}{6}
+\indexentry{length (of a segment)|textbf}{6}
+\indexentry{ratio of lengths, signed (of collinear segments)|textbf}{6}
+\indexentry{signed ratio of lengths (of collinear segments)|textbf}{6}
+\indexentry{triangle inequality|textbf}{6}
+\indexentry{distance!from a point to a line}{6}
+\indexentry{circle|textbf}{6}
+\indexentry{disc|textbf}{6}
+\indexentry{disc!closed|textbf}{6}
+\indexentry{closed!disc|textbf}{6}
+\indexentry{disc!open|textbf}{6}
+\indexentry{open!disc|textbf}{6}
+\indexentry{center!of a circle/disc|textbf}{6}
+\indexentry{radius (of a circle/disc)|textbf}{6}
+\indexentry{solid geometry}{6}
+\indexentry{geometry!solid}{6}
+\indexentry{diameter!of a circle/disc|textbf}{7}
+\indexentry{boundary!of a disc|textbf}{7}
+\indexentry{interior!of a circle/disc|textbf}{7}
+\indexentry{radius (of a circle/disc)|textbf}{7}
+\indexentry{chord (of a circle)|textbf}{7}
+\indexentry{tangent line (of a circle)|textbf}{7}
+\indexentry{second intersection (of a line and circle)|textbf}{7}
+\indexentry{internal tangency (of circles)|textbf}{7}
+\indexentry{external tangency (of circles)|textbf}{7}
+\indexentry{concentricity (of circles)|textbf}{7}
+\indexentry{triangulation|principle (of navigation)|textbf}{7}
+\indexentry{Global Positioning System}{7}
+\indexentry{power of a point}{8}
+\indexentry{polygon|textbf}{8}
+\indexentry{polygon, closed|textbf}{8}
+\indexentry{closed polygon|textbf}{8}
+\indexentry{vertex!of a polygon|textbf}{9}
+\indexentry{side (of a polygon)|textbf}{9}
+\indexentry{perimeter (of a polygon)|textbf}{9}
+\indexentry{semiperimeter (of a polygon)|textbf}{9}
+\indexentry{nondegenerate polygon|textbf}{9}
+\indexentry{polygon!nondegenerate|textbf}{9}
+\indexentry{polygon!simple|textbf}{9}
+\indexentry{simple polygon|textbf}{9}
+\indexentry{polygon!non-self-intersecting|textbf}{9}
+\indexentry{non-self-intersecting polygon|textbf}{9}
+\indexentry{polygon!convex|textbf}{9}
+\indexentry{convex!polygon|textbf}{9}
+\indexentry{interior!of a convex polygon|textbf}{9}
+\indexentry{triangle|textbf}{9}
+\indexentry{quadrilateral|textbf}{9}
+\indexentry{pentagon|textbf}{9}
+\indexentry{hexagon|textbf}{9}
+\indexentry{acute!triangle|textbf}{9}
+\indexentry{triangle!acute|textbf}{9}
+\indexentry{trapezoid|textbf}{9}
+\indexentry{parallelogram|textbf}{9}
+\indexentry{rectangle|textbf}{10}
+\indexentry{square|textbf}{10}
+\indexentry{area!directed (of a polygon)|textbf}{10}
+\indexentry{directed area (of a polygon)|textbf}{10}
+\indexentry{area!signed (of a polygon)|textbf}{10}
+\indexentry{signed area (of a polygon)|textbf}{10}
+\indexentry{formula, surveyor's|textbf}{10}
+\indexentry{surveyor's formula|textbf}{10}
+\indexentry{formula, shoelace|textbf}{10}
+\indexentry{shoelace formula|textbf}{10}
+\indexentry{area!of a polygon|textbf}{10}
+\indexentry{orientation (of a convex polygon)}{11}
+\indexentry{area!of a circle}{11}
+\indexentry{arc|textbf}{11}
+\indexentry{center!of an arc|textbf}{11}
+\indexentry{radius!of an arc|textbf}{11}
+\indexentry{midpoint!of an arc|textbf}{11}
+\indexentry{semicircle|textbf}{11}
+\indexentry{inscribed (polygon in an arc/circle)|textbf}{11}
+\indexentry{circumscription (of a polygon by an arc/circle|textbf}{11}
+\indexentry{cyclic (polygon)|textbf}{11}
+\indexentry{circumcircle (of a cyclic polygon)|textbf}{12}
+\indexentry{circumscribed circle|see{circumcircle}}{12}
+\indexentry{concyclic (points)}{12}
+\indexentry{circumcenter (of a cyclic polygon)|textbf}{12}
+\indexentry{circumradius (of a cyclic polygon)|textbf}{12}
+\indexentry{circumference (of an arc/circle)|textbf}{12}
+\indexentry{measure (of an arc/circle)|textbf}{12}
+\indexentry{signed measure (of an arc/circle)|textbf}{12}
+\indexentry{angle measure|textbf}{13}
+\indexentry{angle|textbf}{13}
+\indexentry{radian (angle measure)|textbf}{13}
+\indexentry{degree (angle measure)|textbf}{13}
+\indexentry{acute!angle|textbf}{13}
+\indexentry{angle!acute|textbf}{13}
+\indexentry{right!angle|textbf}{13}
+\indexentry{angle!right|textbf}{13}
+\indexentry{obtuse!angle|textbf}{13}
+\indexentry{angle!obtuse|textbf}{13}
+\indexentry{interior!of an angle}{13}
+\indexentry{internal angle bisector|textbf}{13}
+\indexentry{angle bisector!internal|textbf}{13}
+\indexentry{external angle bisector|textbf}{13}
+\indexentry{angle bisector!external|textbf}{13}
+\indexentry{Elements@\textit{Elements} (of Euclid)}{13}
+\indexentry{Euclid's \textit{Elements}}{13}
+\indexentry{Euclid of Alexandria}{13}
+\indexentry{pseudotheorem}{14}
+\indexentry{pseudoproof}{14}
+\indexentry{directed angle!measure|textbf}{14}
+\indexentry{directed angle!formed by three points|textbf}{14}
+\indexentry{directed angle!between two lines|textbf}{15}
+\indexentry{arithmetic!of directed angles}{15}
+\indexentry{cosine|textbf}{17}
+\indexentry{sine|textbf}{17}
+\indexentry{tangent (trigonometric function)|textbf}{18}
+\indexentry{secant|textbf}{18}
+\indexentry{cosecant|textbf}{18}
+\indexentry{cotangent|textbf}{18}
+\indexentry{semiperimeter (of a polygon)}{18}
+\indexentry{Law of Sines|textbf}{18}
+\indexentry{area formula!for a triangle}{18}
+\indexentry{Extended Law of Sines|textbf}{18}
+\indexentry{Law of Sines|Extended|textbf}{18}
+\indexentry{Law of Cosines}{18}
+\indexentry{addition formulae (for trigonometric functions)|textbf}{18}
+\indexentry{sum-to-product formulae (for trigonometric functions)|textbf}{18}
+\indexentry{double-angle formulae (for trigonometric functions)|textbf}{19}
+\indexentry{half-angle formulae (for trigonometric functions)|textbf}{19}
+\indexentry{area formula!for a triangle}{20}
+\indexentry{vector|textbf}{20}
+\indexentry{dot product|textbf}{21}
+\indexentry{cross product|textbf}{21}
+\indexentry{complex numbers|textbf}{22}
+\indexentry{magnitude|of a complex number|textbf}{23}
+\indexentry{Ptolemy's inequality}{23}
+\indexentry{fundamental theorem of algebra}{23}
+\indexentry{Gauss (Gau\ss), (Johann) Carl Friedrich}{24}
+\indexentry{Euler, Leonhard}{24}
+\indexentry{Napoleon triangles (of a triangle)|textbf}{24}
+\indexentry{Napoleon Bonaparte}{24}
+\indexentry{Bonaparte, Napoleon}{24}
+\indexentry{barycentric coordinates|textbf}{25}
+\indexentry{coordinates|barycentric|textbf}{25}
+\indexentry{mass points}{25}
+\indexentry{addition|of mass points|textbf}{25}
+\indexentry{figure}{27}
+\indexentry{congruence (of two figures|textbf}{27}
+\indexentry{rigid motion|textbf}{27}
+\indexentry{translation|textbf}{28}
+\indexentry{rotation|textbf}{28}
+\indexentry{half-turn|textbf}{28}
+\indexentry{reflection|textbf}{28}
+\indexentry{glide reflection|textbf}{28}
+\indexentry{direct congruence (of two figures)|textbf}{29}
+\indexentry{opposite!congruence (of two figures)|textbf}{29}
+\indexentry{classification!of rigid motions}{29}
+\indexentry{rigid motion!classification of}{29}
+\indexentry{group (of rigid motions)}{30}
+\indexentry{similarity (of two figures|textbf}{31}
+\indexentry{similarity|textbf}{31}
+\indexentry{ratio of similitude|textbf}{31}
+\indexentry{rigid motion}{31}
+\indexentry{direct similarity (of two figures)|textbf}{32}
+\indexentry{opposite!similarity (of two figures)|textbf}{32}
+\indexentry{homothety|textbf}{32}
+\indexentry{dilation|textbf}{32}
+\indexentry{dilatation|textbf}{32}
+\indexentry{ratio of lengths, signed (of collinear segments)|textbf}{32}
+\indexentry{signed ratio of lengths (of collinear segments)|textbf}{32}
+\indexentry{half-turn}{32}
+\indexentry{concurrence!criterion}{32}
+\indexentry{spiral similarity|textbf}{33}
+\indexentry{homothety}{33}
+\indexentry{rotation}{33}
+\indexentry{classification!of spiral similarities}{34}
+\indexentry{transformation!affine|textbf}{35}
+\indexentry{affine transformation|textbf}{35}
+\indexentry{oblique coordinates|textbf}{37}
+\indexentry{coordinates|oblique|textbf}{37}
+\indexentry{characterization!of affine transformations}{37}
+\indexentry{affine transformation!characterization of}{37}
+\indexentry{dissection}{39}
+\indexentry{Pythagorean theorem|textbf}{39}
+\indexentry{theorem!Pythagorean|textbf}{39}
+\indexentry{Bhaskara (Bhaskaracharya)}{39}
+\indexentry{Garfield, James A.}{39}
+\indexentry{SAT (formerly Scholastic Aptitude Test)}{40}
+\indexentry{Brahmagupta's formula}{40}
+\indexentry{angle chasing|textbf}{41}
+\indexentry{chasing (of angles)|see{angle chasing}}{41}
+\indexentry{Miquel!theorem|textbf}{41}
+\indexentry{theorem!Miquel's|textbf}{41}
+\indexentry{directed angle}{42}
+\indexentry{angle!directed}{42}
+\indexentry{Pascal's theorem}{42}
+\indexentry{theorem!Pascal's}{42}
+\indexentry{rotation}{42}
+\indexentry{Morley's theorem|textbf}{45}
+\indexentry{theorem!Morley's|textbf}{45}
+\indexentry{Pascal's theorem}{49}
+\indexentry{theorem!Pascal's}{49}
+\indexentry{radical axis theorem}{49}
+\indexentry{theorem!radical axis}{49}
+\indexentry{Ceva, Giovanni}{49}
+\indexentry{cevian (of a triangle)|textbf}{49}
+\indexentry{Ceva!theorem|textbf}{49}
+\indexentry{theorem!Ceva's|textbf}{49}
+\indexentry{ratio of lengths, signed (of collinear segments)}{50}
+\indexentry{signed ratio of lengths (of collinear segments)}{50}
+\indexentry{Ceva's theorem!trigonometric form|textbf}{51}
+\indexentry{trig Ceva|textbf}{51}
+\indexentry{Ceva, Giovanni}{52}
+\indexentry{Menelaus}{52}
+\indexentry{theorem!Menelaus's|textbf}{52}
+\indexentry{Menelaus's theorem|textbf}{52}
+\indexentry{ratio of lengths, signed (of collinear segments)}{52}
+\indexentry{signed ratio of lengths (of collinear segments)}{52}
+\indexentry{Desargues, Girard}{53}
+\indexentry{perspective triangles!from a point|textbf}{53}
+\indexentry{perspective triangles!from a line|textbf}{53}
+\indexentry{Desargues's theorem|textbf}{53}
+\indexentry{theorem!Desargues's|textbf}{53}
+\indexentry{Agamemnon}{53}
+\indexentry{Homer}{53}
+\indexentry{Iliad@\textit  {Iliad}}{53}
+\indexentry{Pappus!of Alexandria}{54}
+\indexentry{Pappus!theorem|textbf}{54}
+\indexentry{theorem!Pappus|textbf}{54}
+\indexentry{Desargues!theorem}{54}
+\indexentry{theorem!Desargues's}{54}
+\indexentry{harmonic conjugates}{54}
+\indexentry{Pixton, Aaron}{55}
+\indexentry{orthopole|textbf}{56}
+\indexentry{Elements@\textit{Elements} (of Euclid)}{57}
+\indexentry{Euclid's \textit{Elements}}{57}
+\indexentry{power of a point!theorem|textbf}{57}
+\indexentry{ratio of lengths, signed (of collinear segments)}{58}
+\indexentry{signed ratio of lengths (of collinear segments)}{58}
+\indexentry{power of a point|textbf}{58}
+\indexentry{power of a point!converse}{58}
+\indexentry{radical axis|textbf}{59}
+\indexentry{radical axis!theorem|textbf}{59}
+\indexentry{theorem|radical axis|textbf}{59}
+\indexentry{coaxial (coaxal) circles|textbf}{59}
+\indexentry{circle!coaxial (coaxal)|textbf}{59}
+\indexentry{radical center (of three circles)|textbf}{60}
+\indexentry{center!radical (of three circles)|textbf}{60}
+\indexentry{radical axis!converse}{60}
+\indexentry{Pascal, Blaise}{61}
+\indexentry{Leibniz, Gottfried Wilhelm von}{61}
+\indexentry{van Yzeren, Jan}{61}
+\indexentry{Pascal's theorem|textbf}{61}
+\indexentry{theorem!Pascal's|textbf}{61}
+\indexentry{homothety}{62}
+\indexentry{Brianchon, Charles}{62}
+\indexentry{Pascal's theorem}{62}
+\indexentry{theorem!Pascal's}{62}
+\indexentry{Brianchon's theorem|textbf}{62}
+\indexentry{theorem!Brianchon's|textbf}{62}
+\indexentry{Simson!Robert}{63}
+\indexentry{Wallace, William}{63}
+\indexentry{Simson's theorem|textbf}{63}
+\indexentry{theorem!Simson's|textbf}{63}
+\indexentry{Simson line|textbf}{64}
+\indexentry{theorem!Menelaus's}{64}
+\indexentry{Menelaus's theorem}{64}
+\indexentry{Apollonius!of Perga}{64}
+\indexentry{circle!of Apollonius}{65}
+\indexentry{Apollonius!circle of}{65}
+\indexentry{Apollonian!gasket|textbf}{66}
+\indexentry{Apollonian!circle packing|textbf}{66}
+\indexentry{median (of a triangle)|textbf}{67}
+\indexentry{cevian (of a triangle)|textbf}{67}
+\indexentry{centroid (of a triangle)|textbf}{68}
+\indexentry{center of mass (of a triangle)|textbf}{68}
+\indexentry{mass points}{68}
+\indexentry{incenter (of a triangle)|textbf}{68}
+\indexentry{inradius (of a triangle|textbf}{68}
+\indexentry{inscribed circle|see{incircle}}{68}
+\indexentry{incircle (of a triangle)|textbf}{68}
+\indexentry{excenter (of a triangle)|textbf}{69}
+\indexentry{escribed circle|see{excircle}}{69}
+\indexentry{exscribed circle|see{excircle}}{69}
+\indexentry{excircle (of a triangle)}{69}
+\indexentry{semiperimeter (of a polygon)}{69}
+\indexentry{angle bisector!theorem|textbf}{69}
+\indexentry{theorem!angle bisector|textbf}{69}
+\indexentry{Gelca, R\u{a}zvan}{70}
+\indexentry{Rabinowitz, Stanley}{71}
+\indexentry{circumcircle (of a cyclic polygon)}{71}
+\indexentry{circumcenter (of a cyclic polygon)}{71}
+\indexentry{Mathpro Press}{71}
+\indexentry{Euler line (of a triangle)|textbf}{72}
+\indexentry{medial triangle (of a triangle)|textbf}{72}
+\indexentry{orthic triangle (of a triangle)|textbf}{72}
+\indexentry{nine-point circle (of a triangle)|textbf}{73}
+\indexentry{Gergonne point (of a triangle)|textbf}{74}
+\indexentry{Nagel point (of a triangle)|textbf}{74}
+\indexentry{Euler line (of a triangle)}{74}
+\indexentry{isogonal conjugates|textbf}{75}
+\indexentry{Lemoine point (of a triangle)|textbf}{75}
+\indexentry{symmedian (of a triangle)|textbf}{75}
+\indexentry{Moraseski, Dan}{75}
+\indexentry{Brocard!points (of a triangle)|textbf}{76}
+\indexentry{Brocard!angle (of a triangle)|textbf}{76}
+\indexentry{Heron's formula|textbf}{78}
+\indexentry{Stewart's formula|textbf}{79}
+\indexentry{formula!Stewart's|textbf}{79}
+\indexentry{Steiner-Lehmus theorem|textbf}{79}
+\indexentry{Varignon parallelogram|textbf}{81}
+\indexentry{Ptolemy, Claudius}{82}
+\indexentry{formula!Brahmagupta's|textbf}{82}
+\indexentry{Brahmagupta's formula|textbf}{82}
+\indexentry{Brahmagupta}{82}
+\indexentry{Heron's formula}{83}
+\indexentry{Brahmagupta}{83}
+\indexentry{complete quadrilateral|textbf}{85}
+\indexentry{quadrilateral!complete|textbf}{85}
+\indexentry{ortholine (of a complete quadrilateral)|textbf}{85}
+\indexentry{Miquel!point (of a complete quadrilateral)|textbf}{85}
+\indexentry{triangle inequality|textbf}{87}
+\indexentry{Ptolemy's inequality|textbf}{87}
+\indexentry{inequality!Ptolemy's|textbf}{87}
+\indexentry{Erd\H{o}s-Mordell inequality}{87}
+\indexentry{inequality!Erd\H{o}s-Mordell}{87}
+\indexentry{reflection}{87}
+\indexentry{Fagnano's problem}{88}
+\indexentry{problem!Fagnano's}{88}
+\indexentry{Andreescu, Titu}{88}
+\indexentry{Gelca, R\u{a}zvan}{88}
+\indexentry{Euler's inequality}{91}
+\indexentry{Klamkin, Murray}{91}
+\indexentry{Jensen's inequality|textbf}{92}
+\indexentry{inequality!Jensen's|textbf}{92}
+\indexentry{Brocard!angle (of a triangle)}{93}
+\indexentry{Erd\H{o}s, P\'al (Paul)}{94}
+\indexentry{Mordell, Louis}{94}
+\indexentry{Nikolov, Nikolai}{95}
+\indexentry{Apollonius!of Perga}{99}
+\indexentry{Steiner, Jakob}{100}
+\indexentry{inversion|textbf}{100}
+\indexentry{inversive!plane|textbf}{100}
+\indexentry{plane!inversive|textbf}{100}
+\indexentry{point at infinity}{100}
+\indexentry{stereographic projection}{100}
+\indexentry{projection!stereographic}{100}
+\indexentry{inversive!circle|textbf}{101}
+\indexentry{circle!inversive|textbf}{101}
+\indexentry{angle!between two inversive circles|textbf}{101}
+\indexentry{orthogonality!of inversive circles|textbf}{101}
+\indexentry{Steiner, Jakob}{103}
+\indexentry{Pappus!of Alexandria}{103}
+\indexentry{porism!Steiner's|textbf}{104}
+\indexentry{Steiner's porism|textbf}{104}
+\indexentry{point!busy}{105}
+\indexentry{busy point}{105}
+\indexentry{Einstein, Albert}{107}
+\indexentry{relativity}{107}
+\indexentry{parallel postulate|textbf}{108}
+\indexentry{Gauss (Gau\ss), (Johann) Carl Friedrich}{108}
+\indexentry{Bolyai, J\'anos}{108}
+\indexentry{Lobachevsky, Nikolai Ivanovich}{108}
+\indexentry{Poincar\'e, Jules Henri}{108}
+\indexentry{disc!model (of hyperbolic geometry)|textbf}{108}
+\indexentry{halfplane!model (of hyperbolic geometry)|textbf}{108}
+\indexentry{vos Savant, Marilyn}{108}
+\indexentry{Lehrer, Tom}{108}
+\indexentry{hyperbolic!plane|textbf}{109}
+\indexentry{plane!hyperbolic|textbf}{109}
+\indexentry{hyperbolic!transformation|textbf}{109}
+\indexentry{transformation!hyperbolic|textbf}{109}
+\indexentry{distance!hyperbolic|textbf}{111}
+\indexentry{angular defect|textbf}{112}
+\indexentry{Alhazen}{115}
+\indexentry{al-Haytham, Ibu Ali al-Hasan ibn}{115}
+\indexentry{Brunelleschi, Filippo}{115}
+\indexentry{Desargues!Girard}{115}
+\indexentry{projective plane|textbf}{116}
+\indexentry{plane, projective|textbf}{116}
+\indexentry{point at infinity|textbf}{116}
+\indexentry{line at infinity|textbf}{116}
+\indexentry{homogeneous coordinates|textbf}{116}
+\indexentry{transformation!projective|textbf}{116}
+\indexentry{projective transformation}{116}
+\indexentry{Desargues!theorem}{117}
+\indexentry{theorem!Desargues's}{117}
+\indexentry{Apollonius!of Perga}{119}
+\indexentry{conic (section)|textbf}{119}
+\indexentry{ellipse|textbf}{119}
+\indexentry{parabola|textbf}{119}
+\indexentry{hyperbola|textbf}{119}
+\indexentry{Apollonius!of Perga}{119}
+\indexentry{Dandelin, Germinal}{119}
+\indexentry{focus (of a conic section)|textbf}{119}
+\indexentry{directrix!of a parabola|textbf}{120}
+\indexentry{rectangular hyperbola|textbf}{120}
+\indexentry{hyperbola!rectangular|textbf}{120}
+\indexentry{asymptote!of a hyperbola|textbf}{120}
+\indexentry{Erd\H{o}s, P\'al (Paul)}{120}
+\indexentry{Poncelet-Brianchon theorem|textbf}{122}
+\indexentry{polar map|textbf}{122}
+\indexentry{transformation!polar|textbf}{122}
+\indexentry{pole (of a point)|textbf}{122}
+\indexentry{polar!of a line|textbf}{122}
+\indexentry{reciprocation|textbf}{123}
+\indexentry{duality principle|textbf}{123}
+\indexentry{Brianchon's theorem}{123}
+\indexentry{Pascal's theorem}{123}
+\indexentry{Pappus's theorem}{124}
+\indexentry{Gelca, R\u{a}zvan}{124}
+\indexentry{locus|textbf}{124}
+\indexentry{envelope|textbf}{124}
+\indexentry{polar map!with respect to a conic|textbf}{124}
+\indexentry{cross-ratio!of four collinear points|textbf}{125}
+\indexentry{ratio of lengths, signed (of collinear segments)|textbf}{125}
+\indexentry{signed ratio of lengths (of collinear segments)|textbf}{125}
+\indexentry{cross-ratio!of four lines|textbf}{125}
+\indexentry{harmonic conjugates|textbf}{125}
+\indexentry{complex projective plane|textbf}{126}
+\indexentry{projective plane!complex|textbf}{126}
+\indexentry{circular point at infinity|textbf}{127}
+\indexentry{point at infinity!circular|textbf}{127}
+\indexentry{algebraically closed (field)|textbf}{127}
+\indexentry{Fundamental Theorem of Algebra}{127}
+\indexentry{B\'ezout, Etienne}{127}
+\indexentry{B\'ezout's theorem|textbf}{127}
+\indexentry{Chasles, Michel}{127}
+\indexentry{cubic curve|textbf}{127}
+\indexentry{Chasles's theorem|textbf}{127}
+\indexentry{Grothendieck, Alexander}{128}
+\indexentry{elliptic curve|textbf}{129}
+\indexentry{addition!on an elliptic curve|textbf}{129}
+\indexentry{Fermat's Last Theorem}{129}
+\indexentry{Wiles, Andrew}{129}
+\indexentry{flex (of an elliptic curve)|textbf}{130}
+\indexentry{Poncelet's porism|textbf}{130}
+\indexentry{porism!Poncelet's|textbf}{130}
+\indexentry{GNU Free Documentation License}{141}
+\indexentry{GNU Free Documentation License}{141}
+\indexentry{fair use}{141}
+\indexentry{GNU Free Documentation License}{143}

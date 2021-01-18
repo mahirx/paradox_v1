@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="-0.5714285714285712" y="0.45714285714285774" w="8.0"/>
+<Objects>
+<Point name="B" n="0" showname="true" x="-5.942857142857143" y="-0.7047619047619049">Punto in -5.94286, -0.70476</Point>
+<Point name="C" n="3" showname="true" x="-3.250793650793651" y="-0.6412698412698417">Punto in -3.25079, -0.64127</Point>
+<Segment name="s1" n="4" from="B" to="C">Segmento da P1 a P2</Segment>
+<Point name="A" n="7" showname="true" x="-5.638095238095238" y="1.4793650793650799">Punto in -5.6381, 1.47937</Point>
+<Segment name="s2" n="8" from="C" to="A">Segmento da P2 a P3</Segment>
+<Segment name="s3" n="11" from="A" to="B">Segmento da P3 a P1</Segment>
+<Point name="A&apos;" n="12" showname="true" x="-1.38413" y="1.72063">Punto in -1.38413, 1.72063</Point>
+<Circle3 name="c1" n="15" hidden="true" from="A" to="B" midpoint="A&apos;" acute="true">Circonferenza di centro A&apos; di raggio da A a B</Circle3>
+<Circle3 name="c2" n="18" hidden="true" from="A" to="C" midpoint="A&apos;" acute="true">Circonferenza di centro A&apos; di raggio da A a C</Circle3>
+<PointOn name="B&apos;" n="19" showname="true" on="c1" alpha="-0.3200053554703596" x="0.709202758249788" y="1.0269092603474537">Punto su c1</PointOn>
+<Circle3 name="c3" n="22" hidden="true" from="B" to="C" midpoint="B&apos;" acute="true">Circonferenza di centro B&apos; di raggio da B a C</Circle3>
+<Intersection name="C&apos;" n="23" showname="true" first="c3" second="c2" which="second">Intersezione tra c3 e c2</Intersection>
+<Segment name="s4" n="26" from="C&apos;" to="B&apos;">Segmento da C&apos; a B&apos;</Segment>
+<Segment name="s5" n="29" from="B&apos;" to="A&apos;">Segmento da B&apos; a A&apos;</Segment>
+<Segment name="s6" n="32" from="C&apos;" to="A&apos;">Segmento da C&apos; a A&apos;</Segment>
+<Midpoint name="M" n="35" showname="true" first="A&apos;" second="A">Punto medio tra A&apos; e A</Midpoint>
+<Line name="l1" n="38" from="B" to="A">Retta per B e A</Line>
+<Line name="l2" n="41" hidden="true" from="A&apos;" to="B&apos;">Retta per A&apos; e B&apos;</Line>
+<Point name="P6" n="44" hidden="true" x="-2.5777777777777775" y="0.1460317460317464">Punto in -2.57778, 0.14603</Point>
+<Line name="l3" n="45" color="1" from="M" to="P6">Retta per M e P6</Line>
+<Plumb name="p1" n="51" hidden="super" point="B" line="l3" valid="true">Retta perpendicolare per B a l3</Plumb>
+<Intersection name="I3" n="52" hidden="super" first="p1" second="l3">Intersezione tra p1 e l3</Intersection>
+<Circle name="c4" n="53" hidden="super" through="B" midpoint="I3" acute="true">Circonferenza di centro I3 per B</Circle>
+<Intersection name="B&apos;&apos;" n="54" showname="true" first="p1" second="c4" awayfrom="B" which="second">Intersezione tra p1 e c4</Intersection>
+<Plumb name="p2" n="60" hidden="super" point="A" line="l3" valid="true">Retta perpendicolare per A a l3</Plumb>
+<Intersection name="I5" n="61" hidden="super" first="p2" second="l3">Intersezione tra p2 e l3</Intersection>
+<Circle name="c5" n="62" hidden="super" through="A" midpoint="I5" acute="true">Circonferenza di centro I5 per A</Circle>
+<Intersection name="A&apos;&apos;" n="63" showname="true" first="p2" second="c5" awayfrom="A" which="second">Intersezione tra p2 e c5</Intersection>
+<Line name="l4" n="66" from="B&apos;&apos;" to="A&apos;&apos;">Retta per B&apos;&apos; e A&apos;&apos;</Line>
+<Segment name="s7" n="69" color="1" from="A&apos;&apos;" to="A&apos;" arrow="true">Segmento da A&apos;&apos; a A&apos;</Segment>
+<Segment name="s8" n="72" color="1" from="B&apos;&apos;" to="B&apos;" arrow="true">Segmento da B&apos;&apos; a B&apos;</Segment>
+<Parallel name="pl1" n="75" hidden="true" point="B&apos;&apos;" line="s4">Retta parallela per B&apos;&apos; a s4</Parallel>
+<Parallel name="pl2" n="78" hidden="true" point="A&apos;&apos;" line="s6">Retta parallela per A&apos;&apos; a s6</Parallel>
+<Intersection name="C&apos;&apos;" n="79" showname="true" first="pl2" second="pl1">Intersezione tra pl2 e pl1</Intersection>
+<Segment name="s9" n="82" type="thin" from="A&apos;&apos;" to="C&apos;&apos;">Segmento da A&apos;&apos; a C&apos;&apos;</Segment>
+<Segment name="s10" n="85" type="thin" from="C&apos;&apos;" to="B&apos;&apos;">Segmento da C&apos;&apos; a B&apos;&apos;</Segment>
+<Segment name="s11" n="88" color="1" from="C&apos;&apos;" to="C&apos;" arrow="true">Segmento da C&apos;&apos; a C&apos;</Segment>
+</Objects>
+</Construction>
+</CaR>

@@ -1,0 +1,540 @@
+\begin{theindex}
+
+  \item acute
+    \subitem angle, \textbf{13}
+    \subitem triangle, \textbf{9}
+  \item addition
+    \subitem on an elliptic curve, \textbf{129}
+  \item addition formulae (for trigonometric functions), \textbf{18}
+  \item Aeschylus, viii
+  \item affine transformation, \textbf{35}
+    \subitem characterization of, 37
+  \item Agamemnon, 53
+  \item al-Haytham, Ibu Ali al-Hasan ibn, 115
+  \item algebraically closed (field), \textbf{127}
+  \item Alhazen, 115
+  \item Alvisio, Marcelo, x
+  \item Andreescu, Titu, x, 88
+  \item angle, \textbf{13}
+    \subitem acute, \textbf{13}
+    \subitem between two inversive circles, \textbf{101}
+    \subitem directed, 42
+    \subitem obtuse, \textbf{13}
+    \subitem right, \textbf{13}
+  \item angle bisector
+    \subitem external, \textbf{13}
+    \subitem internal, \textbf{13}
+    \subitem theorem, \textbf{69}
+  \item angle chasing, \textbf{41}
+  \item angle measure, \textbf{13}
+  \item angular defect, \textbf{112}
+  \item Apollonian
+    \subitem circle packing, \textbf{66}
+    \subitem gasket, \textbf{66}
+  \item Apollonius
+    \subitem circle of, 65
+    \subitem of Perga, 64, 99, 119
+  \item arc, \textbf{11}
+  \item area
+    \subitem directed (of a polygon), \textbf{10}
+    \subitem of a circle, 11
+    \subitem of a polygon, \textbf{10}
+    \subitem signed (of a polygon), \textbf{10}
+  \item area formula
+    \subitem for a triangle, 18, 20
+  \item arithmetic
+    \subitem of directed angles, 15
+  \item asymptote
+    \subitem of a hyperbola, \textbf{120}
+
+  \indexspace
+
+  \item B.C.E., xi
+  \item B\'ezout's theorem, \textbf{127}
+  \item B\'ezout, Etienne, 127
+  \item Baragar, Arthur, x
+  \item Barton, Reid, x
+  \item barycentric coordinates, \textbf{25}
+  \item betweenness (of points on a line), \textbf{5}
+  \item Bhaskara (Bhaskaracharya), 39
+  \item Bolyai, J\'anos, 108
+  \item Bonaparte, Napoleon, 24
+  \item boundary
+    \subitem of a disc, \textbf{7}
+  \item Brahmagupta, 82, 83
+  \item Brahmagupta's formula, 40, \textbf{82}
+  \item Brianchon's theorem, \textbf{62}, 123
+  \item Brianchon, Charles, 62
+  \item Brocard
+    \subitem angle (of a triangle), \textbf{76}, 93
+    \subitem points (of a triangle), \textbf{76}
+  \item Brunelleschi, Filippo, 115
+  \item busy point, 105
+
+  \indexspace
+
+  \item Carroll, Lewis (Charles Lutwidge Dodgson), 4
+  \item Cartesian coordinates, 3
+  \item center
+    \subitem of a circle/disc, \textbf{6}
+    \subitem of an arc, \textbf{11}
+    \subitem radical (of three circles), \textbf{60}
+  \item center of mass (of a triangle), \textbf{68}
+  \item centroid (of a triangle), \textbf{68}
+  \item Ceva
+    \subitem theorem, \textbf{49}
+  \item Ceva's theorem
+    \subitem trigonometric form, \textbf{51}
+  \item Ceva, Giovanni, 49, 52
+  \item cevian (of a triangle), \textbf{49}, \textbf{67}
+  \item characterization
+    \subitem of affine transformations, 37
+  \item chasing (of angles), \see{angle chasing}{41}
+  \item Chasles's theorem, \textbf{127}
+  \item Chasles, Michel, 127
+  \item chord (of a circle), \textbf{7}
+  \item circle, \textbf{6}
+    \subitem coaxial (coaxal), \textbf{59}
+    \subitem inversive, \textbf{101}
+    \subitem of Apollonius, 65
+  \item circular point at infinity, \textbf{127}
+  \item circumcenter (of a cyclic polygon), \textbf{12}, 71
+  \item circumcircle (of a cyclic polygon), \textbf{12}, 71
+  \item circumference (of an arc/circle), \textbf{12}
+  \item circumradius (of a cyclic polygon), \textbf{12}
+  \item circumscribed circle, \see{circumcircle}{12}
+  \item circumscription (of a polygon by an arc/circle, \textbf{11}
+  \item classification
+    \subitem of rigid motions, 29
+    \subitem of spiral similarities, 34
+  \item closed
+    \subitem disc, \textbf{6}
+  \item closed polygon, \textbf{8}
+  \item coaxial (coaxal) circles, \textbf{59}
+  \item collinearity (of points), \textbf{5}
+  \item complete quadrilateral, \textbf{85}
+  \item complex numbers, \textbf{22}
+  \item complex projective plane, \textbf{126}
+  \item concentricity (of circles), \textbf{7}
+  \item concurrence
+    \subitem criterion, 32
+    \subitem of lines, \textbf{5}
+  \item concyclic (points), 12
+  \item congruence (of two figures, \textbf{27}
+  \item conic (section), \textbf{119}
+  \item convex
+    \subitem polygon, \textbf{9}
+  \item corollary, \textbf{ix}
+  \item cosecant, \textbf{18}
+  \item cosine, \textbf{17}
+  \item cotangent, \textbf{18}
+  \item Coxeter, Harold Scott MacDonald, viii
+  \item cross product, \textbf{21}
+  \item cross-ratio
+    \subitem of four collinear points, \textbf{125}
+    \subitem of four lines, \textbf{125}
+  \item cubic curve, \textbf{127}
+  \item cyclic (polygon), \textbf{11}
+
+  \indexspace
+
+  \item Dandelin, Germinal, 119
+  \item degree (angle measure), \textbf{13}
+  \item Desargues
+    \subitem Girard, 115
+    \subitem theorem, 54, 117
+  \item Desargues's theorem, \textbf{53}
+  \item Desargues, Girard, 53
+  \item Descartes, Ren\'e, 3
+  \item diameter
+    \subitem of a circle/disc, \textbf{7}
+  \item dilatation, \textbf{32}
+  \item dilation, \textbf{32}
+  \item direct congruence (of two figures), \textbf{29}
+  \item direct similarity (of two figures), \textbf{32}
+  \item directed angle, 42
+    \subitem between two lines, \textbf{15}
+    \subitem formed by three points, \textbf{14}
+    \subitem measure, \textbf{14}
+  \item directed area (of a polygon), \textbf{10}
+  \item directrix
+    \subitem of a parabola, \textbf{120}
+  \item disc, \textbf{6}
+    \subitem closed, \textbf{6}
+    \subitem model (of hyperbolic geometry), \textbf{108}
+    \subitem open, \textbf{6}
+  \item dissection, 39
+  \item distance
+    \subitem between two points, \textbf{6}
+    \subitem from a point to a line, 6
+    \subitem hyperbolic, \textbf{111}
+  \item Dodgson, Charles Lutwidge (Lewis Carroll), 4
+  \item dot product, \textbf{21}
+  \item double-angle formulae (for trigonometric functions), 
+		\textbf{19}
+  \item duality principle, \textbf{123}
+
+  \indexspace
+
+  \item Einstein, Albert, 107
+  \item \textit{Elements} (of Euclid), 3, 13, 57
+  \item ellipse, \textbf{119}
+  \item elliptic curve, \textbf{129}
+  \item envelope, \textbf{124}
+  \item Erd\H{o}s, P\'al (Paul), 94, 120
+  \item Erd\H{o}s-Mordell inequality, 87
+  \item escribed circle, \see{excircle}{69}
+  \item Euclid of Alexandria, 3, 13
+  \item Euclid's \textit{Elements}, 3, 13, 57
+  \item Euler line (of a triangle), \textbf{72}, 74
+  \item Euler's inequality, 91
+  \item Euler, Leonhard, 24
+  \item excenter (of a triangle), \textbf{69}
+  \item excircle (of a triangle), 69
+  \item exercise, \textbf{ix}
+  \item exscribed circle, \see{excircle}{69}
+  \item Extended Law of Sines, \textbf{18}
+  \item extension (of a segment), \textbf{5}
+  \item external angle bisector, \textbf{13}
+  \item external tangency (of circles), \textbf{7}
+
+  \indexspace
+
+  \item fact, \textbf{ix}
+  \item Fagnano's problem, 88
+  \item fair use, 141
+  \item Fermat's Last Theorem, 129
+  \item Fermat, Pierre de, 3
+  \item figure, 27
+  \item flex (of an elliptic curve), \textbf{130}
+  \item focus (of a conic section), \textbf{119}
+  \item foot of a perpendicular, 5
+  \item formula
+    \subitem Brahmagupta's, \textbf{82}
+    \subitem Stewart's, \textbf{79}
+  \item formula, shoelace, \textbf{10}
+  \item formula, surveyor's, \textbf{10}
+  \item Fundamental Theorem of Algebra, 127
+  \item fundamental theorem of algebra, 23
+
+  \indexspace
+
+  \item Garfield, James A., 39
+  \item Gauss (Gau\ss), (Johann) Carl Friedrich, 24, 108
+  \item Gelca, R\u{a}zvan, x, 70, 88, 124
+  \item geometry
+    \subitem plane, 6
+    \subitem solid, 6
+    \subitem space, 6
+  \item Gergonne point (of a triangle), \textbf{74}
+  \item glide reflection, \textbf{28}
+  \item Global Positioning System, 7
+  \item GNU Free Documentation License, viii, 141, 143
+  \item Greitzer, Samuel, viii
+  \item Grothendieck, Alexander, 128
+  \item group (of rigid motions), 30
+
+  \indexspace
+
+  \item half-angle formulae (for trigonometric functions), \textbf{19}
+  \item half-turn, \textbf{28}, 32
+  \item halfplane
+    \subitem model (of hyperbolic geometry), \textbf{108}
+  \item harmonic conjugates, 54, \textbf{125}
+  \item Heron's formula, \textbf{78}, 83
+  \item hexagon, \textbf{9}
+  \item Hilbert, David, 3
+  \item Homer, 53
+  \item homogeneous coordinates, \textbf{116}
+  \item homothety, \textbf{32}, 33, 62
+  \item Hudson, Anne, x
+  \item hyperbola, \textbf{119}
+    \subitem rectangular, \textbf{120}
+  \item hyperbolic
+    \subitem plane, \textbf{109}
+    \subitem transformation, \textbf{109}
+
+  \indexspace
+
+  \item \textit  {Iliad}, 53
+  \item IMO (International Mathematical Olympiad), vii
+  \item incenter (of a triangle), \textbf{68}
+  \item incircle (of a triangle), \textbf{68}
+  \item inequality
+    \subitem Erd\H{o}s-Mordell, 87
+    \subitem Jensen's, \textbf{92}
+    \subitem Ptolemy's, \textbf{87}
+  \item inradius (of a triangle, \textbf{68}
+  \item inscribed (polygon in an arc/circle), \textbf{11}
+  \item inscribed circle, \see{incircle}{68}
+  \item interior
+    \subitem of a circle/disc, \textbf{7}
+    \subitem of a convex polygon, \textbf{9}
+    \subitem of an angle, 13
+  \item internal angle bisector, \textbf{13}
+  \item internal tangency (of circles), \textbf{7}
+  \item inversion, \textbf{100}
+  \item inversive
+    \subitem circle, \textbf{101}
+    \subitem plane, \textbf{100}
+  \item isogonal conjugates, \textbf{75}
+
+  \indexspace
+
+  \item Jensen's inequality, \textbf{92}
+
+  \indexspace
+
+  \item Klamkin, Murray, 91
+
+  \indexspace
+
+  \item Law of Cosines, 18
+  \item Law of Sines, \textbf{18}
+  \item least upper bound property (of real numbers), \textbf{3}
+  \item Lehrer, Tom, 108
+  \item Leibniz, Gottfried Wilhelm von, 61
+  \item Lemoine point (of a triangle), \textbf{75}
+  \item length (of a segment), \textbf{6}
+  \item line, \textbf{4}
+    \subitem segment, \textbf{5}
+  \item line at infinity, \textbf{116}
+  \item Lobachevsky, Nikolai Ivanovich, 108
+  \item locus, \textbf{124}
+
+  \indexspace
+
+  \item MacTutor History of Mathematics, xi
+  \item mass points, 25, 68
+  \item Mathpro Press, 71
+  \item measure (of an arc/circle), \textbf{12}
+  \item medial triangle (of a triangle), \textbf{72}
+  \item median (of a triangle), \textbf{67}
+  \item Menelaus, 52
+  \item Menelaus's theorem, \textbf{52}, 64
+  \item midpoint
+    \subitem of a segment, \textbf{5}
+    \subitem of an arc, \textbf{11}
+  \item Miquel
+    \subitem point (of a complete quadrilateral), \textbf{85}
+    \subitem theorem, \textbf{41}
+  \item Moore method, viii
+  \item MOP (Math Olympiad Program), vii
+  \item Moraseski, Dan, 75
+  \item Mordell, Louis, 94
+  \item Morley's theorem, \textbf{45}
+  \item MOSP (Math Olympiad Summer Program), vii
+
+  \indexspace
+
+  \item Nagel point (of a triangle), \textbf{74}
+  \item Napoleon Bonaparte, 24
+  \item Napoleon triangles (of a triangle), \textbf{24}
+  \item Nikolov, Nikolai, 95
+  \item nine-point circle (of a triangle), \textbf{73}
+  \item non-self-intersecting polygon, \textbf{9}
+  \item nondegenerate polygon, \textbf{9}
+
+  \indexspace
+
+  \item oblique coordinates, \textbf{37}
+  \item obtuse
+    \subitem angle, \textbf{13}
+  \item open
+    \subitem disc, \textbf{6}
+  \item opposite
+    \subitem congruence (of two figures), \textbf{29}
+    \subitem similarity (of two figures), \textbf{32}
+  \item order (of points on a line), \textbf{5}
+  \item orientation (of a convex polygon), 11
+  \item orthic triangle (of a triangle), \textbf{72}
+  \item orthogonality
+    \subitem of inversive circles, \textbf{101}
+  \item ortholine (of a complete quadrilateral), \textbf{85}
+  \item orthopole, \textbf{56}
+
+  \indexspace
+
+  \item Pappus
+    \subitem of Alexandria, 54, 103
+    \subitem theorem, \textbf{54}
+  \item Pappus's theorem, 124
+  \item parabola, \textbf{119}
+  \item parallel postulate, \textbf{108}
+  \item parallelness (of lines), \textbf{5}
+  \item parallelogram, \textbf{9}
+  \item Pascal's theorem, 42, 49, \textbf{61}, 62, 123
+  \item Pascal, Blaise, 61
+  \item Patruno, Gregg, x
+  \item pentagon, \textbf{9}
+  \item perimeter (of a polygon), \textbf{9}
+  \item perpendicular bisector (of a segment), \textbf{5}
+  \item perpendicularity (of lines), \textbf{5}
+  \item perspective triangles
+    \subitem from a line, \textbf{53}
+    \subitem from a point, \textbf{53}
+  \item Pixton, Aaron, 55
+  \item plane, \textbf{4}
+    \subitem hyperbolic, \textbf{109}
+    \subitem inversive, \textbf{100}
+  \item plane geometry, 6
+  \item plane, projective, \textbf{116}
+  \item Poincar\'e, Jules Henri, 108
+  \item point, \textbf{4}
+    \subitem busy, 105
+  \item point at infinity, 100, \textbf{116}
+    \subitem circular, \textbf{127}
+  \item polar
+    \subitem of a line, \textbf{122}
+  \item polar map, \textbf{122}
+    \subitem with respect to a conic, \textbf{124}
+  \item pole (of a point), \textbf{122}
+  \item polygon, \textbf{8}
+    \subitem convex, \textbf{9}
+    \subitem non-self-intersecting, \textbf{9}
+    \subitem nondegenerate, \textbf{9}
+    \subitem simple, \textbf{9}
+  \item polygon, closed, \textbf{8}
+  \item Poncelet's porism, \textbf{130}
+  \item Poncelet-Brianchon theorem, \textbf{122}
+  \item Poonen, Bjorn, x
+  \item porism
+    \subitem Poncelet's, \textbf{130}
+    \subitem Steiner's, \textbf{104}
+  \item power of a point, 8, \textbf{58}
+    \subitem converse, 58
+    \subitem theorem, \textbf{57}
+  \item problem, \textbf{ix}
+    \subitem Fagnano's, 88
+  \item projection
+    \subitem stereographic, 100
+  \item projective plane, \textbf{116}
+    \subitem complex, \textbf{126}
+  \item projective transformation, 116
+  \item pseudoproof, 14
+  \item pseudotheorem, 14
+  \item Ptolemy's inequality, 23, \textbf{87}
+  \item Ptolemy, Claudius, 82
+  \item Pythagorean theorem, \textbf{39}
+
+  \indexspace
+
+  \item quadrilateral, \textbf{9}
+    \subitem complete, \textbf{85}
+
+  \indexspace
+
+  \item Rabinowitz, Stanley, 71
+  \item radian (angle measure), \textbf{13}
+  \item radical axis, \textbf{59}
+    \subitem converse, 60
+    \subitem theorem, \textbf{59}
+  \item radical axis theorem, 49
+  \item radical center (of three circles), \textbf{60}
+  \item radius
+    \subitem of an arc, \textbf{11}
+  \item radius (of a circle/disc), \textbf{6, 7}
+  \item ratio of lengths, signed (of collinear segments), \textbf{6}, 
+		\textbf{32}, 50, 52, 58, \textbf{125}
+  \item ratio of similitude, \textbf{31}
+  \item ray, \textbf{5}
+  \item reciprocation, \textbf{123}
+  \item rectangle, \textbf{10}
+  \item rectangular hyperbola, \textbf{120}
+  \item reflection, \textbf{28}, 87
+  \item relativity, 107
+  \item right
+    \subitem angle, \textbf{13}
+  \item rigid motion, \textbf{27}, 31
+    \subitem classification of, 29
+  \item Ross, Arnold, viii
+  \item rotation, \textbf{28}, 33, 42
+
+  \indexspace
+
+  \item SAT (formerly Scholastic Aptitude Test), 40
+  \item secant, \textbf{18}
+  \item second intersection (of a line and circle), \textbf{7}
+  \item segment, \textbf{5}
+  \item semicircle, \textbf{11}
+  \item semiperimeter (of a polygon), \textbf{9}, 18, 69
+  \item Shelley, Percy Bysshe, viii
+  \item shoelace formula, \textbf{10}
+  \item side (of a polygon), \textbf{9}
+  \item signed area (of a polygon), \textbf{10}
+  \item signed measure (of an arc/circle), \textbf{12}
+  \item signed ratio of lengths (of collinear segments), \textbf{6}, 
+		\textbf{32}, 50, 52, 58, \textbf{125}
+  \item similarity, \textbf{31}
+  \item similarity (of two figures, \textbf{31}
+  \item simple polygon, \textbf{9}
+  \item Simson
+    \subitem Robert, 63
+  \item Simson line, \textbf{64}
+  \item Simson's theorem, \textbf{63}
+  \item sine, \textbf{17}
+  \item Socratic method, viii
+  \item solid geometry, 6
+  \item space geometry, 6
+  \item spiral similarity, \textbf{33}
+  \item square, \textbf{10}
+  \item Steiner's porism, \textbf{104}
+  \item Steiner, Jakob, 100, 103
+  \item Steiner-Lehmus theorem, \textbf{79}
+  \item stereographic projection, 100
+  \item Stewart's formula, \textbf{79}
+  \item sum-to-product formulae (for trigonometric functions), 
+		\textbf{18}
+  \item surveyor's formula, \textbf{10}
+  \item symmedian (of a triangle), \textbf{75}
+
+  \indexspace
+
+  \item tangent (trigonometric function), \textbf{18}
+  \item tangent line (of a circle), \textbf{7}
+  \item terminology, ix
+  \item theorem, \textbf{ix}
+    \subitem angle bisector, \textbf{69}
+    \subitem Brianchon's, \textbf{62}
+    \subitem Ceva's, \textbf{49}
+    \subitem Desargues's, \textbf{53}, 54, 117
+    \subitem Menelaus's, \textbf{52}, 64
+    \subitem Miquel's, \textbf{41}
+    \subitem Morley's, \textbf{45}
+    \subitem Pappus, \textbf{54}
+    \subitem Pascal's, 42, 49, \textbf{61}, 62
+    \subitem Pythagorean, \textbf{39}
+    \subitem radical axis, 49
+    \subitem Simson's, \textbf{63}
+  \item transformation
+    \subitem affine, \textbf{35}
+    \subitem hyperbolic, \textbf{109}
+    \subitem polar, \textbf{122}
+    \subitem projective, \textbf{116}
+  \item translation, \textbf{28}
+  \item trapezoid, \textbf{9}
+  \item triangle, \textbf{9}
+    \subitem acute, \textbf{9}
+  \item triangle inequality, \textbf{6}, \textbf{87}
+  \item trig Ceva, \textbf{51}
+
+  \indexspace
+
+  \item Ullman, Dan, x
+
+  \indexspace
+
+  \item Vakil, Ravi, x
+  \item van Yzeren, Jan, 61
+  \item Varignon parallelogram, \textbf{81}
+  \item vector, \textbf{20}
+  \item vertex
+    \subitem of a polygon, \textbf{9}
+  \item vos Savant, Marilyn, 108
+
+  \indexspace
+
+  \item Wallace, William, 63
+  \item Wiles, Andrew, 129
+
+\end{theindex}

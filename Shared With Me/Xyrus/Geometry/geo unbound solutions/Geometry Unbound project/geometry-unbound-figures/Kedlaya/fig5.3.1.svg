@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<path d="M 276.0 345.0 H 281.0 V 350.0 H 276.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="285.0" y="366.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B</text><path d="M 575.0 343.0 H 580.0 V 348.0 H 575.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="584.0" y="364.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C</text><line x1="279.0" y1="348.0" x2="578.0" y2="346.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 359.99999999999994 119.0 H 364.99999999999994 V 124.0 H 359.99999999999994 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="368.99999999999994" y="140.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A</text><line x1="578.0" y1="346.0" x2="362.99999999999994" y2="122.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="362.99999999999994" y1="122.0" x2="279.0" y2="348.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 430.0 276.99999999999994 H 435.0 V 281.99999999999994 H 430.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="-572.0" y1="-94.0" x2="1789.0" y2="783.0" style="stroke:rgb(180,0,0);stroke-width:1"/>
+<line x1="441.0" y1="1547.0" x2="425.0" y2="-972.0" style="stroke:rgb(180,0,0);stroke-width:1"/>
+<line x1="1441.0" y1="-688.0" x2="-376.0" y2="1056.0" style="stroke:rgb(180,0,0);stroke-width:1"/>
+<path d="M 285.4940480286245 223.28982316108164 H 290.4940480286245 V 228.28982316108164 H 285.4940480286245 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="294.4940480286245" y="244.28982316108164" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">R</text><path d="M 618.2138152093858 96.34834700884846 H 623.2138152093858 V 101.34834700884846 H 618.2138152093858 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="627.2138152093858" y="117.34834700884846" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">Q</text><path d="M 430.78917286505225 394.98134332531737 H 435.78917286505225 V 399.98134332531737 H 430.78917286505225 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="439.78917286505225" y="415.98134332531737" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">P</text></svg>

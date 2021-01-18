@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.27936507936507926" y="0.11428571428571388" w="8.0"/>
+<Objects>
+<Point name="A" n="0" showname="true" x="-1.3079365079365077" y="0.19682539682539657">Punto in -1.30794, 0.19683</Point>
+<Point name="P2" n="3" hidden="true" x="-3.53015873015873" y="-0.9841269841269842">Punto in -3.53016, -0.98413</Point>
+<Circle name="c1" n="4" type="thin" through="P2" midpoint="A" acute="true">Circonferenza di centro A per P2</Circle>
+<PointOn name="P3" n="7" hidden="true" on="c1" alpha="-0.38050637711236485" x="1.0286023652791152" y="-0.7377901524608524">Punto su c1</PointOn>
+<Line name="lsds" n="8" hidden="true" showname="true" xcoffset="-1.4571990296304973" ycoffset="-1.2589003119193207" keepclose="true" from="A" to="P3">Retta per P1 e P3</Line>
+<PointOn name="B" n="9" showname="true" on="lsds" alpha="0.721559028345115" x="-0.6379857690202524" y="-0.07115489874110553">Punto su lsds</PointOn>
+<PointOn name="C" n="10" showname="true" on="lsds" alpha="1.6907118409263011" x="0.26185002736726926" y="-0.43108921729611416">Punto su lsds</PointOn>
+<Ray name="r1" n="36" hidden="super" from="A" to="B">Semiretta da A puntando a B</Ray>
+<Circle name="c3" n="37" hidden="super" fixed="c1^2/d(B,A)" midpoint="A" acute="true">Circonferenza di centro A e raggio c1^2/d(B,A)</Circle>
+<Intersection name="I4" n="38" hidden="true" first="r1" second="c3" which="first">Intersezione tra r1 e c3</Intersection>
+<Ray name="r2" n="43" hidden="super" from="A" to="C">Semiretta da A puntando a C</Ray>
+<Circle name="c4" n="44" hidden="super" fixed="c1^2/d(C,A)" midpoint="A" acute="true">Circonferenza di centro A e raggio c1^2/d(C,A)</Circle>
+<Intersection name="I5" n="45" hidden="true" first="r2" second="c4" which="first">Intersezione tra r2 e c4</Intersection>
+<Circle name="l2" n="48" showname="true" xcoffset="0.20317460317460317" ycoffset="0.31746031746031744" through="C" midpoint="I5" start="I8" end="I11" acute="true">Circonferenza di centro I5 per C</Circle>
+<Circle name="l1" n="51" showname="true" xcoffset="0.35555555555555557" ycoffset="0.838095238095238" through="B" midpoint="I4" start="I6" end="I13" acute="true">Circonferenza di centro I4 per B</Circle>
+<Intersection name="I6" n="52" hidden="true" first="l1" second="c1" which="first">Intersezione tra l1 e c1</Intersection>
+<Intersection name="I8" n="53" first="l2" second="c1" which="first">Intersezione tra l2 e c1</Intersection>
+<Intersection name="I11" n="54" hidden="true" first="l2" second="c1" which="second">Intersezione tra l2 e c1</Intersection>
+<Intersection name="I13" n="55" hidden="true" first="l1" second="c1" which="second">Intersezione tra l1 e c1</Intersection>
+<Line name="m" n="58" color="1" showname="true" xcoffset="1.7196534418396316" ycoffset="-0.20698413102382934" keepclose="true" from="A" to="I8">Retta per A e I8</Line>
+<Intersection name="I14" n="59" hidden="true" first="lsds" second="c1" which="first">Intersezione tra lsds e c1</Intersection>
+<Intersection name="I17" n="62" hidden="true" first="lsds" second="c1" which="second">Intersezione tra lsds e c1</Intersection>
+<Segment name="l" n="63" showname="true" xcoffset="0.6836557392070232" ycoffset="0.11946993239232365" keepclose="true" from="I14" to="I17">Segmento da I14 a I17</Segment>
+</Objects>
+</Construction>
+</CaR>

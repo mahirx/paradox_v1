@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="572">
+<path d="M 331.0 63.0 L 331.0 143.0 L 495.0 62.0 L 331.0 63.0" style="fill:rgb(153,153,153);fill-opacity:0.5"/>
+<path d="M 331.0 63.0 L 331.0 143.0 L 495.0 62.0 L 331.0 63.0" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 331.0 143.0 L 332.0 307.0 L 412.0 307.0 L 331.0 143.0" style="fill:rgb(153,153,153);fill-opacity:0.5"/>
+<path d="M 331.0 143.0 L 332.0 307.0 L 412.0 307.0 L 331.0 143.0" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 412.0 307.0 L 576.0 226.0 L 576.0 306.0 L 412.0 307.0" style="fill:rgb(153,153,153);fill-opacity:0.5"/>
+<path d="M 412.0 307.0 L 576.0 226.0 L 576.0 306.0 L 412.0 307.0" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 495.0 62.0 L 575.0 62.0 L 576.0 226.0 L 495.0 62.0" style="fill:rgb(153,153,153);fill-opacity:0.5"/>
+<path d="M 495.0 62.0 L 575.0 62.0 L 576.0 226.0 L 495.0 62.0" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 329.0 304.0 H 334.0 V 309.0 H 329.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 573.0 303.0 H 578.0 V 308.0 H 573.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 328.0 60.0 H 333.0 V 65.0 H 328.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 572.0 58.99999999999994 H 577.0 V 63.99999999999994 H 572.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 328.32630196936543 139.61768052516402 H 333.32630196936543 V 144.61768052516402 H 328.32630196936543 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 492.3823194748359 59.32630196936543 H 497.3823194748359 V 64.32630196936543 H 492.3823194748359 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="331.32630196936543" y1="142.61768052516402" x2="495.3823194748359" y2="62.32630196936543" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="401.0" y="94.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">a</text><path d="M 408.6176805251641 303.67369803063457 H 413.6176805251641 V 308.67369803063457 H 408.6176805251641 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 572.6736980306346 223.38231947483592 H 577.6736980306346 V 228.38231947483592 H 572.6736980306346 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="495.3823194748359" y1="62.32630196936543" x2="331.0" y2="63.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="408.0" y="84.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">b</text><line x1="331.0" y1="63.0" x2="331.32630196936543" y2="142.61768052516402" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="340.0" y="109.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">c</text><text x="385.0" y="189.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$(b+c)^2=a^2+2bc$</text></svg>

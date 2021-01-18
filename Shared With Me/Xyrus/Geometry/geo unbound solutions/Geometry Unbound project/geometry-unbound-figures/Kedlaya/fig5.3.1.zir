@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="B" n="0" showname="true" x="-4.457142857142857" y="-0.7809523809523808">Punto in -4.45714, -0.78095</Point>
+<Point name="C" n="3" showname="true" x="-0.6603174603174606" y="-0.7555555555555555">Punto in -0.66032, -0.75556</Point>
+<Segment name="s1" n="4" from="B" to="C">Segmento da P1 a P2</Segment>
+<Point name="A" n="7" showname="true" x="-3.390476190476191" y="2.088888888888889">Punto in -3.39048, 2.08889</Point>
+<Segment name="s2" n="8" from="C" to="A">Segmento da P2 a P3</Segment>
+<Segment name="s3" n="11" from="A" to="B">Segmento da P3 a P1</Segment>
+<Point name="P4" n="12" x="-2.5015873015873016" y="0.08253968253968313">Punto in -2.50159, 0.08254</Point>
+<Plumb name="p1" n="15" color="5" point="P4" line="s3" valid="true">Retta perpendicolare per P4 a s3</Plumb>
+<Plumb name="p2" n="18" color="5" point="P4" line="s1" valid="true">Retta perpendicolare per P4 a s1</Plumb>
+<Plumb name="p3" n="21" color="5" point="P4" line="s2" valid="true">Retta perpendicolare per P4 a s2</Plumb>
+<PointOn name="R" n="22" showname="true" on="p1" alpha="-1.9576469233851577" x="-4.336583517096832" y="0.7645736741449951">Punto su p1</PointOn>
+<PointOn name="Q" n="23" showname="true" on="p3" alpha="-3.3127883247367746" x="-0.11157060051573664" y="2.3765289268717655">Punto su p3</PointOn>
+<PointOn name="P" n="24" showname="true" on="p2" alpha="-1.4982093037450894" x="-2.491566058856479" y="-1.4156361057183156">Punto su p2</PointOn>
+<Segment name="s4" n="27" color="1" hidden="true" from="R" to="Q">Segmento da R a Q</Segment>
+<Segment name="s5" n="30" color="1" hidden="true" from="Q" to="P">Segmento da Q a P</Segment>
+<Segment name="s6" n="33" color="1" hidden="true" from="P" to="R">Segmento da P a R</Segment>
+<Plumb name="p4" n="36" color="1" type="thin" hidden="true" point="A" line="s4" valid="true">Retta perpendicolare per A a s4</Plumb>
+<Plumb name="p7" n="46" color="1" type="thin" hidden="true" point="C" line="s5" valid="true">Retta perpendicolare per C a s5</Plumb>
+<Plumb name="p8" n="49" color="1" type="thin" hidden="true" point="B" line="s6" valid="true">Retta perpendicolare per B a s6</Plumb>
+<Intersection name="I1" n="50" hidden="true" first="p7" second="p4">Intersezione tra p7 e p4</Intersection>
+</Objects>
+</Construction>
+</CaR>

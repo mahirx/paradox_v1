@@ -1,0 +1,42 @@
+Macro Cabri II Plus vers. MS-Windows 1.2.4.7
+
+Parabola (Focus & Directrix.), no name
+Icon:
+16x16
+ 0  7  0  0  0  0  0  0  0  0  0  0  0  0  7  0 
+ 0  7  0  0  0  0  0  0  0  0  0  0  0  0  7  0 
+ 0  7  0  0  0  0  0  0  0  0  0  0  0  0  7  0 
+ 0  0  7  0  0  0  0  0  0  0  0  0  0  7  0  0 
+ 0  0  7  0  0  0  0  0  0  0  0  0  0  7  0  0 
+ 0  0  7  0  0  0  0  0  0  0  0  0  0  7  0  0 
+ 0  0  0  7  0  0  0 15 15  0  0  0  7  0  0  0 
+ 0  0  0  7  0  0  0 15 15  0  0  0  7  0  0  0 
+ 0  0  0  0  7  0  0  0  0  0  0  7  0  0  0  0 
+ 0  0  0  0  0  7  0  0  0  0  7  0  0  0  0  0 
+ 0  0  0  0  0  0  7  7  7  7  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+Help:
+"Construct a parabola by selecting a line as the directrix and a point as the focus."
+Mth: 0
+CN:2, ON:13, FN:6, PO:12
+CT:
+point, CS 0, 
+line, CS 0, color:V, 
+Const:
+Perp, Mth:0, 0, CN:2, VN:2, Const: 1 2
+Int, Mth:0, 0, CN:2, VN:1, int ind:0, Const: 2 3
+PBiss, Mth:0, 0, CN:2, VN:2, Const: 4 1
+Int, Mth:0, 1, CN:2, VN:1, int ind:0, Const: 3 5, invisible, 
+Cir, Mth:1, 0, CN:2, VN:2, Const: 6 1
+Int, Mth:0, 0, CN:2, VN:1, int ind:0, Const: 5 7
+Sym, Mth:0, 0, CN:2, VN:1, Const: 6 8
+Mid, Mth:0, 0, CN:2, VN:1, Const: 1 9
+Sym, Mth:0, 1, CN:2, VN:1, Const: 6 10, invisible, 
+Mid, Mth:0, 1, CN:2, VN:1, Const: 10 8, invisible, 
+Sym, Mth:0, 1, CN:2, VN:1, Const: 11 1, invisible, 
+Refl, Mth:0, 1, CN:2, VN:1, Const: 12 3, invisible, 
+Con, Mth:0, 1, CN:5, VN:5, Const: 13 14 6 12 11, 

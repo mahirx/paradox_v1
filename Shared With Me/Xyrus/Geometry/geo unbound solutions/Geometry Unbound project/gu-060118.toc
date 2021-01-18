@@ -1,0 +1,100 @@
+\contentsline {chapter}{Introduction}{vii}
+\contentsline {section}{Origins, goals, and outcome}{vii}
+\contentsline {section}{Methodology}{viii}
+\contentsline {section}{Structure of the book}{ix}
+\contentsline {section}{Acknowledgments}{x}
+\contentsline {part}{I\hspace {1em}Rudiments}{1}
+\contentsline {chapter}{\numberline {1}Construction of the Euclidean plane}{3}
+\contentsline {section}{\numberline {1.1}The coordinate plane, points and lines}{4}
+\contentsline {section}{\numberline {1.2}Distances and circles}{6}
+\contentsline {section}{\numberline {1.3}Triangles and other polygons}{8}
+\contentsline {section}{\numberline {1.4}Areas of polygons}{10}
+\contentsline {section}{\numberline {1.5}Areas of circles and measures of arcs}{11}
+\contentsline {section}{\numberline {1.6}Angles and the danger of configuration dependence}{13}
+\contentsline {section}{\numberline {1.7}Directed angle measures}{14}
+\contentsline {chapter}{\numberline {2}Algebraic methods}{17}
+\contentsline {section}{\numberline {2.1}Trigonometry}{17}
+\contentsline {section}{\numberline {2.2}Vectors}{20}
+\contentsline {section}{\numberline {2.3}Complex numbers}{22}
+\contentsline {section}{\numberline {2.4}Barycentric coordinates and mass points}{25}
+\contentsline {chapter}{\numberline {3}Transformations}{27}
+\contentsline {section}{\numberline {3.1}Congruence and rigid motions}{27}
+\contentsline {section}{\numberline {3.2}Similarity and homotheties}{31}
+\contentsline {section}{\numberline {3.3}Spiral similarities}{33}
+\contentsline {section}{\numberline {3.4}Complex numbers and the classification of similarities}{34}
+\contentsline {section}{\numberline {3.5}Affine transformations}{35}
+\contentsline {chapter}{\numberline {4}Tricks of the trade}{39}
+\contentsline {section}{\numberline {4.1}Slicing and dicing}{39}
+\contentsline {section}{\numberline {4.2}Angle chasing}{41}
+\contentsline {section}{\numberline {4.3}Working backward}{44}
+\contentsline {part}{II\hspace {1em}Special situations}{47}
+\contentsline {chapter}{\numberline {5}Concurrence and collinearity}{49}
+\contentsline {section}{\numberline {5.1}Concurrent lines: Ceva's theorem}{49}
+\contentsline {section}{\numberline {5.2}Collinear points: Menelaus's theorem}{52}
+\contentsline {section}{\numberline {5.3}Concurrent perpendiculars}{55}
+\contentsline {chapter}{\numberline {6}Circular reasoning}{57}
+\contentsline {section}{\numberline {6.1}Power of a point}{57}
+\contentsline {section}{\numberline {6.2}Radical axis}{59}
+\contentsline {section}{\numberline {6.3}The Pascal-Brianchon theorems}{61}
+\contentsline {section}{\numberline {6.4}Simson lines}{63}
+\contentsline {section}{\numberline {6.5}Circle of Apollonius}{64}
+\contentsline {section}{\numberline {6.6}Additional problems}{65}
+\contentsline {chapter}{\numberline {7}Triangle trivia}{67}
+\contentsline {section}{\numberline {7.1}Centroid}{67}
+\contentsline {section}{\numberline {7.2}Incenter and excenters}{68}
+\contentsline {section}{\numberline {7.3}Circumcenter and orthocenter}{71}
+\contentsline {section}{\numberline {7.4}Gergonne and Nagel points}{74}
+\contentsline {section}{\numberline {7.5}Isogonal conjugates}{75}
+\contentsline {section}{\numberline {7.6}Brocard points}{75}
+\contentsline {section}{\numberline {7.7}Frame shift}{77}
+\contentsline {section}{\numberline {7.8}Vectors for special points}{77}
+\contentsline {section}{\numberline {7.9}Additional problems}{78}
+\contentsline {chapter}{\numberline {8}Quadrilaterals}{81}
+\contentsline {section}{\numberline {8.1}General quadrilaterals}{81}
+\contentsline {section}{\numberline {8.2}Cyclic quadrilaterals}{81}
+\contentsline {section}{\numberline {8.3}Circumscribed quadrilaterals}{83}
+\contentsline {section}{\numberline {8.4}Complete quadrilaterals}{85}
+\contentsline {chapter}{\numberline {9}Geometric inequalities}{87}
+\contentsline {section}{\numberline {9.1}Distance inequalities}{87}
+\contentsline {section}{\numberline {9.2}Algebraic techniques}{90}
+\contentsline {section}{\numberline {9.3}Trigonometric inequalities and convexity}{92}
+\contentsline {section}{\numberline {9.4}The Erd\H {o}s-Mordell inequality}{94}
+\contentsline {section}{\numberline {9.5}Additional problems}{95}
+\contentsline {part}{III\hspace {1em}Some roads to modern geometry}{97}
+\contentsline {chapter}{\numberline {10}Inversive and hyperbolic geometry}{99}
+\contentsline {section}{\numberline {10.1}Inversion}{99}
+\contentsline {section}{\numberline {10.2}Inversive magic}{103}
+\contentsline {section}{\numberline {10.3}Inversion in practice}{105}
+\contentsline {section}{\numberline {10.4}Hyperbolic geometry: an historical aside}{107}
+\contentsline {section}{\numberline {10.5}Poincar\'e's models of hyperbolic geometry}{108}
+\contentsline {section}{\numberline {10.6}Hyperbolic distance}{110}
+\contentsline {section}{\numberline {10.7}Hyperbolic triangles}{112}
+\contentsline {chapter}{\numberline {11}Projective geometry}{115}
+\contentsline {section}{\numberline {11.1}The projective plane}{116}
+\contentsline {section}{\numberline {11.2}Projective transformations}{116}
+\contentsline {section}{\numberline {11.3}A conic section}{119}
+\contentsline {section}{\numberline {11.4}Conics in the projective plane}{121}
+\contentsline {section}{\numberline {11.5}The polar map and duality}{122}
+\contentsline {section}{\numberline {11.6}Cross-ratio}{125}
+\contentsline {section}{\numberline {11.7}The complex projective plane}{126}
+\contentsline {part}{IV\hspace {1em}Odds and ends}{131}
+\contentsline {chapter}{Hints}{133}
+\contentsline {chapter}{Suggested further reading}{137}
+\contentsline {chapter}{Bibliography}{139}
+\contentsline {chapter}{About the license}{141}
+\contentsline {section}{Open source for text?}{141}
+\contentsline {section}{Source code distribution}{142}
+\contentsline {section}{History}{142}
+\contentsline {chapter}{GNU Free Documentation License}{143}
+\contentsline {section}{Preamble}{143}
+\contentsline {section}{1. Applicability and Definitions}{144}
+\contentsline {section}{2. Verbatim Copying}{146}
+\contentsline {section}{3. Copying in Quantity}{146}
+\contentsline {section}{4. Modifications}{147}
+\contentsline {section}{5. Combining Documents}{149}
+\contentsline {section}{6. Collections of Documents}{150}
+\contentsline {section}{7. Aggregation with Independent Works}{150}
+\contentsline {section}{8. Translation}{151}
+\contentsline {section}{9. Termination}{151}
+\contentsline {section}{10. Future Revisions of This License}{151}
+\contentsline {section}{Addendum: How to use this License for your documents}{152}

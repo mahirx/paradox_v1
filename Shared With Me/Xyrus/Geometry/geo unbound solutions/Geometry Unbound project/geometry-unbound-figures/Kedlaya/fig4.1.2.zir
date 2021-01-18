@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="B" n="0" showname="true" x="-4.482539682539683" y="-0.3999999999999999">Punto in -4.48254, -0.4</Point>
+<Point name="C" n="3" showname="true" x="-1.2825396825396824" y="-0.3999999999999999">Punto in -1.28254, -0.4</Point>
+<Segment name="s1" n="4" from="B" to="C">Segmento da P1 a P2</Segment>
+<Point name="A" n="7" showname="true" x="-3.6190476190476186" y="1.7206349206349212">Punto in -3.61905, 1.72063</Point>
+<Segment name="s2" n="8" from="C" to="A">Segmento da P2 a P3</Segment>
+<Segment name="s3" n="11" from="A" to="B">Segmento da P3 a P1</Segment>
+<Parallel name="pl1" n="14" hidden="true" point="A" line="s1">Retta parallela per P3 a s1</Parallel>
+<Plumb name="p1" n="18" hidden="true" point="B" line="s1" valid="true">Retta perpendicolare per P1 a s1</Plumb>
+<Plumb name="p2" n="21" hidden="true" point="A" line="s1" valid="true">Retta perpendicolare per P3 a s1</Plumb>
+<Plumb name="p3" n="24" hidden="true" point="C" line="s1" valid="true">Retta perpendicolare per P2 a s1</Plumb>
+<Intersection name="I1" n="25" first="p3" second="pl1">Intersezione tra p3 e pl1</Intersection>
+<Intersection name="I2" n="26" first="p1" second="pl1">Intersezione tra p1 e pl1</Intersection>
+<Intersection name="H" n="27" showname="true" first="p2" second="s1">Intersezione tra p2 e s1</Intersection>
+<Polygon name="pol1" n="28" color="1" background="true" point1="A" point2="B" point3="H">Poligono A, B, H</Polygon>
+<Polygon name="pol2" n="29" color="1" background="true" point1="A" point2="C" point3="H">Poligono A, C, H</Polygon>
+<Polygon name="pol3" n="30" color="2" background="true" point1="A" point2="I1" point3="C">Poligono A, I1, C</Polygon>
+<Polygon name="pol4" n="31" color="2" background="true" point1="A" point2="I2" point3="B">Poligono A, I2, B</Polygon>
+</Objects>
+</Construction>
+</CaR>

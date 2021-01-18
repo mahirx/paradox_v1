@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="B" n="0" showname="true" x="-3.8730158730158726" y="-0.6666666666666665">Punto in -3.87302, -0.66667</Point>
+<Point name="C" n="3" showname="true" x="-0.5460317460317459" y="-0.6539682539682539">Punto in -0.54603, -0.65397</Point>
+<Segment name="s1" n="4" from="B" to="C">Segmento da P1 a P2</Segment>
+<Point name="A" n="7" showname="true" x="-3.0476190476190474" y="2.7238095238095243">Punto in -3.04762, 2.72381</Point>
+<Segment name="s2" n="8" from="C" to="A">Segmento da P2 a P3</Segment>
+<Segment name="s3" n="11" from="A" to="B">Segmento da P3 a P1</Segment>
+<PointOn name="Q" n="12" showname="true" on="s2" alpha="0.7540820517501027" x="-2.432433831044701" y="1.8931533430543155">Punto su s2</PointOn>
+<PointOn name="R" n="13" showname="true" on="s3" alpha="0.5817067033927485" x="-3.5277579139114748" y="0.7515467961160145">Punto su s3</PointOn>
+<PointOn name="P" n="14" showname="true" on="s1" alpha="0.6221720445771723" x="-1.8030593564543596" y="-0.6587660692752104">Punto su s1</PointOn>
+<Segment name="s4" n="17" hidden="true" from="P" to="Q">Segmento da P a Q</Segment>
+<Segment name="s5" n="20" hidden="true" from="Q" to="R">Segmento da Q a R</Segment>
+<Segment name="s6" n="23" hidden="true" from="R" to="P">Segmento da R a P</Segment>
+<Circle name="c1" n="30" hidden="super" through="B" midpoint="P" acute="true">Circonferenza di centro P per B</Circle>
+<Circle name="c2" n="31" hidden="super" through="P" midpoint="B" acute="true">Circonferenza di centro B per P</Circle>
+<Intersection name="I1" n="32" hidden="super" first="c1" second="c2" which="second">Intersezione tra c1 e c2</Intersection>
+<Intersection name="I2" n="33" hidden="super" first="c2" second="c1" which="second">Intersezione tra c2 e c1</Intersection>
+<Line name="l1" n="34" hidden="true" from="I1" to="I2">Retta per I1 e I2</Line>
+<Circle name="c3" n="41" hidden="super" through="R" midpoint="B" acute="true">Circonferenza di centro B per R</Circle>
+<Circle name="c4" n="42" hidden="super" through="B" midpoint="R" acute="true">Circonferenza di centro R per B</Circle>
+<Intersection name="I3" n="43" hidden="super" first="c3" second="c4" which="second">Intersezione tra c3 e c4</Intersection>
+<Intersection name="I4" n="44" hidden="super" first="c4" second="c3" which="second">Intersezione tra c4 e c3</Intersection>
+<Line name="l2" n="45" hidden="true" from="I3" to="I4">Retta per I3 e I4</Line>
+<Circle name="c5" n="52" hidden="super" through="A" midpoint="R" acute="true">Circonferenza di centro R per A</Circle>
+<Circle name="c6" n="53" hidden="super" through="R" midpoint="A" acute="true">Circonferenza di centro A per R</Circle>
+<Intersection name="I5" n="54" hidden="super" first="c5" second="c6" which="second">Intersezione tra c5 e c6</Intersection>
+<Intersection name="I6" n="55" hidden="super" first="c6" second="c5" which="second">Intersezione tra c6 e c5</Intersection>
+<Line name="l3" n="56" hidden="true" from="I5" to="I6">Retta per I5 e I6</Line>
+<Circle name="c9" n="75" hidden="super" through="C" midpoint="Q" acute="true">Circonferenza di centro Q per C</Circle>
+<Circle name="c10" n="76" hidden="super" through="Q" midpoint="C" acute="true">Circonferenza di centro C per Q</Circle>
+<Intersection name="I9" n="77" hidden="super" first="c9" second="c10" which="second">Intersezione tra c9 e c10</Intersection>
+<Intersection name="I10" n="78" hidden="super" first="c10" second="c9" which="second">Intersezione tra c10 e c9</Intersection>
+<Line name="l5" n="79" hidden="true" from="I9" to="I10">Retta per I9 e I10</Line>
+<Circle name="c11" n="86" hidden="super" through="P" midpoint="C" acute="true">Circonferenza di centro C per P</Circle>
+<Circle name="c12" n="87" hidden="super" through="C" midpoint="P" acute="true">Circonferenza di centro P per C</Circle>
+<Intersection name="I11" n="88" hidden="super" first="c11" second="c12" which="second">Intersezione tra c11 e c12</Intersection>
+<Intersection name="I12" n="89" hidden="super" first="c12" second="c11" which="second">Intersezione tra c12 e c11</Intersection>
+<Line name="l6" n="90" hidden="true" from="I11" to="I12">Retta per I11 e I12</Line>
+<Intersection name="I13" n="91" hidden="true" first="l5" second="l6">Intersezione tra l5 e l6</Intersection>
+<Intersection name="I14" n="92" hidden="true" first="l1" second="l2">Intersezione tra l1 e l2</Intersection>
+<Circle name="c13" n="100" hidden="super" through="A" midpoint="Q" acute="true">Circonferenza di centro Q per A</Circle>
+<Circle name="c14" n="101" hidden="super" through="Q" midpoint="A" acute="true">Circonferenza di centro A per Q</Circle>
+<Intersection name="I16" n="102" hidden="super" first="c13" second="c14" which="second">Intersezione tra c13 e c14</Intersection>
+<Intersection name="I17" n="103" hidden="super" first="c14" second="c13" which="second">Intersezione tra c14 e c13</Intersection>
+<Line name="l7" n="104" hidden="true" from="I16" to="I17">Retta per I16 e I17</Line>
+<Intersection name="I18" n="105" hidden="true" first="l3" second="l7">Intersezione tra l3 e l7</Intersection>
+<Circle name="c15" n="108" color="1" through="R" midpoint="I18" acute="true">Circonferenza di centro I18 per R</Circle>
+<Circle name="c16" n="111" color="1" through="R" midpoint="I14" acute="true">Circonferenza di centro I14 per R</Circle>
+<Circle name="c17" n="114" color="1" through="P" midpoint="I13" acute="true">Circonferenza di centro I13 per P</Circle>
+<Intersection name="O" n="115" showname="true" first="c17" second="c15" which="second">Intersezione tra c17 e c15</Intersection>
+</Objects>
+</Construction>
+</CaR>

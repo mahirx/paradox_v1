@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="572">
+<path d="M 502.0 276.5 H 507.0 V 281.5 H 502.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="511.0" y="297.5" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A</text><ellipse cx="505.0" cy="279.5" rx="198.17668884104407" ry="198.17668884104407" style="stroke:rgb(153,153,153);stroke-width:1;fill:none;stroke-dasharray:5,5"/>
+<path d="M 554.7586206896551 297.60344827586204 H 559.7586206896551 V 302.60344827586204 H 554.7586206896551 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="563.7586206896551" y="318.60344827586204" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B</text><path d="M 625.6206896551724 325.94827586206895 H 630.6206896551724 V 330.94827586206895 H 625.6206896551724 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="634.6206896551724" y="346.94827586206895" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C</text><line x1="689.0024362657304" y1="353.1009745062921" x2="320.9975637342697" y2="205.89902549370794" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="439.0" y="243.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">l</text><path d="M 701.0 247.0 A 161.8312858121312 161.8312858121312 0 0 0 624.0 438.0" style="stroke:rgb(0,0,0);stroke-width:1;fill:none"/>
+<text x="628.0" y="293.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">l2</text><path d="M 649.0 143.0 A 634.3437710779555 634.3437710779555 0 0 0 515.0 477.0" style="stroke:rgb(0,0,0);stroke-width:1;fill:none"/>
+<text x="569.0" y="224.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">l1</text><path d="M 697.5646000519888 244.42996403953225 H 702.5646000519888 V 249.42996403953225 H 697.5646000519888 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="-617.0" y1="464.0" x2="1869.0" y2="56.0" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<text x="631.0" y="248.0" style="font-size:0;fill:rgb(0,124,0);font-weight:normal">m</text></svg>

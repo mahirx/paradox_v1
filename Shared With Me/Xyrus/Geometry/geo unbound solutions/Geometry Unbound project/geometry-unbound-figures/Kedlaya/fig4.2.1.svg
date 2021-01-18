@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<path d="M 322.00000000000006 336.0 H 327.00000000000006 V 341.0 H 322.00000000000006 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="331.00000000000006" y="357.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B</text><path d="M 584.0 335.0 H 589.0 V 340.0 H 584.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="593.0" y="356.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C</text><line x1="325.00000000000006" y1="339.0" x2="587.0" y2="338.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 387.0 68.99999999999994 H 392.0 V 73.99999999999994 H 387.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="396.0" y="89.99999999999994" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A</text><line x1="587.0" y1="338.0" x2="390.0" y2="71.99999999999994" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="390.0" y1="71.99999999999994" x2="325.00000000000006" y2="339.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 435.44583580522976 134.41417423447268 H 440.44583580522976 V 139.41417423447268 H 435.44583580522976 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="444.44583580522976" y="155.41417423447268" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">Q</text><path d="M 349.1890642794714 224.31568980586383 H 354.1890642794714 V 229.31568980586383 H 349.1890642794714 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="358.1890642794714" y="245.31568980586383" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">R</text><path d="M 485.00907567921917 335.37782795542284 H 490.00907567921917 V 340.37782795542284 H 485.00907567921917 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="494.00907567921917" y="356.37782795542284" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">P</text><ellipse cx="357.87381419107436" cy="146.43931806149754" rx="81.07591435247838" ry="81.07591435247838" style="stroke:rgb(0,124,0);fill:none;stroke-width:1"/>
+<ellipse cx="406.3555495142298" cy="299.65397272818325" rx="90.37054442038527" ry="90.37054442038527" style="stroke:rgb(0,124,0);fill:none;stroke-width:1"/>
+<ellipse cx="537.0522471347423" cy="219.68874930246534" rx="128.4224671072152" ry="128.4224671072152" style="stroke:rgb(0,124,0);fill:none;stroke-width:1"/>
+<path d="M 406.04875856776033 206.32356852322692 H 411.04875856776033 V 211.32356852322692 H 406.04875856776033 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="415.04875856776033" y="227.32356852322692" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">O</text></svg>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<path d="M 447.99967499999997 255.9997125 H 452.99967499999997 V 260.9997125 H 447.99967499999997 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="456.99967499999997" y="276.9997125" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">O</text><ellipse cx="450.999675" cy="258.9997125" rx="152.85602147180296" ry="152.85602147180296" style="stroke:rgb(180,0,0);fill:none;stroke-width:1"/>
+<ellipse cx="722.0" cy="282.0" rx="177.65415840897165" ry="177.65415840897165" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<path d="M 589.4568498051859 400.57126402897944 H 594.4568498051859 V 405.57126402897944 H 589.4568498051859 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="598.4568498051859" y="421.57126402897944" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B</text><path d="M 782.0955095238138 445.0721429919248 H 787.0955095238138 V 450.0721429919248 H 782.0955095238138 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="791.0955095238138" y="466.0721429919248" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C</text><path d="M 656.3229209735001 112.76948606015236 H 661.3229209735001 V 117.76948606015236 H 656.3229209735001 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="665.3229209735001" y="133.76948606015236" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">D</text><path d="M 548.2847266109798 229.83400126396214 H 553.2847266109798 V 234.83400126396214 H 548.2847266109798 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="557.2847266109798" y="250.83400126396214" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A</text><path d="M 524.1567792902522 203.63878061492613 H 529.1567792902522 V 208.63878061492613 H 524.1567792902522 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="503.0" y="198.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">D&apos;</text><path d="M 528.7881275127789 338.5668353163786 H 533.7881275127789 V 343.5668353163786 H 528.7881275127789 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="505.0" y="359.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B&apos;</text><path d="M 500.96989351320696 285.97676376211786 H 505.96989351320696 V 290.97676376211786 H 500.96989351320696 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="476.0" y="305.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C&apos;</text><path d="M 666.1354163591586 199.0851801048462 H 671.1354163591586 V 204.0851801048462 H 666.1354163591586 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="675.1354163591586" y="220.0851801048462" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A&apos;</text><ellipse cx="600.3048784535848" cy="271.6715150326296" rx="97.8769684708935" ry="97.8769684708935" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<line x1="450.99967499999997" y1="258.9997125" x2="592.4568498051859" y2="403.57126402897944" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<line x1="450.99967499999997" y1="258.9997125" x2="785.0955095238138" y2="448.0721429919248" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<line x1="450.99967499999997" y1="258.9997125" x2="659.3229209735001" y2="115.76948606015236" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<line x1="450.99967499999997" y1="258.9997125" x2="669.1354163591586" y2="202.0851801048462" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<line x1="669.1354163591586" y1="202.0851801048462" x2="531.7881275127789" y2="341.5668353163786" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<line x1="531.7881275127789" y1="341.5668353163786" x2="503.96989351320696" y2="288.97676376211786" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<line x1="551.2847266109798" y1="232.83400126396214" x2="592.4568498051859" y2="403.57126402897944" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<line x1="592.4568498051859" y1="403.57126402897944" x2="785.0955095238138" y2="448.0721429919248" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<line x1="551.2847266109798" y1="232.83400126396214" x2="659.3229209735001" y2="115.76948606015236" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<line x1="669.1354163591586" y1="202.0851801048462" x2="527.1567792902522" y2="206.63878061492613" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<line x1="527.1567792902522" y1="206.63878061492613" x2="503.96989351320696" y2="288.97676376211786" style="stroke:rgb(153,153,153);stroke-width:1"/>
+</svg>

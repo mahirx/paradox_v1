@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="9.513656920021768"/>
+<Objects>
+<Point name="P1" n="0" hidden="true" x="-3.276190476190476" y="-0.48888888888888893">Punto in -3.27619, -0.48889</Point>
+<Point name="P2" n="3" hidden="true" x="-5.257142857142857" y="-0.5396825396825395">Punto in -5.25714, -0.53968</Point>
+<Circle name="c1" n="4" through="P2" midpoint="P1" acute="true">Circonferenza di centro P1 per P2</Circle>
+<Point name="O" n="5" showname="true" x="2.3238100000000004" y="-0.5777800000000001">Punto in 2.32381, -0.57778</Point>
+<Midpoint name="M2" n="12" hidden="true" first="P1" second="O">Punto medio tra P1 e O</Midpoint>
+<Circle name="c2" n="15" hidden="true" through="P1" midpoint="M2" acute="true">Circonferenza di centro M2 per P1</Circle>
+<Intersection name="A" n="18" showname="true" first="c1" second="c2" which="second">Intersezione tra c1 e c2</Intersection>
+<Ray name="r1" n="19" color="1" from="O" to="A">Semiretta da O puntando a A</Ray>
+<Intersection name="B" n="22" showname="true" first="c2" second="c1" which="second">Intersezione tra c2 e c1</Intersection>
+<Ray name="r2" n="23" color="1" from="O" to="B">Semiretta da O puntando a B</Ray>
+<Parallel name="pl1" n="26" color="5" point="A" line="r2">Retta parallela per I2 a r2</Parallel>
+<Intersection name="C" n="29" showname="true" first="pl1" second="c1" which="first">Intersezione tra pl1 e c1</Intersection>
+<Ray name="r3" n="30" from="O" to="C">Semiretta da O puntando a C</Ray>
+<Intersection name="E" n="33" showname="true" first="r3" second="c1" which="second">Intersezione tra r3 e c1</Intersection>
+<Ray name="r4" n="34" from="A" to="E">Semiretta da A puntando a E</Ray>
+<Intersection name="M" n="35" showname="true" first="r4" second="r2">Intersezione tra r4 e r2</Intersection>
+</Objects>
+</Construction>
+</CaR>

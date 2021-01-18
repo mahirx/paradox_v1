@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<path d="M 280.0 341.0 H 285.0 V 346.0 H 280.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="289.0" y="362.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B</text><path d="M 628.0 352.0 H 633.0 V 357.0 H 628.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="637.0" y="373.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C</text><line x1="283.0" y1="344.0" x2="631.0" y2="355.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 374.0 96.0 H 379.0 V 101.0 H 374.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="387.0" y="99.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A</text><line x1="631.0" y1="355.0" x2="377.0" y2="99.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="377.0" y1="99.0" x2="283.0" y2="344.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 320.97526902020013 234.20275627713795 H 325.97526902020013 V 239.20275627713795 H 320.97526902020013 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="265.0" y="247.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$H_C$</text><line x1="323.97526902020013" y1="237.20275627713795" x2="631.0" y2="355.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 366.16965147453084 343.72375335120637 H 371.16965147453084 V 348.72375335120637 H 366.16965147453084 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="375.16965147453084" y="364.72375335120637" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$H_A$</text><line x1="369.16965147453084" y1="346.72375335120637" x2="377.0" y2="99.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 449.86485405837664 172.46221511395447 H 454.86485405837664 V 177.46221511395447 H 449.86485405837664 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="462.0" y="178.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$H_B$</text><line x1="452.86485405837664" y1="175.46221511395447" x2="283.0" y2="344.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="323.97526902020013" y1="237.20275627713795" x2="452.86485405837664" y2="175.46221511395447" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<line x1="452.86485405837664" y1="175.46221511395447" x2="369.16965147453084" y2="346.72375335120637" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<line x1="369.16965147453084" y1="346.72375335120637" x2="323.97526902020013" y2="237.20275627713795" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<path d="M 369.0485085869238 252.64718288641154 H 374.0485085869238 V 257.64718288641154 H 369.0485085869238 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="378.0485085869238" y="273.64718288641154" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">H</text><ellipse cx="459.475745706538" cy="271.17640855679423" rx="190.9108805002105" ry="190.9108805002105" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<path d="M 363.2907943621379 434.8003238160013 H 368.2907943621379 V 439.8003238160013 H 363.2907943621379 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="372.2907943621379" y="455.8003238160013" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">D</text><line x1="369.16965147453084" y1="346.72375335120637" x2="331.52401759215434" y2="1537.6947161754786" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<path d="M 530.6811995298297 92.27724734149729 H 535.6811995298297 V 97.27724734149729 H 530.6811995298297 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="522.0" y="86.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">E</text><line x1="452.86485405837664" y1="175.46221511395447" x2="1381.0514851613711" y2="-745.4729579335469" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<path d="M 272.9020294534764 215.75832966786436 H 277.9020294534764 V 220.75832966786436 H 272.9020294534764 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="256.0" y="232.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">F</text><line x1="323.97526902020013" y1="237.20275627713795" x2="-569.1672736444697" y2="-105.47234172481683" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<ellipse cx="372.0485085869238" cy="255.64718288641154" rx="37.40264250292853" ry="37.40264250292853" style="stroke:rgb(0,124,0);fill:none;stroke-width:1"/>
+</svg>

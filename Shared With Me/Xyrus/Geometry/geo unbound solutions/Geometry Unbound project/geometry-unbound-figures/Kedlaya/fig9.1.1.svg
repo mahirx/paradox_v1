@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<path d="M 269.0 311.0 H 274.0 V 316.0 H 269.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="278.0" y="332.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A</text><path d="M 504.0 316.0 H 509.0 V 321.0 H 504.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="513.0" y="337.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B</text><line x1="-504.0" y1="-262.0" x2="1754.0" y2="855.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 567.860028003892 186.87642689322934 H 572.860028003892 V 191.87642689322934 H 567.860028003892 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="576.860028003892" y="207.87642689322934" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B&apos;</text><line x1="272.0" y1="314.0" x2="570.860028003892" y2="189.87642689322934" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 479.5489354879024 223.55409309456036 H 484.5489354879024 V 228.55409309456036 H 479.5489354879024 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="488.5489354879024" y="244.55409309456036" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">P</text><line x1="507.0" y1="319.0" x2="482.5489354879024" y2="226.55409309456036" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="570.860028003892" y1="189.87642689322934" x2="507.0" y2="319.0" style="stroke:rgb(153,153,153);stroke-width:1"/>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="B" n="0" showname="true" x="-4.6022187004754365" y="-0.6529318541996831">Punto in -4.60222, -0.65293</Point>
+<Point name="C" n="3" showname="true" x="-0.5832012678288434" y="-0.6529318541996831">Punto in -0.5832, -0.65293</Point>
+<Segment name="s1" n="4" from="B" to="C">Segmento da P1 a P2</Segment>
+<Point name="A" n="7" showname="true" xcoffset="0.012678288431062334" ycoffset="0.44374009508716306" keepclose="true" x="-3.5245641838351824" y="2.5166402535657686">Punto in -3.52456, 2.51664</Point>
+<Segment name="s2" n="8" from="C" to="A">Segmento da P2 a P3</Segment>
+<Segment name="s3" n="11" from="A" to="B">Segmento da P3 a P1</Segment>
+<Midpoint name="$M_A$" n="14" showname="true" first="B" second="C">Punto medio tra P1 e P2</Midpoint>
+<Midpoint name="$M_B$" n="17" showname="true" xcoffset="0.29160063391442215" ycoffset="0.3169572107765457" keepclose="true" first="C" second="A">Punto medio tra P2 e P3</Midpoint>
+<Midpoint name="$M_C$" n="20" showname="true" xcoffset="-0.29793977812995287" ycoffset="-0.2028526148969887" keepclose="true" first="A" second="B">Punto medio tra P3 e P1</Midpoint>
+<Segment name="s4" n="23" color="1" from="$M_C$" to="C">Segmento da $M_C$ a C</Segment>
+<Segment name="s5" n="26" color="1" from="$M_A$" to="A">Segmento da $M_A$ a A</Segment>
+<Segment name="s6" n="29" color="1" from="B" to="$M_B$">Segmento da B a $M_B$</Segment>
+<Parallel name="pl2" n="35" point="$M_B$" line="s1">Retta parallela per $M_B$ a s1</Parallel>
+<Parallel name="pl3" n="39" color="5" point="C" line="s5">Retta parallela per P2 a s5</Parallel>
+<Parallel name="pl4" n="42" point="A" line="s1">Retta parallela per P3 a s1</Parallel>
+<Intersection name="D" n="43" showname="true" xcoffset="-0.3106180665610139" ycoffset="0.3423137876386688" keepclose="true" first="pl4" second="pl3">Intersezione tra pl4 e pl3</Intersection>
+<Segment name="s7" n="46" color="5" from="D" to="$M_C$">Segmento da I2 a $M_C$</Segment>
+</Objects>
+</Construction>
+</CaR>

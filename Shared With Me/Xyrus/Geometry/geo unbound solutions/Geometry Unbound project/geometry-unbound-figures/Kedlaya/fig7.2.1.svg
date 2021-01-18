@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<path d="M 358.0 355.0 H 363.0 V 360.0 H 358.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="367.0" y="376.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B</text><path d="M 668.0 352.0 H 673.0 V 357.0 H 668.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="677.0" y="373.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C</text><line x1="361.0" y1="358.0" x2="671.0" y2="355.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 428.0 105.0 H 433.0 V 110.0 H 428.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="429.0" y="130.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A</text><line x1="671.0" y1="355.0" x2="431.0" y2="108.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="431.0" y1="108.0" x2="361.0" y2="358.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 470.6112478489443 353.9102137304941 H 475.6112478489443 V 358.9102137304941 H 470.6112478489443 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="479.6112478489443" y="374.9102137304941" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">D</text><ellipse cx="472.79296416222144" cy="272.35423276913275" rx="84.55994030585677" ry="84.55994030585677" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<path d="M 530.4390511404243 210.42685679868674 H 535.4390511404243 V 215.42685679868674 H 530.4390511404243 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="522.0" y="235.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">E</text><path d="M 388.36478413850244 246.5543423624914 H 393.36478413850244 V 251.5543423624914 H 388.36478413850244 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="397.36478413850244" y="267.5543423624914" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">F</text><text x="583.0" y="144.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$s = \frac{AB + BC + CA}3$</text><text x="583.0" y="156.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$AE = AF = s-a$</text><text x="583.0" y="168.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$BF = BD = s-b$</text><text x="583.0" y="180.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$CD = CD = s-c$</text></svg>

@@ -1,0 +1,69 @@
+Macro Cabri II Plus vers. MS-Windows 1.2.4.7
+
+Ellipse (Axis & Point), no name
+Icon:
+16x16
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0 15 15  0  0  0  0  0  0  0 
+ 0  0  0  0  0  7  7 15 15  7  7  0  0  0  0  0 
+ 0  0  0  7  7  0  0 15 15  0  0  7  7  0  0  0 
+ 0  0  7  0  0  0  0  0  0  0  0  0  0  7  0  0 
+ 0 15  0  0  0  0  0  0  0  0  0  0  0  0 15  0 
+15 15 15  0  0  0  0  0  0  0  0  0  0 15 15 15 
+ 0 15  0  0  0  0  0  0  0  0  0  0  0  0 15  0 
+ 0  0  7  0  0  0  0  0  0  0  0  0  0  7  0  0 
+ 0  0  0  7  7  0  0  0  0  0  0  7  7  0  0  0 
+ 0  0  0  0  0  7  7  7  7  7  7  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+Help:
+"Select a segment AB and a point P on the perpendicular bisector of AB. An ellipse with axes AB and PP' is constructed. P' is the symmetric image of P with respect to AB."
+Mth: 0
+CN:3, ON:17, FN:4, PO:16
+CT:
+point, CS 0, 
+point, CS 0, 
+point, CS 0, 
+Const:
+Seg, Mth:0, 0, CN:2, VN:2, Const: 1 2
+PBiss, Mth:1, 0, CN:1, VN:2, Const: 4
+Int, Mth:0, 0, CN:2, VN:1, int ind:0, Const: 4 5
+Cir, Mth:1, 0, CN:2, VN:2, Const: 6 2
+PBiss, Mth:0, 0, CN:2, VN:2, Const: 6 2
+Line, Mth:1, 0, CN:2, VN:2, Const: 1 2
+Int, Mth:0, 0, CN:2, VN:1, int ind:0x10000, Const: 5 7
+Int, Mth:0, 0, CN:2, VN:1, int ind:0x10000, Const: 8 7
+Line, Mth:1, 0, CN:2, VN:2, Const: 10 11
+Int, Mth:0, 0, CN:2, VN:1, int ind:0, Const: 9 12
+Int, Mth:0, 0, CN:2, VN:1, int ind:0, Const: 8 9
+Perp, Mth:0, 0, CN:2, VN:2, Const: 3 5
+Int, Mth:0, 1, CN:2, VN:1, int ind:0, Const: 5 15, invisible, 
+Line, Mth:1, 0, CN:2, VN:2, Const: 16 13
+Int, Mth:0, 1, CN:2, VN:1, int ind:0, Const: 8 17, invisible, 
+Sym, Mth:0, 1, CN:2, VN:1, Const: 18 14, invisible, 
+Con, Mth:0, 1, CN:5, VN:5, Const: 16 18 2 19 1, 
+Mth: 1
+CN:2, ON:16, FN:4, PO:15
+CT:
+segment, CS 2, color:V, 
+point, CS 0, 
+Const:
+PBiss, Mth:1, 0, CN:1, VN:2, Const: 3
+Int, Mth:0, 0, CN:2, VN:1, int ind:0, Const: 3 5
+Cir, Mth:1, 0, CN:2, VN:2, Const: 6 2
+PBiss, Mth:0, 0, CN:2, VN:2, Const: 6 2
+Line, Mth:1, 0, CN:2, VN:2, Const: 1 2
+Int, Mth:0, 0, CN:2, VN:1, int ind:0x10000, Const: 5 7
+Int, Mth:0, 0, CN:2, VN:1, int ind:0x10000, Const: 8 7
+Line, Mth:1, 0, CN:2, VN:2, Const: 10 11
+Int, Mth:0, 0, CN:2, VN:1, int ind:0, Const: 9 12
+Int, Mth:0, 0, CN:2, VN:1, int ind:0, Const: 8 9
+Perp, Mth:0, 0, CN:2, VN:2, Const: 4 5
+Int, Mth:0, 1, CN:2, VN:1, int ind:0, Const: 5 15, invisible, 
+Line, Mth:1, 0, CN:2, VN:2, Const: 16 13
+Int, Mth:0, 1, CN:2, VN:1, int ind:0, Const: 8 17, invisible, 
+Sym, Mth:0, 1, CN:2, VN:1, Const: 18 14, invisible, 
+Con, Mth:0, 1, CN:5, VN:5, Const: 16 18 2 19 1, 

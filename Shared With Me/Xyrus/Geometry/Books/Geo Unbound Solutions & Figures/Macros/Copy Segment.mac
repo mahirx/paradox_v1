@@ -1,0 +1,34 @@
+Macro Cabri II Plus vers. MS-Windows 1.2.4.7
+
+Copy Segment, copied segment
+Icon:
+16x16
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  7  7  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  7  7  7  0  0 
+ 0  0  0  0  0  0  0  0  7  7  7  0  0  0  0  0 
+ 0  0  0  0  0  7  7  7  0  0  0  0  0  0  0  0 
+ 0 15 15  7  7  0  0  0  0  0  0  0  0  0  0  0 
+ 0 15 15  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0 15 15 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0 15 15 15 
+ 0  0  0  0  0  0  0  0  0  0 15 15 15  0  0  0 
+ 0  0  0  0  0  0  0 15 15 15  0  0  0  0  0  0 
+ 0  0  0 15 15 15 15  0  0  0  0  0  0  0  0  0 
+ 0  0  0 15 15  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+Help:
+"Select a segment and a ray. The segment will be copied onto the ray."
+Mth: 0
+CN:2, ON:5, FN:2, PO:4
+CT:
+segment, CS 2, color:V, 
+ray, CS 1, color:V, 
+Const:
+Mid, Mth:0, 0, CN:2, VN:1, Const: 2 4
+Sym, Mth:0, 0, CN:2, VN:1, Const: 1 6
+Cir, Mth:1, 0, CN:2, VN:2, Const: 4 7
+Int, Mth:0, 1, CN:2, VN:1, int ind:0x10000, Const: 5 8, 
+Seg, Mth:0, 1, CN:2, VN:2, Const: 4 9, color:V, 

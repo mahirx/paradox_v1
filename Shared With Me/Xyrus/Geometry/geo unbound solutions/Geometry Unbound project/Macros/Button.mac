@@ -1,0 +1,66 @@
+Macro Cabri II Plus vers. MS-Windows 1.2.4.7
+
+Button, boolean point
+Icon:
+16x16
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  7  7  0  0  0  0  0  0  0  0  0  0 
+ 0  0 31 31  7  7 31 31 31 31 31 31 31 31  0  0 
+ 0  0  0  0  7  7  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0 38  0  0 38  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  7  7  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  7  7  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0 38  0  0 38  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+Help:
+"Create or select two points to create a slide button and a third point for the boolean point. The boolean point is dependent on the position of the slide button."
+Mth: 0
+CN:2, ON:7, FN:2, PO:2
+CT:
+segment, CS 2, color:V, 
+point, CS 0, 
+Const:
+Mid, Mth:0, 0, CN:2, VN:1, Const: 1 2
+Seg, Mth:0, 0, CN:2, VN:2, Const: 1 5
+Pt/, Mth:1, 1, CN:1, VN:3, Const: 3, thicker, 1x1, 
+Perp, Mth:0, 0, CN:2, VN:2, Const: 7 3
+Int, Mth:0, 0, CN:2, VN:1, int ind:0, Const: 6 8
+Sym, Mth:0, 0, CN:2, VN:1, Const: 9 4
+Mid, Mth:0, 1, CN:2, VN:1, Const: 9 10, color:B, thicker, TIMES, 
+Mth: 1
+CN:3, ON:8, FN:3, PO:7
+CT:
+point, CS 0, invisible, 
+point, CS 0, invisible, 
+point, CS 0, 
+Const:
+Seg, Mth:0, 1, CN:2, VN:2, Const: 1 2, color:V, 
+Mid, Mth:0, 0, CN:2, VN:1, Const: 1 2
+Seg, Mth:0, 0, CN:2, VN:2, Const: 1 5
+Pt/, Mth:1, 1, CN:1, VN:3, Const: 4, thicker, 1x1, 
+Perp, Mth:0, 0, CN:2, VN:2, Const: 7 4
+Int, Mth:0, 0, CN:2, VN:1, int ind:0, Const: 6 8
+Sym, Mth:0, 0, CN:2, VN:1, Const: 9 3
+Mid, Mth:0, 1, CN:2, VN:1, Const: 9 10, color:B, thicker, TIMES, 
+Mth: 2
+CN:3, ON:8, FN:2, PO:7
+CT:
+point, CS 0, invisible, 
+point, CS 0, invisible, 
+point, CS 0, 
+Const:
+Seg, Mth:0, 0, CN:2, VN:2, Const: 1 2
+Mid, Mth:0, 0, CN:2, VN:1, Const: 1 2
+Seg, Mth:0, 0, CN:2, VN:2, Const: 1 5
+Pt/, Mth:1, 1, CN:1, VN:3, Const: 4, thicker, 1x1, 
+Perp, Mth:0, 0, CN:2, VN:2, Const: 7 4
+Int, Mth:0, 0, CN:2, VN:1, int ind:0, Const: 6 8
+Sym, Mth:0, 0, CN:2, VN:1, Const: 9 3
+Mid, Mth:0, 1, CN:2, VN:1, Const: 9 10, color:B, thicker, TIMES, 

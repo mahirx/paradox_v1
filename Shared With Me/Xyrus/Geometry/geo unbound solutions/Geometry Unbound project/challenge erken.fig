@@ -1,0 +1,180 @@
+Figure Cabri II Plus vers. MS-Windows 1.x (1.3.1)
+
+Window center x: 2.74cm y: -1.16cm Window size x: 20.61cm y: 11.61cm
+Resolution: 38 ppc
+
+1: Pt, Val: 0 0
+invisible, 
+
+2: Axes, Const: 1, cart, Val: 1.09671020507813 0 0 1.09671020507813
+invisible, 
+
+3: Pt, Val: -1.03898861533717 4.21367605108964
+"A"
+TP:  -1.55263157894737,  4.76315789473684, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+4: Ray, Const: 3, Val: -0.522758653165299 -0.964104073460592
+color:B, 
+
+5: Ray, Const: 3, Val: 1.26987497430099 -1.26987497430099
+color:B, 
+
+6: Pt/, Const: 4, Val: -2.77602365594161 1.01012782046669
+"B"
+TP:  -3.21052631578947,  1.52631578947368, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+7: Pt/, Const: 5, Val: 3.31854414039774 -0.143856704645269
+"C"
+TP:  3.52631578947368,  0.342105263157895, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+8: Seg, Const: 6,  7, 
+color:B, 
+
+9: Biss, Const: 6,  3,  7, 
+invisible, 
+
+10: Pt/, Const: 5, Val: 3.66456946107349 -0.489882025321021
+invisible, 
+
+11: Biss, Const: 6,  7,  10, 
+invisible, 
+
+13: Int, Const: 9,  11, int ind:0, 
+"O"
+TP:  0.315789473684211,  -5.73684210526316, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 7 Fa: 0
+
+14: Perp, Const: 13,  8, 
+invisible, 
+
+15: Perp, Const: 13,  5, 
+invisible, 
+
+16: Perp, Const: 13,  4, 
+invisible, 
+
+18: Int, Const: 16,  4, int ind:0, 
+"E"
+TP:  -5.36842105263158,  -2.36842105263158, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+20: Int, Const: 8,  14, int ind:0, 
+"D"
+TP:  1.52631578947368,  0.894736842105263, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+22: Int, Const: 15,  5, int ind:0, 
+"F"
+TP:  4.89473684210526,  -0.973684210526316, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+23: Cir, Const: 13,  20, 
+
+24: Seg, Const: 13,  20, 
+color:R, 
+
+25: Seg, Const: 13,  18, 
+color:R, 
+
+26: Seg, Const: 13,  22, 
+color:R, 
+
+27: Seg, Const: 13,  7, 
+color:dep, 
+
+28: Perp, Const: 6,  27, 
+invisible, 
+
+30: Int, Const: 27,  28, int ind:0, 
+"H"
+TP:  2.57894736842105,  -1.78947368421053, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+31: Seg, Const: 18,  22, 
+color:Bl, thicker, 
+
+32: Seg, Const: 6,  30, 
+color:R, 
+
+33: Seg, Const: 6,  13, 
+color:dep, 
+
+34: Seg, Const: 18,  20, 
+color:dep, 
+
+35: Seg, Const: 20,  22, 
+color:dep, 
+
+36: Text, Val: 28 190 0, nA, nP, 
+"90-c"
+TP:  0.736842105263158,  -5, TS:  2.63157894736842,  0.5
+p: 0, Times New Roman, S: 12 C: 40 Fa: 3
+
+37: Text, Val: 28 164 0, nA, nP, 
+"90-c"
+TP:  0.736842105263158,  -4.31578947368421, TS:  2.63157894736842,  0.5
+p: 0, Times New Roman, S: 12 C: 40 Fa: 3
+
+38: Text, Val: 155 35 0, nA, nP, 
+"x"
+TP:  4.07894736842105,  -0.921052631578947, TS:  2.63157894736842,  0.5
+p: 0, Times New Roman, S: 12 C: 40 Fa: 3
+
+39: Text, Val: 126 6 0, nA, nP, 
+"c"
+TP:  3.31578947368421,  -0.157894736842105, TS:  2.63157894736842,  0.5
+p: 0, Times New Roman, S: 12 C: 40 Fa: 3
+
+40: Text, Val: 58 -8 0, nA, nP, 
+"c"
+TP:  1.52631578947368,  0.210526315789474, TS:  2.63157894736842,  0.5
+p: 0, Times New Roman, S: 12 C: 40 Fa: 3
+
+41: Text, Val: 108 45 0, nA, nP, 
+"b"
+TP:  2.84210526315789,  -1.18421052631579, TS:  2.63157894736842,  0.5
+p: 0, Times New Roman, S: 12 C: 40 Fa: 3
+
+42: Text, Val: 53 46 0, nA, nP, 
+"a"
+TP:  1.39473684210526,  -1.21052631578947, TS:  2.63157894736842,  0.5
+p: 0, Times New Roman, S: 12 C: 40 Fa: 3
+
+43: Text, Val: 70 71 0, nA, nP, 
+"b"
+TP:  1.84210526315789,  -1.86842105263158, TS:  2.63157894736842,  0.5
+p: 0, Times New Roman, S: 12 C: 40 Fa: 3
+
+44: Text, Val: -108 -27 0, nA, nP, 
+"b"
+TP:  -2.84210526315789,  0.710526315789474, TS:  2.63157894736842,  0.5
+p: 0, Times New Roman, S: 12 C: 40 Fa: 3
+
+45: Text, Val: 34 -2 0, nA, nP, 
+"b"
+TP:  0.894736842105263,  0.0526315789473684, TS:  2.63157894736842,  0.5
+p: 0, Times New Roman, S: 12 C: 40 Fa: 3
+
+46: Text, Val: -161 96 0, nA, nP, 
+"b"
+TP:  -4.23684210526316,  -2.52631578947368, TS:  2.63157894736842,  0.5
+p: 0, Times New Roman, S: 12 C: 40 Fa: 3
+
+47: Text, Val: -159 75 0, nA, nP, 
+"x"
+TP:  -4.18421052631579,  -1.97368421052632, TS:  2.63157894736842,  0.5
+p: 0, Times New Roman, S: 12 C: 40 Fa: 3
+
+48: Text, Val: -10 168 0, nA, nP, 
+"y"
+TP:  -0.263157894736842,  -4.42105263157895, TS:  2.63157894736842,  0.5
+p: 0, Times New Roman, S: 12 C: 40 Fa: 3
+
+49: Text, Val: 7 165 0, nA, nP, 
+"x"
+TP:  0.184210526315789,  -4.34210526315789, TS:  2.63157894736842,  0.5
+p: 0, Times New Roman, S: 12 C: 40 Fa: 3
+

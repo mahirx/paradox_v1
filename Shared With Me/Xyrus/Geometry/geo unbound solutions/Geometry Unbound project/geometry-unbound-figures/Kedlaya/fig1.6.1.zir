@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="B" n="0" showname="true" x="-4.5587301587301585" y="-1.0984126984126985">Punto in -4.55873, -1.09841</Point>
+<Point name="C" n="3" showname="true" x="-1.5238095238095237" y="-1.1238095238095238">Punto in -1.52381, -1.12381</Point>
+<Segment name="s1" n="4" from="B" to="C">Segmento da P1 a P2</Segment>
+<Point name="A" n="7" showname="true" x="-2.742857142857143" y="2.2920634920634915">Punto in -2.74286, 2.29206</Point>
+<Segment name="s2" n="8" from="C" to="A">Segmento da P2 a P3</Segment>
+<Segment name="s3" n="11" from="A" to="B">Segmento da P3 a P1</Segment>
+<Circle name="c1" n="18" hidden="super" through="C" midpoint="B" acute="true">Circonferenza di centro P1 per P2</Circle>
+<Circle name="c2" n="19" hidden="super" through="B" midpoint="C" acute="true">Circonferenza di centro P2 per P1</Circle>
+<Intersection name="I1" n="20" hidden="super" first="c1" second="c2" which="second">Intersezione tra c1 e c2</Intersection>
+<Intersection name="I2" n="21" hidden="super" first="c2" second="c1" which="second">Intersezione tra c2 e c1</Intersection>
+<Line name="l1" n="22" type="thin" from="I1" to="I2">Retta per I1 e I2</Line>
+<PointOn name="O" n="25" showname="true" on="l1" alpha="2.2474182202515527" x="-3.038081733875169" y="-0.7301322774478138">Punto su l1</PointOn>
+<Ray name="r1" n="26" from="A" to="O">Semiretta da A puntando a O</Ray>
+<Plumb name="p1" n="29" hidden="true" point="O" line="s2" valid="true">Retta perpendicolare per O a s2</Plumb>
+<Plumb name="p2" n="32" hidden="true" point="O" line="s3" valid="true">Retta perpendicolare per O a s3</Plumb>
+<Intersection name="D" n="34" showname="true" first="s1" second="l1">Intersezione tra s1 e l1</Intersection>
+<Intersection name="Q" n="35" showname="true" first="s2" second="p1">Intersezione tra s2 e p1</Intersection>
+<Intersection name="R" n="36" showname="true" first="p2" second="s3">Intersezione tra p2 e s3</Intersection>
+<Segment name="s4" n="39" from="B" to="O">Segmento da B a O</Segment>
+<Segment name="s5" n="42" from="O" to="C">Segmento da O a C</Segment>
+<Segment name="s6" n="45" from="O" to="Q">Segmento da O a Q</Segment>
+<Segment name="s7" n="48" from="O" to="R">Segmento da O a R</Segment>
+<Angle name="a1" n="51" unit="°" first="B" root="A" second="O" acute="true">Angolo B - A - O</Angle>
+<Angle name="a2" n="54" unit="°" first="O" root="A" second="C" acute="true">Angolo O - A - C</Angle>
+</Objects>
+</Construction>
+</CaR>

@@ -1,0 +1,282 @@
+Figure Cabri II Plus vers. MS-Windows 1.x (1.3.1)
+
+Used macro
+
+Circumscribed Circle, this circumcircle
+Icon:
+16x16
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0 15  7  7  7  7  0  0  0  0  0  0 
+ 0  0  0  7  7 15  0  0  0  0  7  7  0  0  0  0 
+ 0  0  7  0 15  0 15  0  0  0  0  0  7  0  0  0 
+ 0  7  0  0 15  0  0 15  0  0  0  0  0  7  0  0 
+ 0  7  0  0 15  0  0  0 15  0  0  0  0  7  0  0 
+ 7  0  0 15  0  0  0  0  0 15  0  0  0  0  7  0 
+ 7  0  0 15  0  0  0  7  0 15  0  0  0  0  7  0 
+ 7  0  0 15  0  0  7  7  7  0 15  0  0  0  7  0 
+ 7  0 15  0  0  0  0  7  0  0  0 15  0  0  7  0 
+ 7  0 15  0  0  0  0  0  0  0  0  0 15  0  7  0 
+ 0  7 15  0  0  0  0  0  0  0  0  0  0 15  0  0 
+ 0 15 15 15 15 15 15 15 15 15 15 15 15  7  0  0 
+ 0  0  7  0  0  0  0  0  0  0  0  0  7  0  0  0 
+ 0  0  0  7  7  0  0  0  0  0  7  7  0  0  0  0 
+ 0  0  0  0  0  7  7  7  7  7  0  0  0  0  0  0 
+Help:
+"Select a triangle or three points to construct the circle passing through the three vertices."
+Mth: 0
+CN:1, ON:4, FN:2, PO:3
+CT:
+triangle, CS 3, color:P, 
+Const:
+PBiss, Mth:1, 0, CN:1, VN:2, side:2, Const: 4
+PBiss, Mth:1, 0, CN:1, VN:2, side:0, Const: 4
+Int, Mth:0, 1, CN:2, VN:1, int ind:0, Const: 5 6, 
+Cir, Mth:1, 1, CN:2, VN:2, Const: 7 1, 
+Mth: 1
+CN:3, ON:5, FN:2, PO:4
+CT:
+point, CS 0, 
+point, CS 0, 
+point, CS 0, 
+Const:
+Tr, Mth:0, 0, CN:3, VN:4, Const: 1 2 3
+PBiss, Mth:1, 0, CN:1, VN:2, side:2, Const: 4
+PBiss, Mth:1, 0, CN:1, VN:2, side:0, Const: 4
+Int, Mth:0, 1, CN:2, VN:1, int ind:0, Const: 5 6, 
+Cir, Mth:1, 1, CN:2, VN:2, Const: 7 1, 
+
+Figure description:
+
+Window center x: 7.61cm y: -2.08cm Window size x: 20.61cm y: 11.61cm
+Resolution: 38 ppc
+
+1: Pt, Val: 0 0
+invisible, 
+
+2: Axes, Const: 1, cart, Val: 1.09671020507813 0 0 1.09671020507813
+invisible, 
+
+3: Pt, Val: 6.11028067882081 2.6732477969841
+"A"
+TP:  5.94736842105263,  3.5, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+4: Pt, Val: -0.618446937393148 -4.38897826537073
+"B"
+TP:  -1.13157894736842,  -4.47368421052632, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+5: Pt, Val: 8.34076971756783 -4.06937207673726
+"C"
+TP:  8.36842105263158,  -4.15789473684211, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+6: Tr, Const: 3,  4,  5, 
+color:V, 
+
+7: Mid, Const: 6, side:1, 
+
+8: Mid, Const: 6, side:0, 
+"N"
+TP:  2.23684210526316,  -0.5, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+9: Mid, Const: 6, side:2, 
+"M"
+TP:  7.44736842105263,  -0.210526315789474, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+10: Perp, Const: 4,  6, side:2, 
+color:Bl, invisible, 
+
+11: Perp, Const: 5,  6, side:0, 
+invisible, 
+
+13: Int, Const: 6,  11, int ind:0, 
+"F"
+TP:  3.21052631578947,  0.736842105263158, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+14: Seg, Const: 5,  13, 
+color:Bl, 
+
+16: Int, Const: 6,  10, int ind:0x2, 
+"E"
+TP:  7.76315789473684,  -1.34210526315789, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+17: Seg, Const: 4,  16, 
+color:Bl, 
+
+18: Seg, Const: 8,  9, 
+color:V, 
+
+19: Seg, Const: 9,  7, 
+color:R, invisible, 
+
+20: Seg, Const: 7,  8, 
+color:R, invisible, 
+
+21: Seg, Const: 3,  7, 
+color:R, invisible, 
+
+22: Seg, Const: 4,  9, 
+color:R, invisible, 
+
+24: Int, Const: 21,  22, int ind:0, 
+"G"
+TP:  4.21052631578947,  -1.39473684210526, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+Ma: Circumscribed Circle, Const: 6 i: 0
+28: Ma R, F No1, int ind:0, 
+"O"
+TP:  3.23684210526316,  -1.44736842105263, TS:  1.18421052631579,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+29: Ma R, F No2, 
+"w"
+TP:  -1.84210526315789,  -0.105263157894737, TS:  0.815789473684211,  0.710526315789474
+p: 0, Symbol, S: 16, C: 15, Fa: 0, p: 1, Arial, S: 12, C: 15, Fa: 0{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset2 Symbol;}{\f1\fnil\fcharset0 Arial;}}\'0d\'0a{\colortbl ;\red0\green0\blue255;}\'0d\'0a\viewkind4\uc1\pard\cf1\f0\fs32 w\f1\fs24\par\'0d\'0a}{106,107,142,143,189,190}
+
+31: Int, Const: 14,  17, int ind:0, 
+"H"
+TP:  6.34210526315789,  -2.10526315789474, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+32: Seg, Const: 28,  31, 
+color:R, thicker, 
+
+33: Seg, Const: 16,  13, 
+color:V, 
+
+35: Int, Const: 18,  33, int ind:0, 
+"K"
+TP:  5.23684210526316,  -0.0789473684210526, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+36: Ray, Const: 3,  35, 
+color:O, 
+
+38: Int, Const: 32,  36, int ind:0, 
+"K'"
+TP:  5.07894736842105,  -1.52631578947368, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+39: Seg, Const: 3,  28, 
+color:O, 
+
+41: Int, Const: 36,  29, int ind:0x10000, 
+"R"
+TP:  5.10526315789474,  -6.73684210526316, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+42: Seg, Const: 28,  41, 
+color:O, invisible, 
+
+43: Seg, Const: 41,  4, 
+invisible, 
+
+44: Par, Const: 35,  32, 
+color:R, invisible, 
+
+46: Int, Const: 6,  44, int ind:0, 
+
+47: Int, Const: 6,  44, int ind:0x2, 
+
+48: Ray, Const: 3,  31, 
+
+50: Int, Const: 6,  48, int ind:0x1, 
+
+52: Int, Const: 48,  29, int ind:0x10000, 
+"C'"
+TP:  6.47368421052632,  -6.26315789473684, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+53: Seg, Const: 52,  4, 
+invisible, 
+
+54: Ray, Const: 3,  28, 
+
+56: Int, Const: 54,  29, int ind:0x10000, 
+"B'"
+TP:  0.710526315789474,  -6.15789473684211, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+57: Seg, Const: 52,  5, 
+invisible, 
+
+58: Seg, Const: 56,  52, 
+color:V, 
+
+59: Seg, Const: 56,  41, 
+color:R, 
+
+61: Int, Const: 6,  36, int ind:0x1, 
+"K''"
+TP:  5.47368421052632,  -4.36842105263158, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+62: Text, Val: 291 -88 0, nA, nP, 
+"90-c"
+TP:  7.65789473684211,  2.31578947368421, TS:  2.63157894736842,  0.5
+p: 0, Times New Roman, S: 12 C: 40 Fa: 3
+
+63: Text, Val: 242 -91 0, nA, nP, 
+"90-c"
+TP:  6.36842105263158,  2.39473684210526, TS:  2.63157894736842,  0.5
+p: 0, Times New Roman, S: 12 C: 40 Fa: 3
+
+64: Text, Val: 322 26 0, nA, nP, 
+"q"
+TP:  8.47368421052632,  -0.684210526315789, TS:  2.63157894736842,  0.526315789473684
+p: 0, Symbol, S: 12, C: 40, Fa: 3, p: 1, Times New Roman, S: 12, C: 40, Fa: 3{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset2 Symbol;}{\f1\fnil\fcharset0 Times New Roman;}}\'0d\'0a{\colortbl ;\red0\green0\blue0;}\'0d\'0a\viewkind4\uc1\pard\cf1\b\i\f0\fs24 q\f1\par\'0d\'0a}{116,117,150,151,196,197}
+
+65: Text, Val: 121 291 0, nA, nP, 
+"q"
+TP:  3.18421052631579,  -7.65789473684211, TS:  2.63157894736842,  0.526315789473684
+p: 0, Symbol, S: 12, C: 40, Fa: 3, p: 1, Times New Roman, S: 12, C: 40, Fa: 3{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset2 Symbol;}{\f1\fnil\fcharset0 Times New Roman;}}\'0d\'0a{\colortbl ;\red0\green0\blue0;}\'0d\'0a\viewkind4\uc1\pard\cf1\b\i\f0\fs24 q\f1\par\'0d\'0a}{116,117,150,151,196,197}
+
+66: Text, Val: 279 -69 0, nA, nP, 
+"q"
+TP:  7.34210526315789,  1.81578947368421, TS:  2.63157894736842,  0.526315789473684
+p: 0, Symbol, S: 12, C: 40, Fa: 3, p: 1, Times New Roman, S: 12, C: 40, Fa: 3{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset2 Symbol;}{\f1\fnil\fcharset0 Times New Roman;}}\'0d\'0a{\colortbl ;\red0\green0\blue0;\red0\green0\blue0;}\'0d\'0a\viewkind4\uc1\pard\cf1\b\i\f0\fs24 q\cf2\f1\par\'0d\'0a}{116,117,169,170,219,220}
+
+67: Text, Val: 263 171 0, nA, nP, 
+"90-q"
+TP:  6.92105263157895,  -4.5, TS:  2.63157894736842,  0.526315789473684
+p: 0, Times New Roman, S: 12, C: 40, Fa: 3, p: 3, Symbol, S: 12, C: 40, Fa: 3, p: 4, Times New Roman, S: 12, C: 40, Fa: 3{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\fnil\fcharset2 Symbol;}}\'0d\'0a{\colortbl ;\red0\green0\blue0;\red0\green0\blue0;}\'0d\'0a\viewkind4\uc1\pard\cf1\b\i\f0\fs24 90-\cf2\f1 q\cf1\f0\par\'0d\'0a}{116,117,169,170,230,231}
+
+68: Seg, Const: 46,  47, 
+color:V, 
+
+69: Seg, Const: 35,  56, 
+color:ind, 
+
+70: Text, Val: 273 38 0, nA, nP, 
+"90+q"
+TP:  7.18421052631579,  -1, TS:  2.63157894736842,  0.526315789473684
+p: 0, Times New Roman, S: 12, C: 40, Fa: 3, p: 3, Symbol, S: 12, C: 40, Fa: 3, p: 4, Times New Roman, S: 12, C: 40, Fa: 3{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\fnil\fcharset2 Symbol;}}\'0d\'0a{\colortbl ;\red0\green0\blue0;}\'0d\'0a\viewkind4\uc1\pard\cf1\b\i\f0\fs24 90+\f1 q\f0\par\'0d\'0a}{116,117,150,151,203,204}
+
+71: Text, Val: 351 39 0, nA, nP, 
+"H'"
+TP:  9.23684210526316,  -1.02631578947368, TS:  2.63157894736842,  0.5
+p: 0, Times New Roman, S: 12 C: 40 Fa: 3
+
+72: Text, Val: 133 5 0, nA, nP, 
+"O'"
+TP:  3.5,  -0.131578947368421, TS:  2.63157894736842,  0.5
+p: 0, Times New Roman, S: 12 C: 40 Fa: 3
+
+73: Ray, Const: 28,  31, 
+
+74: Ray, Const: 13,  9, 
+
+75: Ray, Const: 8,  16, 
+
+76: Ray, Const: 13,  28, 
+
+77: Ray, Const: 8,  28, 
+
+78: Ray, Const: 9,  31, 
+

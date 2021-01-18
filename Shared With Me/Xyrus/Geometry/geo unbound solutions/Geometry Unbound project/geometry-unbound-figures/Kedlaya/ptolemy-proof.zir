@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.012698412698412653" y="-0.025396825396825307" w="8.0"/>
+<Objects>
+<Point name="P1" n="0" hidden="true" x="-1.9174603174603178" y="-0.6031746031746028">Punto in -1.91746, -0.60317</Point>
+<Point name="B" n="3" showname="true" xcoffset="-0.5460317460317459" ycoffset="-0.17777777777777803" keepclose="true" x="-4.46984126984127" y="-1.0349206349206348">Punto in -4.46984, -1.03492</Point>
+<Circle name="c1" n="4" through="B" midpoint="P1" acute="true">Circonferenza di centro P1 per P2</Circle>
+<PointOn name="C" n="5" showname="true" xcoffset="-0.11366378293909873" ycoffset="-0.23827003366749544" keepclose="true" on="c1" alpha="-2.35307923547253" x="-3.742193511265272" y="-2.439312379440838">Punto su c1</PointOn>
+<PointOn name="D" n="6" showname="true" xcoffset="0.2701045515718943" ycoffset="-0.07147251502429897" keepclose="true" on="c1" alpha="-0.4592903381015087" x="0.4029113214439781" y="-1.7507497071979232">Punto su c1</PointOn>
+<PointOn name="A" n="7" showname="true" xcoffset="-0.08051444512229144" ycoffset="0.3704997990567436" keepclose="true" on="c1" alpha="1.8524449351017833" x="-2.636945872338026" y="1.8834684549115108">Punto su c1</PointOn>
+<Segment name="s1" n="10" from="A" to="B">Segmento da P5 a P2</Segment>
+<Segment name="s2" n="13" from="B" to="C">Segmento da P2 a P3</Segment>
+<Segment name="s3" n="16" from="C" to="D">Segmento da P3 a P4</Segment>
+<Segment name="s4" n="19" from="D" to="A">Segmento da P4 a P5</Segment>
+<Segment name="s5" n="22" from="B" to="D">Segmento da B a D</Segment>
+<Segment name="s7" n="52" from="A" to="C">Segmento da A a C</Segment>
+<Ray name="r1" n="62" hidden="true" from="A" to="B">Semiretta da A puntando a B</Ray>
+<Circle name="c3" n="63" hidden="true" through="D" midpoint="A" acute="true">Circonferenza di centro A per D</Circle>
+<Intersection name="I4" n="64" hidden="true" first="r1" second="c3" which="first">Intersezione tra r1 e c3</Intersection>
+<Circle name="c4" n="65" hidden="super" through="D" midpoint="I4" acute="true">Circonferenza di centro I4 per D</Circle>
+<Circle name="c5" n="66" hidden="super" through="I4" midpoint="D" acute="true">Circonferenza di centro D per I4</Circle>
+<Intersection name="I5" n="67" hidden="super" first="c4" second="c5" which="second">Intersezione tra c4 e c5</Intersection>
+<Intersection name="I6" n="68" hidden="super" first="c5" second="c4" which="second">Intersezione tra c5 e c4</Intersection>
+<Line name="l3" n="69" hidden="true" from="I5" to="I6">Retta per I5 e I6</Line>
+<Plumb name="p2" n="75" hidden="super" point="C" line="l3" valid="true">Retta perpendicolare per C a l3</Plumb>
+<Intersection name="I7" n="76" hidden="super" first="p2" second="l3">Intersezione tra p2 e l3</Intersection>
+<Circle name="c6" n="77" hidden="super" through="C" midpoint="I7" acute="true">Circonferenza di centro I7 per C</Circle>
+<Intersection name="I8" n="78" hidden="true" first="p2" second="c6" awayfrom="C" which="second">Intersezione tra p2 e c6</Intersection>
+<Ray name="r2" n="81" hidden="true" from="A" to="I8">Semiretta da A puntando a I8</Ray>
+<Intersection name="P" n="82" showname="true" first="r2" second="s5">Intersezione tra r2 e s5</Intersection>
+<Segment name="s8" n="85" from="P" to="A">Segmento da P a A</Segment>
+<Angle name="a1" n="88" color="1" unit="°" first="B" root="A" second="C" acute="true">Angolo B - A - C</Angle>
+<Angle name="a2" n="91" color="1" unit="°" first="P" root="A" second="D" acute="true">Angolo P - A - D</Angle>
+<Angle name="a3" n="94" color="2" unit="°" first="A" root="B" second="P" acute="true">Angolo A - B - P</Angle>
+<Angle name="a4" n="97" color="2" unit="°" first="A" root="C" second="D" acute="true">Angolo A - C - D</Angle>
+<Angle name="a5" n="100" color="5" unit="°" first="A" root="D" second="B" acute="true">Angolo A - D - B</Angle>
+<Angle name="a6" n="103" color="5" unit="°" first="A" root="C" second="B" acute="true">Angolo A - C - B</Angle>
+<Text name="Text1" n="104" color="5" x="0.7746031746031754" y="2.0634920634920637">???</Text>
+</Objects>
+</Construction>
+</CaR>

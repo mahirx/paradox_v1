@@ -1,0 +1,210 @@
+Figure Cabri II Plus vers. MS-Windows 1.x (1.3.1)
+
+Used macro
+
+Circumscribed Circle, this circumcircle
+Icon:
+16x16
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0 15  7  7  7  7  0  0  0  0  0  0 
+ 0  0  0  7  7 15  0  0  0  0  7  7  0  0  0  0 
+ 0  0  7  0 15  0 15  0  0  0  0  0  7  0  0  0 
+ 0  7  0  0 15  0  0 15  0  0  0  0  0  7  0  0 
+ 0  7  0  0 15  0  0  0 15  0  0  0  0  7  0  0 
+ 7  0  0 15  0  0  0  0  0 15  0  0  0  0  7  0 
+ 7  0  0 15  0  0  0  7  0 15  0  0  0  0  7  0 
+ 7  0  0 15  0  0  7  7  7  0 15  0  0  0  7  0 
+ 7  0 15  0  0  0  0  7  0  0  0 15  0  0  7  0 
+ 7  0 15  0  0  0  0  0  0  0  0  0 15  0  7  0 
+ 0  7 15  0  0  0  0  0  0  0  0  0  0 15  0  0 
+ 0 15 15 15 15 15 15 15 15 15 15 15 15  7  0  0 
+ 0  0  7  0  0  0  0  0  0  0  0  0  7  0  0  0 
+ 0  0  0  7  7  0  0  0  0  0  7  7  0  0  0  0 
+ 0  0  0  0  0  7  7  7  7  7  0  0  0  0  0  0 
+Help:
+"Select a triangle or three points to construct the circle passing through the three vertices."
+Mth: 0
+CN:1, ON:4, FN:2, PO:3
+CT:
+triangle, CS 3, color:P, 
+Const:
+PBiss, Mth:1, 0, CN:1, VN:2, side:2, Const: 4
+PBiss, Mth:1, 0, CN:1, VN:2, side:0, Const: 4
+Int, Mth:0, 1, CN:2, VN:1, int ind:0, Const: 5 6, 
+Cir, Mth:1, 1, CN:2, VN:2, Const: 7 1, 
+Mth: 1
+CN:3, ON:5, FN:2, PO:4
+CT:
+point, CS 0, 
+point, CS 0, 
+point, CS 0, 
+Const:
+Tr, Mth:0, 0, CN:3, VN:4, Const: 1 2 3
+PBiss, Mth:1, 0, CN:1, VN:2, side:2, Const: 4
+PBiss, Mth:1, 0, CN:1, VN:2, side:0, Const: 4
+Int, Mth:0, 1, CN:2, VN:1, int ind:0, Const: 5 6, 
+Cir, Mth:1, 1, CN:2, VN:2, Const: 7 1, 
+
+Figure description:
+
+Window center x: 2.29cm y: -1.16cm Window size x: 20.61cm y: 11.61cm
+Resolution: 38 ppc
+
+1: Pt, Val: 0 0
+invisible, 
+
+2: Axes, Const: 1, cart, Val: 1.40282525911492 0 0 1.40282525911492
+invisible, 
+
+3: Pt, Val: -4.7991390443405 3.95006059803411
+"A"
+TP:  -4.65789473684211,  4.28947368421053, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 7 Fa: 0
+
+4: Pt, Val: -6.23888075764265 -2.36265306798302
+"B"
+TP:  -6.21052631578947,  -2.36842105263158, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+5: Seg, Const: 3,  4, 
+
+6: Pt, Val: 0.627579721182989 -2.47340243054472
+"C"
+TP:  0.631578947368421,  -2.55263157894737, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+7: Seg, Const: 4,  6, 
+
+8: Seg, Const: 6,  3, 
+
+9: Perp, Const: 6,  5, 
+
+11: Int, Const: 5,  9, int ind:0, 
+"F"
+TP:  -6.39473684210526,  -0.368421052631579, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+12: Ray, Const: 11,  4, 
+
+13: Cir, Const: 11,  3, 
+invisible, 
+
+15: Int, Const: 12,  13, int ind:0x10000, 
+"P"
+TP:  -6.97368421052632,  -5.86842105263158, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+16: Seg, Const: 15,  11, 
+
+17: Seg, Const: 11,  3, 
+
+18: Mid, Const: 8, 
+"M"
+TP:  -2.26315789473684,  1.52631578947368, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+19: Perp, Const: 3,  7, 
+invisible, 
+
+21: Int, Const: 9,  19, int ind:0, 
+"H"
+TP:  -4.78947368421053,  -1.21052631578947, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+22: PBiss, Const: 7, 
+invisible, 
+
+23: PBiss, Const: 8, 
+invisible, 
+
+25: Int, Const: 22,  23, int ind:0, 
+"O"
+TP:  -3.31578947368421,  0.684210526315789, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+27: Int, Const: 7,  22, int ind:0, 
+
+28: Seg, Const: 27,  25, 
+
+30: Int, Const: 8,  23, int ind:0, 
+
+31: Seg, Const: 25,  30, 
+
+33: Int, Const: 7,  19, int ind:0, 
+
+34: Seg, Const: 3,  33, 
+
+35: Seg, Const: 21,  15, 
+
+37: Int, Const: 7,  35, int ind:0, 
+"X"
+TP:  -5.36842105263158,  -2.44736842105263, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+38: Line, Const: 11,  37, 
+
+39: Ray, Const: 30,  25, 
+
+41: Int, Const: 38,  39, int ind:0, 
+"Y"
+TP:  -6,  -1.68421052631579, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+42: Ray, Const: 11,  25, 
+
+44: Int, Const: 8,  42, int ind:0, 
+"Z"
+TP:  -1.71052631578947,  0.605263157894737, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+Ma: Circumscribed Circle, Const: 11 i: 0 18 i: 0 44 i: 0
+49: Ma R, F No1, int ind:0, 
+
+50: Ma R, F No2, 
+
+Ma: Circumscribed Circle, Const: 3 i: 0 4 i: 0 6 i: 0
+55: Ma R, F No1, int ind:0, 
+
+Ma: Circumscribed Circle, Const: 11 i: 0 4 i: 0 25 i: 0
+60: Ma R, F No1, int ind:0, 
+
+61: Ma R, F No2, 
+
+63: Int, Const: 9,  61, int ind:0x10000, 
+"K"
+TP:  -1.13157894736842,  -1.94736842105263, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+65: Int, Const: 38,  61, int ind:0x10000, 
+"L"
+TP:  -4.63157894736842,  -4.73684210526316, TS:  0.789473684210526,  0.578947368421053
+p: 0, Times New Roman, S: 14 C: 7 Fa: 3
+
+66: Seg, Const: 63,  65, 
+
+67: Seg, Const: 4,  25, 
+
+Ma: Circumscribed Circle, Const: 3 i: 0 4 i: 0 6 i: 0
+72: Ma R, F No1, int ind:0, 
+
+73: Ma R, F No2, 
+invisible, 
+
+75: Seg, Const: 63,  4, 
+
+76: Seg, Const: 4,  65, 
+
+77: Mid, Const: 5, 
+
+78: Line, Const: 55,  77, 
+
+79: Seg, Const: 25,  37, 
+
+80: Cir, Const: 25,  3, 
+
+82: Int, Const: 9,  80, int ind:0, 
+
+83: Seg, Const: 3,  82, 
+
+84: Seg, Const: 82,  4, 
+

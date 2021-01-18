@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="-1.6694088303553354" y="-2.6694005774812624" w="16.000000000000007"/>
+<Objects>
+<Point name="P1" n="0" x="-1.9682539682539684" y="0.0063492063492058826">Punto in -1.96825, 0.00635</Point>
+<Point name="P2" n="3" hidden="true" x="-4.355555555555556" y="-0.7047619047619049">Punto in -4.35556, -0.70476</Point>
+<Circle name="c1" n="4" through="P2" midpoint="P1" acute="true">Circonferenza di centro P1 per P2</Circle>
+<PointOn name="A" n="5" showname="true" on="c1" alpha="-2.2499175427495843" x="-3.5328502923104734" y="-1.9319299850541458">Punto su c1</PointOn>
+<PointOn name="B" n="6" showname="true" on="c1" alpha="-1.0138133893539862" x="-0.6514632015371091" y="-2.108112890205751">Punto su c1</PointOn>
+<PointOn name="C" n="7" showname="true" on="c1" alpha="-0.5026553852965018" x="0.21459133002036257" y="-1.193681745284962">Punto su c1</PointOn>
+<PointOn name="D" n="8" showname="true" on="c1" alpha="0.7805523550034728" x="-0.1983638113170365" y="1.7591688529347072">Punto su c1</PointOn>
+<PointOn name="E" n="9" showname="true" on="c1" alpha="2.9141272972273207" x="-4.395050804520654" y="0.568083126069535">Punto su c1</PointOn>
+<PointOn name="F" n="10" showname="true" xcoffset="-0.8993668986110777" ycoffset="0.07467027292307449" keepclose="true" on="c1" alpha="-2.5597477947585165" x="-4.049328031959904" y="-1.3625987920966158">Punto su c1</PointOn>
+<Line name="l1" n="13" hidden="true" from="A" to="B">Retta per A e B</Line>
+<Line name="l2" n="16" hidden="true" from="D" to="E">Retta per D e E</Line>
+<Line name="l3" n="19" color="2" from="B" to="C">Retta per B e C</Line>
+<Line name="l4" n="22" color="4" from="C" to="D">Retta per C e D</Line>
+<Line name="l5" n="25" color="2" from="E" to="F">Retta per E e F</Line>
+<Line name="l6" n="28" color="4" from="F" to="A">Retta per F e A</Line>
+<Intersection name="P" n="29" showname="true" first="l2" second="l1">Intersezione tra l2 e l1</Intersection>
+<Intersection name="Q" n="31" showname="true" first="l5" second="l3">Intersezione tra l5 e l3</Intersection>
+<Intersection name="R" n="32" showname="true" xcoffset="1.353560240687952" ycoffset="0.0173092670340802" keepclose="true" first="l6" second="l4">Intersezione tra l6 e l4</Intersection>
+<Circle name="c2" n="39" hidden="super" through="R" midpoint="C" acute="true">Circonferenza di centro C per R</Circle>
+<Circle name="c3" n="40" hidden="super" through="C" midpoint="R" acute="true">Circonferenza di centro R per C</Circle>
+<Intersection name="I5" n="41" hidden="super" first="c2" second="c3" which="second">Intersezione tra c2 e c3</Intersection>
+<Intersection name="I6" n="42" hidden="super" first="c3" second="c2" which="second">Intersezione tra c3 e c2</Intersection>
+<Line name="l7" n="43" hidden="true" from="I5" to="I6">Retta per I5 e I6</Line>
+<Circle name="c4" n="50" hidden="super" through="C" midpoint="F" acute="true">Circonferenza di centro F per C</Circle>
+<Circle name="c5" n="51" hidden="super" through="F" midpoint="C" acute="true">Circonferenza di centro C per F</Circle>
+<Intersection name="I7" n="52" hidden="super" first="c4" second="c5" which="second">Intersezione tra c4 e c5</Intersection>
+<Intersection name="I8" n="53" hidden="super" first="c5" second="c4" which="second">Intersezione tra c5 e c4</Intersection>
+<Line name="l8" n="54" hidden="true" from="I7" to="I8">Retta per I7 e I8</Line>
+<Intersection name="I9" n="55" hidden="true" first="l8" second="l7">Intersezione tra l8 e l7</Intersection>
+<Circle name="c6" n="58" color="1" through="R" midpoint="I9" acute="true">Circonferenza di centro I9 per R</Circle>
+<Intersection name="G" n="59" showname="true" first="l3" second="c6" which="second">Intersezione tra l3 e c6</Intersection>
+<Intersection name="H" n="60" showname="true" first="l5" second="c6" which="first">Intersezione tra l5 e c6</Intersection>
+<Segment name="s1" n="63" color="1" from="G" to="H">Segmento da G a H</Segment>
+<Segment name="s2" n="66" color="1" from="H" to="R">Segmento da H a R</Segment>
+<Segment name="s3" n="69" color="1" from="R" to="G">Segmento da R a G</Segment>
+<Segment name="s4" n="72" color="1" from="E" to="B">Segmento da E a B</Segment>
+<Segment name="s5" n="75" color="1" from="B" to="P">Segmento da B a P</Segment>
+<Segment name="s6" n="78" color="1" from="P" to="E">Segmento da P a E</Segment>
+<Line name="l9" n="85" color="5" from="P" to="R">Retta per P e R</Line>
+<Ray name="r1" n="88" color="3" from="E" to="D">Semiretta da E puntando a D</Ray>
+<PointOn name="P9" n="91" hidden="true" on="l2" alpha="14.396198281158972" x="-14.047577370475107" y="-2.171455619496717">Punto su l2</PointOn>
+<Ray name="r2" n="92" color="3" from="P" to="P9">Semiretta da P puntando a P9</Ray>
+<PointOn name="P10" n="95" hidden="true" on="l1" alpha="-10.796965307813277" x="-14.309688540606846" y="-1.2729783721265742">Punto su l1</PointOn>
+<Ray name="r3" n="96" color="3" from="P" to="P10">Semiretta da P puntando a P10</Ray>
+<PointOn name="P11" n="99" hidden="true" on="l1" alpha="7.5206341760659114" x="3.9737643655527615" y="-2.3909232187334846">Punto su l1</PointOn>
+<Ray name="r4" n="100" color="3" from="B" to="P11">Semiretta da B puntando a P11</Ray>
+</Objects>
+</Construction>
+</CaR>

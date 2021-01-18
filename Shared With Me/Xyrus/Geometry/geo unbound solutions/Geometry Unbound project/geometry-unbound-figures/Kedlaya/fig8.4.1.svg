@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<line x1="-293.0" y1="1166.0" x2="1228.0" y2="-842.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="-199.0" y1="-664.0" x2="1354.0" y2="1319.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="-601.0" y1="563.0" x2="1818.0" y2="-139.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="1845.0" y1="629.0" x2="-620.0" y2="113.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 454.29078922102025 172.4988798566216 H 459.29078922102025 V 177.4988798566216 H 454.29078922102025 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="438.0" y="182.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A</text><path d="M 505.3985692047826 237.7428543039777 H 510.3985692047826 V 242.7428543039777 H 505.3985692047826 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="513.0" y="233.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B</text><path d="M 607.6058705080544 368.2202602230483 H 612.6058705080544 V 373.2202602230483 H 607.6058705080544 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="615.0" y="363.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C</text><path d="M 347.3838626200934 313.6494313844079 H 352.3838626200934 V 318.6494313844079 H 347.3838626200934 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="356.3838626200934" y="334.6494313844079" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">E</text><path d="M 287.2906266281439 301.04735471036804 H 292.2906266281439 V 306.04735471036804 H 287.2906266281439 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="296.2906266281439" y="322.04735471036804" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">D</text><path d="M 376.55063080395126 275.1401827666581 H 381.55063080395126 V 280.1401827666581 H 376.55063080395126 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="385.55063080395126" y="296.1401827666581" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">F</text></svg>

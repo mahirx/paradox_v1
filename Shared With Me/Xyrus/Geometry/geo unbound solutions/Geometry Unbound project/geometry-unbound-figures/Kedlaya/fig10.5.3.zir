@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="9.513656920021768"/>
+<Objects>
+<Point name="P1" n="0" hidden="true" x="-4.190476190476191" y="-1.1619047619047618">Punto in -4.19048, -1.1619</Point>
+<Point name="P2" n="3" hidden="true" x="3.136507936507936" y="-1.1619047619047618">Punto in 3.13651, -1.1619</Point>
+<Line name="l1fgd" n="4" type="thin" from="P1" to="P2">Retta per P1 e P2</Line>
+<PointOn name="P3" n="7" hidden="true" on="l1fgd" alpha="1.0285714285714285" x="-3.161904761904762" y="-1.1619047619047618">Punto su l1fgd</PointOn>
+<Plumb name="p1" n="8" hidden="true" point="P3" line="l1fgd" valid="true">Retta perpendicolare per P3 a l1fgd</Plumb>
+<PointOn name="P4" n="11" hidden="true" on="l1fgd" alpha="6.641269841269842" x="2.450793650793651" y="-1.1619047619047618">Punto su l1fgd</PointOn>
+<Plumb name="p2" n="12" hidden="true" point="P4" line="l1fgd" valid="true">Retta perpendicolare per P4 a l1fgd</Plumb>
+<PointOn name="P5" n="15" hidden="true" on="l1fgd" alpha="2.5396825396825395" x="-1.6507936507936511" y="-1.1619047619047618">Punto su l1fgd</PointOn>
+<Plumb name="p3" n="16" hidden="true" point="P5" line="l1fgd" valid="true">Retta perpendicolare per P5 a l1fgd</Plumb>
+<PointOn name="P6" n="19" hidden="true" on="l1fgd" alpha="5.879365079365079" x="1.6888888888888882" y="-1.1619047619047618">Punto su l1fgd</PointOn>
+<Plumb name="p4" n="20" hidden="true" point="P6" line="l1fgd" valid="true">Retta perpendicolare per P6 a l1fgd</Plumb>
+<PointOn name="P9" n="30" hidden="true" on="l1fgd" alpha="1.9174603174603178" x="-2.273015873015873" y="-1.1619047619047618">Punto su l1fgd</PointOn>
+<PointOn name="P10" n="33" hidden="true" on="l1fgd" alpha="-0.3174603174603172" x="-4.507936507936508" y="-1.1619047619047618">Punto su l1fgd</PointOn>
+<Circle name="l" n="34" xcoffset="0.19047619047619047" ycoffset="0.26666666666666666" through="P10" midpoint="P9" start="I1" end="P10" acute="true">Circonferenza di centro P9 per P10</Circle>
+<PointOn name="P11" n="35" hidden="true" on="l1fgd" alpha="4.711111111111111" x="0.5206349206349206" y="-1.1619047619047618">Punto su l1fgd</PointOn>
+<PointOn name="P12" n="38" hidden="true" on="l1fgd" alpha="3.377777777777778" x="-0.8126984126984125" y="-1.1619047619047618">Punto su l1fgd</PointOn>
+<Circle name="l6" n="39" color="1" hidden="true" showname="true" xcoffset="0.9650793650793651" ycoffset="0.06349206349206349" through="P12" midpoint="P11" start="I3" end="P12" acute="true">Circonferenza di centro P11 per P12</Circle>
+<PointOn name="P13" n="42" hidden="true" on="p1" alpha="0.6095238095238091" x="-3.161904761904762" y="-0.5523809523809526">Punto su p1</PointOn>
+<Ray name="l1" n="43" color="1" hidden="true" showname="true" from="P3" to="P13">Semiretta da P3 puntando a P13</Ray>
+<PointOn name="P14" n="46" hidden="true" on="p3" alpha="0.5333333333333332" x="-1.6507936507936511" y="-0.6285714285714286">Punto su p3</PointOn>
+<Ray name="l2" n="47" color="1" hidden="true" showname="true" from="P5" to="P14">Semiretta da P5 puntando a P14</Ray>
+<PointOn name="P15" n="50" hidden="true" on="p4" alpha="1.0539682539682538" x="1.6888888888888882" y="-0.107936507936508">Punto su p4</PointOn>
+<Ray name="r3" n="51" hidden="true" from="P6" to="P15">Semiretta da P6 puntando a P15</Ray>
+<PointOn name="P16" n="54" hidden="true" on="p2" alpha="0.6984126984126982" x="2.450793650793651" y="-0.4634920634920636">Punto su p2</PointOn>
+<Ray name="l3" n="55" color="1" hidden="true" showname="true" from="P4" to="P16">Semiretta da P4 puntando a P16</Ray>
+<Intersection name="I1" n="56" hidden="true" first="l1fgd" second="l" awayfrom="P10" which="first">Intersezione tra l1fgd e l</Intersection>
+<Intersection name="I3" n="57" hidden="true" first="l1fgd" second="l6" awayfrom="P12" which="first">Intersezione tra l1fgd e l6</Intersection>
+<PointOn name="P17" n="58" hidden="true" on="l1fgd" alpha="3.8095238095238093" x="-0.3809523809523814" y="-1.1619047619047618">Punto su l1fgd</PointOn>
+<PointOn name="P18" n="61" hidden="true" on="l1fgd" alpha="2.082539682539683" x="-2.1079365079365076" y="-1.1619047619047618">Punto su l1fgd</PointOn>
+<Circle name="l5" n="62" color="1" hidden="true" showname="true" xcoffset="0.46984126984126984" ycoffset="0.25396825396825395" through="P18" midpoint="P17" start="I5" end="P18" acute="true">Circonferenza di centro P17 per P18</Circle>
+<Intersection name="I5" n="63" hidden="true" first="l1fgd" second="l5" awayfrom="P18" which="first">Intersezione tra l1fgd e l5</Intersection>
+<Point name="P" n="64" showname="true" xcoffset="0.609519841269841" ycoffset="0.40635365079365005" keepclose="true" x="0.43175" y="1.6444400000000001">Punto in 0.43175, 1.64444</Point>
+<PointOn name="P20" n="65" hidden="true" on="l1fgd" alpha="1.6507936507936511" x="-2.5396825396825395" y="-1.1619047619047618">Punto su l1fgd</PointOn>
+<PointOn name="P21" n="66" hidden="true" on="l1fgd" alpha="2.742857142857143" x="-1.4476190476190478" y="-1.1619047619047618">Punto su l1fgd</PointOn>
+<Plumb name="p5" n="70" hidden="true" point="P" line="l1fgd" valid="true">Retta perpendicolare per P a l1fgd</Plumb>
+<Intersection name="I7" n="71" hidden="true" first="p5" second="l1fgd">Intersezione tra p5 e l1fgd</Intersection>
+<Ray name="r5" n="74" from="I7" to="P">Semiretta da I7 puntando a P</Ray>
+<Circle name="c5" n="77" color="1" through="P" midpoint="P20" start="I12" end="I9" acute="true">Circonferenza di centro P20 per P</Circle>
+<Circle name="c6" n="80" color="1" through="P" midpoint="P21" start="I14" end="I11" acute="true">Circonferenza di centro P21 per P</Circle>
+<Intersection name="I9" n="84" hidden="true" first="l1fgd" second="c5" which="second">Intersezione tra l1fgd e c5</Intersection>
+<Intersection name="I11" n="85" hidden="true" first="l1fgd" second="c6" which="second">Intersezione tra l1fgd e c6</Intersection>
+<Intersection name="I12" n="86" hidden="true" first="l1fgd" second="c5" which="first">Intersezione tra l1fgd e c5</Intersection>
+<Intersection name="I14" n="87" hidden="true" first="l1fgd" second="c6" which="first">Intersezione tra l1fgd e c6</Intersection>
+</Objects>
+</Construction>
+</CaR>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="-0.2666666666666666" y="0.8888888888888893" w="8.0"/>
+<Objects>
+<Point name="B" n="0" showname="true" x="-5.117460317460317" y="-0.6984126984126986">Punto in -5.11746, -0.69841</Point>
+<Point name="C" n="3" showname="true" x="-0.6857142857142859" y="-0.7492063492063492">Punto in -0.68571, -0.74921</Point>
+<Segment name="s1" n="4" from="B" to="C">Segmento da P1 a P2</Segment>
+<Point name="A" n="9" showname="true" xcoffset="0.30476190476190546" ycoffset="-0.08888888888888857" keepclose="true" x="-2.5142857142857142" y="2.86984126984127">Punto in -2.51429, 2.86984</Point>
+<Segment name="s2" n="10" from="C" to="A">Segmento da P2 a P3</Segment>
+<Segment name="s3" n="13" from="A" to="B">Segmento da P3 a P1</Segment>
+<Midpoint name="L" n="16" showname="true" first="B" second="C">Punto medio tra P1 e P2</Midpoint>
+<Midpoint name="M" n="19" showname="true" xcoffset="0.31746031746031766" ycoffset="-0.09523809523809557" keepclose="true" first="C" second="A">Punto medio tra P2 e P3</Midpoint>
+<Midpoint name="N" n="22" showname="true" first="A" second="B">Punto medio tra P3 e P1</Midpoint>
+<Segment name="s4" n="25" color="1" from="B" to="M">Segmento da B a M</Segment>
+<Segment name="s5" n="28" color="1" from="A" to="L">Segmento da A a L</Segment>
+<Segment name="s6" n="31" color="1" from="C" to="N">Segmento da C a N</Segment>
+<Intersection name="G" n="32" showname="true" first="s5" second="s6">Intersezione tra s5 e s6</Intersection>
+</Objects>
+</Construction>
+</CaR>

@@ -1,0 +1,48 @@
+Macro Cabri II Plus vers. MS-Windows 1.2.4.7
+
+Inscribed Circle, this inscribed circle
+Icon:
+16x16
+ 0  0  0  0 15  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0 15  0 15  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0 15  0  0 15  0  0  0  0  0  0  0  0  0 
+ 0  0  0 15  0  0  0 15  0  0  0  0  0  0  0  0 
+ 0  0 15  0  0  7  7  7 15  0  0  0  0  0  0  0 
+ 0  0 15  0  7  0  0  0  7 15  0  0  0  0  0  0 
+ 0  0 15  7  0  0  0  0  0  7 15  0  0  0  0  0 
+ 0 15  0  7  0  0  0  0  0  7  0 15  0  0  0  0 
+ 0 15  0  7  0  0  0  0  0  7  0  0 15  0  0  0 
+ 0 15  0  0  7  0  0  0  7  0  0  0  0 15  0  0 
+15  0  0  0  0  7  7  7  0  0  0  0  0  0 15  0 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+Help:
+"Select a triangle to construct the inscribed circle."
+Mth: 0
+CN:1, ON:6, FN:3, PO:5
+CT:
+triangle, CS 3, color:P, 
+Const:
+Biss, Mth:0, 0, CN:3, VN:2, Const: 1 2 3
+Biss, Mth:0, 0, CN:3, VN:2, Const: 2 3 1
+Int, Mth:0, 1, CN:2, VN:1, int ind:0, Const: 6 5, 
+Perp, Mth:0, 0, CN:2, VN:2, side:1, Const: 7 4
+Int, Mth:0, 1, CN:2, VN:1, int ind:0x1, Const: 4 8, invisible, 
+Cir, Mth:1, 1, CN:2, VN:2, Const: 7 9, 
+Mth: 1
+CN:3, ON:7, FN:3, PO:6
+CT:
+point, CS 0, 
+point, CS 0, 
+point, CS 0, 
+Const:
+Tr, Mth:0, 0, CN:3, VN:4, Const: 3 1 2
+Biss, Mth:0, 0, CN:3, VN:2, Const: 3 1 2
+Biss, Mth:0, 0, CN:3, VN:2, Const: 1 2 3
+Int, Mth:0, 1, CN:2, VN:1, int ind:0, Const: 6 5, 
+Perp, Mth:0, 0, CN:2, VN:2, side:1, Const: 7 4
+Int, Mth:0, 1, CN:2, VN:1, int ind:0x1, Const: 4 8, invisible, 
+Cir, Mth:1, 1, CN:2, VN:2, Const: 7 9, 

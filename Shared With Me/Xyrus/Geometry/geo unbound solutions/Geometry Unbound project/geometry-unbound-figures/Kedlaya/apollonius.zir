@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="A" n="0" showname="true" x="-4.67302" y="-0.56508">Punto in -4.67302, -0.56508</Point>
+<Point name="B" n="3" showname="true" x="-1.79048" y="-0.59048">Punto in -1.79048, -0.59048</Point>
+<Segment name="s1" n="4" from="A" to="B">Segmento da A a B</Segment>
+<Point name="P4" n="6" hidden="true" x="-1.765079365079365" y="1.0730158730158732">Punto in -1.76508, 1.07302</Point>
+<Ray name="r1" n="31" hidden="super" from="P4" to="A">Semiretta da P4 puntando a A</Ray>
+<Circle name="c1" n="32" hidden="super" through="B" midpoint="P4" acute="true">Circonferenza di centro P4 per B</Circle>
+<Intersection name="I1" n="33" hidden="super" first="r1" second="c1" which="first">Intersezione tra r1 e c1</Intersection>
+<Midpoint name="M1" n="34" hidden="super" first="I1" second="B">Punto medio tra I1 e B</Midpoint>
+<Ray name="r2" n="35" hidden="true" from="P4" to="M1">Semiretta da P4 puntando a M1</Ray>
+<Plumb name="p1" n="38" hidden="true" point="P4" line="r2" valid="true">Retta perpendicolare per P4 a r2</Plumb>
+<Line name="l1" n="41" hidden="true" from="B" to="A">Retta per B e A</Line>
+<Intersection name="K" n="42" showname="true" first="r2" second="s1">Intersezione tra r2 e s1</Intersection>
+<Intersection name="I3" n="45" hidden="true" first="p1" second="l1">Intersezione tra p1 e l1</Intersection>
+<Midpoint name="M2" n="46" hidden="true" first="K" second="I3">Punto medio tra K e I3</Midpoint>
+<Circle name="$\Gamma$" n="49" showname="true" xcoffset="-0.16507936507936508" ycoffset="3.2253968253968255" through="K" midpoint="M2" acute="true">Circonferenza di centro M2 per K</Circle>
+<PointOn name="P" n="50" showname="true" on="$\Gamma$" alpha="1.377339234662988" x="-0.46985354175415456" y="1.2774542819365065">Punto su $\Gamma$</PointOn>
+<Segment name="s2" n="53" from="P" to="A">Segmento da P a A</Segment>
+<Segment name="s3" n="56" from="P" to="B">Segmento da P a B</Segment>
+<Text name="Text1" n="57" x="-3.7333333333333334" y="1.225396825396825">$\frac{PA}{PB} = \frac{KA}{KB} \quad \forall P \in \Gamma$</Text>
+</Objects>
+</Construction>
+</CaR>

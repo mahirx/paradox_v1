@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" n="0" x="-3.784126984126984" y="-0.2666666666666666">Punto in -3.78413, -0.26667</Point>
+<Point name="P2" n="3" x="-0.6857142857142859" y="-0.25396825396825395">Punto in -0.68571, -0.25397</Point>
+<Segment name="s1" n="4" hidden="true" from="P1" to="P2">Segmento da P1 a P2</Segment>
+<Plumb name="p1" n="7" hidden="true" point="P2" line="s1" valid="true">Retta perpendicolare per P2 a s1</Plumb>
+<Plumb name="p2" n="10" hidden="true" point="P1" line="s1" valid="true">Retta perpendicolare per P1 a s1</Plumb>
+<Circle name="c1" n="13" hidden="true" through="P1" midpoint="P2" acute="true">Circonferenza di centro P2 per P1</Circle>
+<Circle name="c2" n="16" hidden="true" through="P2" midpoint="P1" acute="true">Circonferenza di centro P1 per P2</Circle>
+<Intersection name="I1" n="17" first="p2" second="c2" which="first">Intersezione tra p2 e c2</Intersection>
+<Intersection name="I3" n="20" first="p1" second="c1" which="first">Intersezione tra p1 e c1</Intersection>
+<Segment name="bwe" n="21" hidden="true" from="I1" to="I3">Segmento da I1 a I3</Segment>
+<Segment name="s3" n="24" hidden="true" from="I3" to="P2">Segmento da I3 a P2</Segment>
+<Segment name="s4" n="27" hidden="true" from="P1" to="I1">Segmento da P1 a I1</Segment>
+<PointOn name="P3" n="28" on="s4" alpha="0.6736980306345735" x="-3.7926818797540895" y="1.8207278663471227">Punto su s4</PointOn>
+<Circle3 name="c4" n="44" hidden="true" from="I1" to="P3" midpoint="P1" acute="true">Circonferenza di centro P1 di raggio da I1 a P3</Circle3>
+<Circle3 name="c5" n="47" hidden="true" from="P3" to="I1" midpoint="P2" acute="true">Circonferenza di centro P2 di raggio da P3 a I1</Circle3>
+<Circle3 name="c6" n="50" hidden="true" from="P3" to="I1" midpoint="I3" acute="true">Circonferenza di centro I3 di raggio da P3 a I1</Circle3>
+<Intersection name="I7" n="53" first="bwe" second="c6" which="second">Intersezione tra bwe e c6</Intersection>
+<Segment name="a" n="54" showname="true" from="P3" to="I7">Segmento da P3 a I7</Segment>
+<Intersection name="I8" n="57" first="s1" second="c4" which="first">Intersezione tra s1 e c4</Intersection>
+<Segment name="s7" n="58" hidden="true" from="P3" to="I8">Segmento da P3 a I8</Segment>
+<Intersection name="I10" n="61" first="p1" second="c5" which="first">Intersezione tra p1 e c5</Intersection>
+<Segment name="s8" n="62" hidden="true" from="I8" to="I10">Segmento da I8 a I10</Segment>
+<Segment name="s9" n="65" hidden="true" from="I10" to="I7">Segmento da I10 a I7</Segment>
+<Polygon name="pol1" n="66" background="true" point1="I1" point2="P3" point3="I7">Poligono I1, P3, I7</Polygon>
+<Polygon name="pol2" n="67" background="true" point1="P3" point2="P1" point3="I8">Poligono P3, P1, I8</Polygon>
+<Polygon name="pol3" n="68" background="true" point1="I8" point2="I10" point3="P2">Poligono I8, I10, P2</Polygon>
+<Polygon name="pol5" n="70" background="true" point1="I7" point2="I3" point3="I10">Poligono I7, I3, I10</Polygon>
+<Segment name="b" n="73" showname="true" from="I7" to="I1">Segmento da I7 a I1</Segment>
+<Segment name="c" n="76" showname="true" from="I1" to="P3">Segmento da I1 a P3</Segment>
+<Text name="Text1" n="77" x="-3.1111111111111107" y="1.3587301587301588">$(b+c)^2=a^2+2bc$</Text>
+</Objects>
+</Construction>
+</CaR>

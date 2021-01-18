@@ -1,0 +1,107 @@
+Figure Cabri II Plus vers. MS-Windows 1.x (1.3.1)
+
+Window center x: 3.66cm y: 2.34cm Window size x: 20.61cm y: 11.50cm
+Resolution: 38 ppc
+
+1: Pt, Val: 0 0
+invisible, 
+
+2: Axes, Const: 1, cart, Val: 0.274608271528186 0 0 0.274608271528186
+invisible, 
+
+3: Pt, Val: 3.94736842105263 3.68421052631579
+"A"
+TP:  3.34210526315789,  4.13157894736842, TS:  0.789473684210526,  0.605263157894737
+p: 0, Times New Roman, S: 15 C: 40 Fa: 3
+
+4: Pt, Val: 2.35383243754624 -1.22740729385061
+"B"
+TP:  1.86842105263158,  -1.42105263157895, TS:  0.789473684210526,  0.605263157894737
+p: 0, Times New Roman, S: 15 C: 40 Fa: 3
+
+5: Pt, Val: 11.8947368421053 -1.13157894736842
+"C"
+TP:  11.9210526315789,  -1.15789473684211, TS:  0.789473684210526,  0.605263157894737
+p: 0, Times New Roman, S: 15 C: 40 Fa: 3
+
+6: Tr, Const: 3,  4,  5, 
+color:B, 
+
+7: Mid, Const: 6, side:1, 
+"D"
+TP:  7.02631578947368,  -1.26315789473684, TS:  0.789473684210526,  0.605263157894737
+p: 0, Times New Roman, S: 15 C: 40 Fa: 3
+
+8: Seg, Const: 3,  7, 
+color:B, 
+
+9: Mid, Const: 8, 
+"E"
+TP:  4.97368421052632,  1.52631578947368, TS:  0.789473684210526,  0.605263157894737
+p: 0, Times New Roman, S: 15 C: 40 Fa: 3
+
+10: Seg, Const: 4,  7, 
+
+11: Mid, Const: 10, 
+"Z"
+TP:  4.52631578947368,  -1.26315789473684, TS:  0.789473684210526,  0.605263157894737
+p: 0, Times New Roman, S: 15 C: 40 Fa: 3
+
+12: Seg, Const: 9,  7, 
+color:B, 
+
+13: Mid, Const: 12, 
+"H"
+TP:  6.23684210526316,  0.710526315789474, TS:  0.789473684210526,  0.605263157894737
+p: 0, Times New Roman, S: 15 C: 40 Fa: 3
+
+14: Ray, Const: 4,  9, 
+color:B, 
+
+16: Int, Const: 6,  14, int ind:0x2, 
+"I"
+TP:  6.42105263157895,  2.84210526315789, TS:  0.789473684210526,  0.605263157894737
+p: 0, Times New Roman, S: 15 C: 40 Fa: 3
+
+18: Int, Const: 6,  2, int ind:0, 
+invisible, 
+
+19: Int, Const: 6,  2, int ind:0x1, 
+
+20: Int, Const: 6,  2, int ind:0x2, 
+invisible, 
+
+21: Int, Const: 6,  2, int ind:0x10000, 
+
+22: Int, Const: 6,  2, int ind:0x10001, 
+
+23: Int, Const: 6,  2, int ind:0x10002, 
+
+24: Seg, Const: 9,  11, 
+color:B, 
+
+25: Mid, Const: 24, 
+"O"
+TP:  4.55263157894737,  0.131578947368421, TS:  0.789473684210526,  0.605263157894737
+p: 0, Times New Roman, S: 15 C: 40 Fa: 3
+
+26: Ray, Const: 25,  13, 
+color:B, 
+
+28: Int, Const: 6,  26, int ind:0, 
+
+29: Int, Const: 6,  26, int ind:0x1, 
+
+30: Int, Const: 6,  26, int ind:0x2, 
+"K"
+TP:  10.0263157894737,  0.921052631578947, TS:  0.789473684210526,  0.605263157894737
+p: 0, Times New Roman, S: 15 C: 40 Fa: 3
+
+31: Axes, Const: 4,  5,  3, cart, 
+
+32: Perp, Const: 4,  31, axis:x, 
+invisible, 
+
+33: Cir, Const: 4,  3, 
+invisible, 
+

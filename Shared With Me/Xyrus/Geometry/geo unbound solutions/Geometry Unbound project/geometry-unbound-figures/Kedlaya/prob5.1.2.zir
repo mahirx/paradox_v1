@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="B" n="0" showname="true" x="-4.46984126984127" y="-1.784126984126984">Punto in -4.46984, -1.78413</Point>
+<Point name="C" n="3" showname="true" x="2.196825396825396" y="-1.961904761904762">Punto in 2.19683, -1.9619</Point>
+<Segment name="s1" n="4" from="B" to="C">Segmento da P1 a P2</Segment>
+<Point name="A" n="9" showname="true" x="-3.034920634920635" y="2.9015873015873015">Punto in -3.03492, 2.90159</Point>
+<Segment name="s2" n="10" from="C" to="A">Segmento da P2 a P3</Segment>
+<Segment name="s3" n="13" from="A" to="B">Segmento da P3 a P1</Segment>
+<Point name="R" n="14" showname="true" xcoffset="-0.46983777777777735" ycoffset="1.4285714284856255E-6" keepclose="true" x="-2.10794" y="0.6285700000000001">Punto in -2.10794, 0.62857</Point>
+<Ray name="r1" n="17" hidden="true" from="A" to="R">Semiretta da A puntando a R</Ray>
+<Ray name="r2" n="20" hidden="true" from="C" to="R">Semiretta da C puntando a R</Ray>
+<Ray name="r3" n="23" hidden="true" from="B" to="R">Semiretta da B puntando a R</Ray>
+<Intersection name="E" n="24" showname="true" xcoffset="0.9301872698672149" ycoffset="-0.051200739186818556" keepclose="true" first="s2" second="r3">Intersezione tra s2 e r3</Intersection>
+<Intersection name="F" n="25" showname="true" xcoffset="-0.3014173496874273" ycoffset="-0.0681351965059247" keepclose="true" first="s3" second="r2">Intersezione tra s3 e r2</Intersection>
+<Intersection name="D" n="26" showname="true" xcoffset="-0.09293644373037258" ycoffset="-0.22577858753046298" keepclose="true" first="r1" second="s1">Intersezione tra r1 e s1</Intersection>
+<Segment name="s4" n="29" color="1" from="A" to="D">Segmento da A a D</Segment>
+<Segment name="s5" n="32" color="1" from="C" to="F">Segmento da C a F</Segment>
+<Segment name="s6" n="35" color="1" from="B" to="E">Segmento da B a E</Segment>
+<Segment name="s9" n="58" from="F" to="E">Segmento da F a E</Segment>
+<Segment name="s10" n="61" from="E" to="D">Segmento da E a D</Segment>
+<Segment name="s11" n="64" from="D" to="F">Segmento da D a F</Segment>
+<Point name="T" n="65" showname="true" xcoffset="-0.10158730158730123" ycoffset="-0.2412698412698413" keepclose="true" x="-0.49524" y="-0.89524">Punto in -0.49524, -0.89524</Point>
+<Ray name="r5" n="68" hidden="true" from="A" to="T">Semiretta da A puntando a T</Ray>
+<Ray name="r6" n="71" hidden="true" from="B" to="T">Semiretta da B puntando a T</Ray>
+<Ray name="r7" n="74" hidden="true" from="C" to="T">Semiretta da C puntando a T</Ray>
+<Intersection name="M" n="75" showname="true" xcoffset="-0.15778822165503215" ycoffset="-0.19375740227652072" keepclose="true" first="s9" second="r5">Intersezione tra s9 e r5</Intersection>
+<Intersection name="N" n="76" showname="true" xcoffset="-0.05208658610314476" ycoffset="-0.23291758429508924" keepclose="true" first="s11" second="r6">Intersezione tra s11 e r6</Intersection>
+<Intersection name="I10" n="80" first="r5" second="s1">Intersezione tra r5 e s1</Intersection>
+<Segment name="s12" n="81" color="5" from="A" to="I10">Segmento da A a I10</Segment>
+<Intersection name="I11" n="84" first="r6" second="s2">Intersezione tra r6 e s2</Intersection>
+<Segment name="s13" n="85" color="5" from="B" to="I11">Segmento da B a I11</Segment>
+<PointOn name="P6" n="86" color="5" on="r7" alpha="0.0" x="2.196825396825396" y="-1.961904761904762">Punto su r7</PointOn>
+<Intersection name="I12" n="89" first="r7" second="s3">Intersezione tra r7 e s3</Intersection>
+<Segment name="s14" n="90" color="5" from="P6" to="I12">Segmento da P6 a I12</Segment>
+<Segment name="s15" n="93" color="2" from="M" to="D">Segmento da M a D</Segment>
+<Segment name="s16" n="96" color="2" from="N" to="E">Segmento da N a E</Segment>
+<Intersection name="P" n="99" showname="true" first="s14" second="s10">Intersezione tra s14 e s10</Intersection>
+<Segment name="s17" n="100" color="2" from="F" to="P">Segmento da F a P</Segment>
+<Intersection name="S" n="101" showname="true" xcoffset="0.279066395939636" ycoffset="0.06422971371196806" keepclose="true" first="s15" second="s16">Intersezione tra s15 e s16</Intersection>
+</Objects>
+</Construction>
+</CaR>

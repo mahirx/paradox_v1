@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<path d="M 342.9999999999999 391.9999999999999 H 347.9999999999999 V 396.9999999999999 H 342.9999999999999 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="351.9999999999999" y="412.9999999999999" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B</text><path d="M 668.9999999999999 397.9999999999999 H 673.9999999999999 V 402.9999999999999 H 668.9999999999999 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="677.9999999999999" y="418.9999999999999" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C</text><line x1="345.9999999999999" y1="394.9999999999999" x2="671.9999999999999" y2="400.9999999999999" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 385.0 173.00000000000006 H 390.0 V 178.00000000000006 H 385.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="398.0" y="176.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A</text><line x1="671.9999999999999" y1="400.9999999999999" x2="388.0" y2="176.00000000000006" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="388.0" y1="176.00000000000006" x2="345.9999999999999" y2="394.9999999999999" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 216.2233556302794 235.6927702889859 H 221.2233556302794 V 240.6927702889859 H 216.2233556302794 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="225.2233556302794" y="256.6927702889859" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$I_C$</text><path d="M 805.6705155703303 16.74022781121596 H 810.6705155703303 V 21.74022781121596 H 805.6705155703303 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="814.6705155703303" y="37.74022781121596" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$I_B$</text><path d="M 570.571047518178 672.5800719591832 H 575.571047518178 V 677.5800719591832 H 570.571047518178 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="579.571047518178" y="693.5800719591832" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$I_A$</text><path d="M 575.656287783073 396.2820175665595 H 580.656287783073 V 401.2820175665595 H 575.656287783073 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="573.5710475181781" cy="675.5800719591832" rx="276.34484711986386" ry="276.34484711986386" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<path d="M 367.4158853336092 264.6885979033233 H 372.4158853336092 V 269.6885979033233 H 367.4158853336092 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="219.22335563027934" cy="238.6927702889859" rx="153.9478452500477" ry="153.9478452500477" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<path d="M 567.3919810252609 317.5006891925482 H 572.3919810252609 V 322.5006891925482 H 567.3919810252609 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="808.6705155703303" cy="19.74022781121596" rx="383.7101968351345" ry="383.7101968351345" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<line x1="671.9999999999999" y1="400.9999999999999" x2="1578.0798083287918" y2="1118.8449185703453" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<line x1="671.9999999999999" y1="400.9999999999999" x2="1887.694221533466" y2="423.37474027362197" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<line x1="388.0" y1="176.00000000000006" x2="-397.15141808191686" y2="-446.03897559306756" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<line x1="388.0" y1="176.00000000000006" x2="613.4639390974653" y2="-999.6333967224944" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<line x1="345.9999999999999" y1="394.9999999999999" x2="-631.8790736668093" y2="377.00222563803425" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<line x1="345.9999999999999" y1="394.9999999999999" x2="138.826015653666" y2="1475.2643469487384" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<line x1="370.4158853336092" y1="267.6885979033233" x2="671.9999999999999" y2="400.9999999999999" style="stroke:rgb(0,0,178);stroke-width:1"/>
+<line x1="388.0" y1="176.00000000000006" x2="578.656287783073" y2="399.2820175665595" style="stroke:rgb(0,0,178);stroke-width:1"/>
+<line x1="345.9999999999999" y1="394.9999999999999" x2="570.3919810252609" y2="320.5006891925482" style="stroke:rgb(0,0,178);stroke-width:1"/>
+<path d="M 521.4193274300391 332.76385052828317 H 526.4193274300391 V 337.76385052828317 H 521.4193274300391 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="530.4193274300391" y="353.76385052828317" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">Na</text></svg>

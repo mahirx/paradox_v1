@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="O" n="0" showname="true" xcoffset="0.7746009523809523" ycoffset="0.02539761904761898" keepclose="true" x="-2.22222" y="-0.006350000000000001">Punto in -2.22222, -0.00635</Point>
+<Point name="A" n="3" showname="true" x="-3.707936507936508" y="1.695238095238095">Punto in -3.70794, 1.69524</Point>
+<Line name="l1" n="4" color="1" from="O" to="A">Retta per O e A</Line>
+<Point name="B" n="7" showname="true" x="-2.412698412698413" y="1.0984126984126985">Punto in -2.4127, 1.09841</Point>
+<Line name="l2" n="8" color="1" from="O" to="B">Retta per O e B</Line>
+<Point name="C" n="11" showname="true" x="-1.1809523809523812" y="3.028571428571429">Punto in -1.18095, 3.02857</Point>
+<Line name="l3" n="12" color="1" from="O" to="C">Retta per O e C</Line>
+<PointOn name="F" n="13" showname="true" on="l3" alpha="-1.1847563142261393" x="-2.606704209085004" y="-1.1269834891760933">Punto su l3</PointOn>
+<PointOn name="E" n="14" showname="true" on="l2" alpha="-1.8244214957243534" x="-1.9122348734610188" y="-1.8042440501001995">Punto su l2</PointOn>
+<PointOn name="D" n="15" showname="true" on="l1" alpha="-2.1954641329388442" x="-0.7782442098542324" y="-1.660132536034837">Punto su l1</PointOn>
+<Line name="l4" n="18" color="3" type="thin" hidden="true" from="A" to="B">Retta per P2 e P3</Line>
+<Line name="l5" n="21" color="3" type="thin" hidden="true" from="D" to="E">Retta per P7 e P6</Line>
+<Line name="l6" n="24" color="2" type="thin" hidden="true" from="C" to="A">Retta per P4 e P2</Line>
+<Line name="l7" n="27" color="2" type="thin" hidden="true" from="D" to="F">Retta per P7 e P5</Line>
+<Line name="l8" n="30" color="4" type="thin" hidden="true" from="F" to="E">Retta per P5 e P6</Line>
+<Line name="l9" n="33" color="4" type="thin" hidden="true" from="B" to="C">Retta per P3 e P4</Line>
+<Intersection name="P" n="34" showname="true" first="l9" second="l8">Intersezione tra l9 e l8</Intersection>
+<Intersection name="Q" n="35" showname="true" first="l7" second="l6">Intersezione tra l7 e l6</Intersection>
+<Intersection name="R" n="36" showname="true" first="l4" second="l5">Intersezione tra l4 e l5</Intersection>
+<Line name="l10" n="39" color="5" from="R" to="Q">Retta per R e Q</Line>
+<Segment name="s1" n="42" from="A" to="B">Segmento da A a B</Segment>
+<Segment name="s2" n="45" from="B" to="C">Segmento da B a C</Segment>
+<Segment name="s3" n="48" from="C" to="A">Segmento da C a A</Segment>
+<Segment name="s4" n="51" from="F" to="E">Segmento da F a E</Segment>
+<Segment name="s5" n="54" from="E" to="D">Segmento da E a D</Segment>
+<Segment name="s6" n="57" from="D" to="F">Segmento da D a F</Segment>
+<Ray name="r1" n="60" type="thin" from="P" to="F">Semiretta da P puntando a F</Ray>
+<Ray name="r2" n="63" type="thin" from="P" to="B">Semiretta da P puntando a B</Ray>
+<Ray name="r3" n="66" type="thin" from="R" to="B">Semiretta da R puntando a B</Ray>
+<Ray name="r4" n="69" type="thin" from="R" to="D">Semiretta da R puntando a D</Ray>
+<Ray name="r5" n="72" type="thin" from="Q" to="A">Semiretta da Q puntando a A</Ray>
+<Ray name="r6" n="75" type="thin" from="Q" to="F">Semiretta da Q puntando a F</Ray>
+</Objects>
+</Construction>
+</CaR>

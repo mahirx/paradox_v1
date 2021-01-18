@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" n="0" x="-3.174603174603175" y="-0.5904761904761906">Punto in -3.1746, -0.59048</Point>
+<Point name="P2" n="3" hidden="true" x="-4.825396825396826" y="0.3746031746031746">Punto in -4.8254, 0.3746</Point>
+<Circle name="c1" n="4" through="P2" midpoint="P1" acute="true">Circonferenza di centro P1 per P2</Circle>
+<Point name="P" n="5" showname="true" x="-2.9460300000000004" y="3.0412700000000004">Punto in -2.94603, 3.04127</Point>
+<PointOn name="A" n="8" showname="true" on="c1" alpha="2.0344439357957027" x="-4.029763727762945" y="1.11984491584335">Punto su c1</PointOn>
+<Ray name="r1" n="9" color="1" from="P" to="A">Semiretta da P puntando a P4</Ray>
+<PointOn name="C" n="12" showname="true" on="c1" alpha="1.3721104450804698" x="-2.7971713414886206" y="1.2841019139927614">Punto su c1</PointOn>
+<Ray name="r2" n="13" color="1" from="P" to="C">Semiretta da P puntando a P5</Ray>
+<Intersection name="B" n="14" showname="true" first="r1" second="c1" which="first">Intersezione tra r1 e c1</Intersection>
+<Intersection name="D" n="15" showname="true" first="r2" second="c1" which="first">Intersezione tra r2 e c1</Intersection>
+<Segment name="s1" n="18" type="thin" from="A" to="C">Segmento da A a C</Segment>
+<Segment name="s2" n="21" type="thin" from="C" to="B">Segmento da C a B</Segment>
+<Segment name="s3" n="24" type="thin" from="B" to="D">Segmento da B a D</Segment>
+<Segment name="s4" n="27" type="thin" from="D" to="A">Segmento da D a A</Segment>
+</Objects>
+</Construction>
+</CaR>

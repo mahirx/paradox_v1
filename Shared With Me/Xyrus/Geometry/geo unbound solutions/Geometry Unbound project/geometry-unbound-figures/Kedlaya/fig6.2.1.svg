@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<path d="M 389.41212152132 254.15506858075827 H 394.41212152132 V 259.15506858075827 H 389.41212152132 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="-628.0" y1="237.0" x2="1890.0" y2="286.0" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<path d="M 670.6347867828183 259.5923009600741 H 675.6347867828183 V 264.5923009600741 H 670.6347867828183 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="392.41212152132005" cy="257.1550685807582" rx="69.28166325275075" ry="69.28166325275075" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<ellipse cx="673.6347867828184" cy="262.592300960074" rx="167.3968911519556" ry="167.3968911519556" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<line x1="467.0" y1="1543.0" x2="516.0" y2="-976.0" style="stroke:rgb(180,0,0);stroke-width:1"/>
+<path d="M 313.48588486460307 252.68709091257983 H 318.48588486460307 V 257.68709091257983 H 313.48588486460307 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 373.4909797550368 253.8472450721274 H 378.4909797550368 V 258.8472450721274 H 373.4909797550368 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="316.4858848646031" cy="255.6870909125798" rx="160.17958751628996" ry="160.17958751628996" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<ellipse cx="376.4909797550368" cy="256.8472450721274" rx="90.65268088010282" ry="90.65268088010282" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+</svg>

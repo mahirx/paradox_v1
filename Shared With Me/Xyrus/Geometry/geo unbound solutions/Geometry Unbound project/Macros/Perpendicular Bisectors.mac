@@ -1,0 +1,44 @@
+Macro Cabri II Plus vers. MS-Windows 1.2.4.7
+
+Perpendicular Bisectors of a Triangle, no name
+Icon:
+16x16
+ 0  0  0  0 15  0  0  7  0  0  0  0  0  0  0  0 
+ 0  0  0 15  0 15  0  7  0  0  0  0  0  0  7  0 
+ 0  0  0 15  0  0 15  7  0  0  0  0  0  7  0  0 
+ 0  0  0 15  0  0  0  7  0  0  0  0  7  0  0  0 
+ 0  0 15  0  0  0  0  7 15  0  0  7  0  0  0  0 
+ 7  7 15  0  0  0  0  7  0 15  7  0  0  0  0  0 
+ 0  0 15  7  7  0  0  7  0  7 15  0  0  0  0  0 
+ 0 15  0  0  0  7  7  7  7  0  0 15  0  0  0  0 
+ 0 15  0  0  0  0  0  7  7  7  7  0 15  0  0  0 
+ 0 15  0  0  0  0  7  7  0  0  0  7  7  7  0  0 
+15  0  0  0  0  7  0  7  0  0  0  0  0  0  7  7 
+15 15 15 15  7 15 15  7 15 15 15 15 15 15 15 15 
+ 0  0  0  7  0  0  0  7  0  0  0  0  0  0  0  0 
+ 0  0  7  0  0  0  0  7  0  0  0  0  0  0  0  0 
+ 0  7  0  0  0  0  0  7  0  0  0  0  0  0  0  0 
+ 7  0  0  0  0  0  0  7  0  0  0  0  0  0  0  0 
+Help:
+"Select a triangle to construct its three perpendicular bisectors and their intersection point."
+Mth: 0
+CN:1, ON:4, FN:4, PO:0
+CT:
+triangle, CS 3, color:P, 
+Const:
+PBiss, Mth:1, 1, CN:1, VN:2, side:1, Const: 4, color:V, 
+PBiss, Mth:1, 1, CN:1, VN:2, side:2, Const: 4, color:V, 
+PBiss, Mth:1, 1, CN:1, VN:2, side:0, Const: 4, color:V, 
+Int, Mth:0, 1, CN:2, VN:1, int ind:0, Const: 6 7, 
+Mth: 1
+CN:3, ON:5, FN:4, PO:1
+CT:
+point, CS 0, 
+point, CS 0, 
+point, CS 0, 
+Const:
+Tr, Mth:0, 0, CN:3, VN:4, Const: 1 2 3
+PBiss, Mth:1, 1, CN:1, VN:2, side:1, Const: 4, color:V, 
+PBiss, Mth:1, 1, CN:1, VN:2, side:2, Const: 4, color:V, 
+PBiss, Mth:1, 1, CN:1, VN:2, side:0, Const: 4, color:V, 
+Int, Mth:0, 1, CN:2, VN:1, int ind:0, Const: 6 7, 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="B" n="0" showname="true" x="-3.9873015873015873" y="-1.1492063492063496">Punto in -3.9873, -1.14921</Point>
+<Point name="C" n="3" showname="true" x="0.05079365079365061" y="-1.1238095238095238">Punto in 0.05079, -1.12381</Point>
+<Segment name="s1" n="4" from="B" to="C">Segmento da P1 a P2</Segment>
+<Point name="A" n="7" showname="true" x="-2.8317460317460315" y="2.482539682539683">Punto in -2.83175, 2.48254</Point>
+<Segment name="s2" n="8" from="C" to="A">Segmento da P2 a P3</Segment>
+<Segment name="s3" n="11" from="A" to="B">Segmento da P3 a P1</Segment>
+<Angle name="a1" n="14" unit="°" first="B" root="A" second="C" acute="true">Angolo P1 - P3 - P2</Angle>
+<Angle name="a2" n="16" hidden="true" unit="°" first="B" root="A" fixed="18.76" acute="true">Angolo P1 - P3 di musura 18.76</Angle>
+<Angle name="a3" n="18" hidden="true" unit="°" first="C" root="A" fixed="18.76" acute="true" inverse="true">Angolo P2 - P3 di musura 18.76</Angle>
+<Angle name="a5" n="26" unit="°" first="A" root="B" second="C" acute="true">Angolo P3 - P1 - P2</Angle>
+<Angle name="a4" n="28" hidden="true" unit="°" first="A" root="B" fixed="24" acute="true" inverse="true">Angolo P3 - P1 di musura 24</Angle>
+<Angle name="a6" n="30" hidden="true" unit="°" first="C" root="B" fixed="24" acute="true">Angolo P2 - P1 di musura 24</Angle>
+<Angle name="a7" n="33" unit="°" first="B" root="C" second="A" acute="true">Angolo P1 - P2 - P3</Angle>
+<Angle name="a8" n="35" hidden="true" unit="°" first="B" root="C" fixed="17.2" acute="true" inverse="true">Angolo P1 - P2 di musura 17.2</Angle>
+<Angle name="a10" n="41" hidden="true" unit="°" first="A" root="C" fixed="17.2" acute="true">Angolo P3 - P2 di musura 17.2</Angle>
+<Intersection name="F" n="42" showname="true" xcoffset="-0.14581251940037498" ycoffset="0.07325542389788264" keepclose="true" first="a2" second="a4">Intersezione tra a2 e a4</Intersection>
+<Intersection name="D" n="43" showname="true" first="a8" second="a6">Intersezione tra a8 e a6</Intersection>
+<Intersection name="E" n="44" showname="true" xcoffset="0.22547406821689098" ycoffset="0.09117172444383748" keepclose="true" first="a10" second="a3">Intersezione tra a10 e a3</Intersection>
+<Segment name="s4" n="47" color="1" from="F" to="E">Segmento da I1 a I3</Segment>
+<Segment name="s5" n="50" color="1" from="D" to="F">Segmento da I2 a I1</Segment>
+<Segment name="s6" n="53" color="1" from="D" to="E">Segmento da I2 a I3</Segment>
+<Intersection name="I4" n="54" hidden="true" first="s3" second="a10">Intersezione tra s3 e a10</Intersection>
+<Segment name="s7" n="57" from="I4" to="C">Segmento da I4 a P2</Segment>
+<Intersection name="I5" n="60" hidden="true" first="s3" second="a8">Intersezione tra s3 e a8</Intersection>
+<Segment name="s8" n="61" from="C" to="I5">Segmento da P2 a I5</Segment>
+<Intersection name="I6" n="64" hidden="true" first="s2" second="a4">Intersezione tra s2 e a4</Intersection>
+<Segment name="s9" n="65" from="B" to="I6">Segmento da P1 a I6</Segment>
+<Intersection name="I7" n="66" hidden="true" first="a6" second="s2">Intersezione tra a6 e s2</Intersection>
+<Segment name="s10" n="69" from="I7" to="B">Segmento da I7 a P1</Segment>
+<Intersection name="I8" n="70" hidden="true" first="a2" second="s1">Intersezione tra a2 e s1</Intersection>
+<Segment name="s11" n="73" from="I8" to="A">Segmento da I8 a P3</Segment>
+<Intersection name="I9" n="76" hidden="true" first="a3" second="s1">Intersezione tra a3 e s1</Intersection>
+<Segment name="s12" n="77" from="A" to="I9">Segmento da P3 a I9</Segment>
+</Objects>
+</Construction>
+</CaR>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="B" n="0" showname="true" xcoffset="-0.8634920634920631" ycoffset="0.5333333333333337" keepclose="true" x="-4.749206349206349" y="-2.177777777777778">Punto in -4.74921, -2.17778</Point>
+<Point name="F" n="3" showname="true" x="-0.5460317460317461" y="-2.063492063492064">Punto in -0.54603, -2.06349</Point>
+<Point name="A" n="7" showname="true" xcoffset="0.30476190476190546" ycoffset="-0.06349206349206482" keepclose="true" x="-3.530158730158731" y="1.644444444444445">Punto in -3.53016, 1.64444</Point>
+<Segment name="s1" n="4" from="B" to="F">Segmento da P1 a P2</Segment>
+<Segment name="s2" n="8" from="F" to="A">Segmento da P2 a P3</Segment>
+<Segment name="s3" n="11" from="A" to="B">Segmento da P3 a P1</Segment>
+<Circle name="c1" n="18" hidden="super" through="B" midpoint="F" acute="true">Circonferenza di centro P2 per P1</Circle>
+<Circle name="c2" n="19" hidden="super" through="F" midpoint="B" acute="true">Circonferenza di centro P1 per P2</Circle>
+<Circle name="c3" n="29" hidden="super" through="A" midpoint="F" acute="true">Circonferenza di centro P2 per P3</Circle>
+<Circle name="c4" n="30" hidden="super" through="F" midpoint="A" acute="true">Circonferenza di centro P3 per P2</Circle>
+<Line name="l6" n="59" color="1" type="thin" hidden="true" from="B" to="A">Retta per P1 and P3</Line>
+<Line name="l7" n="62" color="1" type="thin" hidden="true" from="A" to="F">Retta per P3 and P2</Line>
+<Line name="l8" n="65" color="1" type="thin" hidden="true" from="F" to="B">Retta per P2 and P1</Line>
+<Intersection name="I1" n="20" hidden="super" first="c1" second="c2" which="second">Intersezione tra c1 e c2</Intersection>
+<Intersection name="I2" n="21" hidden="super" first="c2" second="c1" which="second">Intersezione tra c2 e c1</Intersection>
+<Intersection name="I3" n="31" hidden="super" first="c3" second="c4" which="second">Intersezione tra c3 e c4</Intersection>
+<Intersection name="I4" n="32" hidden="super" first="c4" second="c3" which="second">Intersezione tra c4 e c3</Intersection>
+<PointOn name="P5" n="153" type="thin" hidden="true" on="l7" alpha="-0.5334559015608262" x="-3.864619531303756" y="2.0600297803352845">Punto su l7</PointOn>
+<PointOn name="P6" n="157" type="thin" hidden="true" on="l6" alpha="4.3457552974321905" x="-3.428719000214839" y="1.9625002643726903">Punto su l6</PointOn>
+<PointOn name="P7" n="161" type="thin" hidden="true" on="l8" alpha="4.522416226915325" x="-5.066777156129777" y="-2.186412633555152">Punto su l8</PointOn>
+<PointOn name="P8" n="165" type="thin" hidden="true" on="l6" alpha="-0.7595616437841487" x="-4.980004328556178" y="-2.9014256088642214">Punto su l6</PointOn>
+<PointOn name="P9" n="169" type="thin" hidden="true" on="l7" alpha="5.090868662507354" x="-0.33833723862694187" y="-2.3215635365227136">Punto su l7</PointOn>
+<Line name="l1" n="22" hidden="true" from="I1" to="I2">Retta per I1 and I2</Line>
+<Line name="l2" n="33" hidden="true" from="I3" to="I4">Retta per I3 and I4</Line>
+<Ray name="r2" n="154" type="thin" from="A" to="P5">Semiretta da P3 puntando a P5</Ray>
+<Ray name="r3" n="158" type="thin" from="A" to="P6">Semiretta da P3 puntando a P6</Ray>
+<Ray name="r4" n="162" type="thin" from="B" to="P7">Semiretta da P1 puntando a P7</Ray>
+<Ray name="r5" n="166" type="thin" from="B" to="P8">Semiretta da P1 puntando a P8</Ray>
+<Ray name="r6" n="170" type="thin" from="F" to="P9">Semiretta da P2 puntando a P9</Ray>
+<Intersection name="I5" n="34" first="l2" second="l1">Intersezione tra l2 e l1</Intersection>
+<Circle name="c5" n="37" through="A" midpoint="I5" acute="true">Circonferenza di centro I5 per P3</Circle>
+<PointOn name="P" n="38" showname="true" on="c5" alpha="0.029062350232345446" x="-0.1657919253917446" y="-0.657238491575442">Punto su c5</PointOn>
+<Plumb name="pl5" n="71" color="1" point="P" line="l7" valid="true">Retta perpendicolare per P a l7</Plumb>
+<Plumb name="pl6" n="74" color="1" point="P" line="l6" valid="true">Retta perpendicolare per P a l6</Plumb>
+<Plumb name="pl7" n="77" color="1" point="P" line="l8" valid="true">Retta perpendicolare per P a l8</Plumb>
+<Intersection name="Z" n="88" showname="true" first="pl6" second="l6">Intersezione tra pl6 e l6</Intersection>
+<Intersection name="X" n="89" showname="true" first="pl7" second="l8">Intersezione tra pl7 e l8</Intersection>
+<Intersection name="Y" n="90" showname="true" first="l7" second="pl5">Intersezione tra l7 e pl5</Intersection>
+<Intersection name="I22" n="147" first="pl7" second="pl5">Intersezione tra pl7 e pl5</Intersection>
+<Line name="l11" n="93" color="5" from="Z" to="Y">Retta per Z e Y</Line>
+<Circle name="c6" n="125" hidden="super" through="Y" midpoint="Z" acute="true">Circonferenza di centro Z per Y</Circle>
+<Circle name="c7" n="126" hidden="super" through="Z" midpoint="Y" acute="true">Circonferenza di centro Y per Z</Circle>
+<Circle name="c8" n="136" hidden="super" through="X" midpoint="Y" acute="true">Circonferenza di centro Y per X</Circle>
+<Circle name="c9" n="137" hidden="super" through="Y" midpoint="X" acute="true">Circonferenza di centro X per Y</Circle>
+<Ray name="r1" n="150" type="thin" from="F" to="X">Semiretta da F puntando a X</Ray>
+<Intersection name="I18" n="127" hidden="super" first="c6" second="c7" which="second">Intersezione tra c6 e c7</Intersection>
+<Intersection name="I19" n="128" hidden="super" first="c7" second="c6" which="second">Intersezione tra c7 e c6</Intersection>
+<Intersection name="I20" n="138" hidden="super" first="c8" second="c9" which="second">Intersezione tra c8 e c9</Intersection>
+<Intersection name="I21" n="139" hidden="super" first="c9" second="c8" which="second">Intersezione tra c9 e c8</Intersection>
+</Objects>
+</Construction>
+</CaR>

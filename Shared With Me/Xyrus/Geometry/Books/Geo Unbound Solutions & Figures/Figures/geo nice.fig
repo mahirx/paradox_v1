@@ -1,0 +1,82 @@
+Figure Cabri II Plus vers. MS-Windows 1.x (1.3.1)
+
+Window center x: 2.74cm y: -3.26cm Window size x: 20.61cm y: 11.61cm
+Resolution: 38 ppc
+
+1: Pt, Val: 0 0
+invisible, 
+
+2: Axes, Const: 1, cart, Val: 0.85739351077936 0 0 0.85739351077936
+invisible, 
+
+3: Pt, Val: -0.947645459282451 -3.40701105599167
+"A"
+TP:  -1.63157894736842,  -3.39473684210526, TS:  0.789473684210526,  0.605263157894737
+p: 0, Times New Roman, S: 15 C: 7 Fa: 3
+
+4: Pt, Val: 3.83570781138135 -3.36188508174012
+"B"
+TP:  3.76315789473684,  -3.44736842105263, TS:  0.789473684210526,  0.605263157894737
+p: 0, Times New Roman, S: 15 C: 7 Fa: 3
+
+5: Seg, Const: 3,  4, 
+
+6: Perp, Const: 3,  5, 
+
+7: Cir, Const: 3,  4, 
+
+9: Int, Const: 6,  7, int ind:0x10000, 
+"C"
+TP:  -0.921052631578947,  1.97368421052632, TS:  0.789473684210526,  0.605263157894737
+p: 0, Times New Roman, S: 15 C: 7 Fa: 3
+
+10: Seg, Const: 9,  4, 
+
+11: Mid, Const: 10, 
+"D"
+TP:  1.36842105263158,  -1, TS:  0.789473684210526,  0.605263157894737
+p: 0, Times New Roman, S: 15 C: 7 Fa: 3
+
+12: Seg, Const: 3,  11, 
+
+13: Pt/, Const: 12, Val: 0.562185852426049 -1.86842105263158
+"M"
+TP:  0.631578947368421,  -1.89473684210526, TS:  0.789473684210526,  0.605263157894737
+p: 0, Times New Roman, S: 15 C: 7 Fa: 3
+
+14: Par, Const: 13,  6, 
+
+15: Par, Const: 13,  5, 
+
+17: Perp, Const: 4,  5, 
+
+19: Int, Const: 6,  15, int ind:0, 
+"P"
+TP:  -1.52631578947368,  -1.92105263157895, TS:  0.789473684210526,  0.605263157894737
+p: 0, Times New Roman, S: 15 C: 7 Fa: 3
+
+20: Ray, Const: 19,  11, 
+
+21: Int, Const: 5,  14, int ind:0, 
+"N"
+TP:  0.0789473684210526,  -3.31578947368421, TS:  0.789473684210526,  0.605263157894737
+p: 0, Times New Roman, S: 15 C: 7 Fa: 3
+
+22: Perp, Const: 21,  20, 
+
+24: Int, Const: 22,  20, int ind:0, 
+"H"
+TP:  -0.0263157894736842,  -0.736842105263158, TS:  0.789473684210526,  0.605263157894737
+p: 0, Times New Roman, S: 15 C: 7 Fa: 3
+
+25: Seg, Const: 4,  24, 
+
+26: Int, Const: 6,  7, int ind:0, 
+color:B, thicker, 
+
+27: Seg, Const: 4,  26, 
+color:B, 
+
+29: Int, Const: 27,  22, int ind:0, 
+color:B, thicker, 
+

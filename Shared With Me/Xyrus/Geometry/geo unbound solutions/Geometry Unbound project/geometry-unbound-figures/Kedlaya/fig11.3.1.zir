@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.000000000000002"/>
+<Objects>
+<Point name="P1" n="0" hidden="true" x="-5.396825396825397" y="-0.012698412698412653">Punto in -5.39683, -0.0127</Point>
+<Point name="P2" n="1" hidden="true" x="-3.466666666666667" y="0.2920634920634919">Punto in -3.46667, 0.29206</Point>
+<Point name="P3" n="2" hidden="true" x="-1.9682539682539684" y="0.2920634920634919">Punto in -1.96825, 0.29206</Point>
+<Point name="P4" n="3" hidden="true" x="-1.8666666666666663" y="1.9555555555555553">Punto in -1.86667, 1.95556</Point>
+<Point name="P5" n="4" hidden="true" x="-0.9777777777777779" y="1.0031746031746036">Punto in -0.97778, 1.00317</Point>
+<Quadric name="Q1" n="5" color="1" point1="P1" point2="P2" point3="P3" point4="P4" point5="P5">Conica per P1, P2, P3, P4, P5 </Quadric>
+<Point name="P6" n="6" hidden="true" x="-0.44444444444444464" y="0.5714285714285716">Punto in -0.44444, 0.57143</Point>
+<Point name="P7" n="7" hidden="true" x="-0.7873015873015872" y="-0.7111111111111108">Punto in -0.7873, -0.71111</Point>
+<Point name="P8" n="8" hidden="true" x="0.5841269841269838" y="-1.3460317460317461">Punto in 0.58413, -1.34603</Point>
+<Point name="P9" n="9" hidden="true" x="1.6380952380952376" y="-1.3460317460317461">Punto in 1.6381, -1.34603</Point>
+<Point name="P10" n="10" hidden="true" x="2.412698412698413" y="-0.11428571428571432">Punto in 2.4127, -0.11429</Point>
+<Quadric name="Q2" n="11" color="4" point1="P6" point2="P7" point3="P8" point4="P9" point5="P10">Conica per P6, P7, P8, P9, P10 </Quadric>
+<Point name="P11" n="13" hidden="true" x="-4.431746031746032" y="1.2190476190476187">Punto in -4.43175, 1.21905</Point>
+<Point name="P12" n="16" hidden="true" x="-3.5809523809523807" y="-0.2920634920634919">Punto in -3.58095, -0.29206</Point>
+<Point name="P13" n="17" hidden="true" x="-2.552380952380952" y="-1.4857142857142858">Punto in -2.55238, -1.48571</Point>
+<Point name="P14" n="18" hidden="true" x="0.2920634920634928" y="-1.155555555555556">Punto in 0.29206, -1.15556</Point>
+<Point name="P15" n="19" hidden="true" x="2.1460317460317455" y="0.7492063492063497">Punto in 2.14603, 0.74921</Point>
+<Quadric name="Q3" n="20" color="2" point1="P11" point2="P12" point3="P13" point4="P14" point5="P15">Conica per P11, P12, P13, P14, P15 </Quadric>
+<Point name="P17" n="22" hidden="true" x="-2.9714285714285715" y="1.4730158730158736">Punto in -2.97143, 1.47302</Point>
+<Point name="P18" n="25" hidden="true" x="-3.6952380952380954" y="1.0793650793650795">Punto in -3.69524, 1.07937</Point>
+<Circle name="c1" n="26" color="5" through="P18" midpoint="P17" acute="true">Circonferenza di centro P17 per P18</Circle>
+</Objects>
+</Construction>
+</CaR>

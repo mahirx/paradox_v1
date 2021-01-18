@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="3.715961301692605" y="2.434595335591707" w="26.908685288118864"/>
+<Objects>
+<Point name="A" n="0" showname="true" x="-7.64548359773536" y="-1.174585468925823">Punto in -7.64548, -1.17459</Point>
+<Point name="B" n="1" showname="true" x="-4.6129174779632365" y="-2.79764902598696">Punto in -4.61292, -2.79765</Point>
+<Point name="C" n="2" showname="true" x="1.0250927728807184" y="-0.021356099435015707">Punto in 1.02509, -0.02136</Point>
+<Point name="D" n="3" showname="true" x="-1.1105171706207777" y="4.63427357739825">Punto in -1.11052, 4.63427</Point>
+<Point name="E" n="4" showname="true" x="-6.962088415814883" y="2.242390440676571">Punto in -6.96209, 2.24239</Point>
+<Line name="l1" n="7" from="B" to="C">Retta per B e C</Line>
+<Line name="l2" n="10" from="D" to="E">Retta per D e E</Line>
+<Line name="l3" n="14" from="C" to="D">Retta per C e D</Line>
+<Line name="l4" n="17" from="E" to="A">Retta per E e A</Line>
+<Line name="l5" n="20" from="B" to="A">Retta per B e A</Line>
+<Intersection name="J" n="21" showname="true" first="l5" second="l3">Intersezione tra l5 e l3</Intersection>
+<Intersection name="F" n="22" showname="true" first="l2" second="l1">Intersezione tra l2 e l1</Intersection>
+<Intersection name="I" n="23" showname="true" first="l4" second="l1">Intersezione tra l4 e l1</Intersection>
+<Intersection name="G" n="24" showname="true" first="l3" second="l4">Intersezione tra l3 e l4</Intersection>
+<Intersection name="H" n="25" showname="true" first="l5" second="l2">Intersezione tra l5 e l2</Intersection>
+<Line name="l6" n="28" color="1" from="A" to="F">Retta per A e F</Line>
+<Line name="l7" n="31" color="1" from="B" to="G">Retta per B e G</Line>
+<Line name="l8" n="34" color="1" from="C" to="H">Retta per C e H</Line>
+<Line name="l9" n="37" color="1" from="D" to="I">Retta per D e I</Line>
+<Line name="l10" n="40" color="1" from="E" to="J">Retta per E e J</Line>
+<Intersection name="I7" n="41" first="l7" second="l6">Intersezione tra l7 e l6</Intersection>
+</Objects>
+</Construction>
+</CaR>

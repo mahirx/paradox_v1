@@ -1,0 +1,49 @@
+Macro Cabri II Plus vers. MS-Windows 1.2.4.7
+
+Pentagram, this pentagram
+Icon:
+16x16
+ 0  0  0  0  0  0  0  7  7  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  7  7  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  7  0  0  7  0  0  0  0  0  0 
+ 0  0  0  0  0  0  7  0  0  7  0  0  0  0  0  0 
+ 0  0  0  0  0  0  7  0  0  7  0  0  0  0  0  0 
+ 0  7  7  7  7  7  7  7  7  7  7  7  7  7  7  0 
+ 0  0  7  0  0  0  7  0  0  7  0  0  0  7  0  0 
+ 0  0  0  7  7  7  0  0  0  0  7  7  7  0  0  0 
+ 0  0  0  0  0  7  0  0  0  0  7  0  0  0  0  0 
+ 0  0  0  0  0  7  7  0  0  7  7  0  0  0  0  0 
+ 0  0  0  0  0  7  0  7  7  0  7  0  0  0  0  0 
+ 0  0  0  0  7  0  0  7  7  0  0  7  0  0  0  0 
+ 0  0  0  0  7  0  7  0  0  7  0  7  0  0  0  0 
+ 0  0  0 15 15  7  0  0  0  0  7 15 15  0  0  0 
+ 0  0  0 15 15  0  0  0  0  0  0 15 15  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+Help:
+"Select two points to construct a 5-pointed star."
+Mth: 0
+CN:2, ON:20, FN:4, PO:19
+CT:
+point, CS 0, 
+point, CS 0, 
+Const:
+Vec, Mth:0, 0, CN:2, VN:2, Const: 1 2
+Cir, Mth:1, 0, CN:2, VN:2, Const: 1 2
+Sym, Mth:0, 0, CN:2, VN:1, Const: 2 1
+Perp, Mth:0, 0, CN:2, VN:2, Const: 1 3
+Int, Mth:0, 0, CN:2, VN:1, int ind:0x10000, Const: 6 4
+Mid, Mth:0, 0, CN:2, VN:1, Const: 1 7
+Cir, Mth:1, 0, CN:2, VN:2, Const: 8 7
+Line, Mth:1, 0, CN:2, VN:2, Const: 5 8
+Int, Mth:0, 0, CN:2, VN:1, int ind:0x10000, Const: 10 9
+Cir, Mth:1, 0, CN:2, VN:2, Const: 5 11
+Int, Mth:0, 0, CN:2, VN:1, int ind:0, Const: 4 12
+Seg, Mth:0, 0, CN:2, VN:2, Const: 13 2
+Mid, Mth:1, 0, CN:1, VN:1, Const: 3
+Perp, Mth:0, 0, CN:2, VN:2, Const: 15 3
+Int, Mth:0, 0, CN:2, VN:1, int ind:0, Const: 14 16
+Cir, Mth:1, 0, CN:2, VN:2, Const: 17 1
+Int, Mth:0, 1, CN:2, VN:1, int ind:0x10000, Const: 4 18, 
+Refl, Mth:0, 1, CN:2, VN:1, Const: 19 16, 
+Int, Mth:0, 1, CN:2, VN:1, int ind:0x10000, Const: 16 18, 
+Pol, Mth:0, 1, CN:5, VN:6, Const: 1 20 19 2 21, color:P, 

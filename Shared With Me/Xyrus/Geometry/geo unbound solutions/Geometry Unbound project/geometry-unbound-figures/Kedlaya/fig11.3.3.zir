@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="11.31370849898476"/>
+<Objects>
+<Point name="P1" n="0" hidden="true" x="-4.058568445667548" y="2.442324374384011">Punto in -4.05857, 2.44232</Point>
+<Point name="P2" n="1" hidden="true" x="-5.993650793650794" y="0.5968253968253969">Punto in -5.99365, 0.59683</Point>
+<Point name="P3" n="2" hidden="true" x="-3.885714285714286" y="-2.9333333333333336">Punto in -3.88571, -2.93333</Point>
+<Point name="P4" n="3" hidden="true" x="0.9877047102288277" y="-3.0349472005213083">Punto in 0.9877, -3.03495</Point>
+<Point name="P5" n="4" hidden="true" x="2.0063492063492063" y="1.3460317460317461">Punto in 2.00635, 1.34603</Point>
+<Quadric name="Q1" n="5" point1="P1" point2="P2" point3="P3" point4="P4" point5="P5">Conica per P1, P2, P3, P4, P5 </Quadric>
+<Line name="l1" n="8" hidden="true" from="P3" to="P4">Retta per P3 e P4</Line>
+<Line name="l2" n="11" hidden="true" from="P3" to="P2">Retta per P3 e P2</Line>
+<Parallel name="pl1" n="14" hidden="true" point="P4" line="l2">Retta parallela per P4 a l2</Parallel>
+<Parallel name="pl2" n="17" hidden="true" point="P1" line="l1">Retta parallela per P1 a l1</Parallel>
+<Intersection name="I1" n="20" hidden="true" first="Q1" second="pl2" x="0.4861195853751594" y="2.3475647556478463">Intersezione tra Q1 e pl2</Intersection>
+<Midpoint name="M1" n="21" hidden="true" first="P1" second="I1">Punto medio tra P1 e I1</Midpoint>
+<Midpoint name="M2" n="24" hidden="true" first="P4" second="P3">Punto medio tra P4 e P3</Midpoint>
+<Midpoint name="M3" n="27" hidden="true" first="P3" second="P2">Punto medio tra P3 e P2</Midpoint>
+<Intersection name="I2" n="28" hidden="true" first="Q1" second="pl1" x="-2.5008142694443274" y="2.807271331702412">Intersezione tra Q1 e pl1</Intersection>
+<Midpoint name="M4" n="31" hidden="true" first="I2" second="P4">Punto medio tra I2 e P4</Midpoint>
+<Line name="l3" n="34" hidden="true" from="M3" to="M4">Retta per M3 e M4</Line>
+<Line name="l4" n="37" hidden="true" from="M1" to="M2">Retta per M1 e M2</Line>
+<Intersection name="I3" n="38" hidden="true" first="l3" second="l4">Intersezione tra l3 e l4</Intersection>
+<Circle name="c1" n="41" hidden="true" through="P3" midpoint="I3" acute="true">Circonferenza di centro I3 per P3</Circle>
+<Intersection name="I4" n="42" hidden="true" first="Q1" second="c1" x="-3.3143640710922027" y="2.6769383030521787">Intersezione tra Q1 e c1</Intersection>
+<Line name="l5" n="45" hidden="true" from="I4" to="P3">Retta per I4 e P3</Line>
+<Intersection name="I5" n="48" hidden="true" first="Q1" second="c1" x="0.6549653190621472" y="2.2727002425795186">Intersezione tra Q1 e c1</Intersection>
+<Line name="l6" n="49" hidden="true" from="I4" to="I5">Retta per I4 e I5</Line>
+<Parallel name="pl3" n="52" hidden="true" point="I3" line="l6">Retta parallela per I3 a l6</Parallel>
+<Parallel name="pl4" n="55" hidden="true" point="I3" line="l5">Retta parallela per I3 a l5</Parallel>
+<Intersection name="I6" n="56" hidden="true" first="Q1" second="pl3" x="2.8636046453556605" y="-0.786456810715952">Intersezione tra Q1 e pl3</Intersection>
+<Intersection name="I7" n="57" hidden="true" first="Q1" second="pl4" x="-1.2967091861505569" y="2.7987706155061387">Intersezione tra Q1 e pl4</Intersection>
+<Circle3 name="c2" n="60" hidden="true" from="I3" to="I6" midpoint="I7" acute="true">Circonferenza di centro I7 di raggio da I3 a I6</Circle3>
+<Intersection name="A" n="61" showname="true" first="pl3" second="c2" which="second">Intersezione tra pl3 e c2</Intersection>
+<Intersection name="B" n="62" showname="true" first="pl3" second="c2" which="first">Intersezione tra pl3 e c2</Intersection>
+<PointOn name="P" n="63" showname="true" xcoffset="0.33437491190186797" ycoffset="0.8480696034056301" keepclose="true" on="Q1" alpha="0.0" x="0.5796722263605426" y="2.3069122445855186">Punto su Q1</PointOn>
+<Line name="l7" n="66" hidden="true" from="A" to="P">Retta per A e P</Line>
+<Line name="l8" n="69" hidden="true" from="P" to="B">Retta per P e B</Line>
+<PointOn name="P7" n="70" hidden="true" on="l7" alpha="7.01204655943236" x="1.6264470331411527" y="2.7548871095204683">Punto su l7</PointOn>
+<Ray name="r1" n="80" hidden="true" from="P" to="P7">Semiretta da P puntando a P7</Ray>
+<Circle name="c3" n="81" hidden="true" through="B" midpoint="P" acute="true">Circonferenza di centro P per B</Circle>
+<Intersection name="I12" n="82" hidden="true" first="r1" second="c3" which="first">Intersezione tra r1 e c3</Intersection>
+<Circle name="c4" n="83" hidden="super" through="B" midpoint="I12" acute="true">Circonferenza di centro I12 per B</Circle>
+<Circle name="c5" n="84" hidden="super" through="I12" midpoint="B" acute="true">Circonferenza di centro B per I12</Circle>
+<Intersection name="I13" n="85" hidden="super" first="c4" second="c5" which="second">Intersezione tra c4 e c5</Intersection>
+<Intersection name="I14" n="86" hidden="super" first="c5" second="c4" which="second">Intersezione tra c5 e c4</Intersection>
+<Line name="l9" n="87" color="2" from="I13" to="I14">Retta per I13 e I14</Line>
+<Segment name="s1" n="90" from="P" to="A">Segmento da P a A</Segment>
+<Segment name="s2" n="93" from="P" to="B">Segmento da P a B</Segment>
+<PointOn name="P8" n="96" hidden="true" on="l9" alpha="10.925543527540306" x="-3.823278370485994" y="4.268061659073274">Punto su l9</PointOn>
+<Angle name="a1" n="97" color="2" unit="°" first="A" root="P" second="P8" acute="true">Angolo A - P - P8</Angle>
+<PointOn name="P9" n="100" hidden="true" on="l9" alpha="4.142505739675946" x="2.372901157918439" y="1.5081774434987087">Punto su l9</PointOn>
+<Angle name="a2" n="101" color="2" unit="°" first="B" root="P" second="P9" acute="true">Angolo B - P - P9</Angle>
+</Objects>
+</Construction>
+</CaR>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<path d="M 377.0 330.0 H 382.0 V 335.0 H 377.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="380.0" cy="333.0" rx="150.58552387264857" ry="150.58552387264857" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<path d="M 395.0001375 43.999987499999975 H 400.0001375 V 48.999987499999975 H 395.0001375 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="404.0001375" y="64.99998749999997" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">P</text><path d="M 309.6561064386681 195.3122128773362 H 314.6561064386681 V 200.3122128773362 H 309.6561064386681 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="318.6561064386681" y="216.3122128773362" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A</text><line x1="398.0001375" y1="46.999987499999975" x2="-267.49048582466696" y2="1226.8934836326216" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<path d="M 406.7227568577711 182.37697427307006 H 411.7227568577711 V 187.37697427307006 H 406.7227568577711 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="415.7227568577711" y="203.37697427307006" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C</text><line x1="398.0001375" y1="46.999987499999975" x2="526.1579950756769" y2="1559.810189842547" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<path d="M 226.8967291545617 342.0419301401813 H 231.8967291545617 V 347.0419301401813 H 226.8967291545617 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="235.8967291545617" y="363.0419301401813" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B</text><path d="M 431.1327522880728 470.519198438214 H 436.1327522880728 V 475.519198438214 H 431.1327522880728 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="440.1327522880728" y="491.519198438214" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">D</text><line x1="312.6561064386681" y1="198.3122128773362" x2="409.7227568577711" y2="185.37697427307006" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<line x1="409.7227568577711" y1="185.37697427307006" x2="229.8967291545617" y2="345.0419301401813" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<line x1="229.8967291545617" y1="345.0419301401813" x2="434.1327522880728" y2="473.519198438214" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<line x1="434.1327522880728" y1="473.519198438214" x2="312.6561064386681" y2="198.3122128773362" style="stroke:rgb(153,153,153);stroke-width:1"/>
+</svg>

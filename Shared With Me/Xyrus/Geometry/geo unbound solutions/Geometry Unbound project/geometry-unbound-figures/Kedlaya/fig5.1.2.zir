@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="B" n="0" showname="true" x="-4.292063492063492" y="-0.7047619047619049">Punto in -4.29206, -0.70476</Point>
+<Point name="C" n="3" showname="true" x="0.1904761904761898" y="-0.7301587301587302">Punto in 0.19048, -0.73016</Point>
+<Segment name="s1" n="4" from="B" to="C">Segmento da P1 a P2</Segment>
+<Point name="A" n="9" showname="true" x="-3.034920634920635" y="2.9015873015873015">Punto in -3.03492, 2.90159</Point>
+<Segment name="s2" n="10" from="C" to="A">Segmento da P2 a P3</Segment>
+<Segment name="s3" n="13" from="A" to="B">Segmento da P3 a P1</Segment>
+<Point name="T" n="14" showname="true" xcoffset="-0.46983777777777735" ycoffset="1.4285714284856255E-6" keepclose="true" x="-2.10794" y="0.6285700000000001">Punto in -2.10794, 0.62857</Point>
+<Ray name="r1" n="17" hidden="true" from="A" to="T">Semiretta da A puntando a T</Ray>
+<Ray name="r2" n="20" hidden="true" from="C" to="T">Semiretta da C puntando a T</Ray>
+<Ray name="r3" n="23" hidden="true" from="B" to="T">Semiretta da B puntando a T</Ray>
+<Intersection name="Q" n="24" showname="true" xcoffset="0.9301872698672149" ycoffset="-0.051200739186818556" keepclose="true" first="s2" second="r3">Intersezione tra s2 e r3</Intersection>
+<Intersection name="R" n="25" showname="true" xcoffset="-0.3014173496874273" ycoffset="-0.0681351965059247" keepclose="true" first="s3" second="r2">Intersezione tra s3 e r2</Intersection>
+<Intersection name="P" n="26" showname="true" xcoffset="-0.09293644373037258" ycoffset="-0.22577858753046298" keepclose="true" first="r1" second="s1">Intersezione tra r1 e s1</Intersection>
+<Segment name="s4" n="29" color="1" from="A" to="P">Segmento da A a P</Segment>
+<Segment name="s5" n="32" color="1" from="C" to="R">Segmento da C a R</Segment>
+<Segment name="s6" n="35" color="1" from="B" to="Q">Segmento da B a Q</Segment>
+<Plumb name="p1" n="38" hidden="true" point="B" line="s4" valid="true">Retta perpendicolare per B a s4</Plumb>
+<Plumb name="p2" n="41" hidden="true" point="C" line="s4" valid="true">Retta perpendicolare per C a s4</Plumb>
+<Ray name="r4" n="44" type="thin" from="A" to="T">Semiretta da A puntando a T</Ray>
+<Intersection name="I4" n="47" hidden="true" first="s4" second="p1">Intersezione tra s4 e p1</Intersection>
+<Segment name="s7" n="48" type="thin" from="B" to="I4">Segmento da B a I4</Segment>
+<Intersection name="I5" n="49" hidden="true" first="p2" second="r4">Intersezione tra p2 e r4</Intersection>
+<Segment name="s8" n="52" type="thin" from="I5" to="C">Segmento da I5 a C</Segment>
+<Polygon name="pol1" n="53" color="2" background="true" point1="A" point2="T" point3="B">Poligono A, T, B</Polygon>
+<Intersection name="I6" n="54" first="s4" second="s5">Intersezione tra s4 e s5</Intersection>
+<Polygon name="pol2" n="55" color="4" background="true" point1="A" point2="C" point3="I6">Poligono A, C, I6</Polygon>
+</Objects>
+</Construction>
+</CaR>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="O" n="0" showname="true" x="-2.56508" y="-0.16508">Punto in -2.56508, -0.16508</Point>
+<Point name="P2" n="3" hidden="true" x="-3.4793650793650794" y="-0.9523809523809526">Punto in -3.47937, -0.95238</Point>
+<Circle name="c1" n="4" color="5" through="P2" midpoint="O" acute="true">Circonferenza di centro O per P2</Circle>
+<Point name="P3" n="5" hidden="true" x="-0.4063492063492067" y="1.2952380952380946">Punto in -0.40635, 1.29524</Point>
+<Point name="P4" n="6" hidden="true" x="-1.2190476190476192" y="1.3079365079365082">Punto in -1.21905, 1.30794</Point>
+<Point name="P5" n="7" hidden="true" x="-1.9301587301587304" y="0.5333333333333337">Punto in -1.93016, 0.53333</Point>
+<Point name="P6" n="8" hidden="true" x="-0.431746031746032" y="-1.0666666666666669">Punto in -0.43175, -1.06667</Point>
+<Point name="P7" n="9" hidden="true" x="1.4730158730158731" y="0.038095238095238404">Punto in 1.47302, 0.0381</Point>
+<Quadric name="Q1" n="10" point1="P3" point2="P4" point3="P5" point4="P6" point5="P7">Conica per P3, P4, P5, P6, P7 </Quadric>
+<PointOn name="P8" n="11" hidden="true" on="Q1" alpha="0.0" x="0.24391944069715676" y="1.085257616529686">Punto su Q1</PointOn>
+<PointOn name="P9" n="12" hidden="true" on="Q1" alpha="0.0" x="0.9393802030710203" y="0.6571719119875119">Punto su Q1</PointOn>
+<PointOn name="P10" n="13" hidden="true" on="Q1" alpha="0.0" x="1.6221472190816912" y="-0.5457997380153687">Punto su Q1</PointOn>
+<PointOn name="P11" n="14" hidden="true" on="Q1" alpha="0.0" x="1.2988881151362337" y="-1.0848945052302839">Punto su Q1</PointOn>
+<PointOn name="P12" n="15" hidden="true" on="Q1" alpha="0.0" x="0.5208129514875134" y="-1.2730700983859433">Punto su Q1</PointOn>
+<PointOn name="P13" n="16" hidden="true" on="Q1" alpha="0.0" x="-0.09130984605271343" y="-1.1812084301315817">Punto su Q1</PointOn>
+<PointOn name="P14" n="17" hidden="true" on="Q1" alpha="0.0" x="-0.9042664107046338" y="-0.8297929556364322">Punto su Q1</PointOn>
+<PointOn name="P15" n="18" hidden="true" on="Q1" alpha="0.0" x="-1.415130811237853" y="-0.43684166552990455">Punto su Q1</PointOn>
+<PointOn name="P16" n="19" hidden="true" on="Q1" alpha="0.0" x="-1.6733778519872728" y="-0.13768486389154933">Punto su Q1</PointOn>
+<PointOn name="P17" n="20" hidden="true" on="Q1" alpha="0.0" x="-1.8270476480383036" y="0.12555285239666994">Punto su Q1</PointOn>
+<PointOn name="P18" n="21" hidden="true" on="Q1" alpha="0.0" x="-1.7277546543539" y="1.0550393184288027">Punto su Q1</PointOn>
+<Ray name="r1" n="28" color="2" hidden="super" from="O" to="P4">Semiretta da O puntando a P4</Ray>
+<Circle name="c2" n="29" color="2" hidden="super" fixed="c1^2/d(P4,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(P4,O)</Circle>
+<Intersection name="I1" n="30" color="2" hidden="true" first="r1" second="c2" which="first">Intersezione tra r1 e c2</Intersection>
+<Ray name="r2" n="31" color="2" hidden="true" from="O" to="P4">Semiretta da O puntando a P4</Ray>
+<Plumb name="p1" n="32" color="2" type="thin" point="I1" line="r2" valid="true">Retta perpendicolare per I1 a r2</Plumb>
+<Ray name="r3" n="39" color="2" hidden="super" from="O" to="P3">Semiretta da O puntando a P3</Ray>
+<Circle name="c3" n="40" color="2" hidden="super" fixed="c1^2/d(P3,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(P3,O)</Circle>
+<Intersection name="I2" n="41" color="2" hidden="true" first="r3" second="c3" which="first">Intersezione tra r3 e c3</Intersection>
+<Ray name="r4" n="42" color="2" hidden="true" from="O" to="P3">Semiretta da O puntando a P3</Ray>
+<Plumb name="p2" n="43" color="2" type="thin" point="I2" line="r4" valid="true">Retta perpendicolare per I2 a r4</Plumb>
+<Ray name="r5" n="50" color="2" hidden="super" from="O" to="P8">Semiretta da O puntando a P8</Ray>
+<Circle name="c4" n="51" color="2" hidden="super" fixed="c1^2/d(P8,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(P8,O)</Circle>
+<Intersection name="I3" n="52" color="2" hidden="true" first="r5" second="c4" which="first">Intersezione tra r5 e c4</Intersection>
+<Ray name="r6" n="53" color="2" hidden="true" from="O" to="P8">Semiretta da O puntando a P8</Ray>
+<Plumb name="p3" n="54" color="2" type="thin" point="I3" line="r6" valid="true">Retta perpendicolare per I3 a r6</Plumb>
+<Ray name="r7" n="61" color="2" hidden="super" from="O" to="P9">Semiretta da O puntando a P9</Ray>
+<Circle name="c5" n="62" color="2" hidden="super" fixed="c1^2/d(P9,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(P9,O)</Circle>
+<Intersection name="I4" n="63" color="2" hidden="true" first="r7" second="c5" which="first">Intersezione tra r7 e c5</Intersection>
+<Ray name="r8" n="64" color="2" hidden="true" from="O" to="P9">Semiretta da O puntando a P9</Ray>
+<Plumb name="p4" n="65" color="2" type="thin" point="I4" line="r8" valid="true">Retta perpendicolare per I4 a r8</Plumb>
+<Ray name="r9" n="72" color="2" hidden="super" from="O" to="P7">Semiretta da O puntando a P7</Ray>
+<Circle name="c6" n="73" color="2" hidden="super" fixed="c1^2/d(P7,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(P7,O)</Circle>
+<Intersection name="I5" n="74" color="2" hidden="true" first="r9" second="c6" which="first">Intersezione tra r9 e c6</Intersection>
+<Ray name="r10" n="75" color="2" hidden="true" from="O" to="P7">Semiretta da O puntando a P7</Ray>
+<Plumb name="p5" n="76" color="2" type="thin" point="I5" line="r10" valid="true">Retta perpendicolare per I5 a r10</Plumb>
+<Ray name="r11" n="83" color="2" hidden="super" from="O" to="P10">Semiretta da O puntando a P10</Ray>
+<Circle name="c7" n="84" color="2" hidden="super" fixed="c1^2/d(P10,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(P10,O)</Circle>
+<Intersection name="I6" n="85" color="2" hidden="true" first="r11" second="c7" which="first">Intersezione tra r11 e c7</Intersection>
+<Ray name="r12" n="86" color="2" hidden="true" from="O" to="P10">Semiretta da O puntando a P10</Ray>
+<Plumb name="p6" n="87" color="2" type="thin" point="I6" line="r12" valid="true">Retta perpendicolare per I6 a r12</Plumb>
+<Ray name="r13" n="94" color="2" hidden="super" from="O" to="P11">Semiretta da O puntando a P11</Ray>
+<Circle name="c8" n="95" color="2" hidden="super" fixed="c1^2/d(P11,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(P11,O)</Circle>
+<Intersection name="I7" n="96" color="2" hidden="true" first="r13" second="c8" which="first">Intersezione tra r13 e c8</Intersection>
+<Ray name="r14" n="97" color="2" hidden="true" from="O" to="P11">Semiretta da O puntando a P11</Ray>
+<Plumb name="p7" n="98" color="2" type="thin" point="I7" line="r14" valid="true">Retta perpendicolare per I7 a r14</Plumb>
+<Ray name="r15" n="105" color="2" hidden="super" from="O" to="P12">Semiretta da O puntando a P12</Ray>
+<Circle name="c9" n="106" color="2" hidden="super" fixed="c1^2/d(P12,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(P12,O)</Circle>
+<Intersection name="I8" n="107" color="2" hidden="true" first="r15" second="c9" which="first">Intersezione tra r15 e c9</Intersection>
+<Ray name="r16" n="108" color="2" hidden="true" from="O" to="P12">Semiretta da O puntando a P12</Ray>
+<Plumb name="p8" n="109" color="2" type="thin" point="I8" line="r16" valid="true">Retta perpendicolare per I8 a r16</Plumb>
+<Ray name="r17" n="116" color="2" hidden="super" from="O" to="P13">Semiretta da O puntando a P13</Ray>
+<Circle name="c10" n="117" color="2" hidden="super" fixed="c1^2/d(P13,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(P13,O)</Circle>
+<Intersection name="I9" n="118" color="2" hidden="true" first="r17" second="c10" which="first">Intersezione tra r17 e c10</Intersection>
+<Ray name="r18" n="119" color="2" hidden="true" from="O" to="P13">Semiretta da O puntando a P13</Ray>
+<Plumb name="p9" n="120" color="2" type="thin" point="I9" line="r18" valid="true">Retta perpendicolare per I9 a r18</Plumb>
+<Ray name="r19" n="127" color="2" hidden="super" from="O" to="P13">Semiretta da O puntando a P13</Ray>
+<Circle name="c11" n="128" color="2" hidden="super" fixed="c1^2/d(P13,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(P13,O)</Circle>
+<Intersection name="I10" n="129" color="2" hidden="true" first="r19" second="c11" which="first">Intersezione tra r19 e c11</Intersection>
+<Ray name="r20" n="130" color="2" hidden="true" from="O" to="P13">Semiretta da O puntando a P13</Ray>
+<Plumb name="p10" n="131" color="2" type="thin" hidden="true" point="I10" line="r20" valid="true">Retta perpendicolare per I10 a r20</Plumb>
+<Ray name="r21" n="138" color="2" hidden="super" from="O" to="P6">Semiretta da O puntando a P6</Ray>
+<Circle name="c12" n="139" color="2" hidden="super" fixed="c1^2/d(P6,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(P6,O)</Circle>
+<Intersection name="I11" n="140" color="2" hidden="true" first="r21" second="c12" which="first">Intersezione tra r21 e c12</Intersection>
+<Ray name="r22" n="141" color="2" hidden="true" from="O" to="P6">Semiretta da O puntando a P6</Ray>
+<Plumb name="p11" n="142" color="2" type="thin" point="I11" line="r22" valid="true">Retta perpendicolare per I11 a r22</Plumb>
+<Ray name="r23" n="149" color="2" hidden="super" from="O" to="P14">Semiretta da O puntando a P14</Ray>
+<Circle name="c13" n="150" color="2" hidden="super" fixed="c1^2/d(P14,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(P14,O)</Circle>
+<Intersection name="I12" n="151" color="2" hidden="true" first="r23" second="c13" which="first">Intersezione tra r23 e c13</Intersection>
+<Ray name="r24" n="152" color="2" hidden="true" from="O" to="P14">Semiretta da O puntando a P14</Ray>
+<Plumb name="p12" n="153" color="2" type="thin" point="I12" line="r24" valid="true">Retta perpendicolare per I12 a r24</Plumb>
+<Ray name="r25" n="160" color="2" hidden="super" from="O" to="P15">Semiretta da O puntando a P15</Ray>
+<Circle name="c14" n="161" color="2" hidden="super" fixed="c1^2/d(P15,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(P15,O)</Circle>
+<Intersection name="I13" n="162" color="2" hidden="true" first="r25" second="c14" which="first">Intersezione tra r25 e c14</Intersection>
+<Ray name="r26" n="163" color="2" hidden="true" from="O" to="P15">Semiretta da O puntando a P15</Ray>
+<Plumb name="p13" n="164" color="2" type="thin" point="I13" line="r26" valid="true">Retta perpendicolare per I13 a r26</Plumb>
+<Ray name="r27" n="171" color="2" hidden="super" from="O" to="P15">Semiretta da O puntando a P15</Ray>
+<Circle name="c15" n="172" color="2" hidden="super" fixed="c1^2/d(P15,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(P15,O)</Circle>
+<Intersection name="I14" n="173" color="2" hidden="true" first="r27" second="c15" which="first">Intersezione tra r27 e c15</Intersection>
+<Ray name="r28" n="174" color="2" hidden="true" from="O" to="P15">Semiretta da O puntando a P15</Ray>
+<Plumb name="p14" n="175" color="2" type="thin" hidden="true" point="I14" line="r28" valid="true">Retta perpendicolare per I14 a r28</Plumb>
+<Ray name="r29" n="182" color="2" hidden="super" from="O" to="P16">Semiretta da O puntando a P16</Ray>
+<Circle name="c16" n="183" color="2" hidden="super" fixed="c1^2/d(P16,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(P16,O)</Circle>
+<Intersection name="I15" n="184" color="2" hidden="true" first="r29" second="c16" which="first">Intersezione tra r29 e c16</Intersection>
+<Ray name="r30" n="185" color="2" hidden="true" from="O" to="P16">Semiretta da O puntando a P16</Ray>
+<Plumb name="p15" n="186" color="2" type="thin" point="I15" line="r30" valid="true">Retta perpendicolare per I15 a r30</Plumb>
+<Ray name="r31" n="193" color="2" hidden="super" from="O" to="P17">Semiretta da O puntando a P17</Ray>
+<Circle name="c17" n="194" color="2" hidden="super" fixed="c1^2/d(P17,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(P17,O)</Circle>
+<Intersection name="I16" n="195" color="2" hidden="true" first="r31" second="c17" which="first">Intersezione tra r31 e c17</Intersection>
+<Ray name="r32" n="196" color="2" hidden="true" from="O" to="P17">Semiretta da O puntando a P17</Ray>
+<Plumb name="p16" n="197" color="2" type="thin" point="I16" line="r32" valid="true">Retta perpendicolare per I16 a r32</Plumb>
+<Ray name="r33" n="204" color="2" hidden="super" from="O" to="P5">Semiretta da O puntando a P5</Ray>
+<Circle name="c18" n="205" color="2" hidden="super" fixed="c1^2/d(P5,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(P5,O)</Circle>
+<Intersection name="I17" n="206" color="2" hidden="true" first="r33" second="c18" which="first">Intersezione tra r33 e c18</Intersection>
+<Ray name="r34" n="207" color="2" hidden="true" from="O" to="P5">Semiretta da O puntando a P5</Ray>
+<Plumb name="p17" n="208" color="2" type="thin" point="I17" line="r34" valid="true">Retta perpendicolare per I17 a r34</Plumb>
+<Ray name="r35" n="215" color="2" hidden="super" from="O" to="P18">Semiretta da O puntando a P18</Ray>
+<Circle name="c19" n="216" color="2" hidden="super" fixed="c1^2/d(P18,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(P18,O)</Circle>
+<Intersection name="I18" n="217" color="2" hidden="true" first="r35" second="c19" which="first">Intersezione tra r35 e c19</Intersection>
+<Ray name="r36" n="218" color="2" hidden="true" from="O" to="P18">Semiretta da O puntando a P18</Ray>
+<Plumb name="p18" n="219" color="2" type="thin" point="I18" line="r36" valid="true">Retta perpendicolare per I18 a r36</Plumb>
+<PointOn name="P19" n="220" hidden="true" on="Q1" alpha="0.0" x="-1.5325270987651662" y="1.1972636466810547">Punto su Q1</PointOn>
+<Ray name="r37" n="227" color="2" hidden="super" from="O" to="P19">Semiretta da O puntando a P19</Ray>
+<Circle name="c20" n="228" color="2" hidden="super" fixed="c1^2/d(P19,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(P19,O)</Circle>
+<Intersection name="I19" n="229" color="2" hidden="true" first="r37" second="c20" which="first">Intersezione tra r37 e c20</Intersection>
+<Ray name="r38" n="230" color="2" hidden="true" from="O" to="P19">Semiretta da O puntando a P19</Ray>
+<Plumb name="p19" n="231" color="2" type="thin" point="I19" line="r38" valid="true">Retta perpendicolare per I19 a r38</Plumb>
+</Objects>
+</Construction>
+</CaR>

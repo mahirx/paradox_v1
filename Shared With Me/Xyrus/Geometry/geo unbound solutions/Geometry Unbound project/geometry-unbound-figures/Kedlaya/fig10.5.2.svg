@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<line x1="-629.0" y1="378.0" x2="1890.0" y2="378.0" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<path d="M 627.0 378.0 A 176.0 176.0 0 0 0 275.0 378.0" style="stroke:rgb(0,124,0);stroke-width:1;fill:none"/>
+<text x="437.0" y="187.0" style="font-size:12;fill:rgb(0,124,0);font-weight:normal">l4</text><path d="M 776.0 378.0 A 105.0 105.0 0 0 0 566.0 378.0" style="stroke:rgb(0,124,0);stroke-width:1;fill:none"/>
+<text x="718.0" y="274.0" style="font-size:12;fill:rgb(0,124,0);font-weight:normal">l6</text><line x1="381.0" y1="378.0" x2="381.0" y2="-973.5000000000002" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<text x="352.0" y="132.0" style="font-size:12;fill:rgb(0,124,0);font-weight:normal">l1</text><line x1="500.0" y1="378.0" x2="500.0" y2="-973.5000000000002" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<text x="471.0" y="132.0" style="font-size:12;fill:rgb(0,124,0);font-weight:normal">l2</text><line x1="823.0" y1="378.0" x2="823.0" y2="-973.5000000000002" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<text x="794.0" y="132.0" style="font-size:12;fill:rgb(0,124,0);font-weight:normal">l3</text><path d="M 736.0 378.0 A 135.99999999999991 135.99999999999991 0 0 0 464.0 378.0" style="stroke:rgb(0,124,0);stroke-width:1;fill:none"/>
+<text x="608.0" y="228.0" style="font-size:12;fill:rgb(0,124,0);font-weight:normal">l5</text></svg>

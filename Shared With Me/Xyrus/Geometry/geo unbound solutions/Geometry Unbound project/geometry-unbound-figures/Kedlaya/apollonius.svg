@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<path d="M 258.99967499999997 328.00005 H 263.99967499999997 V 333.00005 H 258.99967499999997 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="267.99967499999997" y="349.00005" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A</text><path d="M 485.99969999999996 330.0003 H 490.99969999999996 V 335.0003 H 485.99969999999996 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="494.99969999999996" y="351.0003" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B</text><line x1="261.99967499999997" y1="331.00005" x2="488.99969999999996" y2="333.0003" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 410.48743494673926 329.33491060996454 H 415.48743494673926 V 334.33491060996454 H 410.48743494673926 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="419.48743494673926" y="350.33491060996454" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">K</text><ellipse cx="564.0515595695699" cy="333.6616324474481" rx="150.5699698288916" ry="150.5699698288916" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<text x="647.0" y="221.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$\Gamma$</text><path d="M 589.9990335868603 182.90047529750012 H 594.9990335868603 V 187.90047529750012 H 589.9990335868603 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="598.9990335868603" y="203.90047529750012" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">P</text><line x1="592.9990335868603" y1="185.90047529750012" x2="261.99967499999997" y2="331.00005" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="592.9990335868603" y1="185.90047529750012" x2="488.99969999999996" y2="333.0003" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="336.0" y="200.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$\frac{PA}{PB} = \frac{KA}{KB} \quad \forall P \in \Gamma$</text></svg>

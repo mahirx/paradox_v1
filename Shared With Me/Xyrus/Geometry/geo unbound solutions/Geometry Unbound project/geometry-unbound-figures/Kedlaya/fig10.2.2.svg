@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<path d="M 707.0 324.0 H 712.0 V 329.0 H 707.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="716.0" y="345.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B</text><ellipse cx="480.99999999999994" cy="327.0" rx="229.0" ry="229.0" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<text x="632.0" y="524.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$\omega$</text><path d="M 248.99999999999994 324.0 H 253.99999999999994 V 329.0 H 248.99999999999994 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="233.0" y="341.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A</text><path d="M 574.0 324.0 H 579.0 V 329.0 H 574.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="583.0" y="345.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C</text><path d="M 248.99999999999994 324.0 H 253.99999999999994 V 329.0 H 248.99999999999994 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="414.5" cy="327.0" rx="162.50000000000003" ry="162.50000000000003" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<text x="523.0" y="327.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$\omega_1$</text><ellipse cx="643.5" cy="327.0" rx="66.5" ry="66.5" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<text x="574.0" y="332.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$\omega_2$</text><ellipse cx="251.99999999999991" cy="327.0" rx="227.03523955544873" ry="227.03523955544873" style="stroke:rgb(0,124,0);fill:none;stroke-width:1"/>
+<path d="M 361.5436681222707 324.0 H 366.5436681222707 V 329.0 H 361.5436681222707 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="370.5436681222707" y="345.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B&apos;</text><path d="M 407.59999999999985 324.0 H 412.59999999999985 V 329.0 H 407.59999999999985 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="416.59999999999985" y="345.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C&apos;</text><line x1="411.0" y1="-974.0" x2="411.0" y2="1546.0" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<text x="420.0" y="362.0" style="font-size:0;fill:rgb(0,124,0);font-weight:normal">$\omega_1$&apos;</text><line x1="365.0" y1="-974.0" x2="365.0" y2="1546.0" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<text x="266.0" y="358.0" style="font-size:0;fill:rgb(0,124,0);font-weight:normal">$\omega$&apos;</text><ellipse cx="387.5718340611353" cy="327.0" rx="23.028165938864618" ry="23.028165938864618" style="stroke:rgb(0,124,0);fill:none;stroke-width:1"/>
+<text x="356.0" y="346.0" style="font-size:0;fill:rgb(0,124,0);font-weight:normal">$\omega_2$&apos;</text><ellipse cx="387.5718340611353" cy="280.94366812227076" rx="23.028165938864618" ry="23.028165938864618" style="stroke:rgb(0,124,0);fill:none;stroke-width:1"/>
+<text x="351.0" y="306.0" style="font-size:0;fill:rgb(0,124,0);font-weight:normal">$\omega_3$&apos;</text><ellipse cx="387.5718340611353" cy="234.88733624454153" rx="23.028165938864618" ry="23.028165938864618" style="stroke:rgb(0,124,0);fill:none;stroke-width:1"/>
+<text x="354.0" y="261.0" style="font-size:0;fill:rgb(0,124,0);font-weight:normal">$\omega_4$&apos;</text><ellipse cx="387.5718340611353" cy="188.83100436681232" rx="23.02816593886459" ry="23.02816593886459" style="stroke:rgb(0,124,0);fill:none;stroke-width:1"/>
+<text x="355.0" y="219.0" style="font-size:0;fill:rgb(0,124,0);font-weight:normal">$\omega_5$&apos;</text><ellipse cx="387.5718340611353" cy="142.77467248908314" rx="23.02816593886459" ry="23.02816593886459" style="stroke:rgb(0,124,0);fill:none;stroke-width:1"/>
+<text x="356.0" y="163.0" style="font-size:0;fill:rgb(0,124,0);font-weight:normal">$\omega_6$&apos;</text><ellipse cx="387.5718340611353" cy="96.71834061135397" rx="23.02816593886459" ry="23.02816593886459" style="stroke:rgb(0,124,0);fill:none;stroke-width:1"/>
+<text x="354.0" y="115.0" style="font-size:0;fill:rgb(0,124,0);font-weight:normal">$\omega_7$&apos;</text><ellipse cx="601.9166861816152" cy="208.1266430085446" rx="59.43667849572773" ry="59.43667849572773" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<text x="545.0" y="257.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$\omega_3$</text><ellipse cx="517.3605775798476" cy="146.70392430079318" rx="45.07401892480169" ry="45.07401892480169" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<text x="480.0" y="192.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$\omega_4$</text><ellipse cx="441.17249091871156" cy="134.2035150023859" rx="32.132747499602345" ry="32.132747499602345" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<text x="412.0" y="173.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$\omega_5$</text><ellipse cx="386.93466844496317" cy="143.6405016277895" rx="22.919937296526314" ry="22.919937296526314" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<text x="358.0" y="176.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$\omega_6$</text><ellipse cx="350.5911686334223" cy="159.5335194349278" rx="16.746648056507212" ry="16.746648056507212" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<text x="322.0" y="188.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$\omega_7$</text><ellipse cx="387.5718340611353" cy="373.05633187772924" rx="23.02816593886459" ry="23.02816593886459" style="stroke:rgb(0,124,0);fill:none;stroke-width:1"/>
+<ellipse cx="387.5718340611353" cy="419.11266375545836" rx="23.02816593886459" ry="23.02816593886459" style="stroke:rgb(0,124,0);fill:none;stroke-width:1"/>
+<ellipse cx="387.5718340611353" cy="465.1689956331876" rx="23.028165938864618" ry="23.028165938864618" style="stroke:rgb(0,124,0);fill:none;stroke-width:1"/>
+<ellipse cx="387.5718340611353" cy="511.2253275109168" rx="23.028165938864618" ry="23.028165938864618" style="stroke:rgb(0,124,0);fill:none;stroke-width:1"/>
+<ellipse cx="326.17358659155303" cy="175.81092694748565" rx="12.59908942104289" ry="12.59908942104289" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<text x="294.0" y="201.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$\omega_8$</text><ellipse cx="601.9166861816152" cy="445.8733569914554" rx="59.43667849572779" ry="59.43667849572779" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<ellipse cx="517.3605775798476" cy="507.29607569920665" rx="45.07401892480161" ry="45.07401892480161" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<ellipse cx="441.1724909187117" cy="519.796484997614" rx="32.13274749960232" ry="32.13274749960232" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<ellipse cx="386.9346684449632" cy="510.35949837221045" rx="22.919937296526257" ry="22.919937296526257" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<ellipse cx="350.59116863342206" cy="494.4664805650724" rx="16.746648056507297" ry="16.746648056507297" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+</svg>

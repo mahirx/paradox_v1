@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" n="0" hidden="true" x="-3.7714285714285714" y="-0.8190476190476192">Punto in -3.77143, -0.81905</Point>
+<Point name="P2" n="3" hidden="true" x="1.231746031746031" y="-0.8063492063492061">Punto in 1.23175, -0.80635</Point>
+<Line name="line" n="4" showname="true" xcoffset="6.159322680188325" ycoffset="-0.2256378196945118" keepclose="true" from="P1" to="P2">Retta per P1 e P2</Line>
+<PointOn name="A" n="5" showname="true" on="line" alpha="-2.235139042084572" x="-6.006560414383291" y="-0.8247205425068954">Punto su line</PointOn>
+<PointOn name="B" n="6" showname="true" on="line" alpha="-1.3460274106158534" x="-5.117451646642496" y="-0.8224639212689745">Punto su line</PointOn>
+<PointOn name="C" n="7" showname="true" on="line" alpha="0.952377884869708" x="-2.819053754060228" y="-0.8166304240796792">Punto su line</PointOn>
+<PointOn name="D" n="8" showname="true" on="line" alpha="3.5679524109814214" x="-0.20348765241799782" y="-0.809991931435917">Punto su line</PointOn>
+<PointOn name="E" n="9" showname="true" on="line" alpha="5.130077747758067" x="1.35863265292976" y="-0.8060271590873185">Punto su line</PointOn>
+<PointOn name="F" n="10" showname="true" on="line" alpha="5.409409697949801" x="1.6379637034249006" y="-0.8053181970302242">Punto su line</PointOn>
+<PointOn name="G" n="11" showname="true" on="line" alpha="8.368098097574979" x="4.596642573449647" y="-0.7978088597966586">Punto su line</PointOn>
+<PointOn name="South" n="14" showname="true" xcoffset="-0.025315025228705323" ycoffset="-0.1846102186201518" keepclose="true" on="line" alpha="2.691990362491615" x="-1.079446879533199" y="-0.812215178205245">Punto su line</PointOn>
+<Plumb name="p1" n="15" hidden="true" point="South" line="line" valid="true">Retta perpendicolare per South a line</Plumb>
+<PointOn name="P11" n="16" hidden="true" on="p1" alpha="1.0978612612589413" x="-1.0822333204600318" y="0.2856425469668441">Punto su p1</PointOn>
+<Circle name="c1" n="19" through="South" midpoint="P11" acute="true">Circonferenza di centro P11 per South</Circle>
+<Intersection name="North" n="20" showname="true" xcoffset="0.09454357091067411" ycoffset="0.3371346484959883" keepclose="true" first="p1" second="c1" which="first">Intersezione tra p1 e c1</Intersection>
+<Ray name="r2" n="26" type="thin" from="North" to="A">Semiretta da North puntando a A</Ray>
+<Ray name="r3" n="29" type="thin" from="North" to="B">Semiretta da North puntando a B</Ray>
+<Ray name="r4" n="32" type="thin" from="North" to="C">Semiretta da North puntando a C</Ray>
+<Ray name="r5" n="35" type="thin" from="North" to="D">Semiretta da North puntando a D</Ray>
+<Ray name="r6" n="38" type="thin" from="North" to="E">Semiretta da North puntando a E</Ray>
+<Ray name="r7" n="41" type="thin" from="North" to="F">Semiretta da North puntando a F</Ray>
+<Ray name="r8" n="44" type="thin" from="North" to="G">Semiretta da North puntando a G</Ray>
+<Intersection name="A&apos;" n="45" showname="true" first="r2" second="c1" awayfrom="North" which="first">Intersezione tra r2 e c1</Intersection>
+<Intersection name="B&apos;" n="46" showname="true" first="r3" second="c1" awayfrom="North" which="first">Intersezione tra r3 e c1</Intersection>
+<Intersection name="C&apos;" n="47" showname="true" first="r4" second="c1" awayfrom="North" which="first">Intersezione tra r4 e c1</Intersection>
+<Intersection name="D&apos;" n="48" showname="true" first="r5" second="c1" awayfrom="North" which="first">Intersezione tra r5 e c1</Intersection>
+<Intersection name="E&apos;" n="49" showname="true" first="r6" second="c1" awayfrom="North" which="first">Intersezione tra r6 e c1</Intersection>
+<Intersection name="F&apos;" n="50" showname="true" xcoffset="0.30150497986705826" ycoffset="0.046162231501262196" keepclose="true" first="r7" second="c1" awayfrom="North" which="first">Intersezione tra r7 e c1</Intersection>
+<Intersection name="G&apos;" n="51" showname="true" first="r8" second="c1" awayfrom="North" which="first">Intersezione tra r8 e c1</Intersection>
+<Parallel name="inverted line" n="54" showname="true" xcoffset="3.5107775085191926" ycoffset="-0.1377483275781108" keepclose="true" point="North" line="line">Retta parallela per North a line</Parallel>
+<Ray name="r9" n="57" color="1" type="thin" from="South" to="C&apos;">Semiretta da South puntando a C&apos;</Ray>
+<Ray name="r10" n="60" color="1" type="thin" from="South" to="B&apos;">Semiretta da South puntando a B&apos;</Ray>
+<Ray name="r11" n="63" color="1" type="thin" from="South" to="A&apos;">Semiretta da South puntando a A&apos;</Ray>
+<Ray name="r12" n="66" color="1" type="thin" from="South" to="G&apos;">Semiretta da South puntando a G&apos;</Ray>
+<Ray name="r13" n="69" color="1" type="thin" from="South" to="F&apos;">Semiretta da South puntando a F&apos;</Ray>
+<Ray name="r14" n="72" color="1" type="thin" from="South" to="E&apos;">Semiretta da South puntando a E&apos;</Ray>
+<Ray name="r15" n="75" color="1" type="thin" from="South" to="D&apos;">Semiretta da South puntando a D&apos;</Ray>
+<Intersection name="C&apos;&apos;" n="76" showname="true" first="r9" second="inverted line">Intersezione tra r9 e inverted line</Intersection>
+<Intersection name="B&apos;&apos;" n="79" showname="true" first="r10" second="inverted line">Intersezione tra r10 e inverted line</Intersection>
+<Intersection name="A&apos;&apos;" n="80" showname="true" first="r11" second="inverted line">Intersezione tra r11 e inverted line</Intersection>
+<Intersection name="G&apos;&apos;" n="81" showname="true" first="r12" second="inverted line">Intersezione tra r12 e inverted line</Intersection>
+<Intersection name="F&apos;&apos;" n="82" showname="true" first="r13" second="inverted line">Intersezione tra r13 e inverted line</Intersection>
+<Intersection name="E&apos;&apos;" n="83" showname="true" first="r14" second="inverted line">Intersezione tra r14 e inverted line</Intersection>
+<Intersection name="D&apos;&apos;" n="84" showname="true" first="inverted line" second="r15">Intersezione tra inverted line e r15</Intersection>
+</Objects>
+</Construction>
+</CaR>

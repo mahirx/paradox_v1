@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<path d="M 345.0 151.0 L 277.0 318.0 L 345.0 318.0 L 345.0 151.0" style="fill:rgb(153,202,153);fill-opacity:0.5"/>
+<path d="M 345.0 151.0 L 277.0 318.0 L 345.0 318.0 L 345.0 151.0" style="fill:none;stroke:rgb(0,124,0);stroke-width:1"/>
+<path d="M 345.0 151.0 L 529.0 318.0 L 345.0 318.0 L 345.0 151.0" style="fill:rgb(153,202,153);fill-opacity:0.5"/>
+<path d="M 345.0 151.0 L 529.0 318.0 L 345.0 318.0 L 345.0 151.0" style="fill:none;stroke:rgb(0,124,0);stroke-width:1"/>
+<path d="M 345.0 151.0 L 529.0 151.0 L 529.0 318.0 L 345.0 151.0" style="fill:rgb(153,153,224);fill-opacity:0.5"/>
+<path d="M 345.0 151.0 L 529.0 151.0 L 529.0 318.0 L 345.0 151.0" style="fill:none;stroke:rgb(0,0,178);stroke-width:1"/>
+<path d="M 345.0 151.0 L 277.0 151.0 L 277.0 318.0 L 345.0 151.0" style="fill:rgb(153,153,224);fill-opacity:0.5"/>
+<path d="M 345.0 151.0 L 277.0 151.0 L 277.0 318.0 L 345.0 151.0" style="fill:none;stroke:rgb(0,0,178);stroke-width:1"/>
+<path d="M 274.0 315.0 H 279.0 V 320.0 H 274.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="283.0" y="336.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B</text><path d="M 526.0 315.0 H 531.0 V 320.0 H 526.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="535.0" y="336.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C</text><line x1="277.0" y1="318.0" x2="529.0" y2="318.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 342.00000000000006 147.99999999999994 H 347.00000000000006 V 152.99999999999994 H 342.00000000000006 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="351.00000000000006" y="168.99999999999994" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A</text><line x1="529.0" y1="318.0" x2="345.00000000000006" y2="150.99999999999994" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="345.00000000000006" y1="150.99999999999994" x2="277.0" y2="318.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 526.0 147.99999999999994 H 531.0 V 152.99999999999994 H 526.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 274.0 147.99999999999994 H 279.0 V 152.99999999999994 H 274.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 342.00000000000006 315.0 H 347.00000000000006 V 320.0 H 342.00000000000006 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="351.00000000000006" y="336.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">H</text></svg>

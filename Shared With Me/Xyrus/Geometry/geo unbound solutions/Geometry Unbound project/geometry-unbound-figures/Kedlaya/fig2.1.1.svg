@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<path d="M 627.0 283.5 H 632.0 V 288.5 H 627.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="636.0" y="304.5" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">O</text><path d="M 814.3001206129284 283.5 H 819.3001206129284 V 288.5 H 814.3001206129284 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="823.3001206129284" y="304.5" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">P</text><ellipse cx="630.0" cy="286.5" rx="187.30012061292845" ry="187.30012061292845" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<path d="M 710.7631603768835 115.9736792462329 H 715.7631603768835 V 120.9736792462329 H 710.7631603768835 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="719.7631603768835" y="136.9736792462329" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">Q</text><path d="M 666.0 287.0 A 36.0 36.0 0 0 0 646.0 254.0" style="stroke:rgb(0,0,0);stroke-width:1;fill:none"/>
+<text x="610.0" y="280.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$\theta$</text><line x1="713.7631603768835" y1="118.9736792462329" x2="630.0" y2="286.5" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="630.0" y1="286.5" x2="817.3001206129284" y2="286.5" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="630.0" y1="1546.0" x2="630.0" y2="-974.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="713.7631603768835" y1="118.9736792462329" x2="630.0" y2="118.9736792462329" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="607.0" y="140.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$\cos \theta$</text><line x1="713.7631603768835" y1="118.9736792462329" x2="713.7631603768835" y2="286.5" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="723.0" y="209.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$\sin \theta$</text></svg>

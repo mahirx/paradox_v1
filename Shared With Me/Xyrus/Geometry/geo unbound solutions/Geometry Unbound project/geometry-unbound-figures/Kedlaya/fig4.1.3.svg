@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<path d="M 354.0 162.0 L 354.0 327.0 L 700.0 328.0 L 354.0 162.0" style="fill:rgb(153,153,153);fill-opacity:0.5"/>
+<path d="M 354.0 162.0 L 354.0 327.0 L 700.0 328.0 L 354.0 162.0" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 351.0 324.0 H 356.0 V 329.0 H 351.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="360.0" y="345.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A</text><path d="M 697.0 325.0 H 702.0 V 330.0 H 697.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="706.0" y="346.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B</text><line x1="354.0" y1="327.0" x2="700.0" y2="328.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 351.476857923269 159.00715854891126 H 356.476857923269 V 164.00715854891126 H 351.476857923269 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="360.476857923269" y="180.00715854891126" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C</text><line x1="354.476857923269" y1="162.00715854891126" x2="700.0" y2="328.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 524.2384289616346 242.0035792744556 H 529.2384289616346 V 247.0035792744556 H 524.2384289616346 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="533.2384289616346" y="263.0035792744556" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">M</text><path d="M 351.476857923269 159.00715854891126 H 356.476857923269 V 164.00715854891126 H 351.476857923269 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 697.476857923269 160.00715854891126 H 702.476857923269 V 165.00715854891126 H 697.476857923269 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="706.476857923269" y="181.00715854891126" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A&apos;</text><line x1="354.0" y1="327.0" x2="527.2384289616346" y2="245.0035792744556" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="527.2384289616346" y1="245.0035792744556" x2="700.476857923269" y2="163.00715854891126" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 668.0 312.0 A 36.0 36.0 0 0 0 664.0 328.0" style="stroke:rgb(0,0,0);stroke-width:1;fill:none"/>
+<path d="M 390.0 327.0 A 36.0 36.0 0 0 0 387.0 312.0" style="stroke:rgb(0,0,0);stroke-width:1;fill:none"/>
+<line x1="354.476857923269" y1="162.00715854891126" x2="700.476857923269" y2="163.00715854891126" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="700.476857923269" y1="163.00715854891126" x2="700.0" y2="328.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+</svg>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="O" n="0" showname="true" x="-2.2730200000000003" y="0.34921">Punto in -2.27302, 0.34921</Point>
+<Point name="P2" n="3" hidden="true" x="-3.9111111111111114" y="-0.6920634920634918">Punto in -3.91111, -0.69206</Point>
+<Circle name="c1" n="4" color="5" through="P2" midpoint="O" acute="true">Circonferenza di centro O per P2</Circle>
+<Point name="P3" n="5" hidden="true" x="1.1682539682539677" y="0.057142857142857384">Punto in 1.16825, 0.05714</Point>
+<Point name="P4" n="8" hidden="true" x="-0.49523809523809526" y="-1.4666666666666663">Punto in -0.49524, -1.46667</Point>
+<Circle name="c2" n="9" through="P4" midpoint="P3" acute="true">Circonferenza di centro P3 per P4</Circle>
+<PointOn name="B" n="10" showname="true" on="c2" alpha="-2.3879298637208026" x="-0.4767384151722429" y="-1.4866192257648179">Punto su c2</PointOn>
+<PointOn name="C" n="11" showname="true" on="c2" alpha="-1.207711957790758" x="1.9694667876039835" y="-2.05170975227841">Punto su c2</PointOn>
+<PointOn name="D" n="12" showname="true" on="c2" alpha="1.9313623272730023" x="0.37235455204444534" y="2.1680065262202874">Punto su c2</PointOn>
+<PointOn name="A" n="13" showname="true" on="c2" alpha="2.8611810653064325" x="-0.9995590271621619" y="0.6814729998227027">Punto su c2</PointOn>
+<Midpoint name="M4" n="31" hidden="true" first="D" second="O">Punto medio tra D e O</Midpoint>
+<Midpoint name="M5" n="34" hidden="true" first="O" second="C">Punto medio tra O e C</Midpoint>
+<Midpoint name="M6" n="37" hidden="true" first="B" second="O">Punto medio tra B e O</Midpoint>
+<Circle name="c4" n="40" hidden="true" through="O" midpoint="M4" acute="true">Circonferenza di centro M4 per O</Circle>
+<Circle name="c5" n="43" hidden="true" through="O" midpoint="M5" acute="true">Circonferenza di centro M5 per O</Circle>
+<Circle name="c6" n="46" hidden="true" through="O" midpoint="M6" acute="true">Circonferenza di centro M6 per O</Circle>
+<Intersection name="I5" n="47" hidden="true" first="c4" second="c1" which="first">Intersezione tra c4 e c1</Intersection>
+<Intersection name="I8" n="50" hidden="true" first="c4" second="c1" which="second">Intersezione tra c4 e c1</Intersection>
+<Midpoint name="D&apos;" n="51" showname="true" xcoffset="-0.22343706918372486" ycoffset="0.23485625817295808" keepclose="true" first="I5" second="I8">Punto medio tra I5 e I8</Midpoint>
+<Intersection name="I9" n="52" hidden="true" first="c6" second="c1" which="first">Intersezione tra c6 e c1</Intersection>
+<Intersection name="I11" n="55" hidden="true" first="c1" second="c6" which="first">Intersezione tra c1 e c6</Intersection>
+<Midpoint name="B&apos;" n="56" showname="true" xcoffset="-0.4368088073171914" ycoffset="-0.3057361092334885" keepclose="true" first="I9" second="I11">Punto medio tra I9 e I11</Midpoint>
+<Intersection name="I13" n="57" hidden="true" first="c1" second="c5" which="first">Intersezione tra c1 e c5</Intersection>
+<Intersection name="I18" n="62" hidden="true" first="c1" second="c5" which="second">Intersezione tra c1 e c5</Intersection>
+<Midpoint name="C&apos;" n="65" showname="true" xcoffset="-0.5954988495926736" ycoffset="-0.3521964129073416" keepclose="true" first="I18" second="I13">Punto medio tra I18 e I13</Midpoint>
+<Circle name="c9" n="83" hidden="super" through="C&apos;" midpoint="D&apos;" acute="true">Circonferenza di centro D&apos; per C&apos;</Circle>
+<Circle name="c10" n="84" hidden="super" through="D&apos;" midpoint="C&apos;" acute="true">Circonferenza di centro C&apos; per D&apos;</Circle>
+<Intersection name="I21" n="85" hidden="super" first="c9" second="c10" which="second">Intersezione tra c9 e c10</Intersection>
+<Intersection name="I22" n="86" hidden="super" first="c10" second="c9" which="second">Intersezione tra c10 e c9</Intersection>
+<Line name="l2" n="87" hidden="true" from="I21" to="I22">Retta per I21 e I22</Line>
+<Ray name="r1" n="94" hidden="true" from="O" to="A">Semiretta da O puntando a A</Ray>
+<Plumb name="p1" n="97" hidden="true" point="A" line="r1" valid="true">Retta perpendicolare per A a r1</Plumb>
+<Intersection name="I24" n="100" hidden="true" first="p1" second="c1" which="first">Intersezione tra p1 e c1</Intersection>
+<Segment name="s1" n="101" hidden="true" from="O" to="I24">Segmento da O a I24</Segment>
+<Plumb name="p2" n="104" hidden="true" point="I24" line="s1" valid="true">Retta perpendicolare per I24 a s1</Plumb>
+<Intersection name="A&apos;" n="105" showname="true" first="p2" second="r1">Intersezione tra p2 e r1</Intersection>
+<Circle name="c12" n="112" hidden="super" through="B&apos;" midpoint="A&apos;" acute="true">Circonferenza di centro A&apos; per B&apos;</Circle>
+<Circle name="c13" n="113" hidden="super" through="A&apos;" midpoint="B&apos;" acute="true">Circonferenza di centro B&apos; per A&apos;</Circle>
+<Intersection name="I27" n="114" hidden="super" first="c12" second="c13" which="second">Intersezione tra c12 e c13</Intersection>
+<Intersection name="I28" n="115" hidden="super" first="c13" second="c12" which="second">Intersezione tra c13 e c12</Intersection>
+<Line name="l3" n="116" hidden="true" from="I27" to="I28">Retta per I27 e I28</Line>
+<Intersection name="I29" n="117" hidden="true" first="l2" second="l3">Intersezione tra l2 e l3</Intersection>
+<Circle name="c14" n="120" through="B&apos;" midpoint="I29" acute="true">Circonferenza di centro I29 per B&apos;</Circle>
+<Segment name="s7" n="138" color="1" from="O" to="B">Segmento da O a B</Segment>
+<Segment name="s8" n="141" color="1" from="O" to="C">Segmento da O a C</Segment>
+<Segment name="s9" n="144" color="1" from="O" to="D">Segmento da O a D</Segment>
+<Segment name="s10" n="147" color="1" from="O" to="A&apos;">Segmento da O a A&apos;</Segment>
+<Segment name="s11" n="150" type="thin" from="A&apos;" to="B&apos;">Segmento da A&apos; a B&apos;</Segment>
+<Segment name="s12" n="153" type="thin" from="B&apos;" to="C&apos;">Segmento da B&apos; a C&apos;</Segment>
+<Segment name="s13" n="156" type="thin" from="A" to="B">Segmento da A a B</Segment>
+<Segment name="s14" n="159" type="thin" from="B" to="C">Segmento da B a C</Segment>
+<Segment name="s15" n="162" type="thin" from="A" to="D">Segmento da A a D</Segment>
+<Segment name="s16" n="165" type="thin" from="A&apos;" to="D&apos;">Segmento da A&apos; a D&apos;</Segment>
+<Segment name="s17" n="168" type="thin" from="D&apos;" to="C&apos;">Segmento da D&apos; a C&apos;</Segment>
+</Objects>
+</Construction>
+</CaR>

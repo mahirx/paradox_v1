@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" n="0" x="-1.942857142857143" y="-0.6412698412698417">Punto in -1.94286, -0.64127</Point>
+<Point name="P2" n="1" hidden="true" x="-1.2063492063492065" y="1.1492063492063491">Punto in -1.20635, 1.14921</Point>
+<Point name="P3" n="2" hidden="true" x="1.295238095238096" y="1.6825396825396823">Punto in 1.29524, 1.68254</Point>
+<Segment name="v" n="5" showname="true" from="P1" to="P2" arrow="true">Segmento da P1 a P2</Segment>
+<Segment name="s2" n="8" from="P2" to="P3" arrow="true">Segmento da P2 a P3</Segment>
+<Parallel name="pl1" n="11" hidden="true" point="P1" line="s2">Retta parallela per P1 a s2</Parallel>
+<Parallel name="pl2" n="14" hidden="true" point="P3" line="v">Retta parallela per P3 a v</Parallel>
+<Intersection name="I1" n="15" hidden="true" first="pl2" second="pl1">Intersezione tra pl2 e pl1</Intersection>
+<Segment name="w" n="18" showname="true" from="P1" to="I1" arrow="true">Segmento da P1 a I1</Segment>
+<Segment name="v+w" n="21" showname="true" from="P1" to="P3" arrow="true">Segmento da P1 a P3</Segment>
+</Objects>
+</Construction>
+</CaR>

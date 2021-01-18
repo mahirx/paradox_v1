@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="572">
+<path d="M 655.590740898756 174.10420853838923 H 660.590740898756 V 179.10420853838923 H 655.590740898756 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="667.0" y="174.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">P</text><line x1="-629.0" y1="363.0" x2="1890.0" y2="363.0" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<path d="M 627.0 363.0 A 147.99776908465378 147.99776908465378 0 0 0 331.0 363.0" style="stroke:rgb(0,0,0);stroke-width:1;fill:none"/>
+<path d="M 732.0 363.0 A 270.65501147343673 270.65501147343673 0 0 0 191.0 363.0" style="stroke:rgb(0,124,0);stroke-width:1;fill:none"/>
+<path d="M 758.0 363.0 A 223.66096050307087 223.66096050307087 0 0 0 310.0 363.0" style="stroke:rgb(0,124,0);stroke-width:1;fill:none"/>
+<line x1="658.590740898756" y1="362.9420219957149" x2="658.590740898756" y2="-974.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+</svg>

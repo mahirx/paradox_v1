@@ -1,0 +1,786 @@
+\documentclass[12pt]{article}
+
+\setlength{\textheight}{9.25in}
+\setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{0.0in}
+\setlength{\headheight}{0.0in}
+\setlength{\headsep}{0.0in}
+\setlength{\leftmargin}{0.0in}
+\setlength{\oddsidemargin}{0.0in}
+\setlength{\parindent}{1pc}
+
+\newcount\probnum
+\probnum=0
+
+\newcommand{\solution}[1]{
+\goodbreak
+\bigskip
+\hrule\smallskip
+\advance \probnum by 1
+\noindent\strut\textsf{\number\probnum. Problem #1}%
+\addcontentsline{toc}{subsection}{\protect{\noindent} 
+\hbox to 2em{\hfil \number\probnum.} Problem #1}}
+
+\newcommand{\note}[1]{%
+\marginpar{\raggedright\textsf{#1}}}
+
+%\newcommand{\iff}{\Leftrightarrow}
+
+\begin{document}
+
+\begin{center}
+\Large{\textbf{Problems and Solutions of Geometry Unbound}}
+\\
+{\textsf{\small{\textbf{Collected and edited by: Tarik Adnan Moon, Bangladesh}}}}
+\end{center}
+
+\tableofcontents
+
+\solution{1.2.2 (USAMO 1994/3)}
+\\
+A convex hexagon $ABCDEF$ is inscribed in a circle such that
+$AB = CD = EF$ and diagonals $AD,BE,CF$ are concurrent. Let $P$ be the intersection of $AD$ and $CE$. 
+\\
+Prove that \[ \frac{CP}{PE} = \left(\frac{AC}{CE}\right)^2 \]
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+Let $\theta = \angle ACB$, $\alpha = \angle BDC$, $\beta = \angle 
+DFE$, $\gamma = \angle FBA$.  Then $\angle EPA = \angle EDB = \angle 
+CPD = 2 \theta + \gamma$ and $\angle PAE = \angle DBE = \angle DCP = 
+\beta$, so $\triangle EPA \sim \triangle EDB \sim \triangle DPC$.  
+Therefore
+
+\[\frac{CP/CD}{PE/AE} = \frac{AP/AE}{PE/AE} = \frac{AP}{PE} = 
+\frac{BD}{DE}.\]
+
+Also $\angle ECA = \angle DOC = \angle EDO = \theta + \gamma$ and 
+$\angle AEC = \angle CDO = \angle OED = \theta + \alpha$, so 
+$\triangle ACE \sim \triangle COD \sim \triangle ODE$.  (In fact, all 
+six triangles given by $O$ and two adjacent vertices of hexagon 
+$ABCDEF$ are similar to $ACE$, by analogous angle-chasing.)  Finally, 
+$\triangle ACE \cong \triangle BDF$ as $ABCD$, $CDEF$, $EFAB$ are all 
+isosceles trapezoids.  Therefore
+
+\[\frac{CP}{PE} = \frac{CD}{AE}\frac{BD}{DE} = 
+\frac{OD}{CE}\frac{AC}{DE} = \frac{AC}{CE}\frac{OD}{DE} = 
+\left(\frac{AC}{CE}\right)^{2}.\]
+
+
+\solution{1.2.3 (IMO 1990/1)}
+\\
+Chords $AB$ and $CD$ of a circle intersect at a point $E$ inside the circle. Let $M$ be an interior point of the segment $EB$. The tangent line of $E$ to the circle through $D,E,M$ intersects the lines $BC$ and $AC$ at $F$ and $G$, respectively. If $AM/AB = t$,
+find $EG/EF$ in terms of $t$.
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+Let $N$ be the second intersection of the circle through $A$, $B$, 
+$C$, $D$ with the circle through $D$, $E$, $M$.  Note $\angle NEG = 
+\angle NDE = \angle NDC = \angle NBC = 180 - \angle NAC = \angle NAG$; 
+therefore $N$, $G$, $A$, and $E$ are concyclic, so $\angle NGE = 
+\angle NAE = \angle NAM$.  We also have $\angle NMA = \angle NME = 
+\angle NEG$, so $\triangle NAM \sim \triangle NGE$; therefore
+
+\[\frac{EG}{AM} = \frac{NG}{NA}.\]
+
+As $\angle NBF = \angle NBC = \angle NEG = \pi - \angle NEF$, $N$, 
+$B$, $E$, $F$ are concyclic, so $\angle NFG = \angle NFE = \angle NBE 
+= \angle NBA$; as $\angle NGF = \angle NGE = \angle NAE = \angle NAB$, 
+$\triangle NGF \sim \triangle NAB$, so
+
+\[\frac{GF}{AB} = \frac{NG}{NA}.\]
+
+These two equations give us $EG/GF = AM/AB = 1/t$; simple algebra 
+gives 
+\[\frac{EG}{EF} = \frac{t}{1-t}\]
+
+
+\solution{1.3.2}
+
+\\
+Two circles intersect at points $A$ and $B$. An arbitrary line through $B$ intersects the first circle again at $C$ and the second circle again at $D$. The tangents to the first
+circle at $C$ and the second at $D$ intersect at $M$. Through the intersection of $AM$ and $CD$, there passes a line parallel to $CM$ and intersecting $AC$ at $K$. Prove that $BK$ is tangent to the second circle.
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+Note that $\angle DMC = \angle MDC + \angle DCM = \angle MDB + \angle 
+BCM = \angle DAB + \angle BAC = \angle DAC$, so points $A$, $C$, $D$, 
+and $M$ are concyclic.  Let $P = AM \cap CD$; then $\angle KAB = 
+\angle CAB = \angle MCB = \angle MCP = \angle KPC = \angle KPB$, so 
+points $A$, $K$, $B$, $P$ are concyclic.  Now
+
+\[\angle KBD = \angle KBP = \angle KAP = \angle CAM = \angle CDM = 
+\angle BDM = \angle BAD;\]
+
+therefore $BK$ is tangent to the second circle.
+
+
+\solution{1.3.3}
+\\
+Let $C_{1}, C_{2}, C_{3}, C_{4}$ be four circles in the plane. Suppose that $C_1$ and $C_2$ intersect at $P_1$
+and $Q_{1}, C_{2}$ and $C_{3}$ intersect at $P_{2}$ and $Q_{2}, C_{3}$ and $C_{4}$ intersect at $P_{3}$ and $Q_{3}$, and $C_{4}$
+and $C_{1}$ intersect at $P_{4}$ and $Q_{4}$. 
+\\
+Show that if $P_{1}, P_{2}, P_{3}$, and $P_{4}$ lie on a line or circle,then $Q_{1}, Q_{2}, Q_3$, and $Q_4$ also lie on a line or circle.
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+Suppose $P_{1}$, $P_{2}$, $P_{3}$, $P_{4}$ lie on a line or circle; 
+then $\angle P_{4}P_{1}P_{2} = \angle P_{4}P_{3}P_{2}$, so $\angle 
+P_{4}P_{1}P_{2} + \angle P_{2}P_{3}P_{4} = 0$.  We have
+\begin{eqnarray*}
+    & \angle Q_{1}Q_{2}Q_{3} = \angle Q_{1}Q_{2}P_{2} + \angle 
+    P_{2}Q_{2}Q_{3} = \angle Q_{1}P_{1}P_{2} + \angle 
+    P_{2}P_{3}Q_{3} & \\
+    & \angle Q_{3}Q_{4}Q_{1} = \angle P_{4}Q_{4}Q_{1} + \angle 
+    Q_{3}Q_{4}P_{4} = \angle P_{4}P_{1}Q_{4} + \angle 
+    Q_{3}P_{3}P_{4} &
+\end{eqnarray*}
+so $\angle Q_{1}Q_{2}Q_{3} + \angle Q_{3}Q_{4}Q_{1} = \angle 
+P_{4}P_{1}P_{2} + \angle P_{2}P_{3}P_{4} = 0$.Therefore $Q_{1}$, 
+$Q_{2}$, $Q_{3}$, $Q_{4}$ lie on a line or circle.  
+
+
+\solution{1.4.1 (IMO 1994/2)}
+Let $ABC$ be an isosceles triangle with $AB = AC$. Suppose that
+\begin{enumerate}
+	\item $M$ is the midpoint of $BC$ and $O$ is the point on the line $AM$ such that $OB$ is perpendicular to $AB$;
+	\item $Q$ is an arbitrary point on the segment $BC$ different from $B$ and $C$;
+	\item $E$ lies on the line $AB$ and $F$ lies on the line $AC$ such that $E, Q, F$ are distinct and collinear.
+\end{enumerate}
+\\
+Prove that $OQ$ is perpendicular to $EF$ if and only if $QE = QF$.
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+First, suppose $OQ \perp EF$.  Then $\angle EBO = \angle EQO = \angle 
+FQO = \angle FCO = \pi / 2$, so quadrilaterals $BQOE$ and $FQOC$ are 
+cyclic.  Therefore $\angle FEO = \angle QEO = \angle QBO = \angle CBO 
+= \angle BCO = \angle QCO = \angle QFO = \angle EFO$, so $OE = OF$; 
+since $OQ \perp EF$, $QE = QF$.
+
+Now suppose $QE = QF$, but $OQ$ is not perpendicular to $EF$.  
+Construct $E'F'$ through $Q$ perpendicular to $OQ$ with $E'$ on the 
+ray $AB$ and $F'$ on the ray $AC$; then by the first part $QE' = QF'$.  
+Since $QE = QF$ and $\angle EQE' = \angle FQF'$, $\triangle QEE' \cong 
+\triangle QFF'$.  But then $\angle EE'F' = \angle EE'Q = \angle FF'Q = 
+\angle FF'E'$, so $EE' \parallel FF'$, impossible as then $AB 
+\parallel AC$.  So $OQ \perp EF$.
+
+
+\solution{2.1.1}
+\\
+Suppose the cevians $AP,BQ,CR$ meet at $T$.
+\\Prove that
+\[
+\frac{TP}{AP}+\frac{TQ}{BQ}+\frac{TR}{CR}= 1
+\]
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+\\
+Let $K = [ABC]$.  Then $TP/AP = [TBC]/K$, $TQ/BQ = [TCA]/K$, 
+$TR/CR = [TAB]/K$, so
+\[\frac{TP}{AP} + \frac{TQ}{BQ} + \frac{TR}{CR} = 
+\frac{[TBC]+[TCA]+[TAB]}{K} = \frac{[ABC]}{K} = 1.\]
+
+
+\solution{2.1.3 (Hungary-Israel, 1997)}
+\\
+The three squares $ACC_1A'',ABB'_1A',BCDE$ are constructed
+externally on the sides of a triangle $ABC$. Let $P$ be the center of $BCDE$. Prove that
+the lines $A'C$,$A''B$, $PA$ are concurrent.
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+Let $A_{1}$ be the foot of the perpendicular from $A''$ to $AB$, and 
+$C_{1}$ the foot of the perpendicular from $A''$ to $BC$; then 
+
+\[\frac{\sin \angle ABA''}{\sin \angle A''BC} = 
+\frac{A''A_{1}/BA''}{A''C_{1}/BA''} = \frac{A''A_{1}}{A''C_{1}} = 
+\frac{b \cos A}{b\sqrt 2 \cos (C + \pi / 4)} = \frac{\cos A}{\cos C - 
+\sin C}.\]
+
+(We take $A''A_{1} > 0$ when $A''$ and $C$ are on the same side of 
+$A_{1}$, otherwise $A''A_{1} < 0$; similarly for $A''C_{1}$.)  
+Similarly
+
+\[\frac{\sin \angle BCA'}{\sin \angle A'CA} = \frac{c \sqrt 2 \cos (B 
++ 45)}{c \cos A} = \frac{\cos B - \sin B}{\cos A}.\]
+
+Finally, let $C_{2}$ be the foot of the perpendicular from $P$ to 
+$AC$ and $B_{2}$ the foot of the perpendicular from $P$ to $AB$; then 
+
+\[\frac{\sin \angle CAP}{\sin \angle PAB} = 
+\frac{PC_{2}/AP}{PB_{2}/AP} = \frac{PC_{2}}{PB_{2}} = \frac{(a/\sqrt 
+2) \cos (C + 45)}{(a/\sqrt 2)\cos (B + 45)} = \frac{\cos C - \sin 
+C}{\cos B - \sin B}.\]
+
+Therefore
+
+\[\frac{\sin \angle ABA''}{\sin \angle A''BC} \frac{\sin \angle 
+BCA'}{\sin \angle A'CA} \frac{\sin \angle CAP}{\sin \angle PAB} = 
+\frac{\cos A (\cos B - \sin B)(\cos C - \sin C)}{(\cos C - \sin C) 
+\cos A (\cos B - \sin B)} = 1,\]
+
+so $AP$, $BA''$, $CA'$ concur by Trig Ceva.
+
+
+\solution{2.1.4 (R\u azvan Gelca)}
+r\:
+\\
+Let $ABC$ be a triangle and $D,E, F$ the points where the incircle
+touches the sides $BC,CA,AB$, respectively. Let $M,N,P$ be points on the segments $EF, FD,DE$ respectively. 
+Show that the lines $AM,BN,CP$ intersect if and only if the lines $DM,EN,FP$ intersect.
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+From $M$ drop perpendiculars $MR$, $MQ$ to $AB$, $AC$ respectively.  
+Then $\triangle FRM \sim \triangle EQM$, as $\angle RFM = \angle AFE = 
+\angle FDE = \angle FEA = \angle MEQ$; therefore
+
+\[\frac{\sin \angle BAM}{\sin \angle MAC} = \frac{RM/MA}{QM/MA} = 
+\frac{RM}{QM} = \frac{FM}{EM}.\]
+
+Therefore
+
+\[\frac{\sin \angle BAM}{\sin \angle MAC} \frac{\sin \angle ACP}{\sin 
+\angle PCB} \frac{\sin \angle CBN}{\sin \angle NBA} = \frac{FM}{ME} 
+\frac{EP}{PD} \frac{DN}{NF},\]
+
+so $DM$, $EN$, $FP$ concur if and only if $AM$, $BN$, $CP$ do.
+
+
+\solution{2.1.5 (USAMO 1995/3)}
+\\
+Given a nonisosceles, nonright triangle $ABC$ inscribed in a circle
+with center $O$, and let $A_1, B_1$, and $C_1$ be the midpoints of sides $BC, CA,$ and $AB$, respectively. Point $A_2$ is located on the ray $OA_1$ so that $\triangle OAA_1$ is similar
+to $\triangle OA_2A$. Points $B_2$ and $C_2$ on rays $OB_1$ and $OC_1$, respectively, are defined similarly. Prove that lines $AA_2, BB_2,$ and $CC_2$ are concurrent.
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+Let $G$ be the centroid and $H$ the orthocenter of $\triangle ABC$.  
+Then $\angle OAA_{2} = \angle OA_{1}A = \angle A_{1}AH$, and $\angle 
+BAO = \pi / 2 - C = \angle HAC$, so $\angle BAA_{2} = \angle A_{1}AC$.  
+Similarly $\angle AA_{2}C = \angle BAA_{2}$, etc., so
+
+\[\frac{\sin \angle BAA_{2}}{\sin \angle A_{2}AC} \frac{\sin \angle 
+ACC_{2}}{\sin \angle C_{2}CB} \frac{\sin \angle CBB_{2}}{\sin \angle 
+B_{2}BA} = \frac{\sin \angle A_{1}AC}{\sin \angle BAA_{1}} \frac{\sin 
+\angle B_{1}BA}{\sin \angle CBB_{1}} \frac{\sin \angle C_{1}CB}{\sin 
+\angle ACC_{1}} = 1\]
+
+by Trig Ceva, since $AA_{1}$, $BB_{1}$, $CC_{1}$ concur at $G$.  
+Therefore $AA_{2}$, $BB_{2}$, $CC_{2}$ concur as well.  (Their point 
+of concurrence is called the \textit{isogonal conjugate} of $G$; see 
+section 5.5.)
+
+
+\solution{2.1.6}
+\\
+Given triangle $ABC$ and points $X,Y,Z$ such that $\angle ABZ = \angle XBC, \angle BCX = \angle YCA,
+\angle CAY = \angle ZAB$, prove that $AX, BY ,CZ$ are concurrent.
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+Let $\alpha = \angle ABZ = \angle XBC$, $\beta = \angle BCX = \angle 
+YCA$, $\gamma = \angle CAY = \angle ZAB$.  Drop perpendiculars $XP$, 
+$XQ$ from $X$ to $AB$, $AC$ respectively.  Then
+
+\[\frac{\sin \angle BAX}{\sin \angle XAC} = \frac{PX/XA}{QX/XA} = 
+\frac{PX}{QX} = \frac{BX \sin (B - \beta)}{CX \sin (C - \gamma)} = 
+\frac{\sin \gamma \sin (B - \beta)}{\sin \beta \sin (C - \gamma)}\]
+
+by the Law of Sines.  So 
+
+\[\frac{\sin \angle BAX}{\sin \angle XAC} \frac{\sin \angle ACZ}{\sin 
+\angle ZCB} \frac{\sin \angle CBY}{\sin \angle YBA} = \frac{\sin 
+\gamma \sin (B - \beta)}{\sin \beta \sin (C - \gamma)} \frac{\sin 
+\beta \sin (A - \alpha)}{\sin \alpha \sin (B - \beta)} \frac{\sin 
+\alpha \sin (C - \gamma)}{\sin \gamma \sin (A - \alpha)} = 1,\]
+
+and $AX$, $BY$, $CZ$ concur by Trig Ceva.
+
+
+\solution{2.2.2}
+\\
+Let $A,B,C$ be three points on a line. Pick a point $D$ in the plane, and a point $E$ on $BD$. Then draw the line through $AE \cap CD$ and $CE \cap AD$. 
+\\
+Show that this line meets the line $AC$ in a point $P$ that depends only on $A,B,C$.
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+Let $F = CE \cap AD$, $G = AE \cap CD$.  Then $AG$, $DB$, $CF$ concur 
+(at $E$), so by Ceva's Theorem
+
+\[\frac{AB}{BC}\frac{CG}{GD}\frac{DF}{FA} = 1.\]
+
+Applying Menelaos to the points $P$, $G$, $F$ on the sides of 
+triangle $ACD$ gives
+
+\[\frac{AP}{PC}\frac{CG}{GD}\frac{DF}{FA} = -1.\]
+
+Therefore $AB/BC = -AP/PC$, so $AC/PC = 1 + AP/PC = 1 - AB/BC$, and 
+$PC = AC/(1 - AB/BC)$; therefore $P$ depends only on $A$, $B$, and $C$.
+
+
+\solution{2.2.3}
+\\
+Let $A,B,C$ be three collinear points and $D,E,F$ three other collinear points. 
+\\Let $G = BE \cap CF, H = AD \cap CF, I = AD \cap CE$. If $AI = HD$ and $CH = GF$,
+\\Prove that, $BI = GE$
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+Apply Menelaos to the triples $(A, B, C)$ and $(D, E, F)$ on the sides 
+of triangle $GHI$, giving
+
+\[\frac{HA}{AI}\frac{IB}{BG}\frac{GC}{CH} = -1,\qquad
+\frac{HD}{DI}\frac{IE}{EG}\frac{GF}{FH} = -1.\]
+
+Now $AI = HD$ and $CH = GF$, so $DI = AI - AD = HD - AD = HA$ and 
+similarly $FH = GC$; therefore
+
+\[1 = 
+\left(\frac{HA}{AI}\frac{IB}{BG}\frac{GC}{CH}\right)
+\left(\frac{HD}{DI}\frac{IE}{EG}\frac{GF}{FH}\right)
+= \frac{IB}{BG}\frac{IE}{EG}.\]
+
+So $BG\cdot GE = BI\cdot IE$, or $BG(BE - BG) = BI(BE - BI)$.  Since 
+$I \ne G$, we must have $BE - BG = BI$, or $BI = GE$.
+
+
+\solution{2.3.3}
+\\
+Let $ABC$ be a triangle, $\ell$ a line and $L,M,N$ the feet of the perpendiculars to $\ell$ from $A,B,C$ respectively. Prove that the perpendiculars to $BC,CA,AB$ through $L,M,N$
+respectively, are concurrent. Their intersection is called the orthopole of the line $\ell$and
+the triangle $ABC$.
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+lines $AL$, $BM$, $CN$, which are parallel and therefore ``concur''.  
+Therefore by the observation at the end of this section, the lines 
+through $BC$, $CA$, $AB$ perpendicular to $L$, $M$, $N$ concur.  
+
+
+\solution{2.4.1 (USAMO 1997/2)}
+\\
+Let $ABC$ be a triangle, and draw isosceles triangles $DBC,AEC,ABF$
+external to $ABC$ (with $BC,CA,AB$ as their respective bases). Prove that the lines
+through $A,B,C$ perpendicular to $EF, FD,DE$ respectively, are concurrent.
+\\
+\emph{\textsf{\textbf{\large {Solution 1:}}}}
+By the observation at the end of this section it suffices 
+to show that the lines through $D$, $E$, $F$ perpendicular to $BC$, 
+$CA$, $AB$ are concurrent.  But these lines are exactly the 
+perpendicular bisectors of $BC$, $CA$, $AB$, which concur at the 
+circumcenter of triangle $ABC$.
+\\
+\emph{\textsf{\textbf{\large {Solution 2:}}}}
+Let $P$ be the intersection of the line through $A$ 
+perpendicular to $EF$ and the line through $B$ perpendicular to $FD$.  
+Then $PE^{2} - PF^{2} = AE^{2} - AF^{2}$ and $PF^{2} - PD^{2} = 
+BF^{2} - BD^{2}$, so $PE^{2} - PD^{2} = AE^{2} - AF^{2} + BF^{2} - 
+BD^{2} = CE^{2} - CD^{2}$ and $PC$ is perpendicular to $DE$.
+
+
+\solution{2.4.2 (MOP 1997)}
+\\
+Let $ABC$ be a triangle, and $D,E,F$ the points where the incircle touches sides $BC,CA,AB$ respectively. The parallel to $AB$ through $E$ meets $DF$ at $Q$, and the parallel to $AB$ through $D$ meets $EF$ at $T$. Prove that the lines $CF,DE,QT$ are
+concurrent.
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+We want to show 
+
+\[\frac{\sin \angle TFC}{\sin \angle CFD}\frac{\sin \angle FDE}{\sin 
+\angle EDT}\frac{\sin \angle DTQ}{\sin \angle QTF} = 1.\]
+
+Drop perpendiculars $CX$, $CY$ from $C$ to $FE$, $FD$ respectively.  
+Then 
+
+\[\frac{\sin \angle TFC}{\sin \angle CFD} = \frac{CX/CF}{CY/CF} = 
+\frac{CX}{CY} = \frac{CE \sin \angle XEC}{CD \sin \angle CDY} = 
+\frac{\sin \angle AEF}{\sin \angle FDB}.\]
+
+Since $EQ \parallel DT$, by the Law of Sines,
+
+\[\frac{\sin \angle FDE}{\sin \angle EDT} = \frac{\sin \angle 
+QDE}{\sin \angle QED} = \frac{QE}{QD}\quad\hbox{and}\quad
+\frac{\sin \angle DTQ}{\sin \angle QTF} = \frac{\sin \angle 
+TQE}{\sin \angle QTE} = \frac{TE}{QE}.\]
+
+Now $TE/QD = TF/FD = \sin \angle TDF / \sin \angle DTF = \sin \angle 
+DFB / \sin \angle EFA$, so
+
+\[\frac{\sin \angle TFC}{\sin \angle CFD}\frac{\sin \angle FDE}{\sin 
+\angle EDT}\frac{\sin \angle DTQ}{\sin \angle QTF} = \frac{\sin \angle 
+AEF}{\sin \angle FDB} \frac{QE}{QD} \frac{TE}{QE} = \frac{\sin \angle 
+AEF}{\sin \angle FDB} \frac{\sin \angle DFB}{\sin \angle EFA} = 1
+\]
+
+and $DE$, $QT$, $CF$ concur.
+
+
+\solution{2.4.3 (Stanley Rabinowitz)}
+\\
+The incircle of triangle $ABC$ touches sides $BC,CA,AB$ at $D,E,F$,
+respectively. Let $P$ be any point inside triangle $ABC$, and let $X,Y,Z$ be the points where the segments $PA, PB, PC$ respectively, meet the incircle.Prove that the lines $DX,EY,FZ$ are concurrent.
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+We have
+
+\[\frac{\sin \angle FEY}{\sin \angle YED} = \frac{FY}{YD} = 
+\frac{YM}{YN} = \frac{\sin \angle MBY}{\sin \angle YBN} = \frac{\sin 
+\angle ABP}{\sin \angle PBC},\]
+
+so
+
+\[\frac{\sin \angle FEY}{\sin \angle YED}\frac{\sin \angle EDX}{\sin 
+\angle XDY}\frac{\sin \angle DFZ}{\sin \angle ZFE} = \frac{\sin \angle 
+ABP}{\sin \angle PBC}\frac{\sin \angle CAP}{\sin \angle PAB}\frac{\sin 
+\angle BCP}{\sin \angle PCA} = 1\]
+
+and $DX$, $EY$, $FZ$ concur.
+
+
+\solution{3.1.2 (MOP 1997)}
+\\
+Consider a triangle $ABC$ with $AB = AC$, and points $M$ and $N$ on $AB$ and $AC$, respectively. The lines $BN$ and $CM$ intersect at $P$. Prove that $MN$ and $BC$ are parallel if and only if $\angle APM = \angle APN$
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+First, suppose $MN \parallel BC$.  Let $\ell$ be the bisector of angle 
+$BAC$.  Then as $ABC$ and $AMN$ are isosceles triangles, reflection in 
+$\ell$ interchanges $B$ and $C$, $M$ and $N$.  So $P = BN \cap CM$ 
+maps to $CM \cap BN$, which is $P$ again; therefore $P$ must lie on 
+$\ell$ and $\angle APM = \angle APN$.  Conversely, suppose $\angle 
+APM = \angle APN$.  Let $M'$ be the reflection of $M$ in $\ell$.  
+Then the reflection of $C$ in $\ell$ is $C' = AM' \cap CM$.  But 
+$AB' = AB = AC$, so we must have $B' = C$ and $M' = N$; therefore 
+$AM = AN$ and $MN$ is parallel to $BC$.
+
+
+\solution{3.1.4 (MOP 1996)}
+\\
+Let $AB_1C_1,AB_2C_2,AB_3C_3$ be directly congruent equilateral triangles. Prove that the pairwise intersections of the circumcircles of triangles $AB_1C_2,AB_2C_3,AB_3C_1$
+form an equilateral triangle congruent to the first three.
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+Let $s$ be the common side length of all the triangles.  Let 
+$\omega_{i}$ be the circumcircle of $AB_{i+1}C_{i-1}$, let $O_{i}$ be 
+the center of $\omega_{i}$, and let $D_{i}$ be the second intersection 
+of $\omega_{i-1}$ and $\omega_{i+1}$.  Let $\alpha = \angle 
+B_{2}AC_{3}$, $\beta = \angle B_{3}AC_{1}$, $\gamma = \angle 
+B_{1}AC_{2}$.  Note $\angle AD_{3}B_{3} = \pi - \angle AC_{1}B_{3} = 
+\pi - \angle AB_{3}C_{1} = \angle AD_{1}C_{1} = \angle AD_{1}B_{3} + 
+\angle B_{3}D_{1}C_{1} = \pi - \angle AD_{3}B_{3} + \angle C_{1}AB_{3} 
+= \pi + \beta - \angle AD_{3}B_{3}$, so $\angle AD_{3}B_{3} = (\pi + 
+\beta) / 2$.  Similarly $\angle AD_{1}C_{1} = (\pi + \beta) / 2$, 
+$\angle AD_{3}C_{3} = \angle AD_{2}B_{2} = (\pi + \alpha) / 2$, 
+$\angle AD_{2}B_{2} = \angle AD_{1}C_{1} = (\pi + \gamma) / 2$.  
+Therefore $\angle B_{2}D_{2}C_{2} = 2 \pi - \angle B_{2}D_{2}A - 
+\angle C_{2}D_{2}A = 2 \pi - (\pi + \alpha) / 2 - (\pi + \beta) / 2 = 
+(\pi + \gamma) / 2$ as $\alpha + \beta + \gamma = \pi$.  Consider a 
+rotation around $O_{1}$ through $\angle AO_{1}B_{2}$.  This clearly 
+maps $A$ to $B_{2}$, $C_{3}$ to $A$, and $\omega_{1}$ to itself.  
+Since distances are preserved, $B_{3}$ maps to $C_{2}$.  Let $\omega$ 
+be the circumcircle of $B_{2}D_{2}C_{2}$, and let $P$ be the image of 
+$D_{3}$.  Then $P$ lies on $\omega_{1}$ as $D_{3}$ does, and $P$ lies 
+on $\omega$ since $\angle B_{2}PC_{2} = \angle AD_{3}B_{3} = (\pi + 
+\beta) / 2 = \angle B_{2}D_{2}C_{2}$.  Since $D_{3} \ne A$, $P \ne 
+B_{2}$, so we must have $D_{3} = D_{2}$.  Therefore $\angle 
+D_{3}O_{1}D_{2} = \angle AO_{1}B_{2}$, so $D_{2}D_{3} = B_{2}A = s$.  
+Similarly, $D_{1}D_{2} = D_{3}D_{1} = s$, so triangle 
+$D_{1}D_{2}D_{3}$ is congruent to the original three triangles.
+
+
+\solution{3.2.2 (USAMO 1992/4)}
+\\
+Chords $\overline{AA},\overline{ BB}, \overline{CC}$ of a sphere meet at an interior point $P$ but are not contained in a plane. The sphere through $A,B,C,P$ is tangent to the sphere through $A',B',C',P$. Prove that $\overline{AA} = \overline{BB} = \overline{CC}$
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+Let $S$ be the sphere through $A$, $B$, $C$, and $P$, $S'$ the sphere 
+through $A'$, $B'$, $C'$, and $P$, and $O$ and $O'$ the centers and 
+$r$ and $r'$ the radii of $S$ and $S'$ respectively.  Since $S$ and 
+$S'$ are tangent and intersect at $P$, they are tangent at $P$, so 
+$O$, $O'$, and $P$ are collinear with $O'P/OP = -r'/r$.  Consider a 
+homothety around $P$ with ratio $-r'/r$.  Then if $X'$ is the image of 
+$X$, $|O'X'| = |OX|r'/r$, so $X$ lies on $S$ if and only if $X'$ lies 
+on $S'$; therefore this homothety sends $S$ to $S'$.  So the image of 
+$A$, which is collinear with $A$ and $P$, must also lie on $S'$, and 
+must be $A'$.  Similarly $B'$ is the image of $B$, so $AP/PA' = BP/PB'$.
+Now $A$, $B$, $A'$, $B'$, and $P$ are coplanar, and $A$, 
+$B$, $A'$, $B'$ lie on a sphere; therefore $ABA'B'$ is a cyclic 
+quadrilateral.  So by the power-of-a-point theorem, $AP \cdot PA' = 
+BP \cdot PB'$.  Multiplying this by the equation above gives $AP = 
+BP$, so $AA' = BB'$.  Similarly $BB' = CC'$, so $AA' = BB' = CC'$.
+
+Alternatively, we could begin by taking the cross-section through the 
+plane containing $A$, $B$, $A'$, $B'$, and $P$.  Then $A$, $B$, $A'$, 
+$B'$ are concyclic, and the circle $\omega$ through $A$, $B$, and $P$ 
+is tangent to the circle $\omega'$ through $A'$, $B'$, and $P$, so if 
+$\ell$ is their line of tangency, $\angle ABP = \angle (AP, \ell) = 
+\angle (A'P, \ell) = \angle PB'A' = \angle BB'A' = \angle BAA' = 
+\angle BAP$ and $AP = BP$.  Similarly $A'P = B'P$, so $AA' = BB' = 
+CC'$.
+
+
+\solution{3.2.4}
+\\
+Given three nonintersecting circles, draw the intersection of the external tangents to
+each pair of the circles. Show that these three points are collinear.
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+\\
+\indent \textsf{Lemma:} Suppose we have two noncongruent circles $C_{1}$ and $C_{2}$ 
+whose external tangents intersect at $P$.  Then there is a unique 
+homothety with positive ratio sending $C_{1}$ to $C_{2}$, and its 
+center is at $P$.
+
+\textsf{Proof.}  Any homothety with positive ratio sending $C_{1}$ to $C_{2}$ 
+maps each of the external tangents to itself, so it maps $P$ to 
+itself, that is, the center must be $P$.  Then the ratio is uniquely 
+determined by the ratio of the radii of the two circles.
+
+Now let $C_{1}$, $C_{2}$, $C_{3}$ be our three circles, $P_{i}$ the 
+intersection of the external tangents of $C_{i}$ and $C_{i+1}$, and 
+$H_{i}$ the homothety with positive ratio mapping $C_{i}$ to 
+$C_{i+1}$.  Let $\ell$ be the line through $P_{1}$ and $P_{2}$.  Since 
+$H_{i}$ is centered at $P_{i}$ by the Lemma, $\ell$ is fixed setwise 
+by $H_{1}$ and $H_{2}$.  Note that $H_{2}H_{1}$ is a homothety with 
+positive ratio mapping $C_{1}$ to $C_{3}$; therefore it coincides with 
+$H_{3}^{-1}$.  But $H_{2}H_{1}$ leaves $\ell$ fixed, so $H_{3}$ must 
+as well; therefore the center of $H_{3}$, $P_{3}$, must lie on $\ell$.
+So $P_{1}$, $P_{2}$, and $P_{3}$ are collinear.
+
+
+\solution{4.1.1}
+If $A,B,C,D$ are concyclic and $AB \cap CD = E$. Prove that, 
+\[ \frac{AC}{BC} \frac{AD}{BD} = \frac{AE}{BE} \]
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+As in the proof of Theorem 4.1, triangles $EAD$ and $ECB$ are 
+similar, as are triangles $EAC$ and $EDB$; so $AD/BC = AE/CE$, 
+$AC/BD = CE/BE$, and 
+\[\frac{AC}{BC} \frac{AD}{BD} = \frac{AE}{BE}\]
+
+
+\solution{4.1.2 (Mathematics Magazine, Dec. 1992)}
+\\
+Let $ABC$ be an acute triangle, let $H$ be the foot of
+the altitude from $A$, and let $D,E,Q$ be the feet of the perpendiculars from an arbitrary point $P$ in the triangle onto $AB,AC,AH,$ respectively. Prove that,
+\[|AB . AD - AC . AE| = BC . PQ\] 
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+If $P$ lies on $AH$, then quadrilaterals $DPHB$ and $EPHC$ are cyclic 
+because of the right angles at $D$, $E$, and $H$, so $AB\cdot AD = AP 
+\cdot AH = AC\cdot AE$, and $|AB\cdot AD - AC\cdot AE| = 0 = BC \cdot 
+PQ$.  If not, let $R = PD \cap AH$, $S = PE \cap AH$; then $DRHB$ and 
+$ESHC$ are cyclic, so $|AB\cdot AD - AC\cdot AE| = |AR\cdot AH - 
+AS\cdot AH| = RS \cdot AH$; since $\angle PRS = \angle DRA = \angle ABH = 
+\angle ABC$, triangles $ABC$ and $PRS$ are similar, so $PQ/AH = RS/BC$ 
+and $RS\cdot AH = BC \cdot PQ$.
+
+
+\solution{4.1.3}
+\\
+Draw tangents $OA$ and $OB$ from a point $O$ to a given circle. Through $A$ is drawn a chord $AC$ parallel to $OB$; let $E$ be the second intersection of $OC$ with the circle. 
+\\
+Prove that, the line $AE$ bisects the segment $OB$. 
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+Let $M$ be the intersection of $AE$ with $OB$.  Then $\angle EOM = 
+\angle COB = \angle OCA = \angle ECA = \angle OAE = \angle OAM$, so 
+$MO$ is tangent to the circle through $O$, $E$, and $A$; therefore 
+$MO^{2} = ME\cdot MA = MB^{2}$ and $M$ is the midpoint of $OB$.
+
+
+\solution{4.1.4 (MOP 1995)}
+\\
+Given triangle $ABC$, let $D,E$ be any points on $BC$. A circle through $A$ cuts the lines $AB,AC,AD,AE$ at the points $P,Q,R, S,$ respectively. Prove that,
+\[ \frac{AP . AB - AR . AD}{AS . AE - AQ . AC}=\frac {BD}{CE}\]
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+We will use directed distances.  Let $O$ be the center of the given 
+circle, $r$ its radius, and $H$ and $J$ the feet of the perpendiculars 
+to $BC$ from $A$ and $O$ respectively.  Then by power-of-a-point, 
+$BP\cdot BA = BO^{2} - r^{2}$, so $AP\cdot AB = AB^{2} - PB\cdot AB = 
+AB^{2} - BO^{2} + r^{2}$.  Similarly $AR\cdot AD = AD^{2} - DO^{2} + 
+r^{2}$, so $AP\cdot AB - AR\cdot AD = (AB^{2} - BO^{2} + r^{2}) - 
+(AD^{2} - DO^{2} + r^{2}) = AH^{2} + BH^{2} - BJ^{2} - OJ^{2} - 
+AH^{2} - DH^{2} + DJ^{2} + OJ^{2} $
+\\$= (BH-BJ)(BH+BJ) - (DH-DJ)(DH+DJ) = 
+HJ\cdot (BH+BJ-DH-DJ) = 2HJ\cdot BD$.  By a similar calculation 
+$AQ\cdot AC - AS\cdot AE = 2HJ\cdot CE$, so
+
+\[\frac{AP\cdot AB - AR\cdot AD}{AS\cdot AE - AQ\cdot AC} = 
+\frac{2HJ\cdot BD}{2HJ\cdot EC} = \frac{BD}{EC}.\]
+
+
+\solution{4.1.5 (IMO 1995/1)}
+\\
+Let $A,B,C,D$ be four distinct points on a line, in that order. The
+circles with diameters $AC$ and $BD$ intersect at $X$ and $Y$ . The line $XY$ meets $BC$ at $Z$. Let $P$ be a point on the line $XY$ other than $Z$. The line $CP$ intersects the circle with diameter $AC$ at $C$ and $M$, and the line $BP$ intersects the circle with diameter $BD$ at $B$ and $N$. 
+\\
+Prove that the lines $AM,DN,XY$ are concurrent.
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+The result is trivial if $P$ coincides with $X$ or $Y$, so suppose 
+not.  By power-of-a-point, $PB\cdot PN = PX\cdot PY = PC\cdot PM$, so 
+quadrilateral $BCMN$ is cyclic.  Then (using directed angles) $\angle 
+MAD = \angle MAC = \pi / 2 + \angle MCA = \pi / 2 + \angle MCB = \pi / 
+2 + \angle MNB = \angle MND$, so quadrilateral $ADMN$ is cyclic as 
+well.  Let $Q = AM \cap ND$, and let $Y_{1}$ and $Y_{2}$ be the 
+intersections of $QX$ with the circles on $AC$ and $BD$ respectively.  
+Then $QX\cdot QY_{1} = QA \cdot QM = QN \cdot QD = QX\cdot QY_{2}$, 
+so $Y_{1} = Y_{2} = Y$ and $Q$ lies on the line $XY$.
+
+Alternatively, one could begin by letting $Q = AM \cap XY$.  Then 
+$QX\cdot QY = QA\cdot QM = QP\cdot QZ$ since triangles $QMP$ and 
+$QZA$ are similar.  This implies that $Q$ lies on the radical axis of 
+the circle on $BD$ and the circumcircle of $PZDN$, namely the line 
+$ND$.  So $AM$, $XY$, $DN$ concur at $Q$.
+
+
+\solution{4.2.2 (MOP 1995)}
+\\
+Let $BB',CC'$ be altitudes of triangle $ABC$, and assume $AB \neq AC$. Let
+$M$ be the midpoint of $BC$, $H$ the orthocenter of $ABC$, and $D$ the intersection of $BC$ and $B'C'$. 
+\\
+Show that $DH$ is perpendicular to $AM$.
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+Let $AA'$ be the altitude from $A$, let $N$ be the midpoint of $AM$, 
+let $\omega_{1}$ be the circle through $B$, $C$, $B'$, and $C'$, and 
+let $\omega_{2}$ be the circle through $A$, $A'$, and $M$.  Then $A$, 
+$B$, $A'$, $B'$ are concyclic, so $HA \cdot HA' = HB \cdot HB'$; 
+therefore $H$ lies on the radical axis of $\omega_{1}$ and 
+$\omega_{2}$.  Also $A'$, $B'$, $C'$, and $M$ lie on the nine-point 
+circle of triangle $ABC$, so $DB \cdot DC = DB' \cdot DC' = DA' \cdot 
+DM$; therefore $D$ also lies on the radical axis of $\omega_{1}$ and 
+$\omega_{2}$.  So $DH$ is perpendicular to line $NM$, which is the 
+same as line $AM$.
+
+
+\solution{4.2.3 (IMO 1994 proposal)}
+\\
+A circle $\omega$ is tangent to two parallel lines $\ell_1$ and $\ell_2$. A second circle $\omega_1$ is tangent to $\ell_1$ at $A$ and to $\omega$ externally at $C$. A third circle $\omega_2$ is tangent to $\ell_2$ at $B$, to $\omega$ externally at $D$ and to $\omega_1$ externally at $E$. Let $Q$ be the intersection of $AD$ and $BC$. Prove that $QC = QD = QE$.
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+Let $X$ and $Y$ be the points where circle $\omega$ is tangent to 
+lines $\ell_{1}$ and $\ell_{2}$ respectively.  It is easy to check 
+that $A$, $C$, and $Y$ are collinear, and similarly $B$, $D$, $X$ and 
+$A$, $E$, $B$ are collinear.  Now $\angle CYB = \angle AYB = \angle 
+XAY = \angle XAC = \angle AEC$, so $BECY$ is cyclic.  Therefore $AC 
+\cdot AY = AE \cdot AB$, so $A$ lies on the radical axis of 
+$\omega$ and $\omega_{2}$.  In particular, since $D$ is their point of 
+tangency, $AD$ is tangent to $\omega$ and $\omega_{2}$.  Similarly, 
+$BC$ is the radical axis of $\omega$ and $\omega_{1}$ and is 
+therefore tangent to these two circles.  Therefore $Q = AD \cap BC$ 
+is the radical center of $\omega$, $\omega_{1}$, and $\omega_{2}$, so 
+$QC$, $QD$, $QE$ are tangents and $QC = QD = QE$.
+
+
+\solution{4.2.4 (India, 1996)}
+\\
+Let $ABC$ be a triangle. A line parallel to $BC$ meets sides $AB$ and $AC$
+at $D$ and $E$, respectively. Let $P$ be a point inside triangle $ADE$, and let $F$ and $G$ be the intersection of $DE$ with $BP$ and $CP$, respectively. 
+\\
+Show that $A$ lies on the radical axis of the circumcircles of $\triangle PDG$ and $\triangle PFE$.
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+Let $M$ be the second intersection of the circumcircle of $PDG$ with 
+$AB$ and $N$ the second intersection of the circumcircle of $PFE$ with 
+$AC$.  Then $\angle MBC = \angle MDG = \angle MPG = \angle MPC$, so 
+$M$, $P$, $B$, $C$ are concyclic.  Similarly, $N$, $P$, $B$, $C$ are 
+concyclic, so all of these points lie on one circle; in particular 
+$\angle MDE = \angle MBC = \angle MNC = \angle MNE$, so quadrilateral 
+$MNDE$ is cyclic.  Since $A = AB \cap AC = MD \cap NE$, $A$ is the 
+radical center of $MNDE$, $MPDG$, and $NPFE$, so $A$ lies on the 
+radical axis of $PDG$ and $PFE$.
+
+
+\solution{4.2.5 (IMO 1985/5)}
+\\
+A circle with center $O$ passes through the vertices $A$ and $C$ of triangle $ABC$, and intersects the segments $AB$ and $BC$ again at distinct points $K$ and $N$, respectively. The circumscribed circles of the triangle $ABC$ and $KBN$ intersect at exactly two distinct points $B$ and $M$. Prove that, $\angle OMB$ is a right angle.
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+By the radical axis theorem, $AC$, $KN$, and $MB$ concur, at $D$, 
+say.  Then $\angle DMK = \angle BMK = \angle BNK = \angle CNK = \angle 
+CAK = \angle DAK$, so $D$, $M$, $A$, $K$ are concyclic.  Next, let $E$ 
+be the second intersection of the line $AM$ with the circle centered 
+at $O$; then $\angle MEN = \angle AEN = \angle AKN = \angle AKD = 
+\angle AMD = \angle AME$, so lines $MD$ and $EN$ are parallel; it 
+therefore suffices to show $OM \perp EN$.  But we also have $\angle 
+MNE = \angle BMN = \angle BKN = \angle AKN = \angle AEN = \angle 
+MEN$; therefore $ME = MN$, and $OE = ON$.
+\\So, $OM$ and $EN$ are perpendicular.
+
+
+\solution{4.3.1}
+\\
+What do we get if we apply Brianchon’s theorem with three degenerate vertices?
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+The statement is: Let $ACE$ be a triangle, and $B$, $D$, $F$ the
+points where its inscribed circle touches sides $AC$, $CE$, $EA$,
+respectively.  Then lines $AD$, $BE$, $CF$ are concurrent.
+
+
+\solution{4.3.2}
+\\
+Let $ABCD$ be a circumscribed quadrilateral, whose incircle touches $AB,BC,CD,DA$ at $M,N, P,Q$, respectively. Prove that the lines $AC,BD,MP,NQ$ are concurrent.
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+Let $X = AC \cap BD$.  Applying Brianchon's theorem to the degenerate
+hexagon $AMBCPD$, we see that lines $AC$, $BD$ and $MP$ concur, so
+line $MP$ passes through point $X$.  Similarly, applying Brianchon's 
+theorem to $ABNCDQ$, lines $AC$, $BD$ and $NQ$ concur, so line $NQ$ 
+also passes through $X$.  Hence lines $AC$, $BD$, $MP$, $NQ$ concur 
+at $X$.
+
+
+\solution{4.3.3}
+\\
+With the same notation (\textsf{\textbf{Problem 31}}), let lines $BQ$ and $BP$ intersect the inscribed circle at $E$ and $F$, respectively. Prove that $ME,NF$ and $BD$ are concurrent.
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+Let $X = AC \cap BD$ as in the previous solution and let $Y = ME \cap 
+NF$.  By Pascal's theorem applied to hexagon $MEQNFP$, points $ME \cap 
+NF = Y$, $EQ \cap FP = B$, $QN \cap PM = X$ are collinear; since $X$ 
+lies on $BD$, so does $Y$.
+
+
+\solution{4.3.4}
+\\
+Let $ABCDE$ be a convex quadrilateral with $CD = DE$ and $\angle BCD =\angle DEA =\pi/2$. Let $F$ be the point on side $AB$ such that $AF/FB = AE/BC$. 
+Show that,
+$\angle FCE = \angle FDE$ and $\angle FEC = \angle BDC$
+\\
+\emph{\underline{\textsf{\textbf{\large {Solution:}}}}}
+Let $P = AE \cap BC$; then $CDEP$ is cyclic as $\angle PED = \pi/2 =
+\angle PCD$.  Let $\gamma$ be the circumcircle of $CDEP$, and let $Q$
+and $R$ be the second intersections of $DA$ and $DB$, respectively,
+with $\gamma$.  Let $G = CQ \cap ER$; then $A$, $G$, and $B$ are 
+collinear by Pascal's theorem applied to hexagon $PCQDRE$.  By the Law 
+of Sines,
+\[\frac{AG}{BG} = \frac{QG}{RG}\frac{\sin \angle DQC}{\sin 
+ERD}\frac{\sin \angle RBG}{\sin \angle GAQ} = \frac{\sin \angle 
+QRG}{\sin \angle GQR}\frac{CD}{DE}\frac{\sin \angle DBA}{\sin \angle 
+BAD} = \frac{\sin \angle ADE}{\sin \angle CDB}\frac{AD}{BD} = 
+\frac{AE}{BC} = \frac{AF}{BF},\]
+so in fact $G = F$.  Thus $\angle FCE = \angle QCE = \angle ADE$ 
+and $\angle FEC = \angle REC = \angle BDC$.
+
+Alternatively, define $P$, $\gamma$, and $Q$ as before, and let $G =
+AB \cap CH$.  Then $\angle AHG = \angle DHC = \angle EHD = \angle EHA$
+and $\angle BCG = \angle PCH = \angle PEH = \angle AEH$ 
+\\So by the Law
+of Sines
+\[\frac{AG}{BG} = \frac{AG \sin \angle AGH}{BG \sin \angle BGC} = 
+\frac{AH \sin \angle AHG}{BC \sin \angle BCG} = \frac{AH \sin \angle 
+EHA}{BC \sin \angle AEH} = \frac{AE}{BC} = \frac{AF}{BF}.\]
+
+Hence $G = F$, so $\angle FCE = \angle GCE = \angle HCE = \angle HDE = \angle ADE$.
+\begin{center}
+Similarly, $\angle FEC = \angle BDC$.
+\end{center}
+\\
+\vspace{.5 in}
+
+\raggedleft {This is the solutions of the Older(1999) Version of Geometry Unbound
+\\{This Document is prepared by: \textsf{\textbf{Collected and edited by: Tarik Adnan Moon, Bangladesh}}
+}
+\\March 07, 2008
+\\ 
+\vspace{3.5 in}
+\small{
+*This document is prepared using \LaTeX
+\\
+***The Diagrams are in a separate document}}
+\end{document}

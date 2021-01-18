@@ -1,0 +1,50 @@
+Macro Cabri II Plus vers. MS-Windows 1.2.4.7
+
+Medians of a Triangle, no name
+Icon:
+16x16
+ 0  0  0  0  7  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0 15  7 15  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0 15  0  7 15  0  0  0  0  0  0  0  0  0 
+ 0  0  0 15  0  7  0 15  0  0  0  0  0  0  0  0 
+ 0  0 15  0  0  7  0  0 15  0  0  0  0  0  0  0 
+ 0  0 15  0  0  7  0  0  0 15  0  0  0  0  0  0 
+ 0  0  7  0  0  0  7  0  0  7 15  0  0  0  0  0 
+ 0 15  0  7  7  7  7  7  7  0  0 15  0  0  0  0 
+ 0 15  0  0  0  0  7  7  0  0  0  0 15  0  0  0 
+ 0 15  0  0  7  7  0  7  7  7  7  0  0 15  0  0 
+15  0  7  7  0  0  0  7  0  0  0  7  7  7 15  0 
+ 7  7 15 15 15 15 15  7 15 15 15 15 15 15  7  7 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+Help:
+"Select a triangle to construct the three medians and the centroid of the triangle."
+Mth: 0
+CN:1, ON:7, FN:7, PO:3
+CT:
+triangle, CS 3, color:P, 
+Const:
+Mid, Mth:1, 1, CN:1, VN:1, side:1, Const: 4, 
+Mid, Mth:1, 1, CN:1, VN:1, side:2, Const: 4, 
+Mid, Mth:1, 1, CN:1, VN:1, side:0, Const: 4, 
+Seg, Mth:0, 1, CN:2, VN:2, Const: 1 5, color:V, 
+Seg, Mth:0, 1, CN:2, VN:2, Const: 2 6, color:V, 
+Seg, Mth:0, 1, CN:2, VN:2, Const: 3 7, color:V, 
+Int, Mth:0, 1, CN:2, VN:1, int ind:0, Const: 9 10, 
+Mth: 1
+CN:3, ON:8, FN:7, PO:4
+CT:
+point, CS 0, 
+point, CS 0, 
+point, CS 0, 
+Const:
+Tr, Mth:0, 0, CN:3, VN:4, Const: 1 2 3
+Mid, Mth:1, 1, CN:1, VN:1, side:1, Const: 4, 
+Mid, Mth:1, 1, CN:1, VN:1, side:2, Const: 4, 
+Mid, Mth:1, 1, CN:1, VN:1, side:0, Const: 4, 
+Seg, Mth:0, 1, CN:2, VN:2, Const: 1 5, color:V, 
+Seg, Mth:0, 1, CN:2, VN:2, Const: 2 6, color:V, 
+Seg, Mth:0, 1, CN:2, VN:2, Const: 3 7, color:V, 
+Int, Mth:0, 1, CN:2, VN:1, int ind:0, Const: 9 10, 

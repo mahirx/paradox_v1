@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<path d="M 504.0 285.0 H 509.0 V 290.0 H 504.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="507.0" cy="288.0" rx="182.80043763623766" ry="182.80043763623766" style="stroke:rgb(153,153,153);stroke-width:1;fill:none;stroke-dasharray:5,5"/>
+<path d="M 618.0 142.0 A 67.11929677819921 67.11929677819921 0 0 0 685.0 249.0" style="stroke:rgb(0,124,0);stroke-width:1;fill:none"/>
+<text x="615.0" y="209.0" style="font-size:12;fill:rgb(0,124,0);font-weight:normal">l3</text><path d="M 428.0 453.0 A 262.7565413077284 262.7565413077284 0 0 0 380.0 156.0" style="stroke:rgb(0,124,0);stroke-width:1;fill:none"/>
+<text x="458.0" y="315.0" style="font-size:12;fill:rgb(0,124,0);font-weight:normal">l2</text><path d="M 330.0 334.0 A 197.83326312832224 197.83326312832224 0 0 0 475.0 108.0" style="stroke:rgb(0,124,0);stroke-width:1;fill:none"/>
+<text x="463.0" y="243.0" style="font-size:12;fill:rgb(0,124,0);font-weight:normal">l1</text><line x1="559.3425948989154" y1="112.85362476132127" x2="454.6574051010846" y2="463.14637523867873" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<text x="532.0" y="248.0" style="font-size:0;fill:rgb(0,124,0);font-weight:normal">l4</text></svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" n="0" hidden="true" x="-2.996825396825397" y="-0.3365079365079362">Punto in -2.99683, -0.33651</Point>
+<Point name="P2" n="3" hidden="true" x="-4.863492063492064" y="-0.18412698412698392">Punto in -4.86349, -0.18413</Point>
+<Circle name="c1" n="4" through="P2" midpoint="P1" acute="true">Circonferenza di centro P1 per P2</Circle>
+<PointOn name="P3" n="5" hidden="true" on="c1" alpha="1.1416178187935984" x="-2.2174768432763767" y="1.3665129768028847">Punto su c1</PointOn>
+<PointOn name="P4" n="6" hidden="true" on="c1" alpha="1.1402691319881357" x="-2.2151807109377715" y="1.3654603311506028">Punto su c1</PointOn>
+<PointOn name="P5" n="7" hidden="true" on="c1" alpha="0.3805063771123648" x="-1.257903713739084" y="0.3590607367265888">Punto su c1</PointOn>
+<PointOn name="P6" n="8" hidden="true" on="c1" alpha="-0.8577354939360433" x="-1.7716799608931455" y="-1.7530823468046017">Punto su c1</PointOn>
+<PointOn name="P7" n="9" hidden="true" on="c1" alpha="-2.346579401892642" x="-4.30835418997487" y="-1.6735033081651676">Punto su c1</PointOn>
+<Segment name="s1" n="17" hidden="true" from="P3" to="P1">Segmento da P3 a P1</Segment>
+<Segment name="s2" n="20" hidden="true" from="P1" to="P4">Segmento da P1 a P4</Segment>
+<Segment name="s3" n="23" hidden="true" from="P1" to="P6">Segmento da P1 a P6</Segment>
+<Segment name="s4" n="26" hidden="true" from="P1" to="P5">Segmento da P1 a P5</Segment>
+<Segment name="s5" n="29" hidden="true" from="P1" to="P7">Segmento da P1 a P7</Segment>
+<Segment name="s6" n="32" hidden="true" from="P1" to="P2">Segmento da P1 a P2</Segment>
+<Plumb name="p1" n="35" hidden="true" point="P3" line="s1" valid="true">Retta perpendicolare per P3 a s1</Plumb>
+<Plumb name="p2" n="38" hidden="true" point="P2" line="s6" valid="true">Retta perpendicolare per P2 a s6</Plumb>
+<Plumb name="p3" n="41" hidden="true" point="P7" line="s5" valid="true">Retta perpendicolare per P7 a s5</Plumb>
+<Plumb name="p4" n="44" hidden="true" point="P6" line="s3" valid="true">Retta perpendicolare per P6 a s3</Plumb>
+<Plumb name="p5" n="47" hidden="true" point="P5" line="s4" valid="true">Retta perpendicolare per P5 a s4</Plumb>
+<Plumb name="p6" n="50" hidden="true" point="P4" line="s2" valid="true">Retta perpendicolare per P4 a s2</Plumb>
+<Intersection name="B" n="51" showname="true" xcoffset="-0.473750055112073" ycoffset="-0.26375563544036196" keepclose="true" first="p1" second="p2">Intersezione tra p1 e p2</Intersection>
+<Intersection name="C" n="52" showname="true" first="p2" second="p3">Intersezione tra p2 e p3</Intersection>
+<Intersection name="D" n="53" showname="true" first="p3" second="p4">Intersezione tra p3 e p4</Intersection>
+<Intersection name="E" n="54" showname="true" first="p5" second="p4">Intersezione tra p5 e p4</Intersection>
+<Intersection name="F" n="55" showname="true" xcoffset="0.21499210134707925" ycoffset="-0.09463884860371952" keepclose="true" first="p6" second="p5">Intersezione tra p6 e p5</Intersection>
+<Intersection name="A" n="56" showname="true" first="p1" second="p6">Intersezione tra p1 e p6</Intersection>
+<Segment name="s7" n="59" from="A" to="B">Segmento da I6 a I1</Segment>
+<Segment name="s8" n="62" from="B" to="C">Segmento da I1 a I2</Segment>
+<Segment name="s9" n="65" from="C" to="D">Segmento da I2 a I3</Segment>
+<Segment name="s10" n="68" from="D" to="E">Segmento da I3 a I4</Segment>
+<Segment name="s11" n="71" from="E" to="F">Segmento da I4 a I5</Segment>
+<Segment name="s12" n="74" from="F" to="A">Segmento da I5 a I6</Segment>
+<Line name="l1" n="77" color="1" from="A" to="D">Retta per I6 e I3</Line>
+<Line name="l2" n="80" color="1" from="C" to="F">Retta per I2 e I5</Line>
+<Line name="l3" n="83" color="1" from="E" to="B">Retta per I4 e I1</Line>
+</Objects>
+</Construction>
+</CaR>

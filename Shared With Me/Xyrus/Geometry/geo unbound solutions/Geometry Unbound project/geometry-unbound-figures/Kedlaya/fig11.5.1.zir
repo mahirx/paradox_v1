@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="6.727171322029721"/>
+<Objects>
+<Point name="O" n="0" showname="true" x="-1.79048" y="0.10159000000000001">Punto in -1.79048, 0.10159</Point>
+<Point name="P2" n="3" hidden="true" x="-3.2888888888888888" y="-1.0412698412698411">Punto in -3.28889, -1.04127</Point>
+<Circle name="c1" n="4" through="P2" midpoint="O" acute="true">Circonferenza di centro O per P2</Circle>
+<Point name="P" n="5" color="1" showname="true" x="-0.630004933332942" y="0.4057658892652847">Punto in -0.63, 0.40577</Point>
+<Ray name="r1" n="10" hidden="super" from="O" to="P">Semiretta da O puntando a P</Ray>
+<Circle name="c2" n="11" hidden="super" fixed="c1^2/d(P,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(P,O)</Circle>
+<Intersection name="P&apos;" n="12" type="thin" showname="true" xcoffset="0.34156012241987677" ycoffset="-0.14555391489625324" keepclose="true" first="r1" second="c2" which="first">Intersezione tra r1 e c2</Intersection>
+<Ray name="r2" n="17" type="thin" from="O" to="P&apos;">Semiretta da O puntando a P&apos;</Ray>
+<Plumb name="p" n="22" color="1" showname="true" xcoffset="0.7629372105949213" ycoffset="-0.36165190760395793" keepclose="true" point="P&apos;" line="r2" valid="true">Retta perpendicolare per P&apos; a r2</Plumb>
+<Point name="P4" n="23" hidden="true" x="-3.9492063492063494" y="1.1301587301587301">Punto in -3.94921, 1.13016</Point>
+<Point name="P5" n="26" hidden="true" x="-2.349206349206349" y="2.4761904761904767">Punto in -2.34921, 2.47619</Point>
+<Line name="q" n="27" color="2" showname="true" xcoffset="-0.20178678500593744" ycoffset="-0.7111033845752843" keepclose="true" from="P4" to="P5">Retta per P4 e P5</Line>
+<Plumb name="p2" n="30" hidden="true" point="O" line="q" valid="true">Retta perpendicolare per O a q</Plumb>
+<Intersection name="Q&apos;" n="33" type="thin" showname="true" xcoffset="-0.2571943690351448" ycoffset="0.026583702496998374" keepclose="true" first="p2" second="q">Intersezione tra p2 e q</Intersection>
+<Ray name="r3" n="34" type="thin" from="O" to="Q&apos;">Semiretta da O puntando a Q&apos;</Ray>
+<Ray name="r4" n="39" hidden="super" from="O" to="Q&apos;">Semiretta da O puntando a Q&apos;</Ray>
+<Circle name="c3" n="40" hidden="super" fixed="c1^2/d(&quot;Q&apos;&quot;,O)" midpoint="O" acute="true">Circonferenza di centro O e raggio c1^2/d(&quot;Q&apos;&quot;,O)</Circle>
+<Intersection name="Q" n="41" color="2" showname="true" xcoffset="-0.22384673100839514" ycoffset="-0.21815508633522684" keepclose="true" first="r4" second="c3" which="first">Intersezione tra r4 e c3</Intersection>
+</Objects>
+</Construction>
+</CaR>

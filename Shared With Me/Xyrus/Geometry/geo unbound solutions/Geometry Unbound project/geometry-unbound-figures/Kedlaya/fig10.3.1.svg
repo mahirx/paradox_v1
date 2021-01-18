@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<path d="M 303.9999999999999 371.0 H 308.9999999999999 V 376.0 H 303.9999999999999 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="290.0" y="392.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B</text><path d="M 715.0 372.0 H 720.0 V 377.0 H 715.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="724.0" y="393.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C</text><line x1="306.9999999999999" y1="374.0" x2="718.0" y2="375.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 400.9999999999999 76.0 H 405.9999999999999 V 81.0 H 400.9999999999999 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="387.0" y="74.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A</text><line x1="718.0" y1="375.0" x2="403.9999999999999" y2="79.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="403.9999999999999" y1="79.0" x2="306.9999999999999" y2="374.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="512.7343046925218" cy="278.20077137347334" rx="226.9451394781413" ry="226.9451394781413" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<text x="663.0" y="474.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$\omega$</text><path d="M 533.224767277856 371.5577244945933 H 538.224767277856 V 376.5577244945933 H 533.224767277856 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="542.224767277856" y="392.5577244945933" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">D</text><ellipse cx="384.2227778906928" cy="275.7768435001607" rx="98.41075517856072" ry="98.41075517856072" style="stroke:rgb(0,124,0);fill:none;stroke-width:1"/>
+<text x="438.0" y="386.0" style="font-size:0;fill:rgb(0,124,0);font-weight:normal">$\omega_1$</text><ellipse cx="615.1014818650385" cy="253.18385727578453" rx="121.56542153754066" ry="121.56542153754066" style="stroke:rgb(0,124,0);fill:none;stroke-width:1"/>
+<text x="674.0" y="319.0" style="font-size:0;fill:rgb(0,124,0);font-weight:normal">$\omega_2$</text><path d="M 400.9999999999999 76.0 H 405.9999999999999 V 81.0 H 400.9999999999999 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="403.9999999999999" y1="79.0" x2="536.224767277856" y2="374.5577244945933" style="stroke:rgb(0,0,0);stroke-width:1"/>
+</svg>

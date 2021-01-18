@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="-0.30476190476190457" y="0.39365079365079403" w="8.0"/>
+<Objects>
+<Point name="P1" n="0" hidden="true" x="-2.1841269841269844" y="0.057142857142857384">Punto in -2.18413, 0.05714</Point>
+<Point name="P2" n="3" hidden="true" x="-3.466666666666667" y="0.6158730158730159">Punto in -3.46667, 0.61587</Point>
+<Circle name="c1" n="4" color="1" through="P2" midpoint="P1" acute="true">Circonferenza di centro P1 per P2</Circle>
+<PointOn name="P3" n="5" hidden="true" on="c1" alpha="-1.5587487169407106" x="-2.1672732746794248" y="-1.3417150270045906">Punto su c1</PointOn>
+<PointOn name="P5" n="7" hidden="true" on="c1" alpha="-0.07173299667449914" x="-0.788765290912764" y="-0.0431226537467871">Punto su c1</PointOn>
+<PointOn name="P6" n="8" hidden="true" on="c1" alpha="0.9998278506345583" x="-1.4280633494836474" y="1.2341964701671428">Punto su c1</PointOn>
+<Segment name="s1" n="11" hidden="true" from="P6" to="P1">Segmento da P6 a P1</Segment>
+<Segment name="s2" n="14" hidden="true" from="P1" to="P2">Segmento da P1 a P2</Segment>
+<Segment name="s3" n="17" hidden="true" from="P3" to="P1">Segmento da P3 a P1</Segment>
+<Segment name="s4" n="20" hidden="true" from="P1" to="P5">Segmento da P1 a P5</Segment>
+<Plumb name="p1" n="23" hidden="true" point="P6" line="s1" valid="true">Retta perpendicolare per P6 a s1</Plumb>
+<Plumb name="p2" n="26" hidden="true" point="P5" line="s4" valid="true">Retta perpendicolare per P5 a s4</Plumb>
+<Plumb name="p3" n="29" hidden="true" point="P3" line="s3" valid="true">Retta perpendicolare per P3 a s3</Plumb>
+<Plumb name="p4" n="32" hidden="true" point="P2" line="s2" valid="true">Retta perpendicolare per P2 a s2</Plumb>
+<Intersection name="A" n="33" showname="true" xcoffset="-0.08477594755147333" ycoffset="0.2333948938419783" keepclose="true" first="p1" second="p4">Intersezione tra p1 e p4</Intersection>
+<Intersection name="D" n="34" showname="true" first="p1" second="p2">Intersezione tra p1 e p2</Intersection>
+<Intersection name="C" n="35" showname="true" first="p3" second="p2">Intersezione tra p3 e p2</Intersection>
+<Intersection name="B" n="36" showname="true" first="p3" second="p4">Intersezione tra p3 e p4</Intersection>
+<Segment name="s5" n="39" from="A" to="D">Segmento da I1 a I2</Segment>
+<Segment name="s6" n="42" from="D" to="C">Segmento da I2 a I3</Segment>
+<Segment name="s7" n="45" from="C" to="B">Segmento da I3 a I4</Segment>
+<Segment name="s8" n="48" from="B" to="A">Segmento da I4 a I1</Segment>
+</Objects>
+</Construction>
+</CaR>

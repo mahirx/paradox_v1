@@ -1,0 +1,109 @@
+Figure Cabri II Plus vers. MS-Windows 1.x (1.3.1)
+
+Used macro
+
+circenter, no name
+Mth: 0
+CN:3, ON:5, FN:1, PO:4
+CT:
+point, CS 0, default settings, 
+point, CS 0, default settings, 
+point, CS 0, default settings, 
+Const:
+Seg, Mth:0, 0, CN:2, VN:2, Const: 2 3
+Seg, Mth:0, 0, CN:2, VN:2, Const: 3 1
+PBiss, Mth:1, 0, CN:1, VN:4, Const: 4
+PBiss, Mth:1, 0, CN:1, VN:4, Const: 5
+Int, Mth:0, 1, CN:2, VN:1, int ind:0, Const: 6 7, default settings, 
+
+incenter, incenter
+Mth: 0
+CN:3, ON:3, FN:1, PO:2
+CT:
+point, CS 0, default settings, 
+point, CS 0, default settings, 
+point, CS 0, default settings, 
+Const:
+Biss, Mth:0, 0, CN:3, VN:4, Const: 2 1 3
+Biss, Mth:0, 0, CN:3, VN:4, Const: 2 3 1
+Int, Mth:0, 1, CN:2, VN:1, int ind:0, Const: 4 5, default settings, 
+
+Figure description:
+
+Window center x: 2.74cm y: -1.42cm Window size x: 20.61cm y: 11.61cm
+Resolution: 38 ppc
+
+1: Pt, Val: 0 0
+invisible, 
+
+2: Axes, Const: 1, cart, Val: 1 0 0 1
+invisible, 
+
+3: Pt, Val: 0.710526315789474 0.315789473684211
+
+4: Pt, Val: -1.60526315789474 -4.36842105263158
+
+5: Seg, Const: 3,  4, 
+color:B, 
+
+6: Pt, Val: 5.86842105263158 -4.5
+
+7: Seg, Const: 4,  6, 
+color:B, 
+
+8: Seg, Const: 6,  3, 
+color:B, 
+
+9: Mid, Const: 5, 
+
+10: Mid, Const: 8, 
+
+11: Mid, Const: 7, 
+
+12: Seg, Const: 9,  11, 
+color:O, 
+
+13: Seg, Const: 11,  10, 
+color:O, 
+
+14: Seg, Const: 10,  9, 
+color:O, 
+
+Ma: circenter, Const: 3 i: 0 9 i: 0 10 i: 0
+20: Ma R, F No1, int ind:0, 
+
+Ma: circenter, Const: 9 i: 0 4 i: 0 11 i: 0
+26: Ma R, F No1, int ind:0, 
+
+Ma: circenter, Const: 10 i: 0 11 i: 0 6 i: 0
+32: Ma R, F No1, int ind:0, 
+
+33: Seg, Const: 20,  26, 
+color:R, 
+
+34: Seg, Const: 26,  32, 
+color:R, 
+
+35: Seg, Const: 32,  20, 
+color:R, 
+
+Ma: incenter, Const: 3 i: 0 9 i: 0 10 i: 0
+39: Ma R, F No1, int ind:0, 
+
+41: Int, Const: 5,  7, int ind:0, 
+
+Ma: incenter, Const: 9 i: 0 41 i: 0 11 i: 0
+45: Ma R, F No1, int ind:0, 
+
+Ma: incenter, Const: 10 i: 0 11 i: 0 6 i: 0
+49: Ma R, F No1, int ind:0, 
+
+50: Seg, Const: 39,  45, 
+color:Bl, 
+
+51: Seg, Const: 45,  49, 
+color:Bl, 
+
+52: Seg, Const: 49,  39, 
+color:Bl, 
+

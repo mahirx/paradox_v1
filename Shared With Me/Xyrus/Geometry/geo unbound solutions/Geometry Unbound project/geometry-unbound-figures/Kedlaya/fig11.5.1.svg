@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="572">
+<path d="M 459.32144002248197 273.4860903734663 H 464.32144002248197 V 278.4860903734663 H 459.32144002248197 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="468.32144002248197" y="294.4860903734663" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">O</text><ellipse cx="462.3214400224819" cy="276.4860903734663" rx="176.48397509475092" ry="176.48397509475092" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<path d="M 568.0 245.0 H 573.0 V 250.0 H 568.0 Z" style="fill:none;stroke:rgb(0,124,0);stroke-width:1"/>
+<text x="577.0" y="266.0" style="font-size:0;fill:rgb(0,124,0);font-weight:normal">P</text><path d="M 727.4910166502449 203.19529155525487 H 732.4910166502449 V 208.19529155525487 H 727.4910166502449 Z" style="fill:none;stroke:rgb(153,153,153);stroke-width:1"/>
+<text x="739.0" y="220.0" style="font-size:0;fill:rgb(153,153,153);font-weight:normal">P&apos;</text><line x1="462.32144002248197" y1="276.4860903734663" x2="1835.7137969492826" y2="-83.49824145553339" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<line x1="1063.0" y1="1474.0" x2="424.0" y2="-963.0" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<text x="693.0" y="147.0" style="font-size:0;fill:rgb(0,124,0);font-weight:normal">p</text><line x1="-539.0" y1="852.0" x2="1389.0" y2="-769.0" style="stroke:rgb(0,0,178);stroke-width:1"/>
+<text x="230.0" y="185.0" style="font-size:0;fill:rgb(0,0,178);font-weight:normal">q</text><path d="M 328.0862681706243 117.48956534201301 H 333.0862681706243 V 122.48956534201301 H 328.0862681706243 Z" style="fill:none;stroke:rgb(153,153,153);stroke-width:1"/>
+<text x="302.0" y="124.0" style="font-size:0;fill:rgb(153,153,153);font-weight:normal">Q&apos;</text><line x1="462.32144002248197" y1="276.4860903734663" x2="-274.64057629954175" y2="-599.5253629904485" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<path d="M 360.9632598583411 156.56976300854416 H 365.9632598583411 V 161.56976300854416 H 360.9632598583411 Z" style="fill:none;stroke:rgb(0,0,178);stroke-width:1"/>
+<text x="347.0" y="177.0" style="font-size:0;fill:rgb(0,0,178);font-weight:normal">Q</text></svg>

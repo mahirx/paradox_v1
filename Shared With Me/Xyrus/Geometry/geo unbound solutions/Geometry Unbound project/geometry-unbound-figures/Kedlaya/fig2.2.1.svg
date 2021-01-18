@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<path d="M 474.0 334.0 H 479.0 V 339.0 H 474.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="477.0" y1="337.0" x2="535.0" y2="196.00000000000006" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="535.0" y1="196.00000000000006" x2="534.0" y2="211.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="535.0" y1="196.00000000000006" x2="525.0" y2="207.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="486.0" y="266.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">v</text><line x1="535.0" y1="196.00000000000006" x2="732.0000000000001" y2="154.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="732.0000000000001" y1="154.0" x2="719.0" y2="162.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="732.0000000000001" y1="154.0" x2="717.0" y2="152.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="477.0" y1="337.0" x2="674.0000000000001" y2="295.00000000000006" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="674.0000000000001" y1="295.00000000000006" x2="661.0" y2="303.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="674.0000000000001" y1="295.00000000000006" x2="659.0" y2="293.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="567.0" y="306.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">w</text><line x1="477.0" y1="337.0" x2="732.0000000000001" y2="154.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="732.0000000000001" y1="154.0" x2="723.0" y2="166.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="732.0000000000001" y1="154.0" x2="718.0" y2="159.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="576.0" y="233.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">v+w</text></svg>

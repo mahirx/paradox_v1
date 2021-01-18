@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="A" n="0" showname="true" x="-3.5047619047619047" y="-0.5142857142857142">Punto in -3.50476, -0.51429</Point>
+<Point name="B" n="3" showname="true" x="0.8888888888888893" y="-0.5269841269841269">Punto in 0.88889, -0.52698</Point>
+<Segment name="s1" n="4" from="A" to="B">Segmento da P1 a P2</Segment>
+<Plumb name="p1" n="7" hidden="true" point="A" line="s1" valid="true">Retta perpendicolare per P1 a s1</Plumb>
+<PointOn name="C" n="8" showname="true" on="p1" alpha="2.0951559435008877" x="-3.4987065660537264" y="1.580861478743984">Punto su p1</PointOn>
+<Segment name="s2" n="11" from="C" to="B">Segmento da P3 a P2</Segment>
+<Midpoint name="M" n="14" showname="true" first="B" second="C">Punto medio tra P2 e P3</Midpoint>
+<Plumb name="p2" n="17" hidden="true" point="B" line="s1" valid="true">Retta perpendicolare per P2 a s1</Plumb>
+<Intersection name="I1" n="20" first="s2" second="p1">Intersezione tra s2 e p1</Intersection>
+<Parallel name="pl1" n="21" hidden="true" point="I1" line="s1">Retta parallela per I1 a s1</Parallel>
+<Intersection name="A&apos;" n="22" showname="true" first="pl1" second="p2">Intersezione tra pl1 e p2</Intersection>
+<Segment name="s3" n="25" from="A" to="M">Segmento da A a M</Segment>
+<Segment name="s4" n="28" from="M" to="A&apos;">Segmento da M a A&apos;</Segment>
+<Polygon name="pol1" n="29" background="true" point1="I1" point2="A" point3="B">Poligono I1, A, B</Polygon>
+<Angle name="a1" n="32" unit="°" first="A" root="B" second="C" acute="true">Angolo A - B - C</Angle>
+<Angle name="a2" n="35" unit="°" first="A&apos;" root="A" second="B" acute="true">Angolo A&apos; - A - B</Angle>
+<Segment name="s5" n="38" from="C" to="A&apos;">Segmento da C a A&apos;</Segment>
+<Segment name="s6" n="41" from="A&apos;" to="B">Segmento da A&apos; a B</Segment>
+</Objects>
+</Construction>
+</CaR>

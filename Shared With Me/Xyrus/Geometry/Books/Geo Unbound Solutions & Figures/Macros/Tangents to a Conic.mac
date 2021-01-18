@@ -1,0 +1,46 @@
+Macro Cabri II Plus vers. MS-Windows 1.2.4.7
+
+Tangents to a Conic, no name
+Icon:
+16x16
+ 0  0  0  0  0  0  0  0  0  0 15  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0 15  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0 15  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0 15  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0 15  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0 15  0  7  7  7  7  7  7  0  0  0 
+ 0  0  0  0 15  7  7  0  0  0  0  0  0  7  7  0 
+ 0  0  0 15  7 15  0  0  0  0  0  0  0  0  0  7 
+ 0  0 15  0  7  0  0  0  0  0  0  0  0  0  0  7 
+ 0 15  0  0  7  0  0  0  0  0  0  0  0  0  0  7 
+15 15 15  0  0  7  7  0  0  0  0  0  0  7  7  0 
+ 0  0  0 15 15 15  0  7  7  7  7  7  7  0  0  0 
+ 0  0  0  0  0  0 15 15 15  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0 15 15 15  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0 15 15 15  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 15 
+Help:
+"Select a conic and a point not on the conic to construct the two tangents from the point to the conic."
+Mth: 0
+CN:2, ON:17, FN:4, PO:16
+CT:
+conic, CS 5, 
+point, CS 0, 
+Const:
+Line, Mth:1, 0, CN:2, VN:2, Const: 7 1
+Line, Mth:1, 0, CN:2, VN:2, Const: 7 2
+Line, Mth:1, 0, CN:2, VN:2, Const: 7 3
+Int, Mth:0, 0, CN:3, VN:1, int ind:0, Const: 9 6 2
+Line, Mth:1, 0, CN:2, VN:2, Const: 1 11
+Int, Mth:0, 0, CN:3, VN:1, int ind:0, Const: 8 6 1
+Line, Mth:1, 0, CN:2, VN:2, Const: 13 2
+Int, Mth:0, 0, CN:3, VN:1, int ind:0, Const: 10 6 3
+Line, Mth:1, 0, CN:2, VN:2, Const: 2 15
+Line, Mth:1, 0, CN:2, VN:2, Const: 3 11
+Int, Mth:0, 0, CN:2, VN:1, int ind:0, Const: 12 14
+Int, Mth:0, 0, CN:2, VN:1, int ind:0, Const: 16 17
+Line, Mth:1, 0, CN:2, VN:2, Const: 18 19
+Int, Mth:0, 1, CN:2, VN:1, int ind:0, Const: 20 6, 
+Line, Mth:1, 1, CN:2, VN:2, Const: 7 21, color:R, 
+Int, Mth:0, 1, CN:2, VN:1, int ind:0x10000, Const: 20 6, 
+Line, Mth:1, 1, CN:2, VN:2, Const: 7 23, color:R, 

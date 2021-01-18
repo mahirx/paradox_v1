@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" n="0" hidden="true" x="-3.5555555555555554" y="0.0063492063492058826">Punto in -3.55556, 0.00635</Point>
+<Point name="P2" n="3" hidden="true" x="-2.4000000000000004" y="1.5555555555555558">Punto in -2.4, 1.55556</Point>
+<Circle name="c1" n="4" through="P2" midpoint="P1" acute="true">Circonferenza di centro P1 per P2</Circle>
+<Point name="P3" n="5" hidden="true" x="-1.5746031746031743" y="0.19682539682539657">Punto in -1.5746, 0.19683</Point>
+<Point name="P4" n="8" hidden="true" x="-2.6539682539682543" y="0.4888888888888885">Punto in -2.65397, 0.48889</Point>
+<Circle name="c2" n="9" through="P4" midpoint="P3" acute="true">Circonferenza di centro P3 per P4</Circle>
+<Intersection name="A" n="10" showname="true" first="c2" second="c1" which="first">Intersezione tra c2 e c1</Intersection>
+<Intersection name="B" n="11" showname="true" first="c1" second="c2" which="first">Intersezione tra c1 e c2</Intersection>
+<PointOn name="D" n="12" showname="true" on="c1" alpha="-2.3912678207255706" x="-4.969266343142543" y="-1.3115167820793416">Punto su c1</PointOn>
+<PointOn name="C" n="15" showname="true" on="c1" alpha="1.868793250391118" x="-4.123009371406784" y="1.8538732579578592">Punto su c1</PointOn>
+<Segment name="s1" n="16" color="1" from="D" to="C">Segmento da P5 a P6</Segment>
+<Line name="l1" n="19" from="C" to="A">Retta per P6 e I1</Line>
+<Line name="l2" n="22" from="D" to="B">Retta per P5 e I3</Line>
+<Intersection name="E" n="23" showname="true" first="l1" second="c2" which="first">Intersezione tra l1 e c2</Intersection>
+<Intersection name="F" n="26" showname="true" first="l2" second="c2" which="first">Intersezione tra l2 e c2</Intersection>
+<Segment name="s2" n="27" color="1" from="E" to="F">Segmento da I5 a I7</Segment>
+<Segment name="s3" n="30" type="thin" from="A" to="B">Segmento da A a B</Segment>
+</Objects>
+</Construction>
+</CaR>

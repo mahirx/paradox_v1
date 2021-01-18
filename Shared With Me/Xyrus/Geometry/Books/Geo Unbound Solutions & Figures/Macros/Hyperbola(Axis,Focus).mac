@@ -1,0 +1,66 @@
+Macro Cabri II Plus vers. MS-Windows 1.2.4.7
+
+Hyperbola (Axis & Focus), no name
+Icon:
+16x16
+ 0  0  0  7  0  0  0  0  0  0  0  0  0  0  7  0 
+ 0  0  0  7  0  0  0  0  0  0  0  0  0  0  7  0 
+ 0  0  0  0  7  0  0  0  0  0  0  0  0  7  0  0 
+ 0  0  0  0  7  0  0  0  0  0  0  0  0  7  0  0 
+ 0  0  0  0  0  7  0  0  0  0  0  0  7  0  0  0 
+ 0  0  0  0  0  7  0  0  0  0  0  0  7  0  0  0 
+ 0  0 15  0  0 15  0  0  0  0  0  0 15  0  0  0 
+13 15 15 15 15 15 15 13 13 13 13 15 15 15 13 13 
+ 0  0 15  0  0 15  0  0  0  0  0  0 15  0  0  0 
+ 0  0  0  0  0  7  0  0  0  0  0  0  7  0  0  0 
+ 0  0  0  0  0  7  0  0  0  0  0  0  7  0  0  0 
+ 0  0  0  0  7  0  0  0  0  0  0  0  0  7  0  0 
+ 0  0  0  0  7  0  0  0  0  0  0  0  0  7  0  0 
+ 0  0  0  7  0  0  0  0  0  0  0  0  0  0  7  0 
+ 0  0  0  7  0  0  0  0  0  0  0  0  0  0  7  0 
+ 0  0  7  0  0  0  0  0  0  0  0  0  0  0  0  7 
+Help:
+"Select a segment (or its endpoints) for the major axis and a point not on the segment as the focus. A hyperbola is constructed with respect to the major axis (through the endpoints of the segment) and a focus."
+Mth: 0
+CN:3, ON:15, FN:4, PO:14
+CT:
+point, CS 0, 
+point, CS 0, 
+point, CS 0, 
+Const:
+Mid, Mth:0, 0, CN:2, VN:1, Const: 1 2
+Line, Mth:1, 0, CN:2, VN:2, Const: 1 2
+Perp, Mth:0, 0, CN:2, VN:2, Const: 1 5
+Cir, Mth:1, 0, CN:2, VN:2, Const: 4 3
+Int, Mth:0, 0, CN:2, VN:1, int ind:0x10000, Const: 6 7
+Seg, Mth:0, 0, CN:2, VN:2, Const: 4 8
+Cir, Mth:1, 0, CN:2, VN:2, Const: 1 8
+Int, Mth:0, 0, CN:2, VN:1, int ind:0x10000, Const: 5 10
+Par, Mth:0, 0, CN:2, VN:2, Const: 11 9
+Int, Mth:0, 0, CN:2, VN:1, int ind:0, Const: 6 12
+Mid, Mth:0, 0, CN:2, VN:1, Const: 13 3
+Sym, Mth:0, 1, CN:2, VN:1, Const: 1 14, invisible, 
+Sym, Mth:0, 1, CN:2, VN:1, Const: 15 3, invisible, 
+Sym, Mth:0, 1, CN:2, VN:1, Const: 15 4, invisible, 
+Con, Mth:0, 1, CN:5, VN:5, Const: 15 1 16 2 17, 
+Mth: 1
+CN:2, ON:15, FN:4, PO:14
+CT:
+segment, CS 2, color:V, 
+point, CS 0, 
+Const:
+Mid, Mth:0, 0, CN:2, VN:1, Const: 1 2
+Line, Mth:1, 0, CN:2, VN:2, Const: 1 2
+Perp, Mth:0, 0, CN:2, VN:2, Const: 1 6
+Cir, Mth:1, 0, CN:2, VN:2, Const: 5 4
+Int, Mth:0, 0, CN:2, VN:1, int ind:0x10000, Const: 7 8
+Seg, Mth:0, 0, CN:2, VN:2, Const: 5 9
+Cir, Mth:1, 0, CN:2, VN:2, Const: 1 9
+Int, Mth:0, 0, CN:2, VN:1, int ind:0x10000, Const: 6 11
+Par, Mth:0, 0, CN:2, VN:2, Const: 12 10
+Int, Mth:0, 0, CN:2, VN:1, int ind:0, Const: 7 13
+Mid, Mth:0, 0, CN:2, VN:1, Const: 14 4
+Sym, Mth:0, 1, CN:2, VN:1, Const: 1 15, invisible, 
+Sym, Mth:0, 1, CN:2, VN:1, Const: 16 4, invisible, 
+Sym, Mth:0, 1, CN:2, VN:1, Const: 16 5, invisible, 
+Con, Mth:0, 1, CN:5, VN:5, Const: 16 1 17 2 18, 

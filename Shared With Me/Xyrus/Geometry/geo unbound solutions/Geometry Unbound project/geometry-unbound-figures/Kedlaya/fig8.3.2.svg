@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<ellipse cx="414.0" cy="292.0" rx="105.53672346628935" ry="105.53672346628935" style="stroke:rgb(0,124,0);fill:none;stroke-width:1"/>
+<path d="M 507.3988221064533 236.43820334628998 H 512.3988221064533 V 241.43820334628998 H 507.3988221064533 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="500.0" y="230.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A</text><path d="M 706.0320056865946 437.7556191369741 H 711.0320056865946 V 442.7556191369741 H 706.0320056865946 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="715.0320056865946" y="458.7556191369741" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">D</text><path d="M 449.5201137826401 401.11106315069514 H 454.5201137826401 V 406.11106315069514 H 449.5201137826401 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="458.5201137826401" y="422.11106315069514" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C</text><path d="M 526.3669576715282 321.3824626159736 H 531.3669576715282 V 326.3824626159736 H 526.3669576715282 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="535.3669576715282" y="342.3824626159736" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B</text><line x1="510.3988221064533" y1="239.43820334628998" x2="709.0320056865946" y2="440.7556191369741" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="709.0320056865946" y1="440.7556191369741" x2="452.5201137826401" y2="404.11106315069514" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="452.5201137826401" y1="404.11106315069514" x2="529.3669576715282" y2="324.3824626159736" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="529.3669576715282" y1="324.3824626159736" x2="510.3988221064533" y2="239.43820334628998" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="452.5201137826401" y1="404.11106315069514" x2="-637.3515085785143" y2="248.41511709910299" style="stroke:rgb(153,153,153);stroke-width:1"/>
+<line x1="510.3988221064533" y1="239.43820334628998" x2="-292.02951994188913" y2="-573.8337649459495" style="stroke:rgb(153,153,153);stroke-width:1"/>
+</svg>

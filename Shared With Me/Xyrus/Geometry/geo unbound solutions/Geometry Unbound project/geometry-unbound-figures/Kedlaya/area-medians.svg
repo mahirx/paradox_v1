@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<path d="M 264.5752773375593 334.918383518225 H 269.5752773375593 V 339.918383518225 H 264.5752773375593 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="273.5752773375593" y="355.918383518225" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B</text><path d="M 581.0729001584785 334.918383518225 H 586.0729001584785 V 339.918383518225 H 581.0729001584785 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="590.0729001584785" y="355.918383518225" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C</text><path d="M 349.4405705229793 85.31458003169564 H 354.4405705229793 V 90.31458003169564 H 349.4405705229793 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="348.0" y="79.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A</text><line x1="267.5752773375593" y1="337.918383518225" x2="584.0729001584785" y2="337.918383518225" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="584.0729001584785" y1="337.918383518225" x2="352.4405705229793" y2="88.31458003169564" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="352.4405705229793" y1="88.31458003169564" x2="267.5752773375593" y2="337.918383518225" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 422.82408874801894 334.918383518225 H 427.82408874801894 V 339.918383518225 H 422.82408874801894 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="431.82408874801894" y="355.918383518225" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$M_A$</text><path d="M 465.256735340729 210.1164817749604 H 470.256735340729 V 215.1164817749604 H 465.256735340729 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="460.0" y="200.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$M_B$</text><path d="M 307.0079239302693 210.1164817749604 H 312.0079239302693 V 215.1164817749604 H 307.0079239302693 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="260.0" y="236.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">$M_C$</text><line x1="310.0079239302693" y1="213.1164817749604" x2="584.0729001584785" y2="337.918383518225" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<line x1="425.82408874801894" y1="337.918383518225" x2="352.4405705229793" y2="88.31458003169564" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<line x1="267.5752773375593" y1="337.918383518225" x2="468.256735340729" y2="213.1164817749604" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<line x1="-629.0" y1="213.0" x2="1890.0" y2="213.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="-629.0" y1="88.0" x2="1890.0" y2="88.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="929.0" y1="1511.0" x2="218.0" y2="-906.0" style="stroke:rgb(180,0,0);stroke-width:1"/>
+<path d="M 507.689381933439 85.31458003169564 H 512.689381933439 V 90.31458003169564 H 507.689381933439 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="494.0" y="82.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">D</text><line x1="510.689381933439" y1="88.31458003169564" x2="310.0079239302693" y2="213.1164817749604" style="stroke:rgb(180,0,0);stroke-width:1"/>
+</svg>

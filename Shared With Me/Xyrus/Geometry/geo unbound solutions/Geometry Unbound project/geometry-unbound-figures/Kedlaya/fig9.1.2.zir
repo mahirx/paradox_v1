@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="-0.08888888888888946" y="-0.5714285714285703" w="8.0"/>
+<Objects>
+<Point name="B" n="0" showname="true" x="-4.622222222222222" y="-1.1365079365079365">Punto in -4.62222, -1.13651</Point>
+<Point name="C" n="3" showname="true" x="-2.7301587301587302" y="-1.6317460317460313">Punto in -2.73016, -1.63175</Point>
+<Segment name="s1" n="4" from="B" to="C">Segmento da P1 a P2</Segment>
+<Point name="A" n="7" showname="true" xcoffset="-0.10158730158730123" ycoffset="0.43174603174603243" keepclose="true" x="-3.7714285714285714" y="0.5269841269841278">Punto in -3.77143, 0.52698</Point>
+<Segment name="s2" n="8" from="C" to="A">Segmento da P2 a P3</Segment>
+<Segment name="s3" n="11" xcoffset="0.533343414486617" ycoffset="0.04786027521548497" keepclose="true" from="A" to="B">Segmento da P3 a P1</Segment>
+<Plumb name="p1" n="14" hidden="true" point="A" line="s1" valid="true">Retta perpendicolare per A a s1</Plumb>
+<Plumb name="p2" n="17" hidden="true" point="B" line="s2" valid="true">Retta perpendicolare per B a s2</Plumb>
+<Plumb name="p3" n="20" hidden="true" point="C" line="s3" valid="true">Retta perpendicolare per C a s3</Plumb>
+<Intersection name="F" n="21" color="1" showname="true" xcoffset="-0.4247333894997585" ycoffset="-0.01541744375556453" keepclose="true" first="s3" second="p3">Intersezione tra s3 e p3</Intersection>
+<Intersection name="E" n="24" color="1" showname="true" xcoffset="0.41566142091023206" ycoffset="0.30418498184814013" keepclose="true" first="s2" second="p2">Intersezione tra s2 e p2</Intersection>
+<Segment name="s4" n="25" color="1" from="F" to="E">Segmento da I1 a I2</Segment>
+<Intersection name="D" n="28" color="1" showname="true" first="p1" second="s1">Intersezione tra p1 e s1</Intersection>
+<Segment name="s5" n="29" color="1" from="E" to="D">Segmento da I2 a I3</Segment>
+<Segment name="s6" n="32" color="1" from="D" to="F">Segmento da I3 a I1</Segment>
+<PointOn name="I" n="33" color="2" showname="true" xcoffset="-0.41981570691687153" ycoffset="0.15032823755037517" keepclose="true" on="s3" alpha="0.3899894147890515" x="-4.103229089407828" y="-0.12176016936337408">Punto su s3</PointOn>
+<PointOn name="G" n="36" color="2" showname="true" on="s1" alpha="0.46554861166046985" x="-3.7413746903186027" y="-1.367065344187407">Punto su s1</PointOn>
+<Segment name="s7" n="37" color="2" from="I" to="G">Segmento da P4 a P5</Segment>
+<PointOn name="H" n="40" color="2" showname="true" xcoffset="0.3095927857486469" ycoffset="0.418965831740433" keepclose="true" on="s2" alpha="0.6051365652894329" x="-3.360269185444235" y="-0.3254194781053503">Punto su s2</PointOn>
+<Segment name="s8" n="41" color="2" from="G" to="H">Segmento da P5 a P6</Segment>
+<Segment name="s9" n="44" color="2" from="H" to="I">Segmento da P6 a P4</Segment>
+<Plumb name="p9" n="188" hidden="super" point="B" line="s2" valid="true">Retta perpendicolare per B a s2</Plumb>
+<Intersection name="I21" n="189" hidden="super" first="p9" second="s2">Intersezione tra p9 e s2</Intersection>
+<Circle name="c13" n="190" hidden="super" through="B" midpoint="I21" acute="true">Circonferenza di centro I21 per B</Circle>
+<Intersection name="B&apos;" n="191" showname="true" xcoffset="-0.06642071155882179" ycoffset="0.2299972552835795" keepclose="true" first="p9" second="c13" awayfrom="B" which="second">Intersezione tra p9 e c13</Intersection>
+<Plumb name="p10" n="197" hidden="super" point="D" line="s2" valid="true">Retta perpendicolare per D a s2</Plumb>
+<Intersection name="I23" n="198" hidden="super" first="p10" second="s2">Intersezione tra p10 e s2</Intersection>
+<Circle name="c14" n="199" hidden="super" through="D" midpoint="I23" acute="true">Circonferenza di centro I23 per D</Circle>
+<Intersection name="D&apos;" n="200" color="1" showname="true" first="p10" second="c14" awayfrom="D" which="second">Intersezione tra p10 e c14</Intersection>
+<Segment name="s19" n="203" from="B&apos;" to="A">Segmento da B&apos; a A</Segment>
+<Segment name="s20" n="206" from="B&apos;" to="C">Segmento da B&apos; a C</Segment>
+<Segment name="s21" n="209" color="1" from="E" to="D&apos;">Segmento da E a D&apos;</Segment>
+<Plumb name="p11" n="217" hidden="super" point="G" line="s2" valid="true">Retta perpendicolare per G a s2</Plumb>
+<Intersection name="I25" n="218" hidden="super" first="p11" second="s2">Intersezione tra p11 e s2</Intersection>
+<Circle name="c15" n="219" hidden="super" through="G" midpoint="I25" acute="true">Circonferenza di centro I25 per G</Circle>
+<Intersection name="G&apos;" n="220" color="2" showname="true" first="p11" second="c15" awayfrom="G" which="second">Intersezione tra p11 e c15</Intersection>
+<Plumb name="p12" n="226" hidden="super" point="I" line="s2" valid="true">Retta perpendicolare per I a s2</Plumb>
+<Intersection name="I27" n="227" hidden="super" first="p12" second="s2">Intersezione tra p12 e s2</Intersection>
+<Circle name="c16" n="228" hidden="super" through="I" midpoint="I27" acute="true">Circonferenza di centro I27 per I</Circle>
+<Intersection name="I&apos;" n="229" color="2" showname="true" first="p12" second="c16" awayfrom="I" which="second">Intersezione tra p12 e c16</Intersection>
+<Plumb name="p13" n="235" hidden="super" point="F" line="s2" valid="true">Retta perpendicolare per F a s2</Plumb>
+<Intersection name="I29" n="236" hidden="super" first="p13" second="s2">Intersezione tra p13 e s2</Intersection>
+<Circle name="c17" n="237" hidden="super" through="F" midpoint="I29" acute="true">Circonferenza di centro I29 per F</Circle>
+<Intersection name="F&apos;" n="238" color="1" showname="true" first="p13" second="c17" awayfrom="F" which="second">Intersezione tra p13 e c17</Intersection>
+<Segment name="s22" n="241" color="1" from="E" to="F&apos;">Segmento da E a F&apos;</Segment>
+<Segment name="s23" n="244" color="1" from="F&apos;" to="D&apos;">Segmento da F&apos; a D&apos;</Segment>
+<Plumb name="p14" n="250" color="1" hidden="super" point="E" line="s20" valid="true">Retta perpendicolare per E a s20</Plumb>
+<Intersection name="I31" n="251" color="1" hidden="super" first="p14" second="s20">Intersezione tra p14 e s20</Intersection>
+<Circle name="c18" n="252" color="1" hidden="super" through="E" midpoint="I31" acute="true">Circonferenza di centro I31 per E</Circle>
+<Intersection name="E&apos;" n="253" color="1" showname="true" first="p14" second="c18" awayfrom="E" which="second">Intersezione tra p14 e c18</Intersection>
+<Plumb name="p15" n="259" color="1" hidden="super" point="F&apos;" line="s20" valid="true">Retta perpendicolare per F&apos; a s20</Plumb>
+<Intersection name="I33" n="260" color="1" hidden="super" first="p15" second="s20">Intersezione tra p15 e s20</Intersection>
+<Circle name="c19" n="261" color="1" hidden="super" through="F&apos;" midpoint="I33" acute="true">Circonferenza di centro I33 per F&apos;</Circle>
+<Intersection name="F&apos;&apos;" n="262" color="1" showname="true" first="p15" second="c19" awayfrom="F&apos;" which="second">Intersezione tra p15 e c19</Intersection>
+<Plumb name="p16" n="268" color="1" hidden="super" point="A" line="s20" valid="true">Retta perpendicolare per A a s20</Plumb>
+<Intersection name="I35" n="269" color="1" hidden="super" first="p16" second="s20">Intersezione tra p16 e s20</Intersection>
+<Circle name="c20" n="270" color="1" hidden="super" through="A" midpoint="I35" acute="true">Circonferenza di centro I35 per A</Circle>
+<Intersection name="A&apos;" n="271" showname="true" first="p16" second="c20" awayfrom="A" which="second">Intersezione tra p16 e c20</Intersection>
+<Plumb name="p17" n="277" color="1" hidden="super" point="I&apos;" line="s20" valid="true">Retta perpendicolare per I&apos; a s20</Plumb>
+<Intersection name="I37" n="278" color="1" hidden="super" first="p17" second="s20">Intersezione tra p17 e s20</Intersection>
+<Circle name="c21" n="279" color="1" hidden="super" through="I&apos;" midpoint="I37" acute="true">Circonferenza di centro I37 per I&apos;</Circle>
+<Plumb name="p18" n="286" color="1" hidden="super" point="G&apos;" line="s20" valid="true">Retta perpendicolare per G&apos; a s20</Plumb>
+<Intersection name="I39" n="287" color="1" hidden="super" first="p18" second="s20">Intersezione tra p18 e s20</Intersection>
+<Circle name="c22" n="288" color="1" hidden="super" through="G&apos;" midpoint="I39" acute="true">Circonferenza di centro I39 per G&apos;</Circle>
+<Intersection name="I40" n="289" color="1" hidden="true" first="p18" second="c22" which="second">Intersezione tra p18 e c22</Intersection>
+<Plumb name="p19" n="295" color="1" hidden="super" point="I&apos;" line="s20" valid="true">Retta perpendicolare per I&apos; a s20</Plumb>
+<Intersection name="I41" n="296" color="1" hidden="super" first="p19" second="s20">Intersezione tra p19 e s20</Intersection>
+<Circle name="c23" n="297" color="1" hidden="super" through="I&apos;" midpoint="I41" acute="true">Circonferenza di centro I41 per I&apos;</Circle>
+<Intersection name="I&apos;&apos;" n="298" color="2" showname="true" first="p19" second="c23" awayfrom="I&apos;" which="second">Intersezione tra p19 e c23</Intersection>
+<Segment name="s24" n="301" color="1" from="D&apos;" to="F&apos;&apos;">Segmento da D&apos; a F&apos;&apos;</Segment>
+<Segment name="s25" n="304" color="1" from="F&apos;&apos;" to="E&apos;">Segmento da F&apos;&apos; a E&apos;</Segment>
+<Segment name="s26" n="307" color="1" from="E&apos;" to="D&apos;">Segmento da E&apos; a D&apos;</Segment>
+<Segment name="s27" n="310" color="2" from="H" to="I&apos;">Segmento da H a I&apos;</Segment>
+<Segment name="s29" n="317" color="2" from="I&apos;" to="G&apos;">Segmento da I&apos; a G&apos;</Segment>
+<Segment name="s30" n="320" color="2" from="G&apos;" to="H">Segmento da G&apos; a H</Segment>
+<Segment name="s31" n="323" color="2" from="G&apos;" to="I&apos;&apos;">Segmento da G&apos; a I&apos;&apos;</Segment>
+<Plumb name="p20" n="329" color="2" hidden="super" point="H" line="s20" valid="true">Retta perpendicolare per H a s20</Plumb>
+<Intersection name="I43" n="330" color="2" hidden="super" first="p20" second="s20">Intersezione tra p20 e s20</Intersection>
+<Circle name="c24" n="331" color="2" hidden="super" through="H" midpoint="I43" acute="true">Circonferenza di centro I43 per H</Circle>
+<Intersection name="H&apos;" n="332" color="2" showname="true" first="p20" second="c24" awayfrom="H" which="second">Intersezione tra p20 e c24</Intersection>
+<Plumb name="p21" n="338" color="2" hidden="super" point="E" line="s20" valid="true">Retta perpendicolare per E a s20</Plumb>
+<Intersection name="I45" n="339" color="2" hidden="super" first="p21" second="s20">Intersezione tra p21 e s20</Intersection>
+<Circle name="c25" n="340" color="2" hidden="super" through="E" midpoint="I45" acute="true">Circonferenza di centro I45 per E</Circle>
+<Intersection name="I46" n="341" color="2" hidden="true" first="p21" second="c25" awayfrom="E" which="second">Intersezione tra p21 e c25</Intersection>
+<Segment name="s32" n="344" from="B&apos;" to="A&apos;">Segmento da B&apos; a A&apos;</Segment>
+<Segment name="s33" n="347" from="A&apos;" to="C">Segmento da A&apos; a C</Segment>
+<Segment name="s34" n="350" color="2" from="G&apos;" to="H&apos;">Segmento da G&apos; a H&apos;</Segment>
+<Segment name="s35" n="353" color="2" from="H&apos;" to="I&apos;&apos;">Segmento da H&apos; a I&apos;&apos;</Segment>
+<Plumb name="p22" n="359" hidden="super" point="C" line="s32" valid="true">Retta perpendicolare per C a s32</Plumb>
+<Intersection name="I47" n="360" hidden="super" first="p22" second="s32">Intersezione tra p22 e s32</Intersection>
+<Circle name="c26" n="361" hidden="super" through="C" midpoint="I47" acute="true">Circonferenza di centro I47 per C</Circle>
+<Intersection name="C&apos;" n="362" showname="true" first="p22" second="c26" awayfrom="C" which="second">Intersezione tra p22 e c26</Intersection>
+<Segment name="s36" n="365" from="A&apos;" to="C&apos;">Segmento da A&apos; a C&apos;</Segment>
+<Segment name="s37" n="368" from="C&apos;" to="B&apos;">Segmento da C&apos; a B&apos;</Segment>
+<Plumb name="p23" n="374" hidden="super" point="B&apos;" line="s36" valid="true">Retta perpendicolare per B&apos; a s36</Plumb>
+<Intersection name="I49" n="375" hidden="super" first="p23" second="s36">Intersezione tra p23 e s36</Intersection>
+<Circle name="c27" n="376" hidden="super" through="B&apos;" midpoint="I49" acute="true">Circonferenza di centro I49 per B&apos;</Circle>
+<Intersection name="B&apos;&apos;" n="377" showname="true" first="p23" second="c27" which="second">Intersezione tra p23 e c27</Intersection>
+<Segment name="s38" n="380" from="A&apos;" to="B&apos;&apos;">Segmento da A&apos; a B&apos;&apos;</Segment>
+<Segment name="s39" n="383" from="B&apos;&apos;" to="C&apos;">Segmento da B&apos;&apos; a C&apos;</Segment>
+<Plumb name="p24" n="389" hidden="super" point="A&apos;" line="s39" valid="true">Retta perpendicolare per A&apos; a s39</Plumb>
+<Intersection name="I51" n="390" hidden="super" first="p24" second="s39">Intersezione tra p24 e s39</Intersection>
+<Circle name="c28" n="391" hidden="super" through="A&apos;" midpoint="I51" acute="true">Circonferenza di centro I51 per A&apos;</Circle>
+<Intersection name="A&apos;&apos;" n="392" showname="true" first="p24" second="c28" awayfrom="A&apos;" which="second">Intersezione tra p24 e c28</Intersection>
+<Segment name="s40" n="395" from="B&apos;&apos;" to="A&apos;&apos;">Segmento da B&apos;&apos; a A&apos;&apos;</Segment>
+<Segment name="s41" n="398" from="A&apos;&apos;" to="C&apos;">Segmento da A&apos;&apos; a C&apos;</Segment>
+<Plumb name="p25" n="404" color="1" hidden="super" point="E&apos;" line="s32" valid="true">Retta perpendicolare per E&apos; a s32</Plumb>
+<Intersection name="I53" n="405" color="1" hidden="super" first="p25" second="s32">Intersezione tra p25 e s32</Intersection>
+<Circle name="c29" n="406" color="1" hidden="super" through="E&apos;" midpoint="I53" acute="true">Circonferenza di centro I53 per E&apos;</Circle>
+<Intersection name="E&apos;&apos;" n="407" color="1" showname="true" first="p25" second="c29" awayfrom="E&apos;" which="second">Intersezione tra p25 e c29</Intersection>
+<Plumb name="p26" n="413" color="1" hidden="super" point="D&apos;" line="s32" valid="true">Retta perpendicolare per D&apos; a s32</Plumb>
+<Intersection name="I55" n="414" color="1" hidden="super" first="p26" second="s32">Intersezione tra p26 e s32</Intersection>
+<Circle name="c30" n="415" color="1" hidden="super" through="D&apos;" midpoint="I55" acute="true">Circonferenza di centro I55 per D&apos;</Circle>
+<Intersection name="D&apos;&apos;" n="416" color="1" showname="true" first="p26" second="c30" awayfrom="D&apos;" which="second">Intersezione tra p26 e c30</Intersection>
+<Plumb name="p27" n="422" color="1" hidden="super" point="F&apos;&apos;" line="s36" valid="true">Retta perpendicolare per F&apos;&apos; a s36</Plumb>
+<Intersection name="I57" n="423" color="1" hidden="super" first="p27" second="s36">Intersezione tra p27 e s36</Intersection>
+<Circle name="c31" n="424" color="1" hidden="super" through="F&apos;&apos;" midpoint="I57" acute="true">Circonferenza di centro I57 per F&apos;&apos;</Circle>
+<Intersection name="F&apos;&apos;&apos;" n="425" color="1" showname="true" first="p27" second="c31" awayfrom="F&apos;&apos;" which="second">Intersezione tra p27 e c31</Intersection>
+<Plumb name="p28" n="431" color="1" hidden="super" point="D&apos;&apos;" line="s36" valid="true">Retta perpendicolare per D&apos;&apos; a s36</Plumb>
+<Intersection name="I59" n="432" color="1" hidden="super" first="p28" second="s36">Intersezione tra p28 e s36</Intersection>
+<Circle name="c32" n="433" color="1" hidden="super" through="D&apos;&apos;" midpoint="I59" acute="true">Circonferenza di centro I59 per D&apos;&apos;</Circle>
+<Intersection name="D&apos;&apos;&apos;" n="434" color="1" showname="true" xcoffset="0.23739864638523311" ycoffset="0.015886214344250638" keepclose="true" first="p28" second="c32" which="second">Intersezione tra p28 e c32</Intersection>
+<Plumb name="p29" n="440" color="1" hidden="super" point="E&apos;&apos;" line="s39" valid="true">Retta perpendicolare per E&apos;&apos; a s39</Plumb>
+<Intersection name="I61" n="441" color="1" hidden="super" first="p29" second="s39">Intersezione tra p29 e s39</Intersection>
+<Circle name="c33" n="442" color="1" hidden="super" through="E&apos;&apos;" midpoint="I61" acute="true">Circonferenza di centro I61 per E&apos;&apos;</Circle>
+<Intersection name="E&apos;&apos;&apos;" n="443" color="1" showname="true" first="p29" second="c33" which="second">Intersezione tra p29 e c33</Intersection>
+<Plumb name="p30" n="449" color="1" hidden="super" point="F&apos;&apos;&apos;" line="s39" valid="true">Retta perpendicolare per F&apos;&apos;&apos; a s39</Plumb>
+<Intersection name="I63" n="450" color="1" hidden="super" first="p30" second="s39">Intersezione tra p30 e s39</Intersection>
+<Circle name="c34" n="451" color="1" hidden="super" through="F&apos;&apos;&apos;" midpoint="I63" acute="true">Circonferenza di centro I63 per F&apos;&apos;&apos;</Circle>
+<Intersection name="F&apos;&apos;&apos;&apos;" n="452" color="1" showname="true" first="p30" second="c34" which="second">Intersezione tra p30 e c34</Intersection>
+<Segment name="s42" n="455" color="1" from="F&apos;&apos;" to="D&apos;&apos;">Segmento da F&apos;&apos; a D&apos;&apos;</Segment>
+<Segment name="s43" n="458" color="1" from="D&apos;&apos;" to="E&apos;&apos;">Segmento da D&apos;&apos; a E&apos;&apos;</Segment>
+<Segment name="s44" n="461" color="1" from="E&apos;&apos;" to="F&apos;&apos;">Segmento da E&apos;&apos; a F&apos;&apos;</Segment>
+<Segment name="s45" n="464" color="1" from="E&apos;&apos;" to="F&apos;&apos;&apos;">Segmento da E&apos;&apos; a F&apos;&apos;&apos;</Segment>
+<Segment name="s46" n="467" color="1" from="F&apos;&apos;&apos;" to="D&apos;&apos;&apos;">Segmento da F&apos;&apos;&apos; a D&apos;&apos;&apos;</Segment>
+<Segment name="s47" n="470" color="1" from="D&apos;&apos;&apos;" to="E&apos;&apos;">Segmento da D&apos;&apos;&apos; a E&apos;&apos;</Segment>
+<Segment name="s48" n="473" color="1" from="D&apos;&apos;&apos;" to="E&apos;&apos;&apos;">Segmento da D&apos;&apos;&apos; a E&apos;&apos;&apos;</Segment>
+<Segment name="s49" n="476" color="1" from="E&apos;&apos;&apos;" to="F&apos;&apos;&apos;&apos;">Segmento da E&apos;&apos;&apos; a F&apos;&apos;&apos;&apos;</Segment>
+<Segment name="s50" n="479" color="1" from="F&apos;&apos;&apos;&apos;" to="D&apos;&apos;&apos;">Segmento da F&apos;&apos;&apos;&apos; a D&apos;&apos;&apos;</Segment>
+<Plumb name="p31" n="485" color="2" hidden="super" point="G&apos;" line="s32" valid="true">Retta perpendicolare per G&apos; a s32</Plumb>
+<Intersection name="I65" n="486" color="2" hidden="super" first="p31" second="s32">Intersezione tra p31 e s32</Intersection>
+<Circle name="c35" n="487" color="2" hidden="super" through="G&apos;" midpoint="I65" acute="true">Circonferenza di centro I65 per G&apos;</Circle>
+<Intersection name="I66" n="488" color="2" first="p31" second="c35" which="second">Intersezione tra p31 e c35</Intersection>
+<Plumb name="p32" n="494" color="2" hidden="super" point="H&apos;" line="s32" valid="true">Retta perpendicolare per H&apos; a s32</Plumb>
+<Intersection name="I67" n="495" color="2" hidden="super" first="p32" second="s32">Intersezione tra p32 e s32</Intersection>
+<Circle name="c36" n="496" color="2" hidden="super" through="H&apos;" midpoint="I67" acute="true">Circonferenza di centro I67 per H&apos;</Circle>
+<Intersection name="H&apos;&apos;" n="497" color="2" showname="true" first="p32" second="c36" awayfrom="H&apos;" which="second">Intersezione tra p32 e c36</Intersection>
+<Plumb name="p33" n="503" color="2" hidden="super" point="I66" line="s36" valid="true">Retta perpendicolare per I66 a s36</Plumb>
+<Intersection name="I69" n="504" color="2" hidden="super" first="p33" second="s36">Intersezione tra p33 e s36</Intersection>
+<Circle name="c37" n="505" color="2" hidden="super" through="I66" midpoint="I69" acute="true">Circonferenza di centro I69 per I66</Circle>
+<Intersection name="I70" n="506" color="2" first="p33" second="c37" awayfrom="I66" which="second">Intersezione tra p33 e c37</Intersection>
+<Plumb name="p34" n="512" color="2" hidden="super" point="I&apos;&apos;" line="s36" valid="true">Retta perpendicolare per I&apos;&apos; a s36</Plumb>
+<Intersection name="I71" n="513" color="2" hidden="super" first="p34" second="s36">Intersezione tra p34 e s36</Intersection>
+<Circle name="c38" n="514" color="2" hidden="super" through="I&apos;&apos;" midpoint="I71" acute="true">Circonferenza di centro I71 per I&apos;&apos;</Circle>
+<Intersection name="I&apos;&apos;&apos;" n="515" color="2" showname="true" first="p34" second="c38" awayfrom="I&apos;&apos;" which="second">Intersezione tra p34 e c38</Intersection>
+<Plumb name="p35" n="521" color="2" hidden="super" point="H&apos;&apos;" line="s39" valid="true">Retta perpendicolare per H&apos;&apos; a s39</Plumb>
+<Intersection name="I73" n="522" color="2" hidden="super" first="p35" second="s39">Intersezione tra p35 e s39</Intersection>
+<Circle name="c39" n="523" color="2" hidden="super" through="H&apos;&apos;" midpoint="I73" acute="true">Circonferenza di centro I73 per H&apos;&apos;</Circle>
+<Intersection name="H&apos;&apos;&apos;" n="524" color="2" showname="true" first="p35" second="c39" which="second">Intersezione tra p35 e c39</Intersection>
+<Plumb name="p36" n="530" color="2" hidden="super" point="I&apos;&apos;&apos;" line="s39" valid="true">Retta perpendicolare per I&apos;&apos;&apos; a s39</Plumb>
+<Intersection name="I75" n="531" color="2" hidden="super" first="p36" second="s39">Intersezione tra p36 e s39</Intersection>
+<Circle name="c40" n="532" color="2" hidden="super" through="I&apos;&apos;&apos;" midpoint="I75" acute="true">Circonferenza di centro I75 per I&apos;&apos;&apos;</Circle>
+<Intersection name="I&apos;&apos;&apos;&apos;" n="533" color="2" showname="true" first="p36" second="c40" which="second">Intersezione tra p36 e c40</Intersection>
+<Plumb name="p37" n="539" color="2" hidden="super" point="I66" line="s32" valid="true">Retta perpendicolare per I66 a s32</Plumb>
+<Intersection name="I77" n="540" color="2" hidden="super" first="p37" second="s32">Intersezione tra p37 e s32</Intersection>
+<Circle name="c41" n="541" color="2" hidden="super" through="I66" midpoint="I77" acute="true">Circonferenza di centro I77 per I66</Circle>
+<Intersection name="G&apos;&apos;" n="542" color="2" showname="true" first="p37" second="c41" awayfrom="I66" which="second">Intersezione tra p37 e c41</Intersection>
+<Plumb name="p38" n="548" color="2" hidden="super" point="G&apos;&apos;" line="s36" valid="true">Retta perpendicolare per G&apos;&apos; a s36</Plumb>
+<Intersection name="I79" n="549" color="2" hidden="super" first="p38" second="s36">Intersezione tra p38 e s36</Intersection>
+<Circle name="c42" n="550" color="2" hidden="super" through="G&apos;&apos;" midpoint="I79" acute="true">Circonferenza di centro I79 per G&apos;&apos;</Circle>
+<Intersection name="G&apos;&apos;&apos;" n="551" color="2" showname="true" first="p38" second="c42" awayfrom="G&apos;&apos;" which="second">Intersezione tra p38 e c42</Intersection>
+<Segment name="s51" n="554" color="2" from="I&apos;&apos;" to="H&apos;&apos;">Segmento da I&apos;&apos; a H&apos;&apos;</Segment>
+<Segment name="s52" n="557" color="2" from="H&apos;&apos;" to="G&apos;&apos;">Segmento da H&apos;&apos; a G&apos;&apos;</Segment>
+<Segment name="s53" n="560" color="2" from="G&apos;&apos;" to="I&apos;&apos;">Segmento da G&apos;&apos; a I&apos;&apos;</Segment>
+<Segment name="s54" n="563" color="2" from="H&apos;&apos;" to="I&apos;&apos;&apos;">Segmento da H&apos;&apos; a I&apos;&apos;&apos;</Segment>
+<Segment name="s55" n="566" color="2" from="I&apos;&apos;&apos;" to="G&apos;&apos;&apos;">Segmento da I&apos;&apos;&apos; a G&apos;&apos;&apos;</Segment>
+<Segment name="s56" n="569" color="2" from="G&apos;&apos;&apos;" to="H&apos;&apos;">Segmento da G&apos;&apos;&apos; a H&apos;&apos;</Segment>
+<Segment name="s57" n="572" color="2" from="G&apos;&apos;&apos;" to="H&apos;&apos;&apos;">Segmento da G&apos;&apos;&apos; a H&apos;&apos;&apos;</Segment>
+<Segment name="s58" n="575" color="2" from="H&apos;&apos;&apos;" to="I&apos;&apos;&apos;&apos;">Segmento da H&apos;&apos;&apos; a I&apos;&apos;&apos;&apos;</Segment>
+<Segment name="s59" n="578" color="2" from="I&apos;&apos;&apos;&apos;" to="G&apos;&apos;&apos;">Segmento da I&apos;&apos;&apos;&apos; a G&apos;&apos;&apos;</Segment>
+<Line name="l2" n="584" type="thin" from="A" to="B">Retta per A e B</Line>
+<Line name="l3" n="587" type="thin" from="B&apos;&apos;" to="A&apos;&apos;">Retta per B&apos;&apos; e A&apos;&apos;</Line>
+<Segment name="s60" n="590" color="5" from="F" to="F&apos;&apos;&apos;&apos;">Segmento da F a F&apos;&apos;&apos;&apos;</Segment>
+</Objects>
+</Construction>
+</CaR>

@@ -1,0 +1,43 @@
+Macro Cabri II Plus vers. MS-Windows 1.2.4.7
+
+Tangent at P on a Conic, no name
+Icon:
+16x16
+ 0  0  0  0  0  0  0  0  0  0  0 15  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0 15  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0 15  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0 15  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0 15  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0 15  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0 15  0  7  7  7  7  7  7  0  0  0 
+ 0  0  0  0 15  7  7  0  0  0  0  0  0  7  7  0 
+ 0  0  0 15  7 15  0  0  0  0  0  0  0  0  0  7 
+ 0  0 15  0  7  0  0  0  0  0  0  0  0  0  0  7 
+ 0 15  0  0  7  0  0  0  0  0  0  0  0  0  0  7 
+15  0  0  0  0  7  7  0  0  0  0  0  0  7  7  0 
+ 0  0  0  0  0  0  0  7  7  7  7  7  7  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+Help:
+"Select a point P on the conic. The tangent to the conic at point P is constructed."
+Mth: 0
+CN:2, ON:14, FN:1, PO:13
+CT:
+point, CS 0, 
+conic, CS 5, 
+Const:
+Pt/, Mth:5, 0, CN:1, VN:3, Const: 7
+Line, Mth:1, 0, CN:2, VN:2, Const: 1 8
+Pt/, Mth:5, 0, CN:1, VN:3, Const: 7
+Line, Mth:1, 0, CN:2, VN:2, Const: 1 10
+Pt/, Mth:5, 0, CN:1, VN:3, Const: 7
+Line, Mth:1, 0, CN:2, VN:2, Const: 8 12
+Pt/, Mth:5, 0, CN:1, VN:3, Const: 7
+Line, Mth:1, 0, CN:2, VN:2, Const: 10 14
+Int, Mth:0, 0, CN:2, VN:1, int ind:0, Const: 9 15
+Int, Mth:0, 0, CN:2, VN:1, int ind:0, Const: 11 13
+Line, Mth:1, 0, CN:2, VN:2, Const: 16 17
+Line, Mth:1, 0, CN:2, VN:2, Const: 14 12
+Int, Mth:0, 0, CN:2, VN:1, int ind:0, Const: 18 19
+Line, Mth:1, 1, CN:2, VN:2, Const: 20 1, color:R, 

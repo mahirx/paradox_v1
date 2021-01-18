@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="-1.0539682539682556" y="0.5587301587301576" w="8.0"/>
+<Objects>
+<Point name="P1" n="0" hidden="true" x="-1.8285714285714283" y="0.1460317460317464">Punto in -1.82857, 0.14603</Point>
+<Point name="P2" n="3" hidden="true" x="-4.177777777777777" y="0.2984126984126987">Punto in -4.17778, 0.29841</Point>
+<Circle name="c1" n="4" through="P2" midpoint="P1" acute="true">Circonferenza di centro P1 per P2</Circle>
+<PointOn name="A" n="5" showname="true" on="c1" alpha="2.155320683499811" x="-3.1275941938036134" y="2.109327516212204">Punto su c1</PointOn>
+<PointOn name="C" n="6" showname="true" on="c1" alpha="-2.9898274982620894" x="-4.155655578731562" y="-0.2098752416398051">Punto su c1</PointOn>
+<PointOn name="D" n="7" showname="true" on="c1" alpha="-2.6879114919951936" x="-3.944569136190719" y="-0.8857357312371654">Punto su c1</PointOn>
+<PointOn name="E" n="8" showname="true" on="c1" alpha="-0.6838963323914959" x="-0.003835363712741069" y="-1.3413581555757577">Punto su c1</PointOn>
+<PointOn name="F" n="9" showname="true" xcoffset="0.2756614951056897" ycoffset="-0.011061559226047124" keepclose="true" on="c1" alpha="1.7014349011189325" x="-2.135239318098585" y="2.480115127432871">Punto su c1</PointOn>
+<Line name="l1" n="12" color="2" from="E" to="F">Retta per E e F</Line>
+<Segment name="s1" n="15" from="A" to="P1">Segmento da A a P1</Segment>
+<Plumb name="p1" n="18" color="1" point="A" line="s1" valid="true">Retta perpendicolare per A a s1</Plumb>
+<Line name="l2" n="27" color="1" from="D" to="E">Retta per D e E</Line>
+<Line name="l3" n="30" color="2" from="C" to="A">Retta per C e A</Line>
+<Line name="l4" n="33" color="4" from="C" to="D">Retta per C e D</Line>
+<Line name="l5" n="36" color="4" from="A" to="F">Retta per A e F</Line>
+<Intersection name="Q" n="38" showname="true" first="l3" second="l1">Intersezione tra l3 e l1</Intersection>
+<Intersection name="R" n="39" showname="true" first="l5" second="l4">Intersezione tra l5 e l4</Intersection>
+<Intersection name="P" n="40" showname="true" first="l2" second="p1">Intersezione tra l2 e p1</Intersection>
+<Line name="l6" n="43" color="5" from="P" to="R">Retta per P e R</Line>
+</Objects>
+</Construction>
+</CaR>

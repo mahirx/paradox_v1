@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="B" n="0" showname="true" x="-3.9619" y="-0.9206300000000001">Punto in -3.9619, -0.92063</Point>
+<Point name="C" n="5" showname="true" x="0.5079365079365079" y="-0.9206349206349205">Punto in 0.50794, -0.92063</Point>
+<Segment name="s1" n="6" from="B" to="C">Segmento da P1 a P2</Segment>
+<Point name="A" n="9" showname="true" x="-3.238095238095238" y="2.2158730158730156">Punto in -3.2381, 2.21587</Point>
+<Segment name="s2" n="10" from="C" to="A">Segmento da P2 a P3</Segment>
+<Segment name="s3" n="13" from="A" to="B">Segmento da P3 a P1</Segment>
+<Point name="P4" n="14" hidden="true" x="-0.6222222222222218" y="-0.0698412698412696">Punto in -0.62222, -0.06984</Point>
+<Point name="P" n="19" showname="true" x="-2.958730158730159" y="1.225396825396825">Punto in -2.95873, 1.2254</Point>
+<Line name="l1" n="20" showname="true" xcoffset="4.058072142681135" ycoffset="-0.2749966783980129" keepclose="true" from="P4" to="P">Retta per P4 e P</Line>
+<Plumb name="l2" n="23" showname="true" xcoffset="-1.6340452321314807" ycoffset="-0.19761613807618472" keepclose="true" point="P" line="l1" valid="true">Retta perpendicolare per P a l1</Plumb>
+<Line name="l2fdde" n="26" type="thin" from="A" to="B">Retta per A e B</Line>
+<Line name="l3" n="29" type="thin" from="B" to="C">Retta per B e C</Line>
+<Line name="l4" n="32" type="thin" from="C" to="A">Retta per C e A</Line>
+<Midpoint name="$M_C$" n="35" showname="true" xcoffset="-0.2730182539682535" ycoffset="0.18412452380952415" keepclose="true" first="A" second="B">Punto medio tra A e B</Midpoint>
+<Midpoint name="$M_A$" n="38" showname="true" first="B" second="C">Punto medio tra B e C</Midpoint>
+<Midpoint name="$M_B$" n="41" showname="true" xcoffset="0.33650793650793664" ycoffset="0.15873015873015817" keepclose="true" first="C" second="A">Punto medio tra C e A</Midpoint>
+<Circle name="c1" n="48" hidden="super" through="$M_B$" midpoint="$M_C$" acute="true">Circonferenza di centro $M_C$ per $M_B$</Circle>
+<Circle name="c2" n="49" hidden="super" through="$M_C$" midpoint="$M_B$" acute="true">Circonferenza di centro $M_B$ per $M_C$</Circle>
+<Intersection name="I1" n="50" hidden="super" first="c1" second="c2" which="second">Intersezione tra c1 e c2</Intersection>
+<Intersection name="I2" n="51" hidden="super" first="c2" second="c1" which="second">Intersezione tra c2 e c1</Intersection>
+<Line name="l5" n="52" hidden="true" from="I1" to="I2">Retta per I1 e I2</Line>
+<Circle name="c3" n="59" hidden="super" through="$M_A$" midpoint="$M_B$" acute="true">Circonferenza di centro $M_B$ per $M_A$</Circle>
+<Circle name="c4" n="60" hidden="super" through="$M_B$" midpoint="$M_A$" acute="true">Circonferenza di centro $M_A$ per $M_B$</Circle>
+<Intersection name="I3" n="61" hidden="super" first="c3" second="c4" which="second">Intersezione tra c3 e c4</Intersection>
+<Intersection name="I4" n="62" hidden="super" first="c4" second="c3" which="second">Intersezione tra c4 e c3</Intersection>
+<Line name="l6" n="63" hidden="true" from="I3" to="I4">Retta per I3 e I4</Line>
+<Intersection name="I5" n="64" hidden="true" first="l5" second="l6">Intersezione tra l5 e l6</Intersection>
+<Circle name="c5" n="67" color="5" through="$M_A$" midpoint="I5" acute="true">Circonferenza di centro I5 per $M_A$</Circle>
+<Intersection name="I6" n="68" first="l3" second="l1">Intersezione tra l3 e l1</Intersection>
+<Angle name="a1" n="71" color="2" unit="°" first="$M_A$" root="P" second="I6" acute="true">Angolo $M_A$ - P - I6</Angle>
+<Angle name="a2" n="74" color="2" unit="°" first="P" root="I6" second="$M_A$" acute="true">Angolo P - I6 - $M_A$</Angle>
+<Intersection name="I7" n="77" first="s2" second="l1">Intersezione tra s2 e l1</Intersection>
+<Angle name="a3" n="78" color="1" unit="°" first="$M_B$" root="P" second="I7" acute="true">Angolo $M_B$ - P - I7</Angle>
+<Angle name="a4" n="81" color="1" unit="°" first="$M_B$" root="I7" second="P" acute="true">Angolo $M_B$ - I7 - P</Angle>
+<Segment name="s4" n="84" from="P" to="$M_A$">Segmento da P a $M_A$</Segment>
+<Segment name="s5" n="87" from="$M_B$" to="P">Segmento da $M_B$ a P</Segment>
+</Objects>
+</Construction>
+</CaR>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<path d="M 289.0 339.0 H 294.0 V 344.0 H 289.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="298.0" y="360.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B</text><path d="M 642.0 341.0 H 647.0 V 346.0 H 642.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="651.0" y="362.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C</text><path d="M 388.0 55.0 H 393.0 V 60.0 H 388.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="397.0" y="76.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A</text><path d="M 460.999725 234.00011249999994 H 465.999725 V 239.00011249999994 H 460.999725 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="445.0" y="243.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">T</text><line x1="292.0" y1="342.0" x2="645.0" y2="344.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="645.0" y1="344.0" x2="391.0" y2="58.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="391.0" y1="58.0" x2="292.0" y2="342.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 516.7477102699405 199.9678942409567 H 521.7477102699405 V 204.9678942409567 H 516.7477102699405 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="529.0" y="210.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">Q</text><path d="M 348.7364874737158 167.63472280267388 H 353.7364874737158 V 172.63472280267388 H 348.7364874737158 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="332.0" y="180.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">R</text><path d="M 504.31823246755545 340.21993332842806 H 509.31823246755545 V 345.21993332842806 H 504.31823246755545 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="496.0" y="364.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">P</text><line x1="391.0" y1="58.0" x2="507.31823246755545" y2="343.21993332842806" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<line x1="645.0" y1="344.0" x2="351.7364874737158" y2="170.63472280267388" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<line x1="292.0" y1="342.0" x2="519.7477102699405" y2="202.9678942409567" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<path d="M 460.999725 234.0001124999999 H 465.999725 V 239.0001124999999 H 460.999725 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+</svg>

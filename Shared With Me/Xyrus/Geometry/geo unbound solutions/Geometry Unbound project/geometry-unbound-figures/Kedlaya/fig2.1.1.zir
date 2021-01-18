@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="3.36358566101486"/>
+<Objects>
+<Point name="O" n="0" showname="true" x="0.0" y="0.0">Punto in 0.0, 0.0</Point>
+<Point name="P" n="3" showname="true" x="1.0" y="0.0">Punto in 1.0, 0.0</Point>
+<Circle name="c1" n="4" through="P" midpoint="O" acute="true">Circonferenza di centro O per P</Circle>
+<PointOn name="Q" n="5" showname="true" on="c1" alpha="1.1071487177940904" x="0.44721359549995804" y="0.8944271909999159">Punto su c1</PointOn>
+<Angle name="$\theta$" n="8" showname="true" unit="°" first="P" root="O" second="Q" acute="true">Angolo P - O - Q</Angle>
+<Segment name="s1" n="13" from="Q" to="O">Segmento da Q a O</Segment>
+<Segment name="s2" n="16" from="O" to="P">Segmento da O a P</Segment>
+<Plumb name="p1" n="19" hidden="true" point="Q" line="s2" valid="true">Retta perpendicolare per Q a s2</Plumb>
+<Plumb name="p2" n="22" hidden="true" point="Q" line="p1" valid="true">Retta perpendicolare per Q a p1</Plumb>
+<Plumb name="p3" n="25" point="O" line="s2" valid="true">Retta perpendicolare per O a s2</Plumb>
+<Intersection name="I1" n="28" hidden="true" first="p3" second="p2">Intersezione tra p3 e p2</Intersection>
+<Segment name="$\cos \theta$" n="29" showname="true" from="Q" to="I1">Segmento da Q a I1</Segment>
+<Intersection name="I2" n="32" hidden="true" first="p1" second="s2">Intersezione tra p1 e s2</Intersection>
+<Segment name="$\sin \theta$" n="33" showname="true" from="Q" to="I2">Segmento da Q a I2</Segment>
+</Objects>
+</Construction>
+</CaR>

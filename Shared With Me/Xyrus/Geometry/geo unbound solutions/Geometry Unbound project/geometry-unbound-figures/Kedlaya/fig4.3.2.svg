@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<path d="M 313.0 374.0 H 318.0 V 379.0 H 313.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="322.0" y="395.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B</text><path d="M 631.0 372.0 H 636.0 V 377.0 H 631.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="640.0" y="393.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C</text><line x1="316.0" y1="377.0" x2="634.0" y2="375.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 404.0 87.99999999999994 H 409.0 V 92.99999999999994 H 404.0 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="413.0" y="108.99999999999994" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A</text><line x1="634.0" y1="375.0" x2="407.0" y2="90.99999999999994" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="407.0" y1="90.99999999999994" x2="316.0" y2="377.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 396.0 125.0 A 36.0 36.0 0 0 0 429.0 119.0" style="stroke:rgb(0,0,0);stroke-width:1;fill:none"/>
+<path d="M 352.0 377.0 A 36.0 36.0 0 0 0 327.0 343.0" style="stroke:rgb(0,0,0);stroke-width:1;fill:none"/>
+<path d="M 612.0 347.0 A 36.0 36.0 0 0 0 598.0 375.0" style="stroke:rgb(0,0,0);stroke-width:1;fill:none"/>
+<path d="M 407.4827359027795 267.76886463195825 H 412.4827359027795 V 272.76886463195825 H 407.4827359027795 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="391.0" y="270.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">F</text><path d="M 443.0534588537228 315.11363075501055 H 448.0534588537228 V 320.11363075501055 H 443.0534588537228 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="452.0534588537228" y="336.11363075501055" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">D</text><path d="M 466.2439171279199 260.17977329995216 H 471.2439171279199 V 265.17977329995216 H 466.2439171279199 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="479.0" y="263.0" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">E</text><line x1="410.4827359027795" y1="270.76886463195825" x2="469.2439171279199" y2="263.17977329995216" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<line x1="446.0534588537228" y1="318.11363075501055" x2="410.4827359027795" y2="270.76886463195825" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<line x1="446.0534588537228" y1="318.11363075501055" x2="469.2439171279199" y2="263.17977329995216" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<line x1="372.9995488062153" y1="197.85856089475203" x2="634.0" y2="375.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="634.0" y1="375.0" x2="344.5152210718412" y2="287.3807337742135" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="316.0" y1="377.0" x2="484.32639701725515" y2="187.74315750176407" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="550.6694199704708" y1="270.74500119653624" x2="316.0" y2="377.0" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="412.5290336195674" y1="376.39289915962536" x2="407.0" y2="90.99999999999994" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="407.0" y1="90.99999999999994" x2="509.94957584239495" y2="375.78019134690317" style="stroke:rgb(0,0,0);stroke-width:1"/>
+</svg>

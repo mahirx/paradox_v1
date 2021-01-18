@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="11.31370849898476"/>
+<Objects>
+<Point name="P1" n="0" x="-4.266666666666667" y="0.5269841269841273">Punto in -4.26667, 0.52698</Point>
+<Point name="P2" n="3" hidden="true" x="0.23345747696317787" y="0.43997755273829586">Punto in 0.23346, 0.43998</Point>
+<Line name="l1" n="4" type="thin" from="P1" to="P2">Retta per P1 e P2</Line>
+<PointOn name="P3" n="7" hidden="true" on="l1" alpha="1.2441786386768983" x="-3.022720508289107" y="0.5029333474206565">Punto su l1</PointOn>
+<Circle name="c1" n="8" through="P3" midpoint="P1" acute="true">Circonferenza di centro P1 per P3</Circle>
+<PointOn name="P4" n="9" on="l1" alpha="5.0512156802793715" x="0.7836051715494596" y="0.42934085368123726">Punto su l1</PointOn>
+<PointOn name="P5" n="12" hidden="true" on="l1" alpha="2.045057537216663" x="-2.2219912575252145" y="0.4874518391813745">Punto su l1</PointOn>
+<Circle name="c2" n="13" through="P5" midpoint="P4" acute="true">Circonferenza di centro P4 per P5</Circle>
+<Point name="P6" n="14" hidden="true" x="-2.819047619047619" y="2.4317460317460324">Punto in -2.81905, 2.43175</Point>
+<Point name="P7" n="17" hidden="true" x="-2.4634920634920636" y="0.6920634920634927">Punto in -2.46349, 0.69206</Point>
+<Circle name="c3" n="18" hidden="true" through="P7" midpoint="P6" acute="true">Circonferenza di centro P6 per P7</Circle>
+<Intersection name="I1" n="19" hidden="true" first="c3" second="c1" which="first">Intersezione tra c3 e c1</Intersection>
+<Intersection name="I4" n="22" hidden="true" first="c3" second="c1" which="second">Intersezione tra c3 e c1</Intersection>
+<Line name="l2" n="23" hidden="true" from="I1" to="I4">Retta per I1 e I4</Line>
+<Intersection name="I5" n="24" hidden="true" first="c3" second="c2" which="first">Intersezione tra c3 e c2</Intersection>
+<Intersection name="I8" n="27" hidden="true" first="c3" second="c2" which="second">Intersezione tra c3 e c2</Intersection>
+<Line name="l3" n="28" hidden="true" from="I5" to="I8">Retta per I5 e I8</Line>
+<Intersection name="I9" n="31" hidden="true" first="l3" second="l2">Intersezione tra l3 e l2</Intersection>
+<Plumb name="p1" n="32" color="5" point="I9" line="l1" valid="true">Retta perpendicolare per I9 a l1</Plumb>
+<Point name="P8" n="33" hidden="true" x="-5.219047619047619" y="2.2539682539682544">Punto in -5.21905, 2.25397</Point>
+<Point name="P9" n="36" hidden="true" x="-4.444444444444445" y="1.339682539682539">Punto in -4.44444, 1.33968</Point>
+<Circle name="c4" n="37" hidden="true" through="P9" midpoint="P8" acute="true">Circonferenza di centro P8 per P9</Circle>
+<Intersection name="I10" n="38" hidden="true" first="c4" second="c1" which="first">Intersezione tra c4 e c1</Intersection>
+<Intersection name="I12" n="41" hidden="true" first="c1" second="c4" which="first">Intersezione tra c1 e c4</Intersection>
+<Line name="l4" n="42" hidden="true" from="I10" to="I12">Retta per I10 e I12</Line>
+<Intersection name="I14" n="43" hidden="true" first="l4" second="p1">Intersezione tra l4 e p1</Intersection>
+<PointOn name="P10" n="46" hidden="true" on="c4" alpha="1.7826238742763143" x="-5.4709870249971155" y="3.42548649163341">Punto su c4</PointOn>
+<Line name="l5" n="47" hidden="true" from="I14" to="P10">Retta per I14 e P10</Line>
+<Intersection name="I16" n="54" hidden="true" first="l5" second="c4" awayfrom="P10" which="second">Intersezione tra l5 e c4</Intersection>
+<Circle name="c5" n="55" hidden="super" through="I16" midpoint="P10" acute="true">Circonferenza di centro P10 per I16</Circle>
+<Circle name="c6" n="56" hidden="super" through="P10" midpoint="I16" acute="true">Circonferenza di centro I16 per P10</Circle>
+<Intersection name="I17" n="57" hidden="super" first="c5" second="c6" which="second">Intersezione tra c5 e c6</Intersection>
+<Intersection name="I18" n="58" hidden="super" first="c6" second="c5" which="second">Intersezione tra c6 e c5</Intersection>
+<Line name="l6" n="59" hidden="true" from="I17" to="I18">Retta per I17 e I18</Line>
+<Intersection name="I19" n="60" first="l6" second="l1">Intersezione tra l6 e l1</Intersection>
+<Circle name="c7" n="63" through="P10" midpoint="I19" acute="true">Circonferenza di centro I19 per P10</Circle>
+<PointOn name="P11" n="66" hidden="true" on="c4" alpha="-0.14932266069369743" x="-4.034079923593687" y="2.0756987776610254">Punto su c4</PointOn>
+<Line name="l7" n="67" hidden="true" from="I14" to="P11">Retta per I14 e P11</Line>
+<Intersection name="I20" n="74" hidden="true" first="l7" second="c4" awayfrom="P11" which="first">Intersezione tra l7 e c4</Intersection>
+<Circle name="c8" n="75" hidden="super" through="I20" midpoint="P11" acute="true">Circonferenza di centro P11 per I20</Circle>
+<Circle name="c9" n="76" hidden="super" through="P11" midpoint="I20" acute="true">Circonferenza di centro I20 per P11</Circle>
+<Intersection name="I22" n="77" hidden="super" first="c8" second="c9" which="second">Intersezione tra c8 e c9</Intersection>
+<Intersection name="I23" n="78" hidden="super" first="c9" second="c8" which="second">Intersezione tra c9 e c8</Intersection>
+<Line name="l8" n="79" hidden="true" from="I22" to="I23">Retta per I22 e I23</Line>
+<Intersection name="I24" n="80" first="l8" second="l1">Intersezione tra l8 e l1</Intersection>
+<Circle name="c10" n="83" through="I20" midpoint="I24" acute="true">Circonferenza di centro I24 per I20</Circle>
+</Objects>
+</Construction>
+</CaR>

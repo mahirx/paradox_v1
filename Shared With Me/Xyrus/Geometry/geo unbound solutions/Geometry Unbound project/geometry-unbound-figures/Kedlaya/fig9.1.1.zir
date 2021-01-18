@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="A" n="0" showname="true" x="-4.546031746031746" y="-0.3492063492063493">Punto in -4.54603, -0.34921</Point>
+<Point name="B" n="1" showname="true" x="-1.5619047619047617" y="-0.41269841269841256">Punto in -1.5619, -0.4127</Point>
+<Point name="P3" n="2" hidden="true" x="-3.5555555555555554" y="1.5936507936507938">Punto in -3.55556, 1.59365</Point>
+<Point name="P4" n="5" hidden="true" x="-1.2190476190476192" y="0.43809523809523787">Punto in -1.21905, 0.4381</Point>
+<Line name="l1" n="6" from="P3" to="P4">Retta per P3 e P4</Line>
+<Plumb name="p1" n="12" hidden="super" point="B" line="l1" valid="true">Retta perpendicolare per B a l1</Plumb>
+<Intersection name="I1" n="13" hidden="super" first="p1" second="l1">Intersezione tra p1 e l1</Intersection>
+<Circle name="c1" n="14" hidden="super" through="B" midpoint="I1" acute="true">Circonferenza di centro I1 per B</Circle>
+<Intersection name="B&apos;" n="15" showname="true" first="p1" second="c1" awayfrom="B" which="second">Intersezione tra p1 e c1</Intersection>
+<Segment name="s1" n="18" from="A" to="B&apos;">Segmento da A a B&apos;</Segment>
+<Intersection name="P" n="21" showname="true" first="s1" second="l1">Intersezione tra s1 e l1</Intersection>
+<Segment name="s2" n="22" from="B" to="P">Segmento da B a P</Segment>
+<Segment name="s3" n="25" type="thin" from="B&apos;" to="B">Segmento da B&apos; a B</Segment>
+</Objects>
+</Construction>
+</CaR>

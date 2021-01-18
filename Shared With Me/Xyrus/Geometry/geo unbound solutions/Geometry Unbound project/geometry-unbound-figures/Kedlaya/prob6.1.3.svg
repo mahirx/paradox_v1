@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="573">
+<ellipse cx="413.04872486454167" cy="318.87451198726797" rx="131.22295658708046" ry="131.22295658708046" style="stroke:rgb(0,0,0);fill:none;stroke-width:1"/>
+<path d="M 780.8840755250453 321.7609340509167 H 785.8840755250453 V 326.7609340509167 H 780.8840755250453 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="789.8840755250453" y="342.7609340509167" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">O</text><path d="M 458.419262862311 193.89190917333735 H 463.419262862311 V 198.89190917333735 H 458.419262862311 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="467.419262862311" y="214.89190917333735" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">A</text><line x1="783.8840755250453" y1="324.7609340509167" x2="-533.4755602085277" y2="-197.62006821526302" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<path d="M 454.52330905997246 439.3308836174854 H 459.52330905997246 V 444.3308836174854 H 454.52330905997246 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="463.52330905997246" y="460.3308836174854" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">B</text><line x1="783.8840755250453" y1="324.7609340509167" x2="-525.5488129898105" y2="796.4780473883548" style="stroke:rgb(0,124,0);stroke-width:1"/>
+<line x1="1767.0" y1="-274.0" x2="-602.0" y2="579.0" style="stroke:rgb(180,0,0);stroke-width:1"/>
+<path d="M 294.9990000014682 252.76329947803225 H 299.9990000014682 V 257.76329947803225 H 294.9990000014682 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="303.9990000014682" y="273.76329947803225" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">C</text><line x1="783.8840755250453" y1="324.7609340509167" x2="-619.7689758389996" y2="125.43655636599016" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 538.1199727000984 287.2874552430313 H 543.1199727000984 V 292.2874552430313 H 538.1199727000984 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="547.1199727000984" y="308.2874552430313" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">E</text><line x1="461.419262862311" y1="196.89190917333735" x2="1394.61079804779" y2="1290.432144807999" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M 617.7036922925089 380.545908834201 H 622.7036922925089 V 385.545908834201 H 617.7036922925089 Z" style="fill:none;stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="626.7036922925089" y="401.545908834201" style="font-size:0;fill:rgb(0,0,0);font-weight:normal">M</text></svg>
